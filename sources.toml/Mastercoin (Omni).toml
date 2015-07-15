@@ -10,7 +10,7 @@ rating = 3.0
 consensus = "Bitcoin"
 
 [aliases]
-CoinMarketCap = "Mastercoin (Omni)"
+coinmarketcap = "Mastercoin (Omni)"
 CurrencyName = "Omni Layer"
 
 [[links]]

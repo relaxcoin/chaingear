@@ -5,8 +5,8 @@ source = "cyberFund"
 [metrics]
 announce = "01/01/2015"
 status = "Running"
-blockTime = "120 seconds"
-total = "469058239,919948161 "
+block_time = "120 seconds"
+total_tokens = "469058239,919948161 "
 ann = "https://bitcointalk.org/index.php?topic=909624.0"
 algo = "Boulderhash"
 
@@ -22,5 +22,5 @@ algo = "Boulderhash"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Pebblecoin"
+coinmarketcap = "Pebblecoin"
 CurrencyName = "Pebblecoin"

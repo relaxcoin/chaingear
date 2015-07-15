@@ -5,7 +5,7 @@ source = "cyberFund"
 [metrics]
 announce = "16/05/2014"
 status = "Dead"
-total = 10000000.0
+total_tokens = 10000000.0
 ann = "https://bitcointalk.org/index.php?topic=611614.0"
 algo = "X11"
 
@@ -20,5 +20,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Malegebe"
+coinmarketcap = "Malegebe"
 CurrencyName = "Malegebe"

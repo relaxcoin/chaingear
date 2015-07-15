@@ -7,13 +7,13 @@ announce = "08/02/2014"
 status = "Dead"
 p2p = 22015.0
 rpc = 22014.0
-blockTime = 88.0
-reward = "294 coins per block + random bronze superblock probability 1/22 block (~32 minutes) x2 = 588 coins, random silver superblock probability 1/294 block (~7 hours) x4 = 1176 coins and random gold superblock probability 1/2014 block (~50 hours) x8 = 2352 coins"
-halfingCycle = "716727 coins(2 years)"
-total = 400000000.0
-difficultyCycle = "each block (Kimoto Gravity Well)"
-txsConfirm = 5.0
-mintConfirm = 50.0
+block_time = 88.0
+block_reward = "294 coins per block + random bronze superblock probability 1/22 block (~32 minutes) x2 = 588 coins, random silver superblock probability 1/294 block (~7 hours) x4 = 1176 coins and random gold superblock probability 1/2014 block (~50 hours) x8 = 2352 coins"
+halfing_cycle = "716727 coins(2 years)"
+total_tokens = 400000000.0
+difficulty_cycle = "each block (Kimoto Gravity Well)"
+txs_confirm = 5.0
+mint_confirm = 50.0
 ann = "https://bitcointalk.org/index.php?topic=454536.0"
 algo = "Scrypt"
 
@@ -30,5 +30,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Sochicoin"
+coinmarketcap = "Sochicoin"
 CurrencyName = "Sochicoin"

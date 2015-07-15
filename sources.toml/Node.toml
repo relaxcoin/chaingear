@@ -6,15 +6,15 @@ dependencies = "independent"
 [metrics]
 announce = "30/04/2014"
 status = "Running"
-blockTime = "60 seconds"
-total = "1000000000 coins"
+block_time = "60 seconds"
+total_tokens = "1000000000 coins"
 ann = "https://bitcointalk.org/index.php?topic=590421.0"
 type = "DAO"
 rating = 1.0
 consensus = "Other"
 
 [aliases]
-CoinMarketCap = "Node"
+coinmarketcap = "Node"
 CurrencyName = "Node"
 
 [[links]]

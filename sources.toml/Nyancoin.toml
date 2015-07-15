@@ -6,12 +6,12 @@ source = "cyberFund"
 announce = "21/12/2013"
 status = "Running"
 rpc = 33700.0
-blockTime = 60.0
-reward = 337.0
-halfingCycle = 337000.0
-total = 337000000.0
-premine = 3370000.0
-difficultyCycle = 240.0
+block_time = 60.0
+block_reward = 337.0
+halfing_cycle = 337000.0
+total_tokens = 337000000.0
+premine_tokens = 3370000.0
+difficulty_cycle = 240.0
 ann = "https://bitcointalk.org/index.php?topic=380223.0"
 algo = "Scrypt"
 rating = 0.0
@@ -28,5 +28,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Nyancoin"
+coinmarketcap = "Nyancoin"
 CurrencyName = "Nyancoin"

@@ -5,7 +5,7 @@ source = "cyberFund"
 [metrics]
 announce = "09/06/2014"
 status = "Running"
-total = "1000000000 coins"
+total_tokens = "1000000000 coins"
 ann = "https://bitcointalk.org/index.php?topic=625668.0"
 
   [[metrics.links]]
@@ -21,5 +21,5 @@ ann = "https://bitcointalk.org/index.php?topic=625668.0"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "NTXcoin"
+coinmarketcap = "NTXcoin"
 CurrencyName = "NTXcoin"

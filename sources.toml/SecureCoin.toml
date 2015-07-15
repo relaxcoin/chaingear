@@ -7,10 +7,10 @@ announce = "09/08/2013"
 status = "Running"
 p2p = "12567"
 rpc = "12568"
-blockTime = "60 seconds"
-reward = "5 coins"
-total = "21000000 coins"
-premine = "no"
+block_time = "60 seconds"
+block_reward = "5 coins"
+total_tokens = "21000000 coins"
+premine_tokens = "no"
 ann = "https://bitcointalk.org/index.php?topic=270852.0"
 algo = "Quark"
 rating = 1.0
@@ -28,5 +28,5 @@ rating = 1.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "SecureCoin"
+coinmarketcap = "SecureCoin"
 CurrencyName = "SecureCoin"

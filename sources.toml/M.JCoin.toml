@@ -7,10 +7,10 @@ announce = "25/06/2014"
 status = "Dead"
 p2p = 56883.0
 rpc = 56882.0
-blockTime = 60.0
-total = 75000000.0
-premine = "1312500 (1.75%) Pre-mine for development, promotional and immediate bounties and giveaways"
-difficultyCycle = "every block"
+block_time = 60.0
+total_tokens = 75000000.0
+premine_tokens = "1312500 (1.75%) Pre-mine for development, promotional and immediate bounties and giveaways"
+difficulty_cycle = "every block"
 ann = "https://bitcointalk.org/index.php?topic=665964."
 algo = "Scrypt"
 
@@ -26,5 +26,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "M.JCoin"
+coinmarketcap = "M.JCoin"
 CurrencyName = "M.JCoin"

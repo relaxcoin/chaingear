@@ -7,9 +7,9 @@ announce = "08/09/2014"
 status = "Running"
 p2p = 50990.0
 rpc = 51990.0
-blockTime = "90"
-reward = "Block 0-50:15,Block 50-15,000:1000"
-total = "15000000"
+block_time = "90"
+block_reward = "Block 0-50:15,Block 50-15,000:1000"
+total_tokens = "15000000"
 ann = "https://bitcointalk.org/index.php?topic=778720.00"
 algo = "X-n"
 type = "DAO"
@@ -30,5 +30,5 @@ dependencies = "independent"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Opal"
+coinmarketcap = "Opal"
 CurrencyName = "Opal"

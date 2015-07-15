@@ -5,9 +5,9 @@ source = "cyberFund"
 [metrics]
 announce = "21/06/2013"
 status = "Dead"
-blockTime = "120 seconds"
-total = "184460000000"
-difficultyCycle = "every block"
+block_time = "120 seconds"
+total_tokens = "184460000000"
+difficulty_cycle = "every block"
 algo = "CryptoNight"
 rating = 0.0
 
@@ -23,5 +23,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Buddhacoin"
+coinmarketcap = "Buddhacoin"
 CurrencyName = "Buddhacoin"

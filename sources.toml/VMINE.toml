@@ -5,8 +5,8 @@ source = "cyberFund"
 [metrics]
 announce = "09/08/2014"
 status = "Dead"
-blockTime = "Fast"
-total = "27000000"
+block_time = "Fast"
+total_tokens = "27000000"
 ann = "https://bitcointalk.org/index.php?topic=709911.0"
 algo = "X11"
 
@@ -23,5 +23,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "VMINE"
+coinmarketcap = "VMINE"
 CurrencyName = "VMINE"

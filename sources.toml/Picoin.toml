@@ -5,11 +5,11 @@ source = "cyberFund"
 [metrics]
 announce = "27/08/2013"
 status = "Dead"
-blockTime = "188.4"
-reward = 3.141592654
-total = 314159265.0
-difficultyCycle = "every 24 hours"
-txsConfirm = 120.0
+block_time = "188.4"
+block_reward = 3.141592654
+total_tokens = 314159265.0
+difficulty_cycle = "every 24 hours"
+txs_confirm = 120.0
 ann = "https://bitcointalk.org/index.php?topic=281889.0"
 algo = "Scrypt"
 
@@ -25,5 +25,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Picoin"
+coinmarketcap = "Picoin"
 CurrencyName = "Picoin"

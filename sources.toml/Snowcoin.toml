@@ -7,8 +7,8 @@ announce = "06/12/2013"
 status = "Running"
 p2p = 24351.0
 rpc = 24352.0
-blockTime = "120"
-total = 10000000000.0
+block_time = "120"
+total_tokens = 10000000000.0
 ann = "https://bitcointalk.org/index.php?topic=359948.0;all"
 algo = "SHA-256d"
 
@@ -24,5 +24,5 @@ algo = "SHA-256d"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Snowcoin"
+coinmarketcap = "Snowcoin"
 CurrencyName = "Snowcoin"

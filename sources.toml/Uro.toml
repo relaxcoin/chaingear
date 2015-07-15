@@ -10,5 +10,5 @@ dependencies = "independent"
 links = []
 
 [aliases]
-CoinMarketCap = "Uro"
+coinmarketcap = "Uro"
 CurrencyName = "Uro"

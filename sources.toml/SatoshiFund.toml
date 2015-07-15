@@ -16,5 +16,5 @@ links = []
   btc = 34.24
 
 [aliases]
-CoinMarketCap = "Satoshi•Fund"
+coinmarketcap = "Satoshi•Fund"
 CurrencyName = "Satoshi•Fund"

@@ -16,7 +16,7 @@ timestamp = 1431342962.0
   btc = 99.0
 
 [aliases]
-CoinMarketCap = "Lazooz"
+coinmarketcap = "Lazooz"
 CurrencyName = "LaZooz"
 
 [crowdsales]

@@ -7,10 +7,10 @@ announce = "03/02/2014"
 genesis = "04/02/2014"
 status = "Running"
 p2p = 9432.0
-blockTime = "60"
-reward = "10000 coins per block with an additional bonus payout based on the block number being mined"
-total = "Approximately 92000000000"
-difficultyCycle = "240"
+block_time = "60"
+block_reward = "10000 coins per block with an additional bonus payout based on the block number being mined"
+total_tokens = "Approximately 92000000000"
+difficulty_cycle = "240"
 ann = "https://bitcointalk.org/index.php?topic=447657.0"
 algo = "Scrypt"
 rating = 1.0
@@ -28,5 +28,5 @@ rating = 1.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Karmacoin"
+coinmarketcap = "Karmacoin"
 CurrencyName = "Karmacoin"

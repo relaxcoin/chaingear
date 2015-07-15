@@ -5,7 +5,7 @@ source = "cyberFund"
 [metrics]
 announce = "31/05/2014"
 status = "Dead"
-total = 84000000.0
+total_tokens = 84000000.0
 ann = "https://bitcointalk.org/index.php?topic=633546.0"
 algo = "X-n"
 
@@ -20,5 +20,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "TorrentCoin"
+coinmarketcap = "TorrentCoin"
 CurrencyName = "TorrentCoin"

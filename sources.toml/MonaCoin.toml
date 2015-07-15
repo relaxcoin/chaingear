@@ -10,7 +10,7 @@ consensus = "Proof-of-Work"
 hashtag = "#monacoin"
 
 [aliases]
-CoinMarketCap = "MonaCoin"
+coinmarketcap = "MonaCoin"
 CurrencyName = "MonaCoin"
 
 [[links]]

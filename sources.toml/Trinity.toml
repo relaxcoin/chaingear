@@ -6,10 +6,10 @@ source = "cyberFund"
 announce = "15/07/2014"
 status = "Running"
 rpc = 6420.0
-blockTime = 60.0
-reward = "61.5% chance of the reward being 1 TTY; 20% chance of the reward being 2 TTY; 10% chance of the reward being 5 TTY; 5% chance of the reward being 10 TTY; 2.5% chance of the reward being 20 TTY; 1% chance of the reward being 50 TTY "
-premine = "25222 TTY"
-difficultyCycle = "2 blocks"
+block_time = 60.0
+block_reward = "61.5% chance of the reward being 1 TTY; 20% chance of the reward being 2 TTY; 10% chance of the reward being 5 TTY; 5% chance of the reward being 10 TTY; 2.5% chance of the reward being 20 TTY; 1% chance of the reward being 50 TTY "
+premine_tokens = "25222 TTY"
+difficulty_cycle = "2 blocks"
 ann = "https://bitcointalk.org/index.php?topic=695149.0"
 algo = "Multi-algo"
 rating = 0.0
@@ -26,5 +26,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Trinity"
+coinmarketcap = "Trinity"
 CurrencyName = "Trinity"

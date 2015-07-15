@@ -7,5 +7,5 @@ rating = 1.0
 links = []
 
 [aliases]
-CoinMarketCap = "CloakCoin"
+coinmarketcap = "CloakCoin"
 CurrencyName = "CloakCoin"

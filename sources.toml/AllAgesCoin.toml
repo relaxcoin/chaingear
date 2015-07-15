@@ -5,8 +5,8 @@ source = "cyberFund"
 [metrics]
 announce = "27/12/2013"
 status = "Dead"
-blockTime = 300.0
-difficultyCycle = 10.0
+block_time = 300.0
+difficulty_cycle = 10.0
 ann = "https://bitcointalk.org/index.php?topic=386973.0"
 algo = "SHA-256d"
 rating = 0.0
@@ -18,5 +18,5 @@ icon = "github.png"
 tags = ["Main", "Code"]
 
 [aliases]
-CoinMarketCap = "AllAgesCoin"
+coinmarketcap = "AllAgesCoin"
 CurrencyName = "AllAgesCoin"

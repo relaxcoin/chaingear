@@ -7,8 +7,8 @@ announce = "31/12/2013"
 status = "Dead"
 p2p = 47717.0
 rpc = 117717.0
-blockTime = 60.0
-reward = 204.0
+block_time = 60.0
+block_reward = 204.0
 ann = "https://bitcointalk.org/index.php?topic=393190.0"
 algo = "Others"
 rating = 0.0
@@ -26,5 +26,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "CDNcoin"
+coinmarketcap = "CDNcoin"
 CurrencyName = "CDNcoin"

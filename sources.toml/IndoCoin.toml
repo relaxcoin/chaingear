@@ -7,10 +7,10 @@ announce = "17/05/2014"
 status = "Dead"
 p2p = 19457.0
 rpc = 19451.0
-reward = "Rewards are soft capped at 19450000000. After that every block generate 500 IDC."
-total = 19450000000.0
-premine = "60 Blocks"
-difficultyCycle = "every block (digiShield)"
+block_reward = "Rewards are soft capped at 19450000000. After that every block generate 500 IDC."
+total_tokens = 19450000000.0
+premine_tokens = "60 Blocks"
+difficulty_cycle = "every block (digiShield)"
 ann = "https://bitcointalk.org/index.php?topic=612311.0"
 algo = "Scrypt"
 
@@ -27,5 +27,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "IndoCoin"
+coinmarketcap = "IndoCoin"
 CurrencyName = "IndoCoin"

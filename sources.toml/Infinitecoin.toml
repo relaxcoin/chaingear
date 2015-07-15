@@ -7,12 +7,12 @@ source = "cyberFund"
 announce = "05/06/2013"
 genesis = "05/06/2013"
 status = "Running"
-blockTime = "30"
-reward = 524288.0
-halfingCycle = 86400.0
-total = 90600000000.0
-difficultyCycle = "120"
-txsConfirm = 3.0
+block_time = "30"
+block_reward = 524288.0
+halfing_cycle = 86400.0
+total_tokens = 90600000000.0
+difficulty_cycle = "120"
+txs_confirm = 3.0
 ann = "https://bitcointalk.org/index.php?topic=225891.0"
 algo = "Scrypt"
 type = "DAO"
@@ -20,7 +20,7 @@ rating = 1.0
 consensus = "Proof-of-Work"
 
 [aliases]
-CoinMarketCap = "Infinitecoin"
+coinmarketcap = "Infinitecoin"
 CurrencyName = "Infinitecoin"
 
 [[links]]

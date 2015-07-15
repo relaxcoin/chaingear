@@ -8,12 +8,12 @@ genesis = "15/03/2014"
 status = "Dead"
 p2p = 10161.0
 rpc = 10160.0
-blockTime = 240.0
-reward = "initial 50 coins per block"
-halfingCycle = "every 200 000 blocks"
-total = 740000000.0
-premine = "7770000 (1.05%) for marketing, giveaways and network testing"
-difficultyCycle = "every 75 hours"
+block_time = 240.0
+block_reward = "initial 50 coins per block"
+halfing_cycle = "every 200 000 blocks"
+total_tokens = 740000000.0
+premine_tokens = "7770000 (1.05%) for marketing, giveaways and network testing"
+difficulty_cycle = "every 75 hours"
 ann = "https://cryptocointalk.com/topic/6991-eurocoin-euc-information/"
 algo = "Scrypt"
 
@@ -30,5 +30,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Eurocoin"
+coinmarketcap = "Eurocoin"
 CurrencyName = "Eurocoin"

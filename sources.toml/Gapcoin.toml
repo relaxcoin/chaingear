@@ -7,10 +7,10 @@ announce = "21/10/2014"
 status = "Running"
 p2p = 31469.0
 rpc = 31397.0
-blockTime = "150 seconds"
-reward = "proportional to the current difficulty"
-total = "30000000"
-difficultyCycle = "Adjusts every block and increases logarithmic"
+block_time = "150 seconds"
+block_reward = "proportional to the current difficulty"
+total_tokens = "30000000"
+difficulty_cycle = "Adjusts every block and increases logarithmic"
 ann = "https://bitcointalk.org/index.php?topic=822498"
 algo = "Others"
 rating = 0.0
@@ -28,5 +28,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Gapcoin"
+coinmarketcap = "Gapcoin"
 CurrencyName = "Gapcoin"

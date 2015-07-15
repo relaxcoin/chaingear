@@ -7,13 +7,13 @@ announce = "12/12/2013"
 status = "Running"
 p2p = 16383.0
 rpc = 16384.0
-blockTime = 30.0
-halfingCycle = 259200.0
-total = 18406979840.0
-premine = 368139596.0
-difficultyCycle = 1.0
-txsConfirm = 4.0
-mintConfirm = 60.0
+block_time = 30.0
+halfing_cycle = 259200.0
+total_tokens = 18406979840.0
+premine_tokens = 368139596.0
+difficulty_cycle = 1.0
+txs_confirm = 4.0
+mint_confirm = 60.0
 ann = "https://bitcointalk.org/index.php?topic=368153.0"
 algo = "Scrypt"
 
@@ -30,5 +30,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Lottocoin"
+coinmarketcap = "Lottocoin"
 CurrencyName = "Lottocoin"

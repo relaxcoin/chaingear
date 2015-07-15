@@ -5,12 +5,12 @@ source = "cyberFund"
 [metrics]
 announce = "15/12/2013"
 status = "Dead"
-blockTime = 30.0
-reward = 784.0
-halfingCycle = 120960.0
-total = 200000000.0
-difficultyCycle = 20.0
-mintConfirm = 140.0
+block_time = 30.0
+block_reward = 784.0
+halfing_cycle = 120960.0
+total_tokens = 200000000.0
+difficulty_cycle = 20.0
+mint_confirm = 140.0
 ann = "https://bitcointalk.org/index.php?topic=371576.0"
 algo = "Quark"
 
@@ -26,5 +26,5 @@ algo = "Quark"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Molecule"
+coinmarketcap = "Molecule"
 CurrencyName = "Molecule"

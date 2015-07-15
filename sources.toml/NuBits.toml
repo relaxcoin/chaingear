@@ -13,7 +13,7 @@ consensus = "Peercoin"
 hashtag = "#nubits"
 
 [aliases]
-CoinMarketCap = "NuBits"
+coinmarketcap = "NuBits"
 CurrencyName = "NuBits"
 
 [[links]]

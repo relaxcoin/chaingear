@@ -7,9 +7,9 @@ announce = "09/07/2014"
 status = "Running"
 p2p = 501111.0
 rpc = 51111.0
-blockTime = 60.0
-reward = "50000 coins"
-total = 1527069500.0
+block_time = 60.0
+block_reward = "50000 coins"
+total_tokens = 1527069500.0
 ann = "https://bitcointalk.org/index.php?topic=683741.0"
 algo = "X-n"
 
@@ -25,5 +25,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Lizarde"
+coinmarketcap = "Lizarde"
 CurrencyName = "Lizarde"

@@ -7,11 +7,11 @@ announce = "17/10/2014"
 status = "Dead"
 p2p = 14973.0
 rpc = 24973.0
-blockTime = "60 Seconds"
-reward = "200 OCC"
-total = "10000000"
-premine = "150000 (1.5% for bounties and promotions)"
-mintConfirm = "10 blocks"
+block_time = "60 Seconds"
+block_reward = "200 OCC"
+total_tokens = "10000000"
+premine_tokens = "150000 (1.5% for bounties and promotions)"
+mint_confirm = "10 blocks"
 ann = "https://bitcointalk.org/index.php?topic=825517.0"
 algo = "X-n"
 
@@ -27,5 +27,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "OcultCoin"
+coinmarketcap = "OcultCoin"
 CurrencyName = "OcultCoin"

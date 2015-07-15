@@ -7,10 +7,10 @@ announce = "09/05/2014"
 status = "Dead"
 p2p = 14316.0
 rpc = 14315.0
-blockTime = 120.0
-reward = "Blocks 1-7500 - 1000 YOLO; Blocks 7500 - 10000 - 100 YOLO; Blocks 10000 - 12500 - 10 YOLO;   After block 12500 - 1 YOLO"
-total = "unlimited"
-difficultyCycle = "every 5 blocks"
+block_time = 120.0
+block_reward = "Blocks 1-7500 - 1000 YOLO; Blocks 7500 - 10000 - 100 YOLO; Blocks 10000 - 12500 - 10 YOLO;   After block 12500 - 1 YOLO"
+total_tokens = "unlimited"
+difficulty_cycle = "every 5 blocks"
 ann = "https://bitcointalk.org/index.php?topic=602042"
 algo = "Scrypt"
 
@@ -27,5 +27,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Yolocoin"
+coinmarketcap = "Yolocoin"
 CurrencyName = "Yolocoin"

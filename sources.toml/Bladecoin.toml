@@ -7,13 +7,13 @@ announce = "07/02/2014"
 status = "Running"
 p2p = 45555.0
 rpc = 45557.0
-blockTime = 300.0
-reward = 2019.0
-total = "16305444 Proof of Work coins are coded to be produced"
-premine = "10 blocks are premined for the creator"
-difficultyCycle = "each block"
-txsConfirm = 6.0
-mintConfirm = 120.0
+block_time = 300.0
+block_reward = 2019.0
+total_tokens = "16305444 Proof of Work coins are coded to be produced"
+premine_tokens = "10 blocks are premined for the creator"
+difficulty_cycle = "each block"
+txs_confirm = 6.0
+mint_confirm = 120.0
 ann = "https://bitcointalk.org/index.php?topic=452956.0"
 algo = "Scrypt"
 
@@ -30,5 +30,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Bladecoin"
+coinmarketcap = "Bladecoin"
 CurrencyName = "Bladecoin"

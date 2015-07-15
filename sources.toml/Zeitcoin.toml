@@ -5,14 +5,14 @@ source = "cyberFund"
 [metrics]
 announce = "26/02/2014"
 status = "Running"
-blockTime = 30.0
-reward = "initial 250000-1000000 coins"
-halfingCycle = "every week for the first 6 weeks, after the PoW payout will be fixed at 1 coin per block"
-total = 99000000000.0
-premine = "990000000 (1%) for ongoing development support, maintenance and distribution to community"
-difficultyCycle = "every block"
-txsConfirm = 4.0
-mintConfirm = 50.0
+block_time = 30.0
+block_reward = "initial 250000-1000000 coins"
+halfing_cycle = "every week for the first 6 weeks, after the PoW payout will be fixed at 1 coin per block"
+total_tokens = 99000000000.0
+premine_tokens = "990000000 (1%) for ongoing development support, maintenance and distribution to community"
+difficulty_cycle = "every block"
+txs_confirm = 4.0
+mint_confirm = 50.0
 ann = "https://bitcointalk.org/index.php?topic=487814.0"
 algo = "Scrypt"
 rating = 1.0
@@ -30,5 +30,5 @@ rating = 1.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Zeitcoin"
+coinmarketcap = "Zeitcoin"
 CurrencyName = "Zeitcoin"

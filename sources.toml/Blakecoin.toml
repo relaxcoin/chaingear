@@ -6,12 +6,12 @@ source = "cyberFund"
 announce = "07/10/2013"
 status = "Running"
 rpc = 8772.0
-blockTime = 180.0
-reward = "25 coin + inflation (square root of (difficulty * block height))"
-halfingCycle = "no reduction of block reward"
-total = 7000000000.0
-difficultyCycle = "20"
-mintConfirm = " 120 +20 buffer = 140 total)"
+block_time = 180.0
+block_reward = "25 coin + inflation (square root of (difficulty * block height))"
+halfing_cycle = "no reduction of block reward"
+total_tokens = 7000000000.0
+difficulty_cycle = "20"
+mint_confirm = " 120 +20 buffer = 140 total)"
 ann = "https://bitcointalk.org/index.php?topic=306894.0"
 algo = "SHA-3"
 rating = 0.0
@@ -29,5 +29,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Blakecoin"
+coinmarketcap = "Blakecoin"
 CurrencyName = "Blakecoin"

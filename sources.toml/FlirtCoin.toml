@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "13/11/2014"
 status = "Running"
-blockTime = "300 seconds"
-reward = "10000 Flirtcoins"
-total = "1800000000"
-difficultyCycle = "DGW"
+block_time = "300 seconds"
+block_reward = "10000 Flirtcoins"
+total_tokens = "1800000000"
+difficulty_cycle = "DGW"
 ann = "https://bitcointalk.org/index.php?topic=867068.0"
 algo = "SHA-256d"
 
@@ -25,5 +25,5 @@ algo = "SHA-256d"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "FlirtCoin"
+coinmarketcap = "FlirtCoin"
 CurrencyName = "FlirtCoin"

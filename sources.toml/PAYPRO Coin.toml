@@ -7,11 +7,11 @@ announce = "07/06/2014"
 status = "Dead"
 p2p = 28765.0
 rpc = 28764.0
-blockTime = 300.0
-reward = "1000 PRO Forever"
-total = 8000000000.0
-premine = "80000000 (1%) will be entirely used for ICO"
-difficultyCycle = "Daily"
+block_time = 300.0
+block_reward = "1000 PRO Forever"
+total_tokens = 8000000000.0
+premine_tokens = "80000000 (1%) will be entirely used for ICO"
+difficulty_cycle = "Daily"
 ann = "https://bitcointalk.org/index.php?topic=643028.0"
 algo = "SHA-256d"
 
@@ -28,5 +28,5 @@ algo = "SHA-256d"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "PAYPRO Coin"
+coinmarketcap = "PAYPRO Coin"
 CurrencyName = "PAYPRO Coin"

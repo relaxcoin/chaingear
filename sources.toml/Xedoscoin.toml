@@ -7,10 +7,10 @@ announce = "02/02/2014"
 status = "Running"
 p2p = 18852.0
 rpc = 18153.0
-blockTime = 90.0
-reward = "80 + superblocks"
-halfingCycle = 262800.0
-total = "no more than 85000000"
+block_time = 90.0
+block_reward = "80 + superblocks"
+halfing_cycle = 262800.0
+total_tokens = "no more than 85000000"
 ann = "https://bitcointalk.org/index.php?topic=445651.0"
 algo = "Multi-algo"
 
@@ -27,5 +27,5 @@ algo = "Multi-algo"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Xedoscoin"
+coinmarketcap = "Xedoscoin"
 CurrencyName = "Xedoscoin"

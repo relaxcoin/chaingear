@@ -6,10 +6,10 @@ source = "cyberFund"
 announce = "30/12/2013"
 genesis = "12/22/2013"
 status = "Running"
-blockTime = 60.0
-total = 500000000000.0
-premine = 38965480.0
-difficultyCycle = 10.0
+block_time = 60.0
+total_tokens = 500000000000.0
+premine_tokens = 38965480.0
+difficulty_cycle = 10.0
 ann = "https://bitcointalk.org/index.php?topic=391192.0"
 algo = "Scrypt"
 rating = 1.0
@@ -27,5 +27,5 @@ rating = 1.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Fedoracoin"
+coinmarketcap = "Fedoracoin"
 CurrencyName = "Fedoracoin"

@@ -7,10 +7,10 @@ announce = "06/07/2014"
 status = "Running"
 p2p = 14697.0
 rpc = 14698.0
-blockTime = 240.0
-total = 21000000.0
-premine = "210000 (1%) for devs, bounties, escrow IPO"
-txsConfirm = 70.0
+block_time = 240.0
+total_tokens = 21000000.0
+premine_tokens = "210000 (1%) for devs, bounties, escrow IPO"
+txs_confirm = 70.0
 ann = "https://bitcointalk.org/index.php?topic=679856"
 algo = "X-n"
 
@@ -26,5 +26,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Czecoin"
+coinmarketcap = "Czecoin"
 CurrencyName = "Czecoin"

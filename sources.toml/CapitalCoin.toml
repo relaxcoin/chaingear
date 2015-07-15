@@ -7,10 +7,10 @@ announce = "09/07/2014"
 status = "Dead"
 p2p = 22033.0
 rpc = 22133.0
-blockTime = 30.0
-total = 100000000.0
-premine = "No"
-difficultyCycle = "every block"
+block_time = 30.0
+total_tokens = 100000000.0
+premine_tokens = "No"
+difficulty_cycle = "every block"
 ann = "https://www.altcoincalendar.info/coins/676-CPTL"
 algo = "Scrypt"
 
@@ -26,5 +26,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "CapitalCoin"
+coinmarketcap = "CapitalCoin"
 CurrencyName = "CapitalCoin"

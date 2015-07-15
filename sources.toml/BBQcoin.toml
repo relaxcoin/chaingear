@@ -6,11 +6,11 @@ source = "cyberFund"
 announce = "15/07/2012"
 genesis = "13/07/2012"
 status = "Running"
-blockTime = "60"
-reward = 42.0
-halfingCycle = 24000000.0
-total = 201600000.0
-difficultyCycle = "60"
+block_time = "60"
+block_reward = 42.0
+halfing_cycle = 24000000.0
+total_tokens = 201600000.0
+difficulty_cycle = "60"
 ann = "https://bitcointalk.org/index.php?topic=307923.0"
 algo = "Scrypt"
 rating = 0.0
@@ -28,5 +28,5 @@ icon = "github.png"
 tags = ["Main", "Code"]
 
 [aliases]
-CoinMarketCap = "BBQcoin"
+coinmarketcap = "BBQcoin"
 CurrencyName = "BBQcoin"

@@ -8,10 +8,10 @@ announce = "09/07/2014"
 status = "Running"
 p2p = 14631.0
 rpc = 14632.0
-blockTime = 60.0
-reward = "Proof of Stake Reward: 5% per year"
-total = 22000000.0
-txsConfirm = 110.0
+block_time = 60.0
+block_reward = "Proof of Stake Reward: 5% per year"
+total_tokens = 22000000.0
+txs_confirm = 110.0
 ann = "https://bitcointalk.org/index.php?topic=684090.0"
 algo = "SHA-256d"
 type = "DAO"
@@ -19,7 +19,7 @@ rating = 1.0
 consensus = "Proof-of-Stake"
 
 [aliases]
-CoinMarketCap = "BitcoinDark"
+coinmarketcap = "BitcoinDark"
 CurrencyName = "BitcoinDark"
 
 [[links]]

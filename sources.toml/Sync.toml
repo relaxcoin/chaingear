@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "13/05/2014"
 status = "Running"
-blockTime = 60.0
-reward = "0.14 SYNC"
-total = 1000.0
-premine = "5 (0.5%)"
+block_time = 60.0
+block_reward = "0.14 SYNC"
+total_tokens = 1000.0
+premine_tokens = "5 (0.5%)"
 ann = "https://bitcointalk.org/index.php?topic=607919"
 algo = "X11"
 rating = 1.0
@@ -26,5 +26,5 @@ icon = "github.png"
 tags = ["Main", "Code"]
 
 [aliases]
-CoinMarketCap = "Sync"
+coinmarketcap = "Sync"
 CurrencyName = "Sync"

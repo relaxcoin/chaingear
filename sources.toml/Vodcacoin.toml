@@ -8,13 +8,13 @@ genesis = "29/01/2014"
 status = "Dead"
 p2p = 58556.0
 rpc = 58555.0
-blockTime = 20.0
-reward = "50 + random reward"
-total = 500000000.0
-premine = "25000000(5%)"
-difficultyCycle = 60.0
-txsConfirm = 3.0
-mintConfirm = 30.0
+block_time = 20.0
+block_reward = "50 + random reward"
+total_tokens = 500000000.0
+premine_tokens = "25000000(5%)"
+difficulty_cycle = 60.0
+txs_confirm = 3.0
+mint_confirm = 30.0
 ann = "https://bitcointalk.org/index.php?topic=440159.0"
 algo = "Scrypt"
 
@@ -31,5 +31,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Vodcacoin"
+coinmarketcap = "Vodcacoin"
 CurrencyName = "Vodcacoin"

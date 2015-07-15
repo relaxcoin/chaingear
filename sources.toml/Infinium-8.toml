@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "17/07/2014"
 status = "Dead"
-blockTime = 90.0
-reward = "Block_reward = log2(difficulty) * 2^40"
-total = "infinite"
-difficultyCycle = "retargets at every block"
+block_time = 90.0
+block_reward = "Block_reward = log2(difficulty) * 2^40"
+total_tokens = "infinite"
+difficulty_cycle = "retargets at every block"
 ann = "https://bitcointalk.org/index.php?topic=698727"
 algo = "CryptoNight"
 
@@ -24,5 +24,5 @@ algo = "CryptoNight"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Infinium-8"
+coinmarketcap = "Infinium-8"
 CurrencyName = "Infinium-8"

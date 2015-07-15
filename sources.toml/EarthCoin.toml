@@ -7,5 +7,5 @@ rating = 1.0
 links = []
 
 [aliases]
-CoinMarketCap = "EarthCoin"
+coinmarketcap = "EarthCoin"
 CurrencyName = "EarthCoin"

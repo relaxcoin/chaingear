@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "30/05/2014"
 status = "Dead"
-reward = "50 XI per block"
-total = 4000000.0
-premine = "80000 (2%) premine for IPO, bounties"
-difficultyCycle = "Difficulty retargets every block; Dark Gravity Wave V3"
+block_reward = "50 XI per block"
+total_tokens = 4000000.0
+premine_tokens = "80000 (2%) premine for IPO, bounties"
+difficulty_cycle = "Difficulty retargets every block; Dark Gravity Wave V3"
 ann = "https://bitcointalk.org/index.php?topic=632755.0"
 algo = "X-n"
 
@@ -23,5 +23,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "XIcoin"
+coinmarketcap = "XIcoin"
 CurrencyName = "XIcoin"

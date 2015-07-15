@@ -10,5 +10,5 @@ rating = 0.0
 [[links]]
 
 [aliases]
-CoinMarketCap = "BearMining"
+coinmarketcap = "BearMining"
 CurrencyName = "BearMining"

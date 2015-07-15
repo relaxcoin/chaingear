@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "05/06/2014"
 status = "Running"
-blockTime = 30.0
-total = 30000000.0
-difficultyCycle = "every block"
-txsConfirm = 4.0
+block_time = 30.0
+total_tokens = 30000000.0
+difficulty_cycle = "every block"
+txs_confirm = 4.0
 ann = "https://bitcointalk.org/index.php?topic=641057.0"
 algo = "X11"
 rating = 0.0
@@ -26,5 +26,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Minerals"
+coinmarketcap = "Minerals"
 CurrencyName = "Minerals"

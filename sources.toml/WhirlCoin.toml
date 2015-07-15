@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "06/07/2014"
 status = "Dead"
-blockTime = 45.0
-reward = "WhirlCoin's rewards follow -sqrt(0.0026x)+100, a negative square root function starting at 100 and ending at 10, 4 years later"
-total = 168000000.0
-difficultyCycle = "every block"
+block_time = 45.0
+block_reward = "WhirlCoin's rewards follow -sqrt(0.0026x)+100, a negative square root function starting at 100 and ending at 10, 4 years later"
+total_tokens = 168000000.0
+difficulty_cycle = "every block"
 ann = "https://bitcointalk.org/index.php?topic=679134.0"
 algo = "Others"
 
@@ -25,5 +25,5 @@ algo = "Others"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "WhirlCoin"
+coinmarketcap = "WhirlCoin"
 CurrencyName = "WhirlCoin"

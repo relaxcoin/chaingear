@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "26/12/2014"
 status = "Running"
-blockTime = "60 seconds"
-reward = "1-20000:25 coins,20000-last:1 coin"
-total = "8000000 coins"
-difficultyCycle = "DGW"
+block_time = "60 seconds"
+block_reward = "1-20000:25 coins,20000-last:1 coin"
+total_tokens = "8000000 coins"
+difficulty_cycle = "DGW"
 ann = "https://bitcointalk.org/index.php?topic=900716"
 algo = "X-n"
 
@@ -24,5 +24,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Magnetz"
+coinmarketcap = "Magnetz"
 CurrencyName = "Magnetz"

@@ -6,9 +6,9 @@ source = "cyberFund"
 announce = "12/10/2012"
 genesis = "26/10/2012"
 status = "Running"
-blockTime = "120"
-total = 42000000.0
-difficultyCycle = "540"
+block_time = "120"
+total_tokens = 42000000.0
+difficulty_cycle = "540"
 algo = "SHA-256d"
 rating = 1.0
 
@@ -25,5 +25,5 @@ rating = 1.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Terracoin"
+coinmarketcap = "Terracoin"
 CurrencyName = "Terracoin"

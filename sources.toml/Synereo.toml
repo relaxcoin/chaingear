@@ -4,7 +4,7 @@ dependencies = "independent"
 source = "cyberFund"
 
 [descriptions]
-short_description = "Synereo is a fully decentralized and distributed social platform owned by the people who use it."
+headline = "Synereo is a fully decentralized and distributed social platform owned by the people who use it."
 summary = "Synereo is designed as a framework for managing the economy of attention. We create a social brain that optimizes your experience on the network, social or otherwise, by shaping the stream of information in ways that reflect what you and your social circle consider to be interesting and valuable."
 
 [metrics]
@@ -19,7 +19,7 @@ timestamp = 1431342962.0
   btc = 635.0
 
 [aliases]
-CoinMarketCap = "Synereo"
+coinmarketcap = "Synereo"
 CurrencyName = "Synereo"
 
 [crowdsales]

@@ -13,5 +13,5 @@ icon = "github.png"
 tags = ["Main", "Code"]
 
 [aliases]
-CoinMarketCap = "Alipaycoin"
+coinmarketcap = "Alipaycoin"
 CurrencyName = "Alipaycoin"

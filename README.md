@@ -30,13 +30,13 @@ You can add blockchain related projects in blockchain metadata.
 
 [document]
 system = "Ethereum" # type: string
-blockchain_id = "null" # type: string
+genesis_id = "null" # type: string
 
 # Descriptive data
 [descriptions]
 symbol = "ETH" # type: string
 currency = "ether" # type: string
-short_description = "A Next-Generation Smart Contract and Decentralized Application Platform" # type: string
+headline = "A Next-Generation Smart Contract and Decentralized Application Platform" # type: string
 summary = "Ethereum is a community-driven project aiming to decentralize the internet and return it to its democratic roots. It is a platform for building and running applications which do not need to rely on trust and cannot be controlled by any central authority." # type: string
 coinmarketcap = "Ethereum" # type: string
 

@@ -7,9 +7,9 @@ announce = "29/12/2013"
 status = "Dead"
 p2p = 28657.0
 rpc = 46368.0
-blockTime = 144.0
-txsConfirm = 5.0
-mintConfirm = 55.0
+block_time = 144.0
+txs_confirm = 5.0
+mint_confirm = 55.0
 ann = "https://bitcointalk.org/index.php?topic=390735.0"
 algo = "Scrypt"
 
@@ -25,5 +25,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Vaporcoin"
+coinmarketcap = "Vaporcoin"
 CurrencyName = "Vaporcoin"

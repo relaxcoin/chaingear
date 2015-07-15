@@ -5,9 +5,9 @@ source = "cyberFund"
 [metrics]
 announce = "08/01/2014"
 status = "Dead"
-blockTime = 60.0
-total = 5000000000.0
-premine = 50000000.0
+block_time = 60.0
+total_tokens = 5000000000.0
+premine_tokens = 50000000.0
 ann = "https://bitcointalk.org/index.php?topic=405820.0"
 algo = "Scrypt"
 
@@ -24,5 +24,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Mousecoin"
+coinmarketcap = "Mousecoin"
 CurrencyName = "Mousecoin"

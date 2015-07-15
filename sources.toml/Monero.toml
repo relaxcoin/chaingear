@@ -6,10 +6,10 @@ source = "cyberFund"
 [metrics]
 announce = "09/04/2014"
 status = "Running"
-blockTime = 60.0
-reward = "Block reward = (M-A)*2^(-20)*10^(-12), where A = current circulation"
-total = 18400000.0
-difficultyCycle = "every block"
+block_time = 60.0
+block_reward = "Block block_reward = (M-A)*2^(-20)*10^(-12), where A = current circulation"
+total_tokens = 18400000.0
+difficulty_cycle = "every block"
 ann = "https://bitcointalk.org/index.php?topic=563821"
 algo = "CryptoNight"
 type = "DAO"
@@ -18,7 +18,7 @@ consensus = "Proof-of-Work"
 hashtag = "#monero"
 
 [aliases]
-CoinMarketCap = "Monero"
+coinmarketcap = "Monero"
 CurrencyName = "Monero"
 
 [[links]]

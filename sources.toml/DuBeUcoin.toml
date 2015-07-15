@@ -7,7 +7,7 @@ announce = "11/12/2014"
 status = "Dead"
 p2p = 1463.0
 rpc = 1462.0
-total = "2000000000 coins"
+total_tokens = "2000000000 coins"
 ann = "https://bitcointalk.org/index.php?topic=882763.0"
 algo = "Scrypt"
 
@@ -23,5 +23,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "DuBeUcoin"
+coinmarketcap = "DuBeUcoin"
 CurrencyName = "DuBeUcoin"

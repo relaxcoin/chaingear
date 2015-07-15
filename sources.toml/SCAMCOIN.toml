@@ -5,11 +5,11 @@ source = "cyberFund"
 [metrics]
 announce = "25/06/2014"
 status = "Dead"
-blockTime = 60.0
-reward = "2000 SCAM"
-total = 10000000.0
-premine = "100000 (1%)"
-txsConfirm = 10.0
+block_time = 60.0
+block_reward = "2000 SCAM"
+total_tokens = 10000000.0
+premine_tokens = "100000 (1%)"
+txs_confirm = 10.0
 ann = "https://bitcointalk.org/index.php?topic=665169.new#new"
 algo = "X-n"
 
@@ -25,5 +25,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "SCAMCOIN"
+coinmarketcap = "SCAMCOIN"
 CurrencyName = "SCAMCOIN"

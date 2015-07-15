@@ -10,5 +10,5 @@ dependencies = "Dogecoin"
 links = []
 
 [aliases]
-CoinMarketCap = "Dogeparty"
+coinmarketcap = "Dogeparty"
 CurrencyName = "Dogeparty"

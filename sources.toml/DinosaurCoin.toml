@@ -7,12 +7,12 @@ announce = "05/07/2014"
 status = "Dead"
 p2p = 9355.0
 rpc = 9356.0
-blockTime = 60.0
-reward = "POW block reward 1000 coins"
-total = 8640000.0
-premine = "86400 (1%) for development, bounties, etc"
-difficultyCycle = "every block"
-txsConfirm = 6.0
+block_time = 60.0
+block_reward = "POW block reward 1000 coins"
+total_tokens = 8640000.0
+premine_tokens = "86400 (1%) for development, bounties, etc"
+difficulty_cycle = "every block"
+txs_confirm = 6.0
 ann = "https://bitcointalk.org/index.php?topic=678073.0"
 algo = "X-n"
 
@@ -28,5 +28,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "DinosaurCoin"
+coinmarketcap = "DinosaurCoin"
 CurrencyName = "DinosaurCoin"

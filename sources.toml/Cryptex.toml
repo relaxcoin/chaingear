@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "10/08/2014"
 status = "Dead"
-blockTime = "60"
-total = "1300"
-premine = " 0.5% of total coins"
-mintConfirm = "30 days"
+block_time = "60"
+total_tokens = "1300"
+premine_tokens = " 0.5% of total coins"
+mint_confirm = "30 days"
 ann = "https://bitcointalk.org/index.php?topic=702483.0"
 algo = "X11"
 
@@ -23,5 +23,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Cryptex"
+coinmarketcap = "Cryptex"
 CurrencyName = "Cryptex"

@@ -1,6 +1,6 @@
 name = "Bitcoin"
 symbol = "BTC"
-blockchain_id = "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f"
+genesis_id = "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f"
 dependencies = "independent"
 source = "cyberFund"
 
@@ -13,18 +13,18 @@ announce = "31/10/2008"
 genesis = "03/01/2009"
 status = "Running"
 rpc = 8332.0
-blockTime = "600"
-reward = "50"
-halfingCycle = "210240"
-total = "21000000"
-difficultyCycle = "2016"
-txsConfirm = 6.0
-mintConfirm = 120.0
+block_time = "600"
+block_reward = "50"
+halfing_cycle = "210240"
+total_tokens = "21000000"
+difficulty_cycle = "2016"
+txs_confirm = 6.0
+mint_confirm = 120.0
 ann = "http://article.gmane.org/gmane.comp.encryption.general/12588/"
 algo = "SHA-256d"
 
 [aliases]
-CoinMarketCap = "Bitcoin"
+coinmarketcap = "Bitcoin"
 CurrencyName = "Bitcoin"
 
 [[links]]

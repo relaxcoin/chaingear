@@ -7,9 +7,9 @@ announce = "16/08/2014"
 status = "Running"
 p2p = 12733.0
 rpc = 12732.0
-blockTime = "30"
-total = "20000000"
-premine = "100%"
+block_time = "30"
+total_tokens = "20000000"
+premine_tokens = "100%"
 ann = "https://bitcointalk.org/index.php?topic=740744"
 algo = "Scrypt"
 rating = 0.0
@@ -27,5 +27,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "GreenBacks"
+coinmarketcap = "GreenBacks"
 CurrencyName = "GreenBacks"

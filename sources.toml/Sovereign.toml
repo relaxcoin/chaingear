@@ -4,7 +4,7 @@ source = "cyberFund"
 
 [metrics]
 announce = "03/07/2014"
-total = 144.0
+total_tokens = 144.0
 ann = "https://bitcointalk.org/index.php?topic=676478.msg7661479#msg7661479"
 algo = "SHA-256d"
 
@@ -20,5 +20,5 @@ algo = "SHA-256d"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Sovereign"
+coinmarketcap = "Sovereign"
 CurrencyName = "Sovereign"

@@ -6,10 +6,10 @@ source = "cyberFund"
 announce = "11/07/2014"
 p2p = 19971.0
 rpc = 19871.0
-blockTime = 60.0
-reward = "750 APEX + 5 APEX to development"
-total = 15000000.0
-premine = "150000 (1%)"
+block_time = 60.0
+block_reward = "750 APEX + 5 APEX to development"
+total_tokens = 15000000.0
+premine_tokens = "150000 (1%)"
 ann = "https://bitcointalk.org/index.php?topic=686403.0"
 algo = "X-n"
 rating = 0.0
@@ -27,5 +27,5 @@ icon = "github.png"
 tags = ["Main", "Code"]
 
 [aliases]
-CoinMarketCap = "APEX Coin"
+coinmarketcap = "APEX Coin"
 CurrencyName = "APEX Coin"

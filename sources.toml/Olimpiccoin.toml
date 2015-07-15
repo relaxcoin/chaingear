@@ -8,13 +8,13 @@ genesis = "07/02/2014"
 status = "Running"
 p2p = 16567.0
 rpc = 16568.0
-blockTime = "180"
-reward = "First two days payout is 1.5 times bigger. Also during the first month 1894 - 2014 coins per block randomly and specials:every hour there will be a random Bronze Medal Block that has 5000 coins. Every 6 hours there will be a Silver Medal Block with 7000 coins, and every 12 hours there will be a Gold Medal Block with 10000 coins. After the first month, the coin payout block will decrease gradually from 1000 coins per block to 1 coin per block after block 3000001."
-total = 322649400.0
-premine = "32264940 coins (1%) were premined for bounties"
-difficultyCycle = "1"
-txsConfirm = 3.0
-mintConfirm = 50.0
+block_time = "180"
+block_reward = "First two days payout is 1.5 times bigger. Also during the first month 1894 - 2014 coins per block randomly and specials:every hour there will be a random Bronze Medal Block that has 5000 coins. Every 6 hours there will be a Silver Medal Block with 7000 coins, and every 12 hours there will be a Gold Medal Block with 10000 coins. After the first month, the coin payout block will decrease gradually from 1000 coins per block to 1 coin per block after block 3000001."
+total_tokens = 322649400.0
+premine_tokens = "32264940 coins (1%) were premined for bounties"
+difficulty_cycle = "1"
+txs_confirm = 3.0
+mint_confirm = 50.0
 ann = "https://bitcointalk.org/index.php?topic=453085.0"
 algo = "Scrypt"
 
@@ -31,5 +31,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Olimpiccoin"
+coinmarketcap = "Olimpiccoin"
 CurrencyName = "Olimpiccoin"

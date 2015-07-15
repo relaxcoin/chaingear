@@ -7,11 +7,11 @@ announce = "13/12/2014"
 status = "Running"
 p2p = 22524.0
 rpc = 22523.0
-blockTime = "60 seconds"
-reward = "200 VTR"
-total = "20000000"
-premine = "60000 coins(3%)"
-mintConfirm = "50 blocks"
+block_time = "60 seconds"
+block_reward = "200 VTR"
+total_tokens = "20000000"
+premine_tokens = "60000 coins(3%)"
+mint_confirm = "50 blocks"
 ann = "https://cryptocointalk.com/topic/24630-annvtr-vtorrent-share-with-freedom-bittrex-c-cex-empoex/"
 algo = "Scrypt"
 rating = 0.0
@@ -28,5 +28,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "vTorrent"
+coinmarketcap = "vTorrent"
 CurrencyName = "vTorrent"

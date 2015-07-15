@@ -6,12 +6,12 @@ source = "cyberFund"
 announce = "15/06/2013"
 status = "Running"
 rpc = 8772.0
-blockTime = "15"
-reward = 32.0
-halfingCycle = 4204800.0
-total = 265420800.0
-difficultyCycle = "2016"
-txsConfirm = 4.0
+block_time = "15"
+block_reward = 32.0
+halfing_cycle = 4204800.0
+total_tokens = 265420800.0
+difficulty_cycle = "2016"
+txs_confirm = 4.0
 algo = "Scrypt"
 rating = 0.0
 
@@ -28,5 +28,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Krugercoin"
+coinmarketcap = "Krugercoin"
 CurrencyName = "Krugercoin"

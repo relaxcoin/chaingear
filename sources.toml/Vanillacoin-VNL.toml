@@ -5,9 +5,9 @@ source = "cyberFund"
 [metrics]
 announce = "15/12/2014"
 status = "Running"
-blockTime = "200 seconds"
-total = 30700000
-difficultyCycle = "every block"
+block_time = "200 seconds"
+total_tokens = 30700000
+difficulty_cycle = "every block"
 ann = "http://vanillacoin.net/forums/"
 algo = "Others"
 rating = 1.0
@@ -25,5 +25,5 @@ icon = "github.png"
 tags = ["Main", "Code"]
 
 [aliases]
-CoinMarketCap = "Vanillacoin"
+coinmarketcap = "Vanillacoin"
 CurrencyName = "Vanillacoin"

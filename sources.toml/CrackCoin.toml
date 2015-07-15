@@ -7,9 +7,9 @@ announce = "09/09/2014"
 status = "Dead"
 p2p = 41600.0
 rpc = 41601.0
-blockTime = "60"
-reward = "5000 Crackcoins"
-total = "6000000"
+block_time = "60"
+block_reward = "5000 Crackcoins"
+total_tokens = "6000000"
 ann = "https://bitcointalk.org/index.php?topic=768678"
 algo = "X11"
 rating = 0.0
@@ -21,5 +21,5 @@ icon = "github.png"
 tags = ["Main", "Code"]
 
 [aliases]
-CoinMarketCap = "CrackCoin"
+coinmarketcap = "CrackCoin"
 CurrencyName = "CrackCoin"

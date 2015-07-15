@@ -7,11 +7,11 @@ announce = "13/11/2014"
 status = "Dead"
 p2p = 37357.0
 rpc = 37356.0
-blockTime = "90 Seconds"
-reward = "60-1059:4000 OPTI, 1060-2059:3000 OPTI, 2060-3059:2000 OPTI, 3060-4059:1500 OPTI, 4060-5059:1200 OPTI, 5060-6059:1000 OPTI, 6060-7059:800 OPTI, 7060-8059:1000 OPTI, 8060-9059:1500 OPTI, 9060-10059:2500 OPTI"
-total = "19000000"
-premine = "2500 OPTI"
-mintConfirm = "90 blocks"
+block_time = "90 Seconds"
+block_reward = "60-1059:4000 OPTI, 1060-2059:3000 OPTI, 2060-3059:2000 OPTI, 3060-4059:1500 OPTI, 4060-5059:1200 OPTI, 5060-6059:1000 OPTI, 6060-7059:800 OPTI, 7060-8059:1000 OPTI, 8060-9059:1500 OPTI, 9060-10059:2500 OPTI"
+total_tokens = "19000000"
+premine_tokens = "2500 OPTI"
+mint_confirm = "90 blocks"
 ann = "https://bitcointalk.org/index.php?topic=856814.0"
 algo = "X11"
 
@@ -27,5 +27,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "OptimumCoin"
+coinmarketcap = "OptimumCoin"
 CurrencyName = "OptimumCoin"

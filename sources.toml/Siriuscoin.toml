@@ -5,11 +5,11 @@ source = "cyberFund"
 [metrics]
 announce = "01/01/2014"
 status = "Dead"
-blockTime = 30.0
-reward = 25.0
-total = 10000000000.0
-premine = 2000000000.0
-difficultyCycle = 4.0
+block_time = 30.0
+block_reward = 25.0
+total_tokens = 10000000000.0
+premine_tokens = 2000000000.0
+difficulty_cycle = 4.0
 ann = "https://bitcointalk.org/index.php?topic=394146.0"
 algo = "SHA-3"
 
@@ -25,5 +25,5 @@ algo = "SHA-3"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Siriuscoin"
+coinmarketcap = "Siriuscoin"
 CurrencyName = "Siriuscoin"

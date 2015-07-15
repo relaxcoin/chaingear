@@ -10,5 +10,5 @@ dependencies = "independent"
 links = []
 
 [aliases]
-CoinMarketCap = "Sapience AIFX"
+coinmarketcap = "Sapience AIFX"
 CurrencyName = "Sapience AIFX"

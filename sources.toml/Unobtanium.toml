@@ -7,10 +7,10 @@ source = "cyberFund"
 announce = "17/10/2013"
 genesis = "18/10/2013"
 status = "Running"
-blockTime = "180"
-reward = 1.0
-halfingCycle = 102000.0
-total = 250000.0
+block_time = "180"
+block_reward = 1.0
+halfing_cycle = 102000.0
+total_tokens = 250000.0
 ann = "https://bitcointalk.org/index.php?topic=313126.0"
 algo = "SHA-256d"
 type = "DAO"
@@ -18,7 +18,7 @@ rating = 1.0
 consensus = "Proof-of-Work"
 
 [aliases]
-CoinMarketCap = "Unobtanium"
+coinmarketcap = "Unobtanium"
 CurrencyName = "Unobtanium"
 
 [[links]]

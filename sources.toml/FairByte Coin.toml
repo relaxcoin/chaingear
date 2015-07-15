@@ -7,13 +7,13 @@ announce = "19/07/2014"
 status = "Dead"
 p2p = 22741.0
 rpc = 22740.0
-blockTime = 120.0
-reward = "200 coins per block"
-halfingCycle = "Block payout will be halved every 10 days"
-total = 135000000.0
-premine = "600000"
-difficultyCycle = "each block for PoW"
-txsConfirm = 6.0
+block_time = 120.0
+block_reward = "200 coins per block"
+halfing_cycle = "Block payout will be halved every 10 days"
+total_tokens = 135000000.0
+premine_tokens = "600000"
+difficulty_cycle = "each block for PoW"
+txs_confirm = 6.0
 ann = "https://bitcointalk.org/index.php?topic=700920.0"
 algo = "X-n"
 
@@ -30,5 +30,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "FairByte Coin"
+coinmarketcap = "FairByte Coin"
 CurrencyName = "FairByte Coin"

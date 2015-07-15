@@ -13,5 +13,5 @@ icon = "explorer.png"
 tags = ["Main", "Apps"]
 
 [aliases]
-CoinMarketCap = "BitBTC"
+coinmarketcap = "BitBTC"
 CurrencyName = "BitBTC"

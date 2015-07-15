@@ -13,5 +13,5 @@ icon = "website.png"
 tags = ["Main", "Apps"]
 
 [aliases]
-CoinMarketCap = "BeaverCoin"
+coinmarketcap = "BeaverCoin"
 CurrencyName = "BeaverCoin"

@@ -7,10 +7,10 @@ announce = "01/11/2013"
 status = "Running"
 p2p = 21230.0
 rpc = 11230.0
-blockTime = "120"
-reward = 32.0
-halfingCycle = 262800.0
-total = 17000000.0
+block_time = "120"
+block_reward = 32.0
+halfing_cycle = 262800.0
+total_tokens = 17000000.0
 ann = "https://bitcointalk.org/index.php?topic=322828.0"
 algo = "Multi-algo"
 rating = 0.0
@@ -27,5 +27,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Skeincoin"
+coinmarketcap = "Skeincoin"
 CurrencyName = "Skeincoin"

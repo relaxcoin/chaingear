@@ -5,8 +5,8 @@ source = "cyberFund"
 [metrics]
 announce = "07/06/2014"
 status = "Dead"
-blockTime = 60.0
-total = 3740000.0
+block_time = 60.0
+total_tokens = 3740000.0
 ann = "https://bitcointalk.org/index.php?topic=642933.msg7177694"
 algo = "X11"
 
@@ -22,5 +22,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Kibweecoin"
+coinmarketcap = "Kibweecoin"
 CurrencyName = "Kibweecoin"

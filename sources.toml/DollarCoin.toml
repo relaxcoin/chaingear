@@ -7,11 +7,11 @@ announce = "24/10/2014"
 status = "Running"
 p2p = 11889.0
 rpc = 11888.0
-blockTime = "120 seconds"
-reward = "Block 1-200,000 : 2 DOLLAR Reward, Block 200,001 - 400,000 : 2-20 DOLLAR Reward, Block 400,001 - 600,000 : 2-30 DOLLAR Reward, Block 600,001 - 800,000 : 2-20 DOLLAR Reward, Block 800,001+ : 10 DOLLAR Reward"
-total = "10000000000"
-premine = "9800000000 coins (98% for early adopters to cover the world with ATM machines supporting Bitcoin and local e-currencies.)"
-difficultyCycle = "2 hours"
+block_time = "120 seconds"
+block_reward = "Block 1-200,000 : 2 DOLLAR Reward, Block 200,001 - 400,000 : 2-20 DOLLAR Reward, Block 400,001 - 600,000 : 2-30 DOLLAR Reward, Block 600,001 - 800,000 : 2-20 DOLLAR Reward, Block 800,001+ : 10 DOLLAR Reward"
+total_tokens = "10000000000"
+premine_tokens = "9800000000 coins (98% for early adopters to cover the world with ATM machines supporting Bitcoin and local e-currencies.)"
+difficulty_cycle = "2 hours"
 algo = "Scrypt"
 
   [[metrics.links]]
@@ -27,5 +27,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "DollarCoin"
+coinmarketcap = "DollarCoin"
 CurrencyName = "DollarCoin"

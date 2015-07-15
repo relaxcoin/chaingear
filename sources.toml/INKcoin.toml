@@ -8,9 +8,9 @@ genesis = "22/02/2014"
 status = "Dead"
 p2p = 1216.0
 rpc = 1217.0
-reward = 50.0
-halfingCycle = 110000.0
-total = 11000000.0
+block_reward = 50.0
+halfing_cycle = 110000.0
+total_tokens = 11000000.0
 ann = "https://bitcointalk.org/index.php?topic=481516.0"
 algo = "Others"
 
@@ -27,5 +27,5 @@ algo = "Others"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "INKcoin"
+coinmarketcap = "INKcoin"
 CurrencyName = "INKcoin"

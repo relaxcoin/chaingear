@@ -7,11 +7,11 @@ announce = "14/05/2014"
 status = "Dead"
 p2p = 7701.0
 rpc = 7700.0
-reward = "1 coin per block"
-total = 200000.0
-premine = "4000 (2%) - will be used for promotion, developing tools, games, casinos, faucets, giveaways and services"
-txsConfirm = 4.0
-mintConfirm = 200.0
+block_reward = "1 coin per block"
+total_tokens = 200000.0
+premine_tokens = "4000 (2%) - will be used for promotion, developing tools, games, casinos, faucets, giveaways and services"
+txs_confirm = 4.0
+mint_confirm = 200.0
 ann = "https://bitcointalk.org/index.php?topic=608482.0"
 algo = "SHA-256d"
 
@@ -22,5 +22,5 @@ icon = "github.png"
 tags = ["Main", "Code"]
 
 [aliases]
-CoinMarketCap = "Arkenstone"
+coinmarketcap = "Arkenstone"
 CurrencyName = "Arkenstone"

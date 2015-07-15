@@ -16,5 +16,5 @@ icon = "website.png"
 tags = ["Main", "Apps"]
 
 [aliases]
-CoinMarketCap = "BitBay"
+coinmarketcap = "BitBay"
 CurrencyName = "BitBay"

@@ -5,11 +5,11 @@ source = "cyberFund"
 [metrics]
 announce = "30/07/2013"
 status = "Dead"
-blockTime = 30.0
-reward = 1.0
-total = "21 million coin POW; 20 million POS; 41 million total"
-premine = "250 coins"
-mintConfirm = 520.0
+block_time = 30.0
+block_reward = 1.0
+total_tokens = "21 million coin POW; 20 million POS; 41 million total"
+premine_tokens = "250 coins"
+mint_confirm = 520.0
 ann = "https://bitcointalk.org/index.php?topic=264556.0"
 algo = "Scrypt"
 
@@ -25,5 +25,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "J-coin"
+coinmarketcap = "J-coin"
 CurrencyName = "J-coin"

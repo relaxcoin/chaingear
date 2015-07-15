@@ -6,9 +6,9 @@ source = "cyberFund"
 announce = "15/05/2013"
 genesis = "08/05/2013"
 status = "Running"
-blockTime = "60"
-reward = 25.0
-total = 2000000000.0
+block_time = "60"
+block_reward = 25.0
+total_tokens = 2000000000.0
 ann = "https://bitcointalk.org/index.php?topic=206577.0"
 algo = "Scrypt"
 rating = 0.0
@@ -26,5 +26,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Yacoin"
+coinmarketcap = "Yacoin"
 CurrencyName = "Yacoin"

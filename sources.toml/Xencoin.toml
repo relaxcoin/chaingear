@@ -6,11 +6,11 @@ source = "cyberFund"
 announce = "19/06/2013"
 genesis = "18/06/2013"
 status = "Running"
-reward = 200.0
-halfingCycle = 4665600.0
-total = 21000000000.0
-premine = 1050000000.0
-txsConfirm = 6.0
+block_reward = 200.0
+halfing_cycle = 4665600.0
+total_tokens = 21000000000.0
+premine_tokens = 1050000000.0
+txs_confirm = 6.0
 ann = "https://bitcointalk.org/index.php?topic=237998.0"
 algo = "Scrypt"
 rating = 0.0
@@ -28,5 +28,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Xencoin"
+coinmarketcap = "Xencoin"
 CurrencyName = "Xencoin"

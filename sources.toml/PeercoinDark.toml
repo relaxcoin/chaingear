@@ -7,11 +7,11 @@ announce = "26/10/2014"
 status = "Running"
 p2p = 10989.0
 rpc = 10789.0
-blockTime = "60 Seconds"
-total = "201000000"
-premine = "3537600 coins(1,76%)"
-difficultyCycle = "5 hours"
-mintConfirm = "2 blocks"
+block_time = "60 Seconds"
+total_tokens = "201000000"
+premine_tokens = "3537600 coins(1,76%)"
+difficulty_cycle = "5 hours"
+mint_confirm = "2 blocks"
 ann = "https://bitcointalk.org/index.php?topic=832845.0"
 algo = "SHA-256d"
 
@@ -28,5 +28,5 @@ algo = "SHA-256d"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "PeercoinDark"
+coinmarketcap = "PeercoinDark"
 CurrencyName = "PeercoinDark"

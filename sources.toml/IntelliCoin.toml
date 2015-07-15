@@ -7,10 +7,10 @@ announce = "17/08/2014"
 status = "Dead"
 p2p = 21255.0
 rpc = 20255.0
-blockTime = "60"
-reward = " 1 - 810: 20 coins,811 - 26270:400 coins"
-total = "12000000"
-premine = "1800000 for IPO"
+block_time = "60"
+block_reward = " 1 - 810: 20 coins,811 - 26270:400 coins"
+total_tokens = "12000000"
+premine_tokens = "1800000 for IPO"
 ann = "https://bitcointalk.org/index.php?topic=720292.0"
 algo = "X-n"
 
@@ -27,5 +27,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "IntelliCoin"
+coinmarketcap = "IntelliCoin"
 CurrencyName = "IntelliCoin"

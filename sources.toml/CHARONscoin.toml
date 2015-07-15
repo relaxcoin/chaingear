@@ -4,10 +4,10 @@ source = "cyberFund"
 
 [metrics]
 announce = "30/06/2014"
-blockTime = 90.0
-reward = "1000 coins per block; random superblock with 5 times the reward"
-total = 6.0
-difficultyCycle = "every block."
+block_time = 90.0
+block_reward = "1000 coins per block; random superblock with 5 times the reward"
+total_tokens = 6.0
+difficulty_cycle = "every block."
 ann = "http://crypto-coins-table.com/coins/CHCO/CHARONscoin.html"
 algo = "Multi-algo"
 
@@ -23,5 +23,5 @@ algo = "Multi-algo"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "CHARONscoin"
+coinmarketcap = "CHARONscoin"
 CurrencyName = "CHARONscoin"

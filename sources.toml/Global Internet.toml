@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "11/09/2014"
 status = "Dead"
-blockTime = "100"
-reward = "500 GIC"
-total = "2500000"
-mintConfirm = "30 blocks"
+block_time = "100"
+block_reward = "500 GIC"
+total_tokens = "2500000"
+mint_confirm = "30 blocks"
 ann = "https://bitcointalk.org/index.php?topic=752213.0"
 algo = "X-n"
 
@@ -23,5 +23,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Global Internet"
+coinmarketcap = "Global Internet"
 CurrencyName = "Global Internet"

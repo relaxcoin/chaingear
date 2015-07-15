@@ -5,9 +5,9 @@ source = "cyberFund"
 [metrics]
 announce = "29/05/2013"
 status = "Running"
-reward = 100.0
-total = 168000000.0
-premine = 650000.0
+block_reward = 100.0
+total_tokens = 168000000.0
+premine_tokens = 650000.0
 ann = "https://bitcointalk.org/index.php?topic=932375"
 algo = "Scrypt"
 rating = 0.0
@@ -25,5 +25,5 @@ icon = "github.png"
 tags = ["Main", "Code"]
 
 [aliases]
-CoinMarketCap = "Americancoin"
+coinmarketcap = "Americancoin"
 CurrencyName = "Americancoin"

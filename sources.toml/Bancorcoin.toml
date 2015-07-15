@@ -8,5 +8,5 @@ rating = 0.0
 [[links]]
 
 [aliases]
-CoinMarketCap = "Bancorcoin"
+coinmarketcap = "Bancorcoin"
 CurrencyName = "Bancorcoin"

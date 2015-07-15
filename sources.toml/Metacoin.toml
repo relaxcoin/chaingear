@@ -7,9 +7,9 @@ announce = "08/02/2014"
 status = "Dead"
 p2p = 8485.0
 rpc = 8484.0
-reward = "Block reward decreses  every 144000 blocks from 100 at the begining to 80,64,51,40,32,25 and 20 afte 100800 blocks respectively"
-total = 140000000.0
-premine = "300 coins (~0.00021%) for testing"
+block_reward = "Block reward decreses  every 144000 blocks from 100 at the begining to 80,64,51,40,32,25 and 20 afte 100800 blocks respectively"
+total_tokens = 140000000.0
+premine_tokens = "300 coins (~0.00021%) for testing"
 ann = "https://bitcointalk.org/index.php?topic=454848.0"
 algo = "Quark"
 
@@ -26,5 +26,5 @@ algo = "Quark"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Metacoin"
+coinmarketcap = "Metacoin"
 CurrencyName = "Metacoin"

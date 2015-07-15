@@ -7,11 +7,11 @@ announce = "16/09/2014"
 status = "Running"
 p2p = 11046.0
 rpc = 21046.0
-blockTime = "180"
-reward = "50 coins"
-total = "21000000"
-premine = "361200 coins(1,72 %) For bounties & Marketing,pool"
-mintConfirm = "6 blocks"
+block_time = "180"
+block_reward = "50 coins"
+total_tokens = "21000000"
+premine_tokens = "361200 coins(1,72 %) For bounties & Marketing,pool"
+mint_confirm = "6 blocks"
 ann = "https://bitcointalk.org/index.php?topic=777275.0"
 algo = "Scrypt"
 
@@ -28,5 +28,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "BitLitS"
+coinmarketcap = "BitLitS"
 CurrencyName = "BitLitS"

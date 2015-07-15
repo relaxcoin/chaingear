@@ -6,11 +6,11 @@ source = "cyberFund"
 announce = "09/06/2014"
 status = "Running"
 rpc = 54433.0
-blockTime = 120.0
-reward = "40 XHC"
-total = 42000000.0
-premine = "No"
-difficultyCycle = "every block"
+block_time = 120.0
+block_reward = "40 XHC"
+total_tokens = 42000000.0
+premine_tokens = "No"
+difficulty_cycle = "every block"
 ann = "https://bitcointalk.org/index.php?topic=645946.0"
 algo = "X-n"
 
@@ -27,5 +27,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Honor Coin"
+coinmarketcap = "Honor Coin"
 CurrencyName = "Honor Coin"

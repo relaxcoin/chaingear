@@ -7,12 +7,12 @@ announce = "26/02/2014"
 status = "Dead"
 p2p = 9505.0
 rpc = 9504.0
-blockTime = 40.0
-reward = "151 coins per block"
-halfingCycle = "every 6 months"
-total = 120000000.0
-premine = "192000 (0.16%)"
-difficultyCycle = "every block (Kimoto Gravity Well)"
+block_time = 40.0
+block_reward = "151 coins per block"
+halfing_cycle = "every 6 months"
+total_tokens = 120000000.0
+premine_tokens = "192000 (0.16%)"
+difficulty_cycle = "every block (Kimoto Gravity Well)"
 ann = "https://bitcointalk.org/index.php?topic=489172.0"
 algo = "SHA-3"
 
@@ -29,5 +29,5 @@ algo = "SHA-3"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Helixcoin"
+coinmarketcap = "Helixcoin"
 CurrencyName = "Helixcoin"

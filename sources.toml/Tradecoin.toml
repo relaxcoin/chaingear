@@ -6,9 +6,9 @@ source = "cyberFund"
 announce = "25/06/2013"
 genesis = "26/06/2013"
 status = "Running"
-blockTime = "5"
-reward = 147000000.0
-total = 147000000.0
+block_time = "5"
+block_reward = 147000000.0
+total_tokens = 147000000.0
 ann = "https://bitcointalk.org/index.php?topic=242857.0"
 algo = "Scrypt"
 
@@ -24,5 +24,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Tradecoin"
+coinmarketcap = "Tradecoin"
 CurrencyName = "Tradecoin"

@@ -8,12 +8,12 @@ genesis = "01/03/2014"
 status = "Dead"
 p2p = 10240.0
 rpc = 10241.0
-blockTime = 60.0
-reward = "initial 1024 per block"
-halfingCycle = "every 120400 blocks"
-total = 1024000000.0
-premine = "69632 (0.0068%)"
-difficultyCycle = ""
+block_time = 60.0
+block_reward = "initial 1024 per block"
+halfing_cycle = "every 120400 blocks"
+total_tokens = 1024000000.0
+premine_tokens = "69632 (0.0068%)"
+difficulty_cycle = ""
 ann = "https://bitcointalk.org/index.php?topic=493737.0"
 algo = "SHA-256d"
 
@@ -30,5 +30,5 @@ algo = "SHA-256d"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Imperialcoin"
+coinmarketcap = "Imperialcoin"
 CurrencyName = "Imperialcoin"

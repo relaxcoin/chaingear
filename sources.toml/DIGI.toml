@@ -5,11 +5,11 @@ source = "cyberFund"
 [metrics]
 announce = "24/01/2015"
 status = "Running"
-blockTime = "60 seconds"
-reward = "15 coins "
-total = "210000000 coins"
-premine = "138000000"
-difficultyCycle = "10 blocks"
+block_time = "60 seconds"
+block_reward = "15 coins "
+total_tokens = "210000000 coins"
+premine_tokens = "138000000"
+difficulty_cycle = "10 blocks"
 ann = "https://bitcointalk.org/index.php?topic=934548.msg10246764#msg10246764"
 algo = "Scrypt"
 
@@ -25,5 +25,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "DIGI"
+coinmarketcap = "DIGI"
 CurrencyName = "DIGI"

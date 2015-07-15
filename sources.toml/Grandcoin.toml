@@ -7,13 +7,13 @@ announce = "15/07/2013"
 status = "Running"
 p2p = 12377.0
 rpc = 12378.0
-blockTime = "45"
-reward = 100.0
-halfingCycle = 700800.0
-total = 1420609614.0
-difficultyCycle = "30"
-txsConfirm = 6.0
-mintConfirm = 50.0
+block_time = "45"
+block_reward = 100.0
+halfing_cycle = 700800.0
+total_tokens = 1420609614.0
+difficulty_cycle = "30"
+txs_confirm = 6.0
+mint_confirm = 50.0
 algo = "Scrypt"
 rating = 0.0
 
@@ -30,5 +30,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Grandcoin"
+coinmarketcap = "Grandcoin"
 CurrencyName = "Grandcoin"

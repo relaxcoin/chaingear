@@ -7,10 +7,10 @@ announce = "22/10/2014"
 status = "Running"
 p2p = 8338.0
 rpc = 9338.0
-blockTime = "120 seconds"
-total = "27000000"
-premine = "no"
-difficultyCycle = "1 hour"
+block_time = "120 seconds"
+total_tokens = "27000000"
+premine_tokens = "no"
+difficulty_cycle = "1 hour"
 ann = "https://bitcointalk.org/index.php?topic=831003.0;all"
 algo = "SHA-3"
 
@@ -27,5 +27,5 @@ algo = "SHA-3"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Woodcoin"
+coinmarketcap = "Woodcoin"
 CurrencyName = "Woodcoin"

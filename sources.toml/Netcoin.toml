@@ -6,13 +6,13 @@ source = "cyberFund"
 announce = "16/09/2013"
 genesis = "02/09/2013"
 status = "Running"
-blockTime = "60"
-reward = 1024.0
-halfingCycle = 129600.0
-total = 320636160.0
-difficultyCycle = "60"
-txsConfirm = 6.0
-mintConfirm = 50.0
+block_time = "60"
+block_reward = 1024.0
+halfing_cycle = 129600.0
+total_tokens = 320636160.0
+difficulty_cycle = "60"
+txs_confirm = 6.0
+mint_confirm = 50.0
 ann = "https://bitcointalk.org/index.php?topic=201402.0"
 algo = "Scrypt"
 type = "DAO"
@@ -33,5 +33,5 @@ dependencies = "independent"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Netcoin"
+coinmarketcap = "Netcoin"
 CurrencyName = "Netcoin"

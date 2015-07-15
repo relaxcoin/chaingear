@@ -7,11 +7,11 @@ announce = "12/02/2014"
 status = "Dead"
 p2p = 4822.0
 rpc = 4823.0
-blockTime = 60.0
-reward = 100.0
-halfingCycle = 750000.0
-total = 150000000.0
-difficultyCycle = "240 blocks(4 hours)"
+block_time = 60.0
+block_reward = 100.0
+halfing_cycle = 750000.0
+total_tokens = 150000000.0
+difficulty_cycle = "240 blocks(4 hours)"
 ann = "https://bitcointalk.org/index.php?topic=461130.0"
 algo = "Scrypt"
 
@@ -28,5 +28,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Polishcoin"
+coinmarketcap = "Polishcoin"
 CurrencyName = "Polishcoin"

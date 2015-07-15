@@ -7,13 +7,13 @@ announce = "07/12/2013"
 status = "Running"
 p2p = 11054.0
 rpc = 11055.0
-blockTime = "30"
-halfingCycle = 259200.0
-total = 50000000000.0
-premine = 500000000.0
-difficultyCycle = "everyblock"
-txsConfirm = 6.0
-mintConfirm = 50.0
+block_time = "30"
+halfing_cycle = 259200.0
+total_tokens = 50000000000.0
+premine_tokens = 500000000.0
+difficulty_cycle = "everyblock"
+txs_confirm = 6.0
+mint_confirm = 50.0
 ann = "https://bitcointalk.org/index.php?topic=361503.40"
 algo = "Scrypt"
 
@@ -29,5 +29,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Graincoin"
+coinmarketcap = "Graincoin"
 CurrencyName = "Graincoin"

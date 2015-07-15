@@ -8,11 +8,11 @@ genesis = "11/02/2014"
 status = "Dead"
 p2p = 28333.0
 rpc = 28332.0
-blockTime = 150.0
-reward = 50.0
-halfingCycle = 8400000.0
-total = 84000000.0
-difficultyCycle = "288 blocks (~12hours)"
+block_time = 150.0
+block_reward = 50.0
+halfing_cycle = 8400000.0
+total_tokens = 84000000.0
+difficulty_cycle = "288 blocks (~12hours)"
 ann = "https://cryptocointalk.com/topic/4250-annric-riecoin-new-prime-numbers-pow-coin-launches-feb-11-2014/"
 algo = "Others"
 rating = 1.0
@@ -30,5 +30,5 @@ rating = 1.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Riecoin"
+coinmarketcap = "Riecoin"
 CurrencyName = "Riecoin"

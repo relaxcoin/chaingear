@@ -7,10 +7,10 @@ announce = "01/03/2014"
 status = "Running"
 p2p = 41879.0
 rpc = 41879.0
-blockTime = 60.0
-reward = "initial 1024 coins per block"
-total = 299792458.0
-difficultyCycle = "every block (Kimoto Gravity Well)"
+block_time = 60.0
+block_reward = "initial 1024 coins per block"
+total_tokens = 299792458.0
+difficulty_cycle = "every block (Kimoto Gravity Well)"
 ann = "https://bitcointalk.org/index.php?topic=494708.0"
 algo = "Scrypt"
 rating = 0.0
@@ -28,5 +28,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Einsteinium"
+coinmarketcap = "Einsteinium"
 CurrencyName = "Einsteinium"

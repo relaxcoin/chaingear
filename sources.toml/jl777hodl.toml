@@ -10,5 +10,5 @@ dependencies = "NXT"
 links = []
 
 [aliases]
-CoinMarketCap = "jl777hodl"
+coinmarketcap = "jl777hodl"
 CurrencyName = "jl777hodl"

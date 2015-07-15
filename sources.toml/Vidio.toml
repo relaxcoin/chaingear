@@ -5,7 +5,7 @@ source = "cyberFund"
 [metrics]
 announce = "15/10/2014"
 status = "Running"
-total = "20000000"
+total_tokens = "20000000"
 ann = "https://bitcointalk.org/index.php?topic=779552"
 rating = 0.0
 
@@ -22,5 +22,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Vidio"
+coinmarketcap = "Vidio"
 CurrencyName = "Vidio"

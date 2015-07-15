@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "03/02/2015"
 status = "Running"
-blockTime = "90 seconds"
-total = "500000000 coins"
-difficultyCycle = "each block"
-mintConfirm = "70 BLOCKS"
+block_time = "90 seconds"
+total_tokens = "500000000 coins"
+difficulty_cycle = "each block"
+mint_confirm = "70 BLOCKS"
 ann = "https://bitcointalk.org/index.php?topic=938330"
 algo = "X11"
 
@@ -24,5 +24,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Dogegorecoin"
+coinmarketcap = "Dogegorecoin"
 CurrencyName = "Dogegorecoin"

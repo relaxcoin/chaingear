@@ -7,10 +7,10 @@ announce = "02/08/2014"
 status = "Dead"
 p2p = 26941.0
 rpc = 26942.0
-blockTime = "60"
-reward = "1000 ZIP"
-total = "10000000"
-mintConfirm = "50 blocks"
+block_time = "60"
+block_reward = "1000 ZIP"
+total_tokens = "10000000"
+mint_confirm = "50 blocks"
 ann = "https://bitcointalk.org/index.php?topic=721306"
 algo = "X-n"
 
@@ -26,5 +26,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "ZipCoin"
+coinmarketcap = "ZipCoin"
 CurrencyName = "ZipCoin"

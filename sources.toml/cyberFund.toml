@@ -16,5 +16,5 @@ links = []
   btc = 191.0
 
 [aliases]
-CoinMarketCap = "cyber•Fund"
+coinmarketcap = "cyber•Fund"
 CurrencyName = "cyber•Fund"

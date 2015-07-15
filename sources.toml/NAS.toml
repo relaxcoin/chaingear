@@ -5,11 +5,11 @@ source = "cyberFund"
 [metrics]
 announce = "20/03/2014"
 status = "Running"
-blockTime = ""
-reward = ""
-halfingCycle = ""
-total = 10000000000.0
-difficultyCycle = ""
+block_time = ""
+block_reward = ""
+halfing_cycle = ""
+total_tokens = 10000000000.0
+difficulty_cycle = ""
 ann = "https://bitcointalk.org/index.php?topic=523187.0"
 rating = 1.0
 
@@ -26,5 +26,5 @@ rating = 1.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "NAS"
+coinmarketcap = "NAS"
 CurrencyName = "NAS"

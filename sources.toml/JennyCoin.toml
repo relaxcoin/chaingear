@@ -6,11 +6,11 @@ source = "cyberFund"
 announce = "23/03/2014"
 genesis = "null"
 status = "Dead"
-blockTime = 60.0
-reward = "867.5309"
-total = 867530900.0
-premine = "867530900 (1%)"
-txsConfirm = 5.0
+block_time = 60.0
+block_reward = "867.5309"
+total_tokens = 867530900.0
+premine_tokens = "867530900 (1%)"
+txs_confirm = 5.0
 ann = "https://bitcointalk.org/index.php?topic=527919.0"
 algo = "Scrypt"
 
@@ -27,5 +27,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "JennyCoin"
+coinmarketcap = "JennyCoin"
 CurrencyName = "JennyCoin"

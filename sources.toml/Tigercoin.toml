@@ -5,12 +5,12 @@ source = "cyberFund"
 [metrics]
 announce = "06/09/2013"
 status = "Running"
-blockTime = "45"
-reward = 128.0
-halfingCycle = 172800.0
-total = 47011968.0
-difficultyCycle = "20"
-mintConfirm = 50.0
+block_time = "45"
+block_reward = 128.0
+halfing_cycle = 172800.0
+total_tokens = 47011968.0
+difficulty_cycle = "20"
+mint_confirm = 50.0
 ann = "https://bitcointalk.org/index.php?topic=289312.0"
 algo = "SHA-256d"
 rating = 0.0
@@ -27,5 +27,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Tigercoin"
+coinmarketcap = "Tigercoin"
 CurrencyName = "Tigercoin"

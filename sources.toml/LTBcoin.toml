@@ -7,5 +7,5 @@ rating = 3.0
 links = []
 
 [aliases]
-CoinMarketCap = "LTBcoin"
+coinmarketcap = "LTBcoin"
 CurrencyName = "LTBcoin"

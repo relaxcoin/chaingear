@@ -5,7 +5,7 @@ source = "cyberFund"
 [metrics]
 announce = "08/02/2015"
 status = "Running"
-blockTime = "120 seconds"
+block_time = "120 seconds"
 ann = "http://colossuscointalk.org/index.php?topic=1181.0"
 algo = "X-n"
 
@@ -22,5 +22,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Colossuscoin2.0 "
+coinmarketcap = "Colossuscoin2.0 "
 CurrencyName = "Colossuscoin2.0 "

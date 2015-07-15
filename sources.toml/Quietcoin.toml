@@ -7,10 +7,10 @@ announce = "07/08/2014"
 status = "Dead"
 p2p = 29647.0
 rpc = 29645.0
-blockTime = "120"
-reward = "10 SHH per block"
-total = "1000000"
-premine = "100,000 Proof of Quiet Investment-Grade Coins in Block #1"
+block_time = "120"
+block_reward = "10 SHH per block"
+total_tokens = "1000000"
+premine_tokens = "100,000 Proof of Quiet Investment-Grade Coins in Block #1"
 ann = "https://bitcointalk.org/index.php?topic=725657.0"
 algo = "X-n"
 
@@ -25,5 +25,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Quietcoin"
+coinmarketcap = "Quietcoin"
 CurrencyName = "Quietcoin"

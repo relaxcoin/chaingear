@@ -7,11 +7,11 @@ announce = "08/06/2014"
 status = "Running"
 p2p = 3777.0
 rpc = 3776.0
-blockTime = 60.0
-reward = "Block reward curve: the S-curve theory (Gonpertz curve)"
-total = 10000000000.0
-premine = "160000000 (1.6%)"
-difficultyCycle = "Every block (using Kimotos Gravity Well)"
+block_time = 60.0
+block_reward = "Block reward curve: the S-curve theory (Gonpertz curve)"
+total_tokens = 10000000000.0
+premine_tokens = "160000000 (1.6%)"
+difficulty_cycle = "Every block (using Kimotos Gravity Well)"
 ann = "https://bitcointalk.org/index.php?topic=644601"
 algo = "Scrypt"
 
@@ -28,5 +28,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "FujiCoin-2.0"
+coinmarketcap = "FujiCoin-2.0"
 CurrencyName = "FujiCoin-2.0"

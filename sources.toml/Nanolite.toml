@@ -7,9 +7,9 @@ announce = "27/05/2014"
 status = "Dead"
 p2p = 24747.0
 rpc = 14747.0
-blockTime = 111.0
-total = 11000000.0
-premine = "50000 (0.46 %) for the bounties and giveaways"
+block_time = 111.0
+total_tokens = 11000000.0
+premine_tokens = "50000 (0.46 %) for the bounties and giveaways"
 ann = "https://bitcointalk.org/index.php?topic=626717.0"
 algo = "X11"
 
@@ -25,5 +25,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Nanolite"
+coinmarketcap = "Nanolite"
 CurrencyName = "Nanolite"

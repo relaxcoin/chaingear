@@ -7,5 +7,5 @@ rating = 3.0
 links = []
 
 [aliases]
-CoinMarketCap = "DeBuNe"
+coinmarketcap = "DeBuNe"
 CurrencyName = "DeBuNe"

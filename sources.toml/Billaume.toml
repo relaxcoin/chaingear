@@ -7,10 +7,10 @@ announce = "04/02/2014"
 status = "Dead"
 p2p = 65528.0
 rpc = 65527.0
-blockTime = 60.0
-reward = 500000.0
-total = 20000000000.0
-difficultyCycle = "480 blocks (8 hours)"
+block_time = 60.0
+block_reward = 500000.0
+total_tokens = 20000000000.0
+difficulty_cycle = "480 blocks (8 hours)"
 ann = "https://bitcointalk.org/index.php?topic=448528.0"
 algo = "Scrypt"
 
@@ -27,5 +27,5 @@ url = "https://github.com/benoitbillaume/billaume/"
 icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Billaume"
+coinmarketcap = "Billaume"
 CurrencyName = "Billaume"

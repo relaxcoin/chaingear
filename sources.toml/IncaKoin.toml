@@ -7,5 +7,5 @@ rating = 0.0
 links = []
 
 [aliases]
-CoinMarketCap = "IncaKoin"
+coinmarketcap = "IncaKoin"
 CurrencyName = "IncaKoin"

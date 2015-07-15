@@ -5,11 +5,11 @@ source = "cyberFund"
 [metrics]
 announce = "12/07/2014"
 status = "Dead"
-blockTime = 600.0
-reward = "10 coins"
-halfingCycle = "proprietary (diaBR/r) "
-total = 2625000.0
-difficultyCycle = "every block"
+block_time = 600.0
+block_reward = "10 coins"
+halfing_cycle = "proprietary (diaBR/r) "
+total_tokens = 2625000.0
+difficulty_cycle = "every block"
 ann = "https://bitcointalk.org/index.php?topic=687265.0"
 algo = "SHA-256d"
 
@@ -25,5 +25,5 @@ algo = "SHA-256d"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Umbrella-BTC"
+coinmarketcap = "Umbrella-BTC"
 CurrencyName = "Umbrella-BTC"

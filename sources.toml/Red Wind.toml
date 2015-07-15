@@ -5,8 +5,8 @@ source = "cyberFund"
 [metrics]
 announce = "25/12/2014"
 status = "Running"
-blockTime = "120 sec"
-difficultyCycle = "every block"
+block_time = "120 sec"
+difficulty_cycle = "every block"
 ann = "https://bitcointalk.org/index.php?topic=904485.0"
 
   [[metrics.links]]
@@ -22,5 +22,5 @@ ann = "https://bitcointalk.org/index.php?topic=904485.0"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Red Wind"
+coinmarketcap = "Red Wind"
 CurrencyName = "Red Wind"

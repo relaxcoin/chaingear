@@ -7,8 +7,8 @@ announce = "18/12/2013"
 genesis = "12/15/2013"
 status = "Running"
 p2p = 55883.0
-total = 6839998399.0
-premine = 262550000.0
+total_tokens = 6839998399.0
+premine_tokens = 262550000.0
 ann = "https://bitcointalk.org/index.php?topic=375938.0"
 algo = "Scrypt"
 
@@ -19,5 +19,5 @@ icon = "github.png"
 tags = ["Main", "Code"]
 
 [aliases]
-CoinMarketCap = "Apecoin"
+coinmarketcap = "Apecoin"
 CurrencyName = "Apecoin"

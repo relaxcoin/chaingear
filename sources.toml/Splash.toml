@@ -18,5 +18,5 @@ ann = "https://bitcointalk.org/index.php?topic=372486.0"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Splash"
+coinmarketcap = "Splash"
 CurrencyName = "Splash"

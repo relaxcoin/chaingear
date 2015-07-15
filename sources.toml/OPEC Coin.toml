@@ -6,9 +6,9 @@ source = "cyberFund"
 announce = "31/05/2014"
 p2p = 16562.0
 rpc = 16561.0
-blockTime = 45.0
-reward = "220-9400 OPC"
-total = 300000000.0
+block_time = 45.0
+block_reward = "220-9400 OPC"
+total_tokens = 300000000.0
 ann = "https://bitcointalk.org/index.php?topic=633593"
 algo = "X-n"
 
@@ -25,5 +25,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "OPEC Coin"
+coinmarketcap = "OPEC Coin"
 CurrencyName = "OPEC Coin"

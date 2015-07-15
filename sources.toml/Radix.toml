@@ -18,5 +18,5 @@ ann = "https://bitcointalk.org/index.php?topic=500209.0"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Radix"
+coinmarketcap = "Radix"
 CurrencyName = "Radix"

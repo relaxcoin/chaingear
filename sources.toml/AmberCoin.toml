@@ -7,10 +7,10 @@ announce = "17/08/2014"
 status = "Dead"
 p2p = 12502.0
 rpc = 27502.0
-blockTime = "120"
-reward = "Blocks 1 - 1000 = 100 AMBER , Blocks 1001+ = 50 AMBER"
-total = "1000000000"
-difficultyCycle = "every block"
+block_time = "120"
+block_reward = "Blocks 1 - 1000 = 100 AMBER , Blocks 1001+ = 50 AMBER"
+total_tokens = "1000000000"
+difficulty_cycle = "every block"
 ann = "https://bitcointalk.org/index.php?topic=742928.0"
 algo = "X11"
 rating = 1.0
@@ -28,5 +28,5 @@ url = "https://github.com/darrenturn90/ambercoin"
 icon = "github.png"
 
 [aliases]
-CoinMarketCap = "AmberCoin"
+coinmarketcap = "AmberCoin"
 CurrencyName = "AmberCoin"

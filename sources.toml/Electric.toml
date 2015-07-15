@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "03/01/2014"
 status = "Dead"
-blockTime = 60.0
-total = 10000000000.0
-premine = 200000000.0
-difficultyCycle = 240.0
+block_time = 60.0
+total_tokens = 10000000000.0
+premine_tokens = 200000000.0
+difficulty_cycle = 240.0
 ann = "https://bitcointalk.org/index.php?topic=396628.0"
 algo = "Scrypt"
 
@@ -24,5 +24,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Electric"
+coinmarketcap = "Electric"
 CurrencyName = "Electric"

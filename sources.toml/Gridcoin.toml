@@ -6,10 +6,10 @@ source = "cyberFund"
 announce = "29/10/2013"
 status = "Dead"
 rpc = 9778.0
-blockTime = "150"
-total = 168000000.0
-difficultyCycle = "12"
-txsConfirm = 1.0
+block_time = "150"
+total_tokens = 168000000.0
+difficulty_cycle = "12"
+txs_confirm = 1.0
 ann = "https://bitcointalk.org/index.php?topic=320750.0"
 algo = "Scrypt"
 rating = 3.0
@@ -29,5 +29,5 @@ consensus = "Proof-of-Research"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Gridcoin"
+coinmarketcap = "Gridcoin"
 CurrencyName = "Gridcoin"

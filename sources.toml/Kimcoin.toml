@@ -5,13 +5,13 @@ source = "cyberFund"
 [metrics]
 announce = "23/09/2013"
 status = "Dead"
-blockTime = "90"
-reward = 100.0
-halfingCycle = 1000000.0
-total = 210000000.0
-difficultyCycle = "500"
-txsConfirm = 1.0
-mintConfirm = 40.0
+block_time = "90"
+block_reward = 100.0
+halfing_cycle = 1000000.0
+total_tokens = 210000000.0
+difficulty_cycle = "500"
+txs_confirm = 1.0
+mint_confirm = 40.0
 ann = "https://bitcointalk.org/index.php?topic=299906.0"
 algo = "Multi-algo"
 
@@ -27,5 +27,5 @@ algo = "Multi-algo"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Kimcoin"
+coinmarketcap = "Kimcoin"
 CurrencyName = "Kimcoin"

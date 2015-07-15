@@ -9,7 +9,7 @@ rating = 2.0
 consensus = "NXT"
 
 [aliases]
-CoinMarketCap = "InstantDEX"
+coinmarketcap = "InstantDEX"
 CurrencyName = "InstantDEX"
 
 [[links]]

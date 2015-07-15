@@ -16,5 +16,5 @@ icon = "website.png"
 tags = ["Main", "Apps"]
 
 [aliases]
-CoinMarketCap = "ATOMIC"
+coinmarketcap = "ATOMIC"
 CurrencyName = "Atomic"

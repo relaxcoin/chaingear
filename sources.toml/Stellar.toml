@@ -4,22 +4,22 @@ source = "cyberFund"
 dependencies = "independent"
 
 [descriptions] 
-short_description = "A public infrastructure for money"
+headline = "A public infrastructure for money"
 
 [metrics]
 announce = "01/08/2014"
 status = "Running"
-total = 100000000000
+total_tokens = 100000000000
 ann = "https://bitcointalk.org/index.php?topic=720096.0"
 genesis = "01/08/2014"
 p2p = 18216
 rpc = 18217
-blockTime = 30
-reward = 100
-halfingCycle = 1051200
-difficultyCycle = "every block"
-txsConfirm = 4
-mintConfirm = 70
+block_time = 30
+block_reward = 100
+halfing_cycle = 1051200
+difficulty_cycle = "every block"
+txs_confirm = 4
+mint_confirm = 70
 algo = "Scrypt"
 type = "DAO"
 rating = 3
@@ -76,5 +76,5 @@ icon = "reddit.png"
 tags = ["Apps"]
 
 [aliases]
-CoinMarketCap = "Stellar"
+coinmarketcap = "Stellar"
 CurrencyName = "Stellar"

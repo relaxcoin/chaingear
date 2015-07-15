@@ -5,8 +5,8 @@ source = "cyberFund"
 [metrics]
 announce = "01/08/2014"
 status = "Dead"
-reward = "17.08 YLC"
-total = "20496000"
+block_reward = "17.08 YLC"
+total_tokens = "20496000"
 ann = "https://bitcointalk.org/index.php?topic=714088.0"
 algo = "SHA-256d"
 
@@ -21,5 +21,5 @@ algo = "SHA-256d"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "YellowLionCoin"
+coinmarketcap = "YellowLionCoin"
 CurrencyName = "YellowLionCoin"

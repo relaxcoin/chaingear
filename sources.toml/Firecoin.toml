@@ -7,9 +7,9 @@ announce = "29/06/2014"
 status = "Running"
 p2p = 49697.0
 rpc = 49698.0
-blockTime = 60.0
-reward = "2 FIRE per block for 200 blocks then 17 FIRE per block for the next 800 blocks, then 50 FIRE per block for the next 1500 blocks, then 5 FIRE per block for the next 2500 blocks."
-total = 100000.0
+block_time = 60.0
+block_reward = "2 FIRE per block for 200 blocks then 17 FIRE per block for the next 800 blocks, then 50 FIRE per block for the next 1500 blocks, then 5 FIRE per block for the next 2500 blocks."
+total_tokens = 100000.0
 ann = "https://bitcointalk.org/index.php?topic=702951.new#new"
 algo = "X-n"
 
@@ -25,5 +25,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Firecoin"
+coinmarketcap = "Firecoin"
 CurrencyName = "Firecoin"

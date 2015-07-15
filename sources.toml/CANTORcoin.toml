@@ -6,11 +6,11 @@ source = "cyberFund"
 announce = "15/06/2014"
 p2p = 11614.0
 rpc = 11613.0
-blockTime = 480.0
-halfingCycle = "halves every 2014 blocks"
-total = 100614.0
-premine = "No"
-difficultyCycle = "480 block retarget"
+block_time = 480.0
+halfing_cycle = "halves every 2014 blocks"
+total_tokens = 100614.0
+premine_tokens = "No"
+difficulty_cycle = "480 block retarget"
 ann = "http://crypto-coins-table.com/coins/EIC/Cantorcoin.html"
 algo = "SHA-256d"
 
@@ -27,5 +27,5 @@ algo = "SHA-256d"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "CANTORcoin"
+coinmarketcap = "CANTORcoin"
 CurrencyName = "CANTORcoin"

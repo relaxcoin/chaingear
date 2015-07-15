@@ -7,11 +7,11 @@ announce = "12/12/2013"
 status = "Dead"
 p2p = 8863.0
 rpc = 8862.0
-blockTime = "150"
-reward = 50.0
-halfingCycle = 840000.0
-total = 84000000.0
-difficultyCycle = "2016"
+block_time = "150"
+block_reward = 50.0
+halfing_cycle = 840000.0
+total_tokens = 84000000.0
+difficulty_cycle = "2016"
 ann = "https://bitcointalk.org/index.php?topic=367898.0"
 algo = "Scrypt"
 
@@ -28,5 +28,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Lovecoin"
+coinmarketcap = "Lovecoin"
 CurrencyName = "Lovecoin"

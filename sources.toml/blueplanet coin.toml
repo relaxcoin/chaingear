@@ -7,9 +7,9 @@ announce = "12/08/2014"
 status = "Dead"
 p2p = 11000.0
 rpc = 21000.0
-reward = "50"
-total = "52631579"
-premine = "2631578 coins (5%)"
+block_reward = "50"
+total_tokens = "52631579"
+premine_tokens = "2631578 coins (5%)"
 ann = "https://cryptocointalk.com/topic/14147-ann-blueplanet-coin-blp-launch-date-12th-august-2014-helping-to-preserve-our-oceans-the-creatures-that-live-in-them/"
 algo = "Scrypt"
 
@@ -26,5 +26,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "blueplanet coin"
+coinmarketcap = "blueplanet coin"
 CurrencyName = "blueplanet coin"

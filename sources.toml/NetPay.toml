@@ -19,5 +19,5 @@ ann = "https://bitcointalk.org/index.php?topic=303011.0"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "NetPay"
+coinmarketcap = "NetPay"
 CurrencyName = "NetPay"

@@ -5,11 +5,11 @@ source = "cyberFund"
 [metrics]
 announce = "29/01/2014"
 status = "Running"
-blockTime = 30.0
-reward = 96.0
-halfingCycle = "1051200 (once per 12 months)"
-total = 250000000.0
-difficultyCycle = "according to Kimoto Gravity Well"
+block_time = 30.0
+block_reward = 96.0
+halfing_cycle = "1051200 (once per 12 months)"
+total_tokens = 250000000.0
+difficulty_cycle = "according to Kimoto Gravity Well"
 ann = "https://bitcointalk.org/index.php?topic=438150.0"
 algo = "SHA-3"
 type = "DAO"
@@ -30,5 +30,5 @@ dependencies = "independent"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "MaxCoin"
+coinmarketcap = "MaxCoin"
 CurrencyName = "MaxCoin"

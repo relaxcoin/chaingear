@@ -10,5 +10,5 @@ dependencies = "independent"
 links = []
 
 [aliases]
-CoinMarketCap = "Hyper"
+coinmarketcap = "Hyper"
 CurrencyName = "Hyper"

@@ -5,8 +5,8 @@ source = "cyberFund"
 [metrics]
 announce = "05/06/2014"
 status = "Dead"
-blockTime = 150.0
-total = 1000000.0
+block_time = 150.0
+total_tokens = 1000000.0
 ann = "https://bitcointalk.org/index.php?topic=640056.0"
 algo = "X11"
 
@@ -21,5 +21,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Triskelecoin"
+coinmarketcap = "Triskelecoin"
 CurrencyName = "Triskelecoin"

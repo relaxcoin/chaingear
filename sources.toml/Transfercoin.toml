@@ -7,12 +7,12 @@ announce = "30/12/2013"
 status = "Dead"
 p2p = 5887.0
 rpc = 5886.0
-blockTime = 60.0
-reward = 15000.0
-total = 21000000.0
-difficultyCycle = 20.0
-txsConfirm = 3.0
-mintConfirm = 30.0
+block_time = 60.0
+block_reward = 15000.0
+total_tokens = 21000000.0
+difficulty_cycle = 20.0
+txs_confirm = 3.0
+mint_confirm = 30.0
 ann = "https://bitcointalk.org/index.php?topic=391980.0"
 algo = "Scrypt"
 
@@ -29,5 +29,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Transfercoin"
+coinmarketcap = "Transfercoin"
 CurrencyName = "Transfercoin"

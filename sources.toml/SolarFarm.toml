@@ -9,7 +9,7 @@ rating = 1.0
 consensus = "NXT"
 
 [aliases]
-CoinMarketCap = "SolarFarm"
+coinmarketcap = "SolarFarm"
 CurrencyName = "SolarFarm"
 
 [[links]]

@@ -6,5 +6,5 @@ source = "cyberFund"
 links = []
 
 [aliases]
-CoinMarketCap = "MMNXT"
+coinmarketcap = "MMNXT"
 CurrencyName = "MMNXT"

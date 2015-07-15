@@ -6,10 +6,10 @@ source = "cyberFund"
 announce = "03/04/2013"
 genesis = "03/04/2013"
 status = "Running"
-blockTime = "60"
-reward = 2.0
-total = 10000000.0
-difficultyCycle = "60"
+block_time = "60"
+block_reward = 2.0
+total_tokens = 10000000.0
+difficulty_cycle = "60"
 ann = "https://bitcointalk.org/index.php?topic=165397.0"
 algo = "Scrypt"
 rating = 0.0
@@ -27,5 +27,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Mincoin"
+coinmarketcap = "Mincoin"
 CurrencyName = "Mincoin"

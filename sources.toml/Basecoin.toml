@@ -7,12 +7,12 @@ announce = "07/09/2013"
 status = "Dead"
 p2p = 21206.0
 rpc = 21207.0
-blockTime = "60"
-reward = 1.0
-total = 6000000.0
-difficultyCycle = "every block"
-txsConfirm = 4.0
-mintConfirm = 50.0
+block_time = "60"
+block_reward = 1.0
+total_tokens = 6000000.0
+difficulty_cycle = "every block"
+txs_confirm = 4.0
+mint_confirm = 50.0
 ann = "https://bitcointalk.org/index.php?topic=289946.0"
 algo = "Scrypt"
 rating = 0.0
@@ -24,5 +24,5 @@ url = "https://github.com/basecoin/basecoin"
 icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Basecoin"
+coinmarketcap = "Basecoin"
 CurrencyName = "Basecoin"

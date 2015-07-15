@@ -7,12 +7,12 @@ announce = "08/07/2013"
 status = "Running"
 p2p = 15521.0
 rpc = 155522.0
-blockTime = "30"
-reward = 64.0
-total = 538214400.0
-difficultyCycle = "every block"
-txsConfirm = 3.0
-mintConfirm = 50.0
+block_time = "30"
+block_reward = 64.0
+total_tokens = 538214400.0
+difficulty_cycle = "every block"
+txs_confirm = 3.0
+mint_confirm = 50.0
 ann = "https://bitcointalk.org/index.php?topic=252127.0"
 algo = "Scrypt"
 
@@ -29,5 +29,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Galaxycoin"
+coinmarketcap = "Galaxycoin"
 CurrencyName = "Galaxycoin"

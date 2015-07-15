@@ -7,9 +7,9 @@ announce = "13/06/2014"
 status = "Dead"
 p2p = 11666.0
 rpc = 11777.0
-blockTime = 90.0
-reward = "212 coins per block"
-total = 666000000.0
+block_time = 90.0
+block_reward = "212 coins per block"
+total_tokens = 666000000.0
 ann = "https://bitcointalk.org/index.php?topic=650295.0"
 algo = "Multi-algo"
 
@@ -25,5 +25,5 @@ algo = "Multi-algo"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "NeWOcoin"
+coinmarketcap = "NeWOcoin"
 CurrencyName = "NeWOcoin"

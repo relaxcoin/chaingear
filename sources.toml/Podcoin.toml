@@ -7,11 +7,11 @@ announce = "14/02/2014"
 status = "Dead"
 p2p = 11055.0
 rpc = 21055.0
-blockTime = 600.0
-reward = 100.0
-halfingCycle = 210000.0
-total = 42000000.0
-difficultyCycle = "1008 blocks (every 7 days)"
+block_time = 600.0
+block_reward = 100.0
+halfing_cycle = 210000.0
+total_tokens = 42000000.0
+difficulty_cycle = "1008 blocks (every 7 days)"
 ann = "https://bitcointalk.org/index.php?topic=465846.msg5148362#msg5148362"
 algo = "SHA-256d"
 
@@ -27,5 +27,5 @@ algo = "SHA-256d"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Podcoin"
+coinmarketcap = "Podcoin"
 CurrencyName = "Podcoin"

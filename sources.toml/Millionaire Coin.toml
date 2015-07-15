@@ -7,11 +7,11 @@ announce = "31/05/2014"
 status = "Dead"
 p2p = 35552.0
 rpc = 35551.0
-blockTime = 30.0
-reward = "Block 3 - 100 reward: 0 MIL then 20 MIL per block"
-halfingCycle = "no block halving"
-total = 84000000.0
-difficultyCycle = "every 5 blocks"
+block_time = 30.0
+block_reward = "Block 3 - 100 reward: 0 MIL then 20 MIL per block"
+halfing_cycle = "no block halving"
+total_tokens = 84000000.0
+difficulty_cycle = "every 5 blocks"
 ann = "https://bitcointalk.org/index.php?topic=633914.0"
 algo = "X11"
 
@@ -26,5 +26,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Millionaire Coin"
+coinmarketcap = "Millionaire Coin"
 CurrencyName = "Millionaire Coin"

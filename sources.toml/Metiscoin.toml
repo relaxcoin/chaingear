@@ -7,9 +7,9 @@ announce = "20/01/2014"
 status = "Dead"
 p2p = 1198.0
 rpc = 1098.0
-reward = 50.0
-halfingCycle = 810000.0
-total = 81000000.0
+block_reward = 50.0
+halfing_cycle = 810000.0
+total_tokens = 81000000.0
 ann = "https://bitcointalk.org/index.php?topic=424517.0"
 algo = "Quark"
 
@@ -26,5 +26,5 @@ algo = "Quark"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Metiscoin"
+coinmarketcap = "Metiscoin"
 CurrencyName = "Metiscoin"

@@ -20,5 +20,5 @@ algo = "SHA-256d"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Guinea"
+coinmarketcap = "Guinea"
 CurrencyName = "Guinea"

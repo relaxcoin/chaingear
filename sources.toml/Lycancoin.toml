@@ -7,12 +7,12 @@ announce = "08/02/2014"
 status = "Dead"
 p2p = 58861.0
 rpc = 58862.0
-blockTime = 150.0
-reward = 2970.0
-total = 10000000.0
-difficultyCycle = "48 blocks(2 hours)"
-txsConfirm = 6.0
-mintConfirm = 30.0
+block_time = 150.0
+block_reward = 2970.0
+total_tokens = 10000000.0
+difficulty_cycle = "48 blocks(2 hours)"
+txs_confirm = 6.0
+mint_confirm = 30.0
 ann = "https://bitcointalk.org/index.php?topic=455770.0"
 algo = "Scrypt"
 rating = 0.0
@@ -30,5 +30,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Lycancoin"
+coinmarketcap = "Lycancoin"
 CurrencyName = "Lycancoin"

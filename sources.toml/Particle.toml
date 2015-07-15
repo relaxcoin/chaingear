@@ -7,10 +7,10 @@ announce = "31/12/2013"
 status = "Running"
 p2p = 8779.0
 rpc = 8776.0
-blockTime = 15.0
-total = 1000000000.0
-difficultyCycle = "every 8 blocks (~2 minutes)"
-txsConfirm = 100.0
+block_time = 15.0
+total_tokens = 1000000000.0
+difficulty_cycle = "every 8 blocks (~2 minutes)"
+txs_confirm = 100.0
 ann = "https://bitcointalk.org/index.php?topic=392804.0"
 algo = "Quark"
 
@@ -27,5 +27,5 @@ algo = "Quark"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Particle"
+coinmarketcap = "Particle"
 CurrencyName = "Particle"

@@ -5,8 +5,8 @@ source = "cyberFund"
 [metrics]
 announce = "12/08/2014"
 status = "Dead"
-reward = "Mining TX Reward: 20 PAC, The first 10000 mining tx as a fee of 2 PAC, miner gets only 18 PAC"
-total = "20000000 "
+block_reward = "Mining TX Reward: 20 PAC, The first 10000 mining tx as a fee of 2 PAC, miner gets only 18 PAC"
+total_tokens = "20000000 "
 ann = "https://bitcointalk.org/index.php?topic=734531.0"
 algo = "SHA-256d"
 
@@ -21,5 +21,5 @@ algo = "SHA-256d"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Pleiades Coin"
+coinmarketcap = "Pleiades Coin"
 CurrencyName = "Pleiades Coin"

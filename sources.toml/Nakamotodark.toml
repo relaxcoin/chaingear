@@ -7,10 +7,10 @@ announce = "17/12/2014"
 status = "Running"
 p2p = 47356.0
 rpc = 47155.0
-reward = "Block 0-10000:4000NKT, Block 10000-20000:3000 NKT, Block 20000-40000:2000 NKT"
-total = "110000000 coins"
-premine = "no"
-mintConfirm = "60 blocks"
+block_reward = "Block 0-10000:4000NKT, Block 10000-20000:3000 NKT, Block 20000-40000:2000 NKT"
+total_tokens = "110000000 coins"
+premine_tokens = "no"
+mint_confirm = "60 blocks"
 ann = "https://github.com/skrija/nakamotodark"
 algo = "X11"
 rating = 0.0
@@ -27,5 +27,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Nakamotodark"
+coinmarketcap = "Nakamotodark"
 CurrencyName = "Nakamotodark"

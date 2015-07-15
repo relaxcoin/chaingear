@@ -1,11 +1,11 @@
 name = "BitShares"
 symbol = "BTS"
-blockchain_id = "null"
+genesis_id = "null"
 dependencies = "independent"
 source = "cyberFund"
 
 [descriptions]
-short_description = "An industrial-grade financial smart contract platform"
+headline = "An industrial-grade financial smart contract platform"
 summary = "The BitShares platform itself is run and maintained by the BitShares community–an open consortium of individuals and organizations committed to providing universal access to the power of smart contracts."
 
 [metrics]
@@ -15,7 +15,7 @@ consensus = "Delegated Proof-of-Stake"
 hashtag = "#bitshares"
 
 [aliases]
-CoinMarketCap = "BitShares"
+coinmarketcap = "BitShares"
 CurrencyName = "BitShares"
 
 [[links]]

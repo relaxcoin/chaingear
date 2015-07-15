@@ -8,11 +8,11 @@ genesis = "02/02/2014"
 status = "Running"
 p2p = 18455.0
 rpc = 18456.0
-blockTime = "30"
-reward = 50.0
-halfingCycle = 810000.0
-total = " 76000000 + n"
-premine = "38000000 coins(0.5%)"
+block_time = "30"
+block_reward = 50.0
+halfing_cycle = 810000.0
+total_tokens = " 76000000 + n"
+premine_tokens = "38000000 coins(0.5%)"
 ann = "https://bitcointalk.org/index.php?topic=444014.0"
 algo = "Quark"
 
@@ -29,5 +29,5 @@ algo = "Quark"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Wikicoin"
+coinmarketcap = "Wikicoin"
 CurrencyName = "Wikicoin"

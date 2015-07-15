@@ -7,11 +7,11 @@ announce = "27/08/2014"
 status = "Running"
 p2p = 11032.0
 rpc = 21032.0
-blockTime = "60 minutes"
-reward = "1 coin (24 per day, 8760 coins per year)"
-total = " 500000"
-difficultyCycle = "5 blocks"
-mintConfirm = "10 blocks"
+block_time = "60 minutes"
+block_reward = "1 coin (24 per day, 8760 coins per year)"
+total_tokens = " 500000"
+difficulty_cycle = "5 blocks"
+mint_confirm = "10 blocks"
 ann = "https://bitcointalk.org/index.php?topic=760289.0"
 algo = "Scrypt"
 
@@ -27,5 +27,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Mana"
+coinmarketcap = "Mana"
 CurrencyName = "Mana"

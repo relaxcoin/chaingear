@@ -10,7 +10,7 @@ consensus = "Bitcoin"
 hashtag = "#counterparty"
 
 [aliases]
-CoinMarketCap = "Counterparty"
+coinmarketcap = "Counterparty"
 CurrencyName = "Counterparty"
 
 [[links]]

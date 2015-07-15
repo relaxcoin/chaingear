@@ -13,5 +13,5 @@ icon = "github.png"
 tags = ["Main", "Code"]
 
 [aliases]
-CoinMarketCap = "AeroMe"
+coinmarketcap = "AeroMe"
 CurrencyName = "AeroMe"

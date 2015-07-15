@@ -6,10 +6,10 @@ source = "cyberFund"
 announce = "02/02/2014"
 status = "Running"
 rpc = 9336.0
-blockTime = 64.0
-reward = 100.0
-halfingCycle = 64000.0
-total = 12800000.0
+block_time = 64.0
+block_reward = 100.0
+halfing_cycle = 64000.0
+total_tokens = 12800000.0
 ann = "https://bitcointalk.org/index.php?topic=444543.0"
 algo = "SHA-256d"
 rating = 0.0
@@ -27,5 +27,5 @@ icon = "github.png"
 tags = ["Main", "Code"]
 
 [aliases]
-CoinMarketCap = "Benjamins"
+coinmarketcap = "Benjamins"
 CurrencyName = "Benjamins"

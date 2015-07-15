@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "22/06/2014"
 status = "Dead"
-blockTime = 60.0
-reward = "250 coins"
-total = 10000000.0
-premine = "TBD"
+block_time = 60.0
+block_reward = "250 coins"
+total_tokens = 10000000.0
+premine_tokens = "TBD"
 ann = "https://bitcointalk.org/index.php?topic=661506.0"
 algo = "X11"
 
@@ -23,5 +23,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "PeerPay"
+coinmarketcap = "PeerPay"
 CurrencyName = "PeerPay"

@@ -7,13 +7,13 @@ announce = "11/01/2014"
 status = "Dead"
 p2p = 38801.0
 rpc = 38800.0
-blockTime = 30.0
-reward = 1000.0
-halfingCycle = 1000.0
-total = 500000000.0
-premine = "5000000(1%) for devs, support, bounty, and giveaway etc"
-difficultyCycle = "1000"
-mintConfirm = 70.0
+block_time = 30.0
+block_reward = 1000.0
+halfing_cycle = 1000.0
+total_tokens = 500000000.0
+premine_tokens = "5000000(1%) for devs, support, bounty, and giveaway etc"
+difficulty_cycle = "1000"
+mint_confirm = 70.0
 ann = "https://bitcointalk.org/index.php?topic=409903.0"
 algo = "Quark"
 
@@ -29,5 +29,5 @@ algo = "Quark"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Bullcoin"
+coinmarketcap = "Bullcoin"
 CurrencyName = "Bullcoin"

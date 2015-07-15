@@ -4,7 +4,7 @@ symbol = "SJCX"
 dependencies = "Bitcoin, Counterparty"
 
 [descriptions]
-short_description = "Decentralized Cloud Storage"
+headline = "Decentralized Cloud Storage"
 summary = "Storj is based on blockchain technology and peer-to-peer protocols to provide the most secure, private, and encrypted cloud storage."
 
 [metrics]
@@ -13,7 +13,7 @@ rating = 4.0
 consensus = "Counterparty"
 
 [aliases]
-CoinMarketCap = "Storjcoin X"
+coinmarketcap = "Storjcoin X"
 CurrencyName = "Storj"
 
 [crowdsales]

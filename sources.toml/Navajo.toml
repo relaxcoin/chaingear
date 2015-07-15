@@ -9,7 +9,7 @@ rating = 1.0
 consensus = "Proof-of-Stake"
 
 [aliases]
-CoinMarketCap = "Navajo"
+coinmarketcap = "Navajo"
 CurrencyName = "Navajo"
 
 [[links]]

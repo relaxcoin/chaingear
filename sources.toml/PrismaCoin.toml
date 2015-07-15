@@ -7,10 +7,10 @@ announce = "21/07/2014"
 status = "Dead"
 p2p = 25942.0
 rpc = 14789.0
-blockTime = 60.0
-reward = "1000 PRISMAcoin"
-total = 6000000.0
-premine = "90000 (1.5%) for development, giveaway, bounty"
+block_time = 60.0
+block_reward = "1000 PRISMAcoin"
+total_tokens = 6000000.0
+premine_tokens = "90000 (1.5%) for development, giveaway, bounty"
 ann = "https://bitcointalk.org/index.php?topic=703730.0"
 algo = "X-n"
 
@@ -26,5 +26,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "PrismaCoin"
+coinmarketcap = "PrismaCoin"
 CurrencyName = "PrismaCoin"

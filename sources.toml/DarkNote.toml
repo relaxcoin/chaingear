@@ -8,11 +8,11 @@ announce = "31/05/2014"
 status = "Running"
 p2p = 42080.0
 rpc = 42081.0
-blockTime = 240.0
-reward = "Initial Block reward = 320000 DarkNote"
-halfingCycle = 11000.0
-total = 8589869056.0
-difficultyCycle = "every block"
+block_time = 240.0
+block_reward = "Initial Block block_reward = 320000 DarkNote"
+halfing_cycle = 11000.0
+total_tokens = 8589869056.0
+difficulty_cycle = "every block"
 ann = "https://bitcointalk.org/index.php?topic=788916.0"
 algo = "CryptoNight"
 type = "DAO"
@@ -21,7 +21,7 @@ consensus = "Proof-of-Work"
 hashtag = "#DarkNote"
 
 [aliases]
-CoinMarketCap = "DigitalNote"
+coinmarketcap = "DigitalNote"
 CurrencyName = "DigitalNote"
 
 [[links]]

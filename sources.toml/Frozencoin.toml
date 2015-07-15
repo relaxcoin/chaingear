@@ -8,11 +8,11 @@ genesis = "11/12/2013"
 status = "Dead"
 p2p = 18451.0
 rpc = 18450.0
-blockTime = "30"
-reward = 50.0
-total = 7777777.0
-difficultyCycle = "20"
-txsConfirm = 6.0
+block_time = "30"
+block_reward = 50.0
+total_tokens = 7777777.0
+difficulty_cycle = "20"
+txs_confirm = 6.0
 ann = "https://bitcointalk.org/index.php?topic=366762.0"
 algo = "Quark"
 
@@ -29,5 +29,5 @@ algo = "Quark"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Frozencoin"
+coinmarketcap = "Frozencoin"
 CurrencyName = "Frozencoin"

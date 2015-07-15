@@ -7,11 +7,11 @@ announce = "21/08/2013"
 status = "Dead"
 p2p = 33332.0
 rpc = 33333.0
-blockTime = "60"
-reward = 8.0
-total = 10000000.0
-txsConfirm = 4.0
-mintConfirm = 128.0
+block_time = "60"
+block_reward = 8.0
+total_tokens = 10000000.0
+txs_confirm = 4.0
+mint_confirm = 128.0
 ann = "https://bitcointalk.org/index.php?topic=278834.0"
 algo = "Multi-algo"
 
@@ -27,5 +27,5 @@ algo = "Multi-algo"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "KingCoin"
+coinmarketcap = "KingCoin"
 CurrencyName = "KingCoin"

@@ -5,9 +5,9 @@ source = "cyberFund"
 [metrics]
 announce = "08/01/2014"
 status = "Dead"
-blockTime = 1800.0
-reward = 740.0
-total = 35000000.0
+block_time = 1800.0
+block_reward = 740.0
+total_tokens = 35000000.0
 ann = "https://bitcointalk.org/index.php?topic=404533.0"
 algo = "Others"
 
@@ -23,5 +23,5 @@ algo = "Others"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Radioshares"
+coinmarketcap = "Radioshares"
 CurrencyName = "Radioshares"

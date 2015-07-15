@@ -5,7 +5,7 @@ source = "cyberFund"
 [metrics]
 announce = "05/04/2014"
 status = "Dead"
-total = 55600000.0
+total_tokens = 55600000.0
 algo = "X11"
 
   [[metrics.links]]
@@ -19,5 +19,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "HighFiveCoin"
+coinmarketcap = "HighFiveCoin"
 CurrencyName = "HighFiveCoin"

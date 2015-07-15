@@ -7,12 +7,12 @@ announce = "07/07/2014"
 status = "Dead"
 p2p = 9055.0
 rpc = 9056.0
-blockTime = 60.0
-reward = "PoW block reward - 200"
-total = 10000000.0
-premine = "No"
-difficultyCycle = "each block"
-txsConfirm = 60.0
+block_time = 60.0
+block_reward = "PoW block reward - 200"
+total_tokens = 10000000.0
+premine_tokens = "No"
+difficulty_cycle = "each block"
+txs_confirm = 60.0
 ann = "https://bitcointalk.org/index.php?topic=680769.0"
 algo = "X-n"
 
@@ -28,5 +28,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "PosCoin"
+coinmarketcap = "PosCoin"
 CurrencyName = "PosCoin"

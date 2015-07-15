@@ -7,11 +7,11 @@ announce = "14/02/2014"
 status = "Dead"
 p2p = 65000.0
 rpc = 64999.0
-blockTime = 60.0
-reward = "First 100000 blocksare awarded with 500 VNC"
-total = 100000000000.0
-premine = "500000000 coins(0.5%) for development costs"
-difficultyCycle = "240 blocks (4 hours)"
+block_time = 60.0
+block_reward = "First 100000 blocksare awarded with 500 VNC"
+total_tokens = 100000000000.0
+premine_tokens = "500000000 coins(0.5%) for development costs"
+difficulty_cycle = "240 blocks (4 hours)"
 ann = "https://bitcointalk.org/index.php?topic=465274.0"
 algo = "Scrypt"
 
@@ -28,5 +28,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Verncoin"
+coinmarketcap = "Verncoin"
 CurrencyName = "Verncoin"

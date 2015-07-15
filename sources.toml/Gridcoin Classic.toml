@@ -8,5 +8,5 @@ links = []
 
 [aliases]
 rating = 0
-CoinMarketCap = "Gridcoin Classic"
+coinmarketcap = "Gridcoin Classic"
 CurrencyName = "Gridcoin Classic"

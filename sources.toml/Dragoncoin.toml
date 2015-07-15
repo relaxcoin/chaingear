@@ -7,9 +7,9 @@ announce = "26/05/2013"
 status = "Dead"
 p2p = 9995.0
 rpc = 9996.0
-blockTime = "60"
-reward = 95.0
-difficultyCycle = "240"
+block_time = "60"
+block_reward = 95.0
+difficulty_cycle = "240"
 ann = "https://bitcointalk.org/index.php?topic=216653.0"
 algo = "Scrypt"
 
@@ -25,5 +25,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Dragoncoin"
+coinmarketcap = "Dragoncoin"
 CurrencyName = "Dragoncoin"

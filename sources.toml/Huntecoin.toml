@@ -5,8 +5,8 @@ source = "cyberFund"
 [metrics]
 announce = "15/09/2013"
 status = "Dead"
-blockTime = 60.0
-total = 84000000.0
+block_time = 60.0
+total_tokens = 84000000.0
 ann = "https://bitcointalk.org/index.php?topic=300538.0"
 algo = "SHA-256d"
 rating = 0.0
@@ -23,5 +23,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Huntecoin"
+coinmarketcap = "Huntecoin"
 CurrencyName = "Huntecoin"

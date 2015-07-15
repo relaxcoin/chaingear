@@ -4,7 +4,7 @@ dependencies = "Bitcoin"
 source = "cyberFund"
 
 [descriptions]
-short_description = "A Data Layer For The Blockchain"
+headline = "A Data Layer For The Blockchain"
 summary = "Factom is a simple extension of the Bitcoin blockchain that lets you build faster, cost effective applications. Factom takes lots of hashes and turns them into a single periodic hash on the blockchain – this fixes the bloat problem."
 
 [metrics]
@@ -19,7 +19,7 @@ timestamp = 1431342962.0
   btc = 2920.0
 
 [aliases]
-CoinMarketCap = "Factom"
+coinmarketcap = "Factom"
 CurrencyName = "Factom"
 
 [crowdsales]

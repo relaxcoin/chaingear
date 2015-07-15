@@ -5,7 +5,7 @@ source = "cyberFund"
 [metrics]
 announce = "18/09/2014"
 status = "Dead"
-total = "6670"
+total_tokens = "6670"
 ann = "https://bitcointalk.org/index.php?topic=743420.0"
 algo = "X-n"
 
@@ -16,5 +16,5 @@ icon = "website.png"
 tags = ["Main", "Apps"]
 
 [aliases]
-CoinMarketCap = "6666Coin"
+coinmarketcap = "6666Coin"
 CurrencyName = "6666Coin"

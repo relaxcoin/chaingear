@@ -5,11 +5,11 @@ source = "cyberFund"
 [metrics]
 announce = "15/12/2013"
 status = "Dead"
-blockTime = 30.0
-reward = 1024.0
-halfingCycle = 60480.0
-total = 10000000.0
-difficultyCycle = 20.0
+block_time = 30.0
+block_reward = 1024.0
+halfing_cycle = 60480.0
+total_tokens = 10000000.0
+difficulty_cycle = 20.0
 ann = "https://bitcointalk.org/index.php?topic=371775.0"
 algo = "Quark"
 
@@ -20,5 +20,5 @@ url = "http://www.atocoin.com/"
 icon = "website.png"
 
 [aliases]
-CoinMarketCap = "Atomcoin"
+coinmarketcap = "Atomcoin"
 CurrencyName = "Atomcoin"

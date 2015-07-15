@@ -7,11 +7,11 @@ announce = "22/10/2014"
 status = "Running"
 p2p = 23118.0
 rpc = 23119.0
-blockTime = "60 Seconds"
-reward = "1-1440: 878, 1441-11520:412, 11521-43200:164, 43201-until end:62 (~4 years)"
-total = "160000000"
-premine = "no"
-difficultyCycle = "every 5 blocks"
+block_time = "60 Seconds"
+block_reward = "1-1440: 878, 1441-11520:412, 11521-43200:164, 43201-until end:62 (~4 years)"
+total_tokens = "160000000"
+premine_tokens = "no"
+difficulty_cycle = "every 5 blocks"
 ann = "https://bitcointalk.org/index.php?topic=802430.0"
 algo = "Others"
 rating = 0.0
@@ -29,5 +29,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "SecuritysysCoin"
+coinmarketcap = "SecuritysysCoin"
 CurrencyName = "SecuritysysCoin"

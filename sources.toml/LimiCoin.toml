@@ -6,9 +6,9 @@ source = "cyberFund"
 announce = "05/08/2014"
 status = "Dead"
 rpc = 16899.0
-blockTime = "60"
-total = "40000000"
-premine = "815000 coins"
+block_time = "60"
+total_tokens = "40000000"
+premine_tokens = "815000 coins"
 ann = "https://bitcointalk.org/index.php?topic=715336.0"
 algo = "X-n"
 
@@ -23,5 +23,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "LimiCoin"
+coinmarketcap = "LimiCoin"
 CurrencyName = "LimiCoin"

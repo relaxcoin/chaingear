@@ -7,10 +7,10 @@ announce = "10/07/2014"
 status = "Dead"
 p2p = 9461.0
 rpc = 9462.0
-reward = "Block 1-200: 0.1 block rewards; After 201 block there will be 2000 rewards, until 7 days later (8200 block)"
-total = 14580000.0
-difficultyCycle = "every block"
-txsConfirm = 6.0
+block_reward = "Block 1-200: 0.1 block rewards; After 201 block there will be 2000 rewards, until 7 days later (8200 block)"
+total_tokens = 14580000.0
+difficulty_cycle = "every block"
+txs_confirm = 6.0
 ann = "https://bitcointalk.org/index.php?topic=684562.msg7768286#msg7768286"
 algo = "X-n"
 
@@ -25,5 +25,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Computercoin"
+coinmarketcap = "Computercoin"
 CurrencyName = "Computercoin"

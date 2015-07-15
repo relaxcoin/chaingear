@@ -7,10 +7,10 @@ announce = "13/09/2014"
 status = "Dead"
 p2p = 8333.0
 rpc = 8332.0
-blockTime = "60"
-reward = "Blocks 2 - 250:0,Blocks 251-1000:25,Blocks 1001-1250: 50, Blocks 1251-1500: 150,Blocks 1501-3000: 250, Blocks 3001-4500: 500, Blocks 4501-6000: 1000, and then :25 per block"
-total = "0"
-difficultyCycle = "1 hour"
+block_time = "60"
+block_reward = "Blocks 2 - 250:0,Blocks 251-1000:25,Blocks 1001-1250: 50, Blocks 1251-1500: 150,Blocks 1501-3000: 250, Blocks 3001-4500: 500, Blocks 4501-6000: 1000, and then :25 per block"
+total_tokens = "0"
+difficulty_cycle = "1 hour"
 algo = "SHA-256d"
 
   [[metrics.links]]
@@ -26,5 +26,5 @@ algo = "SHA-256d"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "WorldWideCoin"
+coinmarketcap = "WorldWideCoin"
 CurrencyName = "WorldWideCoin"

@@ -7,11 +7,11 @@ announce = "13/02/2014"
 status = "Dead"
 p2p = 6969.0
 rpc = 6968.0
-blockTime = 30.0
-reward = 10240.0
-halfingCycle = "every 86400 blocks ~ 30 days"
-total = 1800000000.0
-premine = 20480.0
+block_time = 30.0
+block_reward = 10240.0
+halfing_cycle = "every 86400 blocks ~ 30 days"
+total_tokens = 1800000000.0
+premine_tokens = 20480.0
 ann = "https://bitcointalk.org/index.php?topic=464041.0"
 algo = "Quark"
 
@@ -28,5 +28,5 @@ algo = "Quark"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Dougcoin"
+coinmarketcap = "Dougcoin"
 CurrencyName = "Dougcoin"

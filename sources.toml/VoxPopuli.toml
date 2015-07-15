@@ -5,8 +5,8 @@ source = "cyberFund"
 [metrics]
 announce = "12/10/2014"
 status = "Dead"
-reward = "1-5760:0,5761-12960:750 VoxP,12961-21600:500 VoxP"
-total = "8000000"
+block_reward = "1-5760:0,5761-12960:750 VoxP,12961-21600:500 VoxP"
+total_tokens = "8000000"
 ann = "https://bitcointalk.org/index.php?topic=815379"
 algo = "X-n"
 
@@ -22,5 +22,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "VoxPopuli"
+coinmarketcap = "VoxPopuli"
 CurrencyName = "VoxPopuli"

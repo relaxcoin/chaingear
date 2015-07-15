@@ -5,8 +5,8 @@ source = "cyberFund"
 [metrics]
 announce = "11/11/2014"
 status = "Dead"
-blockTime = "30 seconds"
-total = "1000000"
+block_time = "30 seconds"
+total_tokens = "1000000"
 ann = "https://bitcointalk.org/index.php?topic=852050.0"
 
 [[links]]
@@ -16,5 +16,5 @@ icon = "github.png"
 tags = ["Main", "Code"]
 
 [aliases]
-CoinMarketCap = "ArenaCoin"
+coinmarketcap = "ArenaCoin"
 CurrencyName = "ArenaCoin"

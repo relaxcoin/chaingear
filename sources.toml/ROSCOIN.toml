@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "19/09/2014"
 status = "Dead"
-blockTime = "60"
-reward = "Block 1 - 100: 1 ROS, Block 101 - 2880: 500 ROS, Block 2881 - 5720: 1000 ROS, Block 5721 - 11440: 2000 ROS, Block 11441 - 22880: 5000 ROS"
-total = "160000000"
-premine = "1000000"
+block_time = "60"
+block_reward = "Block 1 - 100: 1 ROS, Block 101 - 2880: 500 ROS, Block 2881 - 5720: 1000 ROS, Block 5721 - 11440: 2000 ROS, Block 11441 - 22880: 5000 ROS"
+total_tokens = "160000000"
+premine_tokens = "1000000"
 ann = "https://bitcointalk.org/index.php?topic=769857.0"
 algo = "X11"
 rating = 0.0
@@ -25,5 +25,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "ROSCOIN"
+coinmarketcap = "ROSCOIN"
 CurrencyName = "ROSCOIN"

@@ -5,11 +5,11 @@ source = "cyberFund"
 [metrics]
 announce = "06/06/2013"
 status = "Dead"
-blockTime = "240"
-reward = 50.0
-total = 27300000.0
-premine = 2100000.0
-difficultyCycle = "360"
+block_time = "240"
+block_reward = 50.0
+total_tokens = 27300000.0
+premine_tokens = 2100000.0
+difficulty_cycle = "360"
 ann = "https://bitcointalk.org/index.php?topic=227252.0"
 algo = "SHA-3"
 rating = 0.0
@@ -27,5 +27,5 @@ icon = "github.png"
 tags = ["Main", "Code"]
 
 [aliases]
-CoinMarketCap = "Copperlark"
+coinmarketcap = "Copperlark"
 CurrencyName = "Copperlark"

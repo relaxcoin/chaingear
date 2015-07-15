@@ -10,5 +10,5 @@ dependencies = "independent"
 links = []
 
 [aliases]
-CoinMarketCap = "CannabisCoin"
+coinmarketcap = "CannabisCoin"
 CurrencyName = "CannabisCoin"

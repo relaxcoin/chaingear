@@ -10,5 +10,5 @@ dependencies = "independent"
 links = []
 
 [aliases]
-CoinMarketCap = "Bitmark"
+coinmarketcap = "Bitmark"
 CurrencyName = "Bitmark"

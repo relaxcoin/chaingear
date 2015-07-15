@@ -4,7 +4,7 @@ source = "cyberFund"
 
 [metrics]
 announce = "20/05/2014"
-total = 30000000.0
+total_tokens = 30000000.0
 ann = "https://bitcointalk.org/index.php?topic=617828.0"
 algo = "Scrypt"
 rating = 0.0
@@ -22,5 +22,5 @@ icon = "github.png"
 tags = ["Main", "Code"]
 
 [aliases]
-CoinMarketCap = "AimCoin"
+coinmarketcap = "AimCoin"
 CurrencyName = "AimCoin"

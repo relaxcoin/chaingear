@@ -4,8 +4,8 @@ source = "cyberFund"
 
 [metrics]
 announce = "23/11/2013"
-total = 250000.0
-premine = 12500.0
+total_tokens = 250000.0
+premine_tokens = 12500.0
 ann = "https://bitcointalk.org/index.php?topic=343615.0"
 algo = "SHA-256d"
 
@@ -21,5 +21,5 @@ algo = "SHA-256d"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "ReikiCoin"
+coinmarketcap = "ReikiCoin"
 CurrencyName = "ReikiCoin"

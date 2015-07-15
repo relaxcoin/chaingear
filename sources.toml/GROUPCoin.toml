@@ -7,8 +7,8 @@ announce = "03/08/2014"
 status = "Dead"
 p2p = 35272.0
 rpc = 35271.0
-total = "10000000"
-premine = "10000000 coins (100%)"
+total_tokens = "10000000"
+premine_tokens = "10000000 coins (100%)"
 ann = "https://bitcointalk.org/index.php?topic=703610.0"
 algo = "X-n"
 
@@ -24,5 +24,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "GROUPCoin"
+coinmarketcap = "GROUPCoin"
 CurrencyName = "GROUPCoin"

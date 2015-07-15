@@ -7,11 +7,11 @@ announce = "14/02/2014"
 status = "Dead"
 p2p = 9350.0
 rpc = 9351.0
-blockTime = 100.0
-reward = "random 1-300000 + 0.1% chance for superblock with double payout"
-halfingCycle = "48384 blocks (56 days)"
-total = 16000000000.0
-premine = " 9600000000 coins(0.6%) for bounties and giveaways"
+block_time = 100.0
+block_reward = "random 1-300000 + 0.1% chance for superblock with double payout"
+halfing_cycle = "48384 blocks (56 days)"
+total_tokens = 16000000000.0
+premine_tokens = " 9600000000 coins(0.6%) for bounties and giveaways"
 ann = "https://bitcointalk.org/index.php?topic=465364.0"
 algo = "Scrypt"
 rating = 0.0
@@ -29,5 +29,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Carboncoin"
+coinmarketcap = "Carboncoin"
 CurrencyName = "Carboncoin"

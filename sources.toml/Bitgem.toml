@@ -6,7 +6,7 @@ source = "cyberFund"
 announce = "16/05/2013"
 genesis = "16/05/2013"
 status = "Dead"
-reward = 3.0
+block_reward = 3.0
 ann = "https://bitcointalk.org/index.php?topic=207008.0"
 algo = "Scrypt"
 rating = 0.0
@@ -23,5 +23,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Bitgem"
+coinmarketcap = "Bitgem"
 CurrencyName = "Bitgem"

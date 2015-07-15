@@ -4,7 +4,7 @@ dependencies = "independent"
 source = "cyberFund"
 
 [descriptions]
-short_description = "A Next-Generation Smart Contract and Decentralized Application Platform"
+headline = "A Next-Generation Smart Contract and Decentralized Application Platform"
 summary = "Ethereum is a community-driven project aiming to decentralize the internet and return it to its democratic roots. It is a platform for building and running applications which do not need to rely on trust and cannot be controlled by any central authority."
 
 [metrics]
@@ -19,7 +19,7 @@ timestamp = 1431342962.0
   btc = 31529.0
 
 [aliases]
-CoinMarketCap = "Ethereum"
+coinmarketcap = "Ethereum"
 CurrencyName = "Ethereum"
 
 [crowdsales]

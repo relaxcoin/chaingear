@@ -10,5 +10,5 @@ dependencies = "Bitcoin"
 links = []
 
 [aliases]
-CoinMarketCap = "Tether"
+coinmarketcap = "Tether"
 CurrencyName = "Tether"

@@ -7,10 +7,10 @@ announce = "20/09/2014"
 status = "Running"
 p2p = 1141.0
 rpc = 8311.0
-blockTime = "120"
-reward = "50"
-total = "63900000"
-difficultyCycle = "Each block"
+block_time = "120"
+block_reward = "50"
+total_tokens = "63900000"
+difficulty_cycle = "Each block"
 ann = "https://bitcointalk.org/index.php?topic=721936.0"
 algo = "X-n"
 rating = 0.0
@@ -27,5 +27,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Sterlingcoin"
+coinmarketcap = "Sterlingcoin"
 CurrencyName = "Sterlingcoin"

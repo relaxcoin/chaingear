@@ -9,7 +9,7 @@ rating = 1.0
 consensus = "NXT"
 
 [aliases]
-CoinMarketCap = "NXTventure"
+coinmarketcap = "NXTventure"
 CurrencyName = "NXTventure"
 
 [[links]]

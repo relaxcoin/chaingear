@@ -7,10 +7,10 @@ announce = "06/08/2014"
 status = "Dead"
 p2p = 26002.0
 rpc = 26004.0
-blockTime = "90"
-reward = "100 coins"
-total = "288000"
-difficultyCycle = "every block"
+block_time = "90"
+block_reward = "100 coins"
+total_tokens = "288000"
+difficulty_cycle = "every block"
 ann = "https://bitcointalk.org/index.php?topic=726117.0"
 algo = "X-n"
 
@@ -27,5 +27,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "VvXx"
+coinmarketcap = "VvXx"
 CurrencyName = "VvXx"

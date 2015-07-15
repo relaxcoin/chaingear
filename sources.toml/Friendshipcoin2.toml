@@ -7,10 +7,10 @@ announce = "08/01/2015"
 status = "Running"
 p2p = 36285.0
 rpc = 36286.0
-blockTime = "60 seconds"
-reward = "100 FSC2"
-total = "2000000 coins"
-mintConfirm = "100 confirmations"
+block_time = "60 seconds"
+block_reward = "100 FSC2"
+total_tokens = "2000000 coins"
+mint_confirm = "100 confirmations"
 ann = "https://bitcointalk.org/index.php?topic=917364.0"
 algo = "Scrypt"
 rating = 0.0
@@ -28,5 +28,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Friendshipcoin2"
+coinmarketcap = "Friendshipcoin2"
 CurrencyName = "Friendshipcoin2"

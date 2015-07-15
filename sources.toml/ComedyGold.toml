@@ -6,8 +6,8 @@ source = "cyberFund"
 announce = "30/03/2014"
 genesis = "null"
 status = "Dead"
-reward = "Special reward system"
-total = 100000000000.0
+block_reward = "Special reward system"
+total_tokens = 100000000000.0
 ann = "https://bitcointalk.org/index.php?topic=549303.msg5979055#msg5979055"
 algo = "Scrypt"
 
@@ -24,5 +24,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "ComedyGold"
+coinmarketcap = "ComedyGold"
 CurrencyName = "ComedyGold"

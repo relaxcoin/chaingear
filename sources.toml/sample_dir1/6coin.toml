@@ -7,9 +7,9 @@ announce = "15/06/2013"
 status = "Dead"
 p2p = 6665.0
 rpc = 6666.0
-blockTime = "66"
-total = 666000000.0
-difficultyCycle = "60"
+block_time = "66"
+total_tokens = 666000000.0
+difficulty_cycle = "60"
 ann = "https://bitcointalk.org/index.php?topic=239201.0"
 algo = "Scrypt"
 rating = 0.0
@@ -21,5 +21,5 @@ icon = "github.png"
 tags = ["Main", "Code"]
 
 [aliases]
-CoinMarketCap = "6coin"
+coinmarketcap = "6coin"
 CurrencyName = "6coin"

@@ -7,10 +7,10 @@ announce = "01/01/2014"
 status = "Dead"
 p2p = 33112.0
 rpc = 33111.0
-blockTime = 60.0
-total = 100000000000.0
-premine = 75000000.0
-difficultyCycle = 240.0
+block_time = 60.0
+total_tokens = 100000000000.0
+premine_tokens = 75000000.0
+difficulty_cycle = 240.0
 ann = "https://bitcointalk.org/index.php?topic=394964.0"
 algo = "Scrypt"
 rating = 0.0
@@ -28,5 +28,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Cagecoin"
+coinmarketcap = "Cagecoin"
 CurrencyName = "Cagecoin"

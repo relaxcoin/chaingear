@@ -6,8 +6,8 @@ source = "cyberFund"
 announce = "22/06/2013"
 genesis = "23/06/2013"
 status = "Running"
-blockTime = "300"
-difficultyCycle = "every block"
+block_time = "300"
+difficulty_cycle = "every block"
 ann = "https://bitcointalk.org/index.php?topic=240894.0"
 algo = "Quark"
 
@@ -23,5 +23,5 @@ algo = "Quark"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Sifcoin"
+coinmarketcap = "Sifcoin"
 CurrencyName = "Sifcoin"

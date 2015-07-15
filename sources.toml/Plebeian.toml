@@ -7,11 +7,11 @@ announce = "09/08/2014"
 status = "Dead"
 p2p = 14200.0
 rpc = 28177.0
-blockTime = "67"
-reward = "4,200 PLEB"
-total = "Total Mined PoW Money Supply (not including premine*): ~16776443 PLEB"
-premine = "2.7027% = 462,586 PLEB (1% for dev team fund, 1% for community bounties)"
-difficultyCycle = ""
+block_time = "67"
+block_reward = "4,200 PLEB"
+total_tokens = "Total Mined PoW Money Supply (not including premine_tokens*): ~16776443 PLEB"
+premine_tokens = "2.7027% = 462,586 PLEB (1% for dev team fund, 1% for community bounties)"
+difficulty_cycle = ""
 ann = "https://bitcointalk.org/index.php?topic=730854.0"
 algo = "X-n"
 
@@ -27,5 +27,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Plebeian"
+coinmarketcap = "Plebeian"
 CurrencyName = "Plebeian"

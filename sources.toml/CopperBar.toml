@@ -8,9 +8,9 @@ genesis = "13/08/2013"
 status = "Dead"
 p2p = 7874.0
 rpc = 7873.0
-blockTime = "16"
-reward = 0.0064
-total = 512000000.0
+block_time = "16"
+block_reward = 0.0064
+total_tokens = 512000000.0
 ann = "https://bitcointalk.org/index.php?topic=272170.0"
 algo = "Scrypt"
 
@@ -26,5 +26,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "CopperBar"
+coinmarketcap = "CopperBar"
 CurrencyName = "CopperBar"

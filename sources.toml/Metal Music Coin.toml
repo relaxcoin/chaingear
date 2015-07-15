@@ -6,10 +6,10 @@ source = "cyberFund"
 announce = "03/10/2014"
 status = "Running"
 rpc = 21452.0
-blockTime = "60"
-reward = "100 coins per block"
-total = "2500000000"
-premine = "2000000"
+block_time = "60"
+block_reward = "100 coins per block"
+total_tokens = "2500000000"
+premine_tokens = "2000000"
 ann = "https://bitcointalk.org/index.php?topic=808657.0"
 algo = "Scrypt"
 
@@ -26,5 +26,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Metal Music Coin"
+coinmarketcap = "Metal Music Coin"
 CurrencyName = "Metal Music Coin"

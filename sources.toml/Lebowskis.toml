@@ -6,10 +6,10 @@ source = "cyberFund"
 announce = "22/07/2013"
 status = "Dead"
 rpc = 8245.0
-blockTime = "60"
-reward = 19.98
-total = 17439163.0
-difficultyCycle = "every block"
+block_time = "60"
+block_reward = 19.98
+total_tokens = 17439163.0
+difficulty_cycle = "every block"
 ann = "https://bitcointalk.org/index.php?topic=260311.0"
 algo = "Scrypt"
 
@@ -26,5 +26,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Lebowskis"
+coinmarketcap = "Lebowskis"
 CurrencyName = "Lebowskis"

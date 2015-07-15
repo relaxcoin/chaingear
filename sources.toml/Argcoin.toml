@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "15/08/2013"
 status = "Dead"
-blockTime = "300"
-reward = 100.0
-halfingCycle = 8460.0
-total = 42000000.0
+block_time = "300"
+block_reward = 100.0
+halfing_cycle = 8460.0
+total_tokens = 42000000.0
 ann = "https://bitcointalk.org/index.php?topic=278166.0"
 algo = "Scrypt"
 
@@ -19,5 +19,5 @@ icon = "github.png"
 tags = ["Main", "Code"]
 
 [aliases]
-CoinMarketCap = "Argcoin"
+coinmarketcap = "Argcoin"
 CurrencyName = "Argcoin"

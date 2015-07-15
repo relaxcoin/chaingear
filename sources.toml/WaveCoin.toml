@@ -7,11 +7,11 @@ announce = "16/06/2014"
 status = "Dead"
 p2p = 25121.0
 rpc = 25120.0
-blockTime = 60.0
-reward = "Block 1: 10000 WVS (premine coins). Block 2 - 100: 0 (to ensure everybone can download the wallet and configure everything). Block 101 - 1500: 50 WVS, block 1501 - 15000: 30 WVS. Block 15001 - 35000: 20 WVS. Block 35001 - 46500: 10 WVS"
-total = 1000000.0
-premine = "10000 (1%)"
-difficultyCycle = "Every block"
+block_time = 60.0
+block_reward = "Block 1: 10000 WVS (premine_tokens coins). Block 2 - 100: 0 (to ensure everybone can download the wallet and configure everything). Block 101 - 1500: 50 WVS, block 1501 - 15000: 30 WVS. Block 15001 - 35000: 20 WVS. Block 35001 - 46500: 10 WVS"
+total_tokens = 1000000.0
+premine_tokens = "10000 (1%)"
+difficulty_cycle = "Every block"
 ann = "https://bitcointalk.org/index.php?topic=653969"
 algo = "X11"
 
@@ -27,5 +27,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "WaveCoin"
+coinmarketcap = "WaveCoin"
 CurrencyName = "WaveCoin"

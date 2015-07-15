@@ -5,8 +5,8 @@ source = "cyberFund"
 [metrics]
 announce = "28/12/2013"
 status = "Dead"
-blockTime = 60.0
-reward = 1000.0
+block_time = 60.0
+block_reward = 1000.0
 ann = "https://bitcointalk.org/index.php?topic=388650.0"
 algo = "Scrypt"
 rating = 0.0
@@ -23,5 +23,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "HamsterCoin"
+coinmarketcap = "HamsterCoin"
 CurrencyName = "HamsterCoin"

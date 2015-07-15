@@ -7,8 +7,8 @@ announce = "29/12/2013"
 status = "Running"
 p2p = 44664.0
 rpc = 44663.0
-blockTime = 90.0
-total = 384400000000.0
+block_time = 90.0
+total_tokens = 384400000000.0
 ann = "https://bitcointalk.org/index.php?topic=389403.0"
 algo = "Scrypt"
 rating = 1.0
@@ -25,5 +25,5 @@ rating = 1.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Mooncoin"
+coinmarketcap = "Mooncoin"
 CurrencyName = "Mooncoin"

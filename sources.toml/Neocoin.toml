@@ -6,8 +6,8 @@ source = "cyberFund"
 announce = "26/07/2013"
 status = "Dead"
 rpc = 8000.0
-blockTime = "100"
-total = 80000000.0
+block_time = "100"
+total_tokens = 80000000.0
 ann = "https://bitcointalk.org/index.php?topic=313506.0"
 algo = "Scrypt"
 rating = 0.0
@@ -25,5 +25,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Neocoin"
+coinmarketcap = "Neocoin"
 CurrencyName = "Neocoin"

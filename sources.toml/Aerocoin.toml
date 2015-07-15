@@ -5,8 +5,8 @@ source = "cyberFund"
 [metrics]
 announce = "22/06/2014"
 status = "Running"
-blockTime = 90.0
-total = 7080000.0
+block_time = 90.0
+total_tokens = 7080000.0
 ann = "https://bitcointalk.org/index.php?topic=955204.0;all"
 algo = "X-n"
 
@@ -23,5 +23,5 @@ icon = "github.png"
 tags = ["Main", "Code"]
 
 [aliases]
-CoinMarketCap = "Aerocoin"
+coinmarketcap = "Aerocoin"
 CurrencyName = "Aerocoin"

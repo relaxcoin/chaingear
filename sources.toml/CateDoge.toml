@@ -5,12 +5,12 @@ source = "cyberFund"
 [metrics]
 announce = "24/03/2014"
 status = "Running"
-blockTime = 30.0
-reward = "12,500, never dropping below this"
-halfingCycle = "at 36000 blocks"
-total = 20000000000.0
-premine = 50000000.0
-difficultyCycle = "at 36000 blocks"
+block_time = 30.0
+block_reward = "12,500, never dropping below this"
+halfing_cycle = "at 36000 blocks"
+total_tokens = 20000000000.0
+premine_tokens = 50000000.0
+difficulty_cycle = "at 36000 blocks"
 ann = "https://bitcointalk.org/index.php?topic=528453.0"
 algo = "SHA-3"
 
@@ -27,5 +27,5 @@ algo = "SHA-3"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "CateDoge"
+coinmarketcap = "CateDoge"
 CurrencyName = "CateDoge"

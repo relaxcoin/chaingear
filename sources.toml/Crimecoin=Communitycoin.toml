@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "01/08/2013"
 status = "Running"
-blockTime = "300"
-reward = 25.0
-total = 100000000.0
-premine = 300000.0
+block_time = "300"
+block_reward = 25.0
+total_tokens = 100000000.0
+premine_tokens = 300000.0
 ann = "https://bitcointalk.org/index.php?topic=280451.0"
 algo = "Scrypt"
 
@@ -25,5 +25,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Crimecoin=Communitycoin"
+coinmarketcap = "Crimecoin=Communitycoin"
 CurrencyName = "Crimecoin=Communitycoin"

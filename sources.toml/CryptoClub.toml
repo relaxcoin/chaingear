@@ -5,11 +5,11 @@ source = "cyberFund"
 [metrics]
 announce = "27/08/2014"
 status = "Running"
-blockTime = "60"
-total = "92000000"
-premine = "100%"
-difficultyCycle = "every block"
-mintConfirm = "50"
+block_time = "60"
+total_tokens = "92000000"
+premine_tokens = "100%"
+difficulty_cycle = "every block"
+mint_confirm = "50"
 ann = "https://bitcointalk.org/index.php?topic=667866.0"
 algo = "X11"
 
@@ -24,5 +24,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "CryptoClub"
+coinmarketcap = "CryptoClub"
 CurrencyName = "CryptoClub"

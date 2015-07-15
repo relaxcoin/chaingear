@@ -8,13 +8,13 @@ genesis = "01/13/2013"
 status = "Dead"
 p2p = 8945.0
 rpc = 8946.0
-blockTime = 120.0
-reward = 10000.0
-halfingCycle = 50000.0
-total = 900000000.0
-premine = 12000000.0
-txsConfirm = 6.0
-mintConfirm = 120.0
+block_time = 120.0
+block_reward = 10000.0
+halfing_cycle = 50000.0
+total_tokens = 900000000.0
+premine_tokens = 12000000.0
+txs_confirm = 6.0
+mint_confirm = 120.0
 ann = "https://bitcointalk.org/index.php?topic=412331"
 algo = "Scrypt"
 
@@ -31,5 +31,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Socialcoin"
+coinmarketcap = "Socialcoin"
 CurrencyName = "Socialcoin"

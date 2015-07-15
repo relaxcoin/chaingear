@@ -6,8 +6,8 @@ source = "cyberFund"
 [metrics]
 announce = "26/09/2013"
 status = "Running"
-total = 100000000000.0
-premine = "100000000000 (100%). 20000000000 XRP were retained by the creators, seeders, venture capital companies and other founders. 80000000000 were given to Ripple Labs. Ripple Labs intends to distribute 55000000000 XRP to charitable organizations, users and strategic partners and will retain the remaining 25000000000."
+total_tokens = 100000000000.0
+premine_tokens = "100000000000 (100%). 20000000000 XRP were retained by the creators, seeders, venture capital companies and other founders. 80000000000 were given to Ripple Labs. Ripple Labs intends to distribute 55000000000 XRP to charitable organizations, users and strategic partners and will retain the remaining 25000000000."
 ann = "https://bitcointalk.org/index.php?topic=301635.0"
 type = "DAO"
 rating = 5.0
@@ -15,7 +15,7 @@ consensus = "Federated Consensus"
 hashtag = "#ripple"
 
 [aliases]
-CoinMarketCap = "Ripple"
+coinmarketcap = "Ripple"
 CurrencyName = "Ripple"
 
 [[links]]

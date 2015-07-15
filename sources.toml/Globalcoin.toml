@@ -6,11 +6,11 @@ source = "cyberFund"
 announce = "26/06/2013"
 genesis = "14/05/2013"
 status = "Running"
-blockTime = "40"
-halfingCycle = 280000.0
-total = 70000000.0
-difficultyCycle = "194400"
-txsConfirm = 8.0
+block_time = "40"
+halfing_cycle = 280000.0
+total_tokens = 70000000.0
+difficulty_cycle = "194400"
+txs_confirm = 8.0
 ann = "https://bitcointalk.org/index.php?topic=243911.0"
 algo = "Scrypt"
 rating = 0.0
@@ -28,5 +28,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Globalcoin"
+coinmarketcap = "Globalcoin"
 CurrencyName = "Globalcoin"

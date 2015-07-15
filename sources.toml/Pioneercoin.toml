@@ -7,11 +7,11 @@ announce = "11/06/2014"
 status = "Dead"
 p2p = 20147.0
 rpc = 20146.0
-blockTime = 60.0
-reward = "200-25 coins"
-total = 50000000.0
-premine = "500000 (1%) for development, promotional and immediate bounties."
-difficultyCycle = "Difficulty retargets using the new algorithm, Which prevent MultiPools effectively"
+block_time = 60.0
+block_reward = "200-25 coins"
+total_tokens = 50000000.0
+premine_tokens = "500000 (1%) for development, promotional and immediate bounties."
+difficulty_cycle = "Difficulty retargets using the new algorithm, Which prevent MultiPools effectively"
 ann = "https://bitcointalk.org/index.php?topic=648489.0"
 algo = "X-n"
 
@@ -28,5 +28,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Pioneercoin"
+coinmarketcap = "Pioneercoin"
 CurrencyName = "Pioneercoin"

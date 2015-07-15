@@ -16,5 +16,5 @@ links = []
   btc = 1404.0
 
 [aliases]
-CoinMarketCap = "Moonstone"
+coinmarketcap = "Moonstone"
 CurrencyName = "Moonstone"

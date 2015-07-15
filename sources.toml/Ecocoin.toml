@@ -5,13 +5,13 @@ source = "cyberFund"
 [metrics]
 announce = "07/08/2013"
 status = "Dead"
-blockTime = "45"
-reward = 7.0
-total = 10200000.0
-premine = 102000.0
-difficultyCycle = "691"
-txsConfirm = 5.0
-mintConfirm = 20.0
+block_time = "45"
+block_reward = 7.0
+total_tokens = 10200000.0
+premine_tokens = 102000.0
+difficulty_cycle = "691"
+txs_confirm = 5.0
+mint_confirm = 20.0
 ann = "https://bitcointalk.org/index.php?topic=269312.0"
 algo = "Scrypt"
 
@@ -28,5 +28,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Ecocoin"
+coinmarketcap = "Ecocoin"
 CurrencyName = "Ecocoin"

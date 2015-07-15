@@ -7,5 +7,5 @@ rating = 1.0
 links = []
 
 [aliases]
-CoinMarketCap = "Crypto Bullion"
+coinmarketcap = "Crypto Bullion"
 CurrencyName = "Crypto Bullion"

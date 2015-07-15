@@ -6,10 +6,10 @@ source = "cyberFund"
 announce = "10/08/2014"
 status = "Dead"
 rpc = 20731.0
-blockTime = "60"
-reward = " Block 1~100:100 SOLE,Block 101~3100:800 SOLE."
-total = "2400000"
-mintConfirm = "120 blocks"
+block_time = "60"
+block_reward = " Block 1~100:100 SOLE,Block 101~3100:800 SOLE."
+total_tokens = "2400000"
+mint_confirm = "120 blocks"
 ann = "https://bitcointalk.org/index.php?topic=730077.0"
 algo = "X-n"
 rating = 0.0
@@ -27,5 +27,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Solecoin"
+coinmarketcap = "Solecoin"
 CurrencyName = "Solecoin"

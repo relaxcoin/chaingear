@@ -6,7 +6,7 @@ source = "cyberFund"
 announce = "13/05/2013"
 genesis = "14/05/2013"
 status = "Dead"
-blockTime = "120"
+block_time = "120"
 ann = "https://bitcointalk.org/index.php?topic=203647.0"
 algo = "Scrypt"
 rating = 0.0
@@ -24,5 +24,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "ELACoin"
+coinmarketcap = "ELACoin"
 CurrencyName = "ELACoin"

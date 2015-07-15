@@ -5,9 +5,9 @@ source = "cyberFund"
 [metrics]
 announce = "23/07/2014"
 status = "Running"
-blockTime = "30 seconds"
-reward = "200 FIM"
-total = "1000000000"
+block_time = "30 seconds"
+block_reward = "200 FIM"
+total_tokens = "1000000000"
 ann = "http://gry.io/2014/07/23/fimkrypto-fimk/"
 type = "DAO"
 rating = 1.0
@@ -25,5 +25,5 @@ dependencies = "independent"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "FIMKrypto"
+coinmarketcap = "FIMKrypto"
 CurrencyName = "FIMKrypto"

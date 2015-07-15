@@ -9,7 +9,7 @@ rating = 1.0
 consensus = "NXT"
 
 [aliases]
-CoinMarketCap = "Pangea Poker"
+coinmarketcap = "Pangea Poker"
 CurrencyName = "Pangea Poker"
 
 [[links]]

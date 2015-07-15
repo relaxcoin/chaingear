@@ -6,9 +6,9 @@ source = "cyberFund"
 announce = "18/05/2013"
 genesis = "18/05/2013"
 status = "Dead"
-blockTime = "150"
-total = 21000004.0
-difficultyCycle = "2016"
+block_time = "150"
+total_tokens = 21000004.0
+difficulty_cycle = "2016"
 ann = "https://bitcointalk.org/index.php?topic=209035.0"
 algo = "Scrypt"
 rating = 0.0
@@ -25,5 +25,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Nibble"
+coinmarketcap = "Nibble"
 CurrencyName = "Nibble"

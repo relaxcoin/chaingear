@@ -7,12 +7,12 @@ announce = "04/08/2014"
 status = "Dead"
 p2p = 33482.0
 rpc = 33481.0
-blockTime = "360"
-reward = "FIRST 5 DAYS BLOCK REWARD:40,BLOCK REWARD AFTER 5 DAYS:400"
-total = "20000000"
-premine = "10000000 (9900000 Presale / 100000 Bounties)"
-difficultyCycle = "each block"
-mintConfirm = "100 blocks"
+block_time = "360"
+block_reward = "FIRST 5 DAYS BLOCK REWARD:40,BLOCK REWARD AFTER 5 DAYS:400"
+total_tokens = "20000000"
+premine_tokens = "10000000 (9900000 Presale / 100000 Bounties)"
+difficulty_cycle = "each block"
+mint_confirm = "100 blocks"
 ann = "https://bitcointalk.org/index.php?topic=725670.0"
 algo = "X11"
 
@@ -29,5 +29,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "BizCoin"
+coinmarketcap = "BizCoin"
 CurrencyName = "BizCoin"

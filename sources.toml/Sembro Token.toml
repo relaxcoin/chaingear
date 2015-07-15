@@ -5,7 +5,7 @@ source = "cyberFund"
 [metrics]
 announce = "16/10/2014"
 status = "Dead"
-total = "2750000"
+total_tokens = "2750000"
 ann = "https://bitcointalk.org/index.php?topic=819427"
 algo = "Scrypt"
 rating = 0.0
@@ -23,5 +23,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Sembro Token"
+coinmarketcap = "Sembro Token"
 CurrencyName = "Sembro Token"

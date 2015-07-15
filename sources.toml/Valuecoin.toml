@@ -7,11 +7,11 @@ announce = "21/06/2013"
 status = "Dead"
 p2p = 11108.0
 rpc = 11109.0
-blockTime = "30"
-reward = 16.0
-total = 133000000.0
-premine = 1000000.0
-txsConfirm = 3.0
+block_time = "30"
+block_reward = 16.0
+total_tokens = 133000000.0
+premine_tokens = 1000000.0
+txs_confirm = 3.0
 ann = "https://bitcointalk.org/index.php?topic=239666.0"
 algo = "Scrypt"
 
@@ -28,5 +28,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Valuecoin"
+coinmarketcap = "Valuecoin"
 CurrencyName = "Valuecoin"

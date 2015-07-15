@@ -8,5 +8,5 @@ rating = 0.0
 [[links]]
 
 [aliases]
-CoinMarketCap = "BitCent"
+coinmarketcap = "BitCent"
 CurrencyName = "BitCent"

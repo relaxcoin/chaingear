@@ -8,11 +8,11 @@ genesis = "03/05/2013"
 status = "Running"
 p2p = 9771.0
 rpc = 9772.0
-blockTime = "60"
-reward = 50.0
-halfingCycle = 10368000.0
-total = 107000000.0
-difficultyCycle = "1440"
+block_time = "60"
+block_reward = 50.0
+halfing_cycle = 10368000.0
+total_tokens = 107000000.0
+difficulty_cycle = "1440"
 algo = "Scrypt"
 rating = 0.0
 
@@ -29,5 +29,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Junkcoin"
+coinmarketcap = "Junkcoin"
 CurrencyName = "Junkcoin"

@@ -9,7 +9,7 @@ rating = 3.0
 consensus = "Counterparty"
 
 [aliases]
-CoinMarketCap = "Swarm"
+coinmarketcap = "Swarm"
 CurrencyName = "Swarm"
 
 [crowdsales]

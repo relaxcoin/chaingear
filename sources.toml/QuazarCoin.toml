@@ -5,11 +5,11 @@ source = "cyberFund"
 [metrics]
 announce = "19/05/2014"
 status = "Running"
-blockTime = 120.0
-reward = "block reward decreases according to the formula (2^64 - 1 - A)*2^(-21)*10^(-12), where A = supply mined to date"
-total = 18446744.0
-difficultyCycle = "every block"
-txsConfirm = 60.0
+block_time = 120.0
+block_reward = "block reward decreases according to the formula (2^64 - 1 - A)*2^(-21)*10^(-12), where A = supply mined to date"
+total_tokens = 18446744.0
+difficulty_cycle = "every block"
+txs_confirm = 60.0
 ann = "https://bitcointalk.org/index.php?topic=615732"
 algo = "CryptoNight"
 rating = 0.0
@@ -27,5 +27,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "QuazarCoin"
+coinmarketcap = "QuazarCoin"
 CurrencyName = "QuazarCoin"

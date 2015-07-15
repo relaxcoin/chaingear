@@ -5,12 +5,12 @@ source = "cyberFund"
 [metrics]
 announce = "31/03/2014"
 status = "Dead"
-blockTime = 150.0
-reward = "Starting on Block 100, rewards will be 1250 with guaranteed payout if block found"
-total = 1000000000.0
-premine = "maybe"
-difficultyCycle = "2 Blocks"
-txsConfirm = 6.0
+block_time = 150.0
+block_reward = "Starting on Block 100, rewards will be 1250 with guaranteed payout if block found"
+total_tokens = 1000000000.0
+premine_tokens = "maybe"
+difficulty_cycle = "2 Blocks"
+txs_confirm = 6.0
 ann = "https://bitcointalk.org/index.php?topic=552057.0"
 algo = "SHA-3"
 
@@ -26,5 +26,5 @@ algo = "SHA-3"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Overly Attached Coin"
+coinmarketcap = "Overly Attached Coin"
 CurrencyName = "Overly Attached Coin"

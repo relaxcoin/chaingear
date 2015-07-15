@@ -4,18 +4,18 @@ dependencies = "independent"
 source = "cyberFund"
 
 [descriptions]
-short_description = "The Trustless Financial Ecosystem"
+headline = "The Trustless Financial Ecosystem"
 summary = "Nxt is a radically enhanced cryptocurrency built from scratch, delivering a unique and decentralized financial platform. Not only does it open up new possibilities – from digital money to transfer of shares – but it addresses all of the most serious deficiencies in existing cryptocurrencies."
 
 [metrics]
 announce = "28/09/2013"
 genesis = ""
 status = "Running"
-blockTime = "90"
-reward = ""
-halfingCycle = ""
-total = "1000000000"
-difficultyCycle = ""
+block_time = "90"
+block_reward = ""
+halfing_cycle = ""
+total_tokens = "1000000000"
+difficulty_cycle = ""
 ann = "https://bitcointalk.org/index.php?topic=303898.0"
 type = "DAO"
 rating = 4.0
@@ -23,7 +23,7 @@ consensus = "Proof-of-Stake"
 hashtag = "#nxt"
 
 [aliases]
-CoinMarketCap = "Nxt"
+coinmarketcap = "Nxt"
 CurrencyName = "NXT"
 
 [crowdsales]

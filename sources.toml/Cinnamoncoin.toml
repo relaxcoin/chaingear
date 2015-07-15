@@ -6,13 +6,13 @@ source = "cyberFund"
 announce = "22/09/2013"
 genesis = "22/09/2013"
 status = "Dead"
-blockTime = "300"
-reward = 64.0
-halfingCycle = 210240.0
-total = 27000000000000.0
-difficultyCycle = "everyblock"
-txsConfirm = 3.0
-mintConfirm = 40.0
+block_time = "300"
+block_reward = 64.0
+halfing_cycle = 210240.0
+total_tokens = 27000000000000.0
+difficulty_cycle = "everyblock"
+txs_confirm = 3.0
+mint_confirm = 40.0
 ann = "https://bitcointalk.org/index.php?topic=299221.0"
 algo = "Scrypt"
 rating = 0.0
@@ -30,5 +30,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Cinnamoncoin"
+coinmarketcap = "Cinnamoncoin"
 CurrencyName = "Cinnamoncoin"

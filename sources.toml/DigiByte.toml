@@ -9,7 +9,7 @@ rating = 1.0
 consensus = "Proof-of-Work"
 
 [aliases]
-CoinMarketCap = "DigiByte"
+coinmarketcap = "DigiByte"
 CurrencyName = "DigiByte"
 
 [[links]]

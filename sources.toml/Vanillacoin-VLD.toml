@@ -5,12 +5,12 @@ source = "cyberFund"
 [metrics]
 announce = "12/01/2014"
 status = "Dead"
-blockTime = 60.0
-reward = 50.0
-halfingCycle = 510000.0
-total = 51000000.0
-difficultyCycle = 10.0
-mintConfirm = 140.0
+block_time = 60.0
+block_reward = 50.0
+halfing_cycle = 510000.0
+total_tokens = 51000000.0
+difficulty_cycle = 10.0
+mint_confirm = 140.0
 ann = "https://bitcointalk.org/index.php?topic=412311.0"
 algo = "Quark"
 
@@ -21,5 +21,5 @@ icon = "github.png"
 tags = ["Main", "Code"]
 
 [aliases]
-CoinMarketCap = "Vanillacoin"
+coinmarketcap = "Vanillacoin"
 CurrencyName = "Vanillacoin"

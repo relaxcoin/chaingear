@@ -5,11 +5,11 @@ source = "cyberFund"
 [metrics]
 announce = "13/05/2014"
 status = "Dead"
-blockTime = 30.0
-reward = "1000 coins per block"
-total = 30000000.0
-premine = "450000 (3%)"
-difficultyCycle = "every blocks"
+block_time = 30.0
+block_reward = "1000 coins per block"
+total_tokens = 30000000.0
+premine_tokens = "450000 (3%)"
+difficulty_cycle = "every blocks"
 ann = "https://bitcointalk.org/index.php?topic=607076.0"
 algo = "X11"
 
@@ -25,5 +25,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "RIGHTCOIN"
+coinmarketcap = "RIGHTCOIN"
 CurrencyName = "RIGHTCOIN"

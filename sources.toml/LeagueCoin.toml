@@ -7,8 +7,8 @@ announce = "23/05/2014"
 status = "Dead"
 p2p = 19667.0
 rpc = 19668.0
-total = 5000000.0
-premine = "No"
+total_tokens = 5000000.0
+premine_tokens = "No"
 ann = "https://bitcointalk.org/index.php?topic=622801"
 algo = "X11"
 
@@ -25,5 +25,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "LeagueCoin"
+coinmarketcap = "LeagueCoin"
 CurrencyName = "LeagueCoin"

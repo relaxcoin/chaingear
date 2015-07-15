@@ -7,11 +7,11 @@ announce = "24/08/2014"
 status = "Dead"
 p2p = 37001.0
 rpc = 37000.0
-blockTime = "60"
-reward = "2coins/block"
-total = "10000000"
-premine = "5% of first year or .05% of total coins- Used to pay for getting it ready ie: block explorers and bounties for wallets"
-difficultyCycle = ""
+block_time = "60"
+block_reward = "2coins/block"
+total_tokens = "10000000"
+premine_tokens = "5% of first year or .05% of total coins- Used to pay for getting it ready ie: block explorers and bounties for wallets"
+difficulty_cycle = ""
 ann = "https://bitcointalk.org/index.php?topic=750763.msg8473308#msg8473308"
 algo = "Scrypt"
 
@@ -28,5 +28,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Trader Coin"
+coinmarketcap = "Trader Coin"
 CurrencyName = "Trader Coin"

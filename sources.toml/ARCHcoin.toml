@@ -10,7 +10,7 @@ consensus = "Proof-of-Stake"
 rating = 1.0
 
 [aliases]
-CoinMarketCap = "ARCHcoin"
+coinmarketcap = "ARCHcoin"
 CurrencyName = "ARCHcoin"
 
 [[links]]

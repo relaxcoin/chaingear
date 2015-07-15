@@ -6,11 +6,11 @@ source = "cyberFund"
 announce = "03/10/2014"
 status = "Dead"
 rpc = 22471.0
-blockTime = "60 seconds"
-reward = "Block 1:3000000 DPC,Block 2-420000:40 DPC"
-total = "20000000"
-difficultyCycle = "Every block"
-mintConfirm = "50 blocks"
+block_time = "60 seconds"
+block_reward = "Block 1:3000000 DPC,Block 2-420000:40 DPC"
+total_tokens = "20000000"
+difficulty_cycle = "Every block"
+mint_confirm = "50 blocks"
 ann = "https://bitcointalk.org/index.php?topic=795749"
 algo = "Scrypt"
 
@@ -26,5 +26,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "DarkPeer"
+coinmarketcap = "DarkPeer"
 CurrencyName = "DarkPeer"

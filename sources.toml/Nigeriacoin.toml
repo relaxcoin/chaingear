@@ -7,11 +7,11 @@ announce = "09/09/2013"
 status = "Dead"
 p2p = 7662.0
 rpc = 17662.0
-blockTime = "120"
-reward = 10.0
-total = 166200000.0
-txsConfirm = 4.0
-mintConfirm = 100.0
+block_time = "120"
+block_reward = 10.0
+total_tokens = 166200000.0
+txs_confirm = 4.0
+mint_confirm = 100.0
 ann = "https://bitcointalk.org/index.php?topic=291233.0"
 algo = "SHA-256d"
 
@@ -27,5 +27,5 @@ algo = "SHA-256d"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Nigeriacoin"
+coinmarketcap = "Nigeriacoin"
 CurrencyName = "Nigeriacoin"

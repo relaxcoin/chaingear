@@ -9,5 +9,5 @@ rating = 0.0
 [[links]]
 
 [aliases]
-CoinMarketCap = "Aegis"
+coinmarketcap = "Aegis"
 CurrencyName = "Aegis"

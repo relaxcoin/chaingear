@@ -7,9 +7,9 @@ announce = "15/05/2013"
 genesis = "15/05/2013"
 status = "Running"
 rpc = 1337.0
-reward = 6.77
-total = 8000000.0
-difficultyCycle = "720"
+block_reward = 6.77
+total_tokens = 8000000.0
+difficulty_cycle = "720"
 ann = "https://bitcointalk.org/index.php?topic=206361.0"
 algo = "Scrypt"
 rating = 0.0
@@ -26,5 +26,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Doubloons"
+coinmarketcap = "Doubloons"
 CurrencyName = "Doubloons"

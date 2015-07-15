@@ -7,11 +7,11 @@ announce = "14/09/2014"
 status = "Running"
 p2p = 3933.0
 rpc = 13932.0
-blockTime = "40"
-reward = "0,00-1,00 CGA"
-total = "10000000000"
-premine = "CGA1: Number of CGA premined: 8 (given away as bounties), CGA2: 105000 premined for tradein"
-difficultyCycle = "KGW"
+block_time = "40"
+block_reward = "0,00-1,00 CGA"
+total_tokens = "10000000000"
+premine_tokens = "CGA1: Number of CGA premined: 8 (given away as bounties), CGA2: 105000 premined for tradein"
+difficulty_cycle = "KGW"
 ann = "https://bitcointalk.org/index.php?topic=771830"
 algo = "Scrypt"
 rating = 0.0
@@ -29,5 +29,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Crytographic Anomaly"
+coinmarketcap = "Crytographic Anomaly"
 CurrencyName = "Crytographic Anomaly"

@@ -7,5 +7,5 @@ rating = 0.0
 links = []
 
 [aliases]
-CoinMarketCap = "Umbrella-LTC"
+coinmarketcap = "Umbrella-LTC"
 CurrencyName = "Umbrella-LTC"

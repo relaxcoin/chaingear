@@ -7,13 +7,13 @@ announce = "22/02/2014"
 status = "Dead"
 p2p = 7553.0
 rpc = 7552.0
-blockTime = 60.0
-reward = "96 and double reward bonus for early adopters during 3 first days"
-halfingCycle = "every year"
-total = 150000000.0
-premine = "150000 coins(1% for marketing, giveaways, and network testing)"
-difficultyCycle = 30.0
-mintConfirm = 35.0
+block_time = 60.0
+block_reward = "96 and double reward bonus for early adopters during 3 first days"
+halfing_cycle = "every year"
+total_tokens = 150000000.0
+premine_tokens = "150000 coins(1% for marketing, giveaways, and network testing)"
+difficulty_cycle = 30.0
+mint_confirm = 35.0
 ann = "https://bitcointalk.org/index.php?topic=482284.0;all"
 algo = "Scrypt"
 
@@ -30,5 +30,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Entropycoin"
+coinmarketcap = "Entropycoin"
 CurrencyName = "Entropycoin"

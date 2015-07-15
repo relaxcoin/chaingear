@@ -7,12 +7,12 @@ announce = "26/11/2014"
 status = "Dead"
 p2p = 12151.0
 rpc = 12153.0
-blockTime = "60 Seconds"
-reward = "750 MOB/block flat"
-total = "15000000 MOB"
-premine = "75000 MOB(0.5%)"
-difficultyCycle = "every block"
-mintConfirm = "60 blocks"
+block_time = "60 Seconds"
+block_reward = "750 MOB/block flat"
+total_tokens = "15000000 MOB"
+premine_tokens = "75000 MOB(0.5%)"
+difficulty_cycle = "every block"
+mint_confirm = "60 blocks"
 ann = "https://bitcointalk.org/index.php?topic=873867.0"
 algo = "X11"
 
@@ -29,5 +29,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Mobcoin"
+coinmarketcap = "Mobcoin"
 CurrencyName = "Mobcoin"

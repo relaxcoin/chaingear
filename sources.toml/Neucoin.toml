@@ -4,7 +4,7 @@ dependencies = "independent"
 source = "cyberFund"
 
 [descriptions]
-short_description = "A decentralized cryptocurrency designed for online microtransactions"
+headline = "A decentralized cryptocurrency designed for online microtransactions"
 summary = "NeuCoin has partnered with major music and video content providers to develop micro-payment solutions for tipping, pay-per-view, ad-free and micro-subscriptions, with user acquisition fueled by freemium distribution of NeuCoin."
 
 [metrics]
@@ -19,7 +19,7 @@ timestamp = 1431342962.0
   btc = 4040.0
 
 [aliases]
-CoinMarketCap = "Neucoin"
+coinmarketcap = "Neucoin"
 CurrencyName = "Neucoin"
 
 [crowdsales]

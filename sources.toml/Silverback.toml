@@ -7,9 +7,9 @@ announce = "16/08/2014"
 status = "Dead"
 p2p = "14141"
 rpc = "14142"
-blockTime = "192 seconds"
-total = "1 070 000 000 coins"
-difficultyCycle = "each block"
+block_time = "192 seconds"
+total_tokens = "1 070 000 000 coins"
+difficulty_cycle = "each block"
 ann = "https://bitcointalk.org/index.php?topic=741346.0"
 
   [[metrics.links]]
@@ -24,5 +24,5 @@ ann = "https://bitcointalk.org/index.php?topic=741346.0"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Silverback"
+coinmarketcap = "Silverback"
 CurrencyName = "Silverback"

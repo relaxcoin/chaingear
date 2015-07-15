@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "25/06/2014"
 status = "Dead"
-blockTime = 75.0
-reward = "10000 HODOR"
-total = 100000000.0
-premine = "1000000 (1%)"
+block_time = 75.0
+block_reward = "10000 HODOR"
+total_tokens = 100000000.0
+premine_tokens = "1000000 (1%)"
 ann = "https://bitcointalk.org/index.php?topic=665818.0"
 algo = "X11"
 
@@ -25,5 +25,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "HODORCOIN"
+coinmarketcap = "HODORCOIN"
 CurrencyName = "HODORCOIN"

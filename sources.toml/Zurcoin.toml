@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "30/12/2013"
 status = "Running"
-blockTime = 42.0
-reward = 42.0
-total = 50000000000.0
-premine = 21000.0
+block_time = 42.0
+block_reward = 42.0
+total_tokens = 50000000000.0
+premine_tokens = 21000.0
 ann = "https://bitcointalk.org/index.php?topic=391806.0"
 algo = "Quark"
 
@@ -24,5 +24,5 @@ algo = "Quark"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Zurcoin"
+coinmarketcap = "Zurcoin"
 CurrencyName = "Zurcoin"

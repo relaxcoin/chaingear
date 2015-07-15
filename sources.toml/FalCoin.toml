@@ -5,11 +5,11 @@ source = "cyberFund"
 [metrics]
 announce = "10/07/2014"
 status = "Dead"
-blockTime = 60.0
-reward = "0-5 max (decentralized reward voting), default: 5"
-total = 10000000.0
-premine = "50000 (0.5%) for bountys and other services"
-txsConfirm = 3.0
+block_time = 60.0
+block_reward = "0-5 max (decentralized reward voting), default: 5"
+total_tokens = 10000000.0
+premine_tokens = "50000 (0.5%) for bountys and other services"
+txs_confirm = 3.0
 ann = "https://bitcointalk.org/index.php?topic=684100.0"
 algo = "Others"
 
@@ -24,5 +24,5 @@ algo = "Others"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "FalCoin"
+coinmarketcap = "FalCoin"
 CurrencyName = "FalCoin"

@@ -7,12 +7,12 @@ source = "cyberFund"
 announce = "15/04/2011"
 genesis = "19/04/2011"
 status = "Running"
-blockTime = "600"
-reward = "50"
-total = "21000000"
-difficultyCycle = "2016"
-txsConfirm = 6.0
-mintConfirm = 120.0
+block_time = "600"
+block_reward = "50"
+total_tokens = "21000000"
+difficulty_cycle = "2016"
+txs_confirm = 6.0
+mint_confirm = 120.0
 algo = "SHA-256d"
 type = "DAO"
 rating = 3.0
@@ -20,7 +20,7 @@ consensus = "Proof-of-Work"
 hashtag = "#namecoin"
 
 [aliases]
-CoinMarketCap = "Namecoin"
+coinmarketcap = "Namecoin"
 CurrencyName = "Namecoin"
 
 [[links]]

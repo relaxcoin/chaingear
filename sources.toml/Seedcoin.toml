@@ -7,10 +7,10 @@ announce = "04/10/2014"
 status = "Running"
 p2p = 8723.0
 rpc = 8722.0
-blockTime = "150"
-reward = "0,1 seeds"
-total = "2000000"
-difficultyCycle = "Every Block"
+block_time = "150"
+block_reward = "0,1 seeds"
+total_tokens = "2000000"
+difficulty_cycle = "Every Block"
 ann = "https://bitcointalk.org/index.php?topic=795954"
 algo = "Scrypt"
 rating = 0.0
@@ -28,5 +28,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Seedcoin"
+coinmarketcap = "Seedcoin"
 CurrencyName = "Seedcoin"

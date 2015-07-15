@@ -8,11 +8,11 @@ genesis = "16/04/2013"
 status = "Running"
 p2p = 9336.0
 rpc = 9337.0
-blockTime = "150"
-reward = 200.0
-halfingCycle = 840000.0
-total = 336000000.0
-difficultyCycle = "126"
+block_time = "150"
+block_reward = 200.0
+halfing_cycle = 840000.0
+total_tokens = 336000000.0
+difficulty_cycle = "126"
 algo = "Scrypt"
 type = "DAO"
 rating = 1.0
@@ -32,5 +32,5 @@ dependencies = "independent"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Feathercoin"
+coinmarketcap = "Feathercoin"
 CurrencyName = "Feathercoin"

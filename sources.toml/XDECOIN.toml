@@ -7,7 +7,7 @@ announce = "12/12/2014"
 status = "Running"
 p2p = 25080.0
 rpc = 26080.0
-total = "100 coins"
+total_tokens = "100 coins"
 ann = "https://cryptocointalk.com/topic/22022-annxde-100-rare-xdecoin-pure-pos-ico-ended/"
 algo = "X-n"
 rating = 0.0
@@ -25,5 +25,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "XDECOIN"
+coinmarketcap = "XDECOIN"
 CurrencyName = "XDECOIN"

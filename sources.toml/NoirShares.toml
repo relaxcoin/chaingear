@@ -7,5 +7,5 @@ rating = 0.0
 links = []
 
 [aliases]
-CoinMarketCap = "NoirShares"
+coinmarketcap = "NoirShares"
 CurrencyName = "NoirShares"

@@ -5,11 +5,11 @@ source = "cyberFund"
 [metrics]
 announce = "15/05/2014"
 status = "Dead"
-reward = "500 BTN, halving every 210000 blocks (4 years)"
-total = 210000000.0
-difficultyCycle = "every 2016 blocks (14 days)"
-txsConfirm = 6.0
-mintConfirm = 120.0
+block_reward = "500 BTN, halving every 210000 blocks (4 years)"
+total_tokens = 210000000.0
+difficulty_cycle = "every 2016 blocks (14 days)"
+txs_confirm = 6.0
+mint_confirm = 120.0
 ann = "https://bitcointalk.org/index.php?topic=610673.0"
 algo = "SHA-256d"
 
@@ -26,5 +26,5 @@ algo = "SHA-256d"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "BitcoinNEW"
+coinmarketcap = "BitcoinNEW"
 CurrencyName = "BitcoinNEW"

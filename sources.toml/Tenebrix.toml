@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "26/09/2011"
 status = "Dead"
-blockTime = "300"
-reward = 25.0
-premine = 7700000.0
-difficultyCycle = "2016"
+block_time = "300"
+block_reward = 25.0
+premine_tokens = 7700000.0
+difficulty_cycle = "2016"
 ann = "https://bitcointalk.org/index.php?topic=45667.0"
 algo = "Scrypt"
 
@@ -24,5 +24,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Tenebrix"
+coinmarketcap = "Tenebrix"
 CurrencyName = "Tenebrix"

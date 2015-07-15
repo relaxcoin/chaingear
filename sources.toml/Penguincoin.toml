@@ -7,11 +7,11 @@ announce = "31/01/2014"
 status = "Dead"
 p2p = 39533.0
 rpc = 39532.0
-blockTime = 150.0
-reward = "random 1- 500000"
-total = 92000000000.0
-premine = "368000000 coins (0.4%) for bounties, giveaways, promotion etc"
-difficultyCycle = "16 (every 40 minutes)"
+block_time = 150.0
+block_reward = "random 1- 500000"
+total_tokens = 92000000000.0
+premine_tokens = "368000000 coins (0.4%) for bounties, giveaways, promotion etc"
+difficulty_cycle = "16 (every 40 minutes)"
 ann = "https://bitcointalk.org/index.php?topic=442876.0"
 algo = "Scrypt"
 
@@ -28,5 +28,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Penguincoin"
+coinmarketcap = "Penguincoin"
 CurrencyName = "Penguincoin"

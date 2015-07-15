@@ -8,11 +8,11 @@ genesis = "22/06/2013"
 status = "Dead"
 p2p = 7685.0
 rpc = 8385.0
-blockTime = "60"
-reward = 10.0
-total = 47433600.0
-difficultyCycle = "240"
-txsConfirm = 5.0
+block_time = "60"
+block_reward = 10.0
+total_tokens = 47433600.0
+difficulty_cycle = "240"
+txs_confirm = 5.0
 ann = "https://cryptocointalk.com/topic/682-bottlecaps-bot-information/"
 algo = "Scrypt"
 rating = 0.0
@@ -30,5 +30,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Bottlecaps"
+coinmarketcap = "Bottlecaps"
 CurrencyName = "Bottlecaps"

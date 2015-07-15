@@ -6,8 +6,8 @@ source = "cyberFund"
 announce = "03/05/2013"
 genesis = "01/05/2013"
 status = "Running"
-blockTime = "600"
-reward = 1.0
+block_time = "600"
+block_reward = 1.0
 ann = "https://bitcointalk.org/index.php?topic=193974.0"
 algo = "Scrypt"
 rating = 0.0
@@ -25,5 +25,5 @@ icon = "github.png"
 tags = ["Main", "Code"]
 
 [aliases]
-CoinMarketCap = "BitBar"
+coinmarketcap = "BitBar"
 CurrencyName = "BitBar"

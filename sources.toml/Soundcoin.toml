@@ -5,11 +5,11 @@ source = "cyberFund"
 [metrics]
 announce = "07/05/2014"
 status = "Dead"
-blockTime = 180.0
-reward = "1000 coins per block"
-halfingCycle = "subsidy halves in 840k blocks (~4 years)"
-total = 5000000000.0
-difficultyCycle = "1440 blocks to retarget difficulty"
+block_time = 180.0
+block_reward = "1000 coins per block"
+halfing_cycle = "subsidy halves in 840k blocks (~4 years)"
+total_tokens = 5000000000.0
+difficulty_cycle = "1440 blocks to retarget difficulty"
 ann = "https://bitcointalk.org/index.php?topic=598874.0"
 algo = "X11"
 
@@ -26,5 +26,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Soundcoin"
+coinmarketcap = "Soundcoin"
 CurrencyName = "Soundcoin"

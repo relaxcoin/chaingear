@@ -7,9 +7,9 @@ announce = "11/09/2014"
 status = "Running"
 p2p = 29948.0
 rpc = 29947.0
-blockTime = "40 seconds"
-premine = "40000000 MUE"
-difficultyCycle = "10 blocks"
+block_time = "40 seconds"
+premine_tokens = "40000000 MUE"
+difficulty_cycle = "10 blocks"
 ann = "https://bitcointalk.org/index.php?topic=778322.0"
 algo = "Quark"
 rating = 0.0
@@ -27,5 +27,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "MonetaryUnit"
+coinmarketcap = "MonetaryUnit"
 CurrencyName = "MonetaryUnit"

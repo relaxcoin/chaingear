@@ -5,11 +5,11 @@ source = "cyberFund"
 [metrics]
 announce = "31/05/2013"
 status = "Dead"
-blockTime = "4140"
-reward = 420.0
-total = 69000000.0
-premine = 120000.0
-difficultyCycle = "690"
+block_time = "4140"
+block_reward = 420.0
+total_tokens = 69000000.0
+premine_tokens = 120000.0
+difficulty_cycle = "690"
 ann = "https://bitcointalk.org/index.php?topic=221190.0"
 algo = "Scrypt"
 
@@ -25,5 +25,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "VaginaCoin"
+coinmarketcap = "VaginaCoin"
 CurrencyName = "VaginaCoin"

@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "21/07/2014"
 status = "Dead"
-blockTime = 120.0
-reward = "400 MC"
-total = 2000000.0
-txsConfirm = 6.0
+block_time = 120.0
+block_reward = "400 MC"
+total_tokens = 2000000.0
+txs_confirm = 6.0
 ann = "https://bitcointalk.org/index.php?topic=703723"
 algo = "X11"
 
@@ -24,5 +24,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "MultiCoin"
+coinmarketcap = "MultiCoin"
 CurrencyName = "MultiCoin"

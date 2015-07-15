@@ -7,10 +7,10 @@ announce = "26/06/2014"
 status = "Dead"
 p2p = 9333.0
 rpc = 9332.0
-blockTime = 60.0
-reward = "0.0001 rewards"
-total = 101000000.0
-difficultyCycle = "progressive difficulty retargeting"
+block_time = 60.0
+block_reward = "0.0001 rewards"
+total_tokens = 101000000.0
+difficulty_cycle = "progressive difficulty retargeting"
 ann = "https://bitcointalk.org/index.php?topic=667329.0"
 algo = "Scrypt"
 
@@ -27,5 +27,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "G8Coin"
+coinmarketcap = "G8Coin"
 CurrencyName = "G8Coin"

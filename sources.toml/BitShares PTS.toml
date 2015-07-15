@@ -10,5 +10,5 @@ dependencies = "independent"
 links = []
 
 [aliases]
-CoinMarketCap = "BitShares PTS"
+coinmarketcap = "BitShares PTS"
 CurrencyName = "BitShares PTS"

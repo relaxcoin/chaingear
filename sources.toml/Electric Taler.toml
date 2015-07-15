@@ -5,9 +5,9 @@ source = "cyberFund"
 [metrics]
 announce = "07/07/2014"
 status = "Dead"
-blockTime = 300.0
-total = 10000.0
-txsConfirm = 2.0
+block_time = 300.0
+total_tokens = 10000.0
+txs_confirm = 2.0
 ann = "https://bitcointalk.org/index.php?topic=680364.0"
 algo = "SHA-256d"
 
@@ -22,5 +22,5 @@ algo = "SHA-256d"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Electric Taler"
+coinmarketcap = "Electric Taler"
 CurrencyName = "Electric Taler"

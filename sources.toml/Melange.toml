@@ -7,12 +7,12 @@ announce = "24/01/2014"
 status = "Running"
 p2p = 1986.0
 rpc = 1987.0
-blockTime = 240.0
-reward = 18.0
-halfingCycle = 20000.0
-total = 1000000.0
-premine = "18000 coins(1.8%)"
-difficultyCycle = 8.0
+block_time = 240.0
+block_reward = 18.0
+halfing_cycle = 20000.0
+total_tokens = 1000000.0
+premine_tokens = "18000 coins(1.8%)"
+difficulty_cycle = 8.0
 ann = "https://bitcointalk.org/index.php?topic=430816.0"
 algo = "Multi-algo"
 
@@ -28,5 +28,5 @@ algo = "Multi-algo"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Melange"
+coinmarketcap = "Melange"
 CurrencyName = "Melange"

@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "29/09/2014"
 rpc = 22621.0
-blockTime = "40"
-reward = "8"
-total = "60000000"
-difficultyCycle = "every block"
+block_time = "40"
+block_reward = "8"
+total_tokens = "60000000"
+difficulty_cycle = "every block"
 ann = "https://bitcointalk.org/index.php?topic=771755"
 algo = "X11"
 rating = 0.0
@@ -26,5 +26,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Exclusive Coin"
+coinmarketcap = "Exclusive Coin"
 CurrencyName = "Exclusive Coin"

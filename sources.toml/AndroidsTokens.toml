@@ -7,14 +7,14 @@ announce = "18/08/2013"
 status = "Dead"
 p2p = 2454.0
 rpc = 2543.0
-blockTime = 30.0
-reward = 524000.0
-halfingCycle = 100000.0
-total = 180000000000.0
-premine = "2%"
-difficultyCycle = "every block"
-txsConfirm = 6.0
-mintConfirm = 70.0
+block_time = 30.0
+block_reward = 524000.0
+halfing_cycle = 100000.0
+total_tokens = 180000000000.0
+premine_tokens = "2%"
+difficulty_cycle = "every block"
+txs_confirm = 6.0
+mint_confirm = 70.0
 ann = "https://bitcointalk.org/index.php?topic=276884.0"
 algo = "Scrypt"
 
@@ -31,5 +31,5 @@ url = "https://docs.google.com/file/d/0B49exKIsGBn5MnZRY3djUEI4OUU/edit?usp=shar
 icon = "github.png"
 
 [aliases]
-CoinMarketCap = "AndroidsTokens"
+coinmarketcap = "AndroidsTokens"
 CurrencyName = "AndroidsTokens"

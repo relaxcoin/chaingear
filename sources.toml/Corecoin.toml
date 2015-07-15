@@ -7,10 +7,10 @@ announce = "30/06/2014"
 status = "Dead"
 p2p = 16256.0
 rpc = 16255.0
-blockTime = 60.0
-reward = "Blocks 1-220: 10 CORE; Blocks 221-1440: 100 CORE;  Blocks 1441-5760: 50 coins; Blocks 5760-10080: 25 cpoins"
-total = 1000000.0
-premine = "10000 (1%)"
+block_time = 60.0
+block_reward = "Blocks 1-220: 10 CORE; Blocks 221-1440: 100 CORE;  Blocks 1441-5760: 50 coins; Blocks 5760-10080: 25 cpoins"
+total_tokens = 1000000.0
+premine_tokens = "10000 (1%)"
 ann = "https://bitcointalk.org/index.php?topic=671450.0"
 algo = "X-n"
 
@@ -26,5 +26,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Corecoin"
+coinmarketcap = "Corecoin"
 CurrencyName = "Corecoin"

@@ -9,7 +9,7 @@ rating = 3.0
 consensus = "BitShares"
 
 [aliases]
-CoinMarketCap = "BitUSD"
+coinmarketcap = "BitUSD"
 CurrencyName = "BitUSD"
 
 [[links]]

@@ -7,9 +7,9 @@ announce = "09/06/2014"
 status = "Dead"
 p2p = 9657.0
 rpc = 9658.0
-blockTime = 60.0
-total = 2200000.0
-premine = "No"
+block_time = 60.0
+total_tokens = 2200000.0
+premine_tokens = "No"
 ann = "https://bitcointalk.org/index.php?topic=645753"
 algo = "X-n"
 
@@ -26,5 +26,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "BurnerCoin"
+coinmarketcap = "BurnerCoin"
 CurrencyName = "BurnerCoin"

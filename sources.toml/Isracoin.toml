@@ -7,12 +7,12 @@ announce = "24/03/2014"
 status = "Running"
 p2p = 21948.0
 rpc = 21947.0
-blockTime = 60.0
-reward = "50 Isracoins"
-halfingCycle = "3 years"
-total = 4800000000.0
-premine = "480000000 (10%) - Airdrop distribution"
-difficultyCycle = "1 minute + DigiShield"
+block_time = 60.0
+block_reward = "50 Isracoins"
+halfing_cycle = "3 years"
+total_tokens = 4800000000.0
+premine_tokens = "480000000 (10%) - Airdrop distribution"
+difficulty_cycle = "1 minute + DigiShield"
 ann = "https://bitcointalk.org/index.php?topic=529409.0"
 algo = "Scrypt"
 
@@ -28,5 +28,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Isracoin"
+coinmarketcap = "Isracoin"
 CurrencyName = "Isracoin"

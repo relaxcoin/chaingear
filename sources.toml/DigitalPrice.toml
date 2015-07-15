@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "01/10/2014"
 status = "Dead"
-blockTime = "300"
-reward = "8-30"
-total = "20000000"
-premine = "no"
+block_time = "300"
+block_reward = "8-30"
+total_tokens = "20000000"
+premine_tokens = "no"
 ann = "https://bitcointalk.org/index.php?topic=789847.0"
 algo = "X11"
 rating = 0.0
@@ -26,5 +26,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "DigitalPrice"
+coinmarketcap = "DigitalPrice"
 CurrencyName = "DigitalPrice"

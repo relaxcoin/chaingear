@@ -15,5 +15,5 @@ icon = "website.png"
 tags = ["Main", "Apps"]
 
 [aliases]
-CoinMarketCap = "BilShares"
+coinmarketcap = "BilShares"
 CurrencyName = "BilShares"

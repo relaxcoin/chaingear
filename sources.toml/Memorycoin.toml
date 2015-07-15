@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "03/08/2013"
 status = "Running"
-blockTime = "3600"
-reward = 24.0
-total = 1020000.0
-premine = 960.0
+block_time = "3600"
+block_reward = 24.0
+total_tokens = 1020000.0
+premine_tokens = 960.0
 ann = "https://bitcointalk.org/index.php?topic=267522.0"
 algo = "Scrypt"
 
@@ -25,5 +25,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Memorycoin"
+coinmarketcap = "Memorycoin"
 CurrencyName = "Memorycoin"

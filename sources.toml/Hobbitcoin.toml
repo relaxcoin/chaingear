@@ -6,10 +6,10 @@ source = "cyberFund"
 announce = "29/01/2014"
 status = "Dead"
 rpc = 9755.0
-blockTime = "60"
-reward = "1000 coins per block with 5-50% (depending on the current block number) chance for 50000 bonus payout"
-halfingCycle = "2100000  (~4 years)"
-total = "About 10000000000"
+block_time = "60"
+block_reward = "1000 coins per block with 5-50% (depending on the current block number) chance for 50000 bonus payout"
+halfing_cycle = "2100000  (~4 years)"
+total_tokens = "About 10000000000"
 ann = "https://bitcointalk.org/index.php?topic=437947.0"
 algo = "Scrypt"
 
@@ -26,5 +26,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Hobbitcoin"
+coinmarketcap = "Hobbitcoin"
 CurrencyName = "Hobbitcoin"

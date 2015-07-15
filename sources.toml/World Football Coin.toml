@@ -7,8 +7,8 @@ announce = "19/05/2014"
 status = "Dead"
 p2p = 20147.0
 rpc = 20146.0
-blockTime = 60.0
-total = 3200000.0
+block_time = 60.0
+total_tokens = 3200000.0
 ann = "https://bitcointalk.org/index.php?topic=616606"
 algo = "Scrypt"
 
@@ -25,5 +25,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "World Football Coin"
+coinmarketcap = "World Football Coin"
 CurrencyName = "World Football Coin"

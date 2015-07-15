@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "27/01/2015"
 status = "Running"
-blockTime = "150 seconds"
-reward = "50 coins"
-total = "84000000 coins"
-difficultyCycle = "2016 blocks"
+block_time = "150 seconds"
+block_reward = "50 coins"
+total_tokens = "84000000 coins"
+difficulty_cycle = "2016 blocks"
 ann = "https://www.altcoincalendar.info/coins/1274-CARSI"
 algo = "Scrypt"
 
@@ -25,5 +25,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Carsicoin"
+coinmarketcap = "Carsicoin"
 CurrencyName = "Carsicoin"

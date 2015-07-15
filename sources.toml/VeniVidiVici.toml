@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "23/06/2014"
 status = "Dead"
-blockTime = 60.0
-reward = "Block 1-32: 0 (to prevent instamining. Blocks 33-5000 with 500 VVV, block 5001-7500 with 100 coins"
-total = 5000000.0
-premine = "50000 vvv (1%)"
+block_time = 60.0
+block_reward = "Block 1-32: 0 (to prevent instamining. Blocks 33-5000 with 500 VVV, block 5001-7500 with 100 coins"
+total_tokens = 5000000.0
+premine_tokens = "50000 vvv (1%)"
 ann = "https://bitcointalk.org/index.php?topic=662680"
 algo = "X11"
 
@@ -25,5 +25,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "VeniVidiVici"
+coinmarketcap = "VeniVidiVici"
 CurrencyName = "VeniVidiVici"

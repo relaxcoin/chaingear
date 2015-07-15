@@ -8,13 +8,13 @@ genesis = "29/06/2013"
 status = "Dead"
 p2p = 11361.0
 rpc = 11362.0
-blockTime = "60"
-halfingCycle = 1576800.0
-total = 329000000.0
-premine = 1000000.0
-difficultyCycle = "20"
-txsConfirm = 6.0
-mintConfirm = 50.0
+block_time = "60"
+halfing_cycle = 1576800.0
+total_tokens = 329000000.0
+premine_tokens = 1000000.0
+difficulty_cycle = "20"
+txs_confirm = 6.0
+mint_confirm = 50.0
 ann = "https://bitcointalk.org/index.php?topic=246693.0"
 algo = "Scrypt"
 rating = 0.0
@@ -32,5 +32,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Redcoin"
+coinmarketcap = "Redcoin"
 CurrencyName = "Redcoin"

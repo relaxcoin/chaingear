@@ -9,7 +9,7 @@ rating = 1.0
 consensus = "Proof-of-Stake"
 
 [aliases]
-CoinMarketCap = "FuelCoin"
+coinmarketcap = "FuelCoin"
 CurrencyName = "FuelCoin"
 
 [[links]]

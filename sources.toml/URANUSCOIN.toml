@@ -7,11 +7,11 @@ announce = "15/11/2014"
 status = "Dead"
 p2p = 11000.0
 rpc = 21000.0
-blockTime = "60 seconds"
-reward = "3 coins"
-total = "3672000 coins"
-premine = "11016 coins(0.3 %)"
-mintConfirm = "4 blocks"
+block_time = "60 seconds"
+block_reward = "3 coins"
+total_tokens = "3672000 coins"
+premine_tokens = "11016 coins(0.3 %)"
+mint_confirm = "4 blocks"
 ann = "https://bitcointalk.org/index.php?topic=855647.0"
 algo = "SHA-256d"
 
@@ -27,5 +27,5 @@ algo = "SHA-256d"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "URANUSCOIN"
+coinmarketcap = "URANUSCOIN"
 CurrencyName = "URANUSCOIN"

@@ -7,11 +7,11 @@ announce = "24/12/2013"
 status = "Dead"
 p2p = 5878.0
 rpc = 58777.0
-blockTime = 300.0
-reward = 50.0
-total = 77000000.0
-premine = 250.0
-difficultyCycle = 5472.0
+block_time = 300.0
+block_reward = 50.0
+total_tokens = 77000000.0
+premine_tokens = 250.0
+difficulty_cycle = 5472.0
 ann = "https://bitcointalk.org/index.php?topic=382690.0"
 algo = "Scrypt"
 
@@ -27,5 +27,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Chicoin"
+coinmarketcap = "Chicoin"
 CurrencyName = "Chicoin"

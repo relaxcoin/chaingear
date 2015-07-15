@@ -6,12 +6,12 @@ source = "cyberFund"
 announce = "13/05/2013"
 genesis = "10/05/2013"
 status = "Dead"
-blockTime = "30"
-reward = 40.0
-halfingCycle = 2073600.0
-total = 166000000.0
-premine = 80000.0
-difficultyCycle = "1440"
+block_time = "30"
+block_reward = 40.0
+halfing_cycle = 2073600.0
+total_tokens = 166000000.0
+premine_tokens = 80000.0
+difficulty_cycle = "1440"
 ann = "https://bitcointalk.org/index.php?topic=203505.0"
 algo = "Scrypt"
 
@@ -28,5 +28,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Powercoin"
+coinmarketcap = "Powercoin"
 CurrencyName = "Powercoin"

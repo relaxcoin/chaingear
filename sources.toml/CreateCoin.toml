@@ -7,9 +7,9 @@ announce = "12/06/2014"
 status = "Dead"
 p2p = 9012.0
 rpc = 9011.0
-blockTime = 60.0
-total = 28880000.0
-premine = "No"
+block_time = 60.0
+total_tokens = 28880000.0
+premine_tokens = "No"
 ann = "https://bitcointalk.org/index.php?topic=649147.0"
 algo = "X-n"
 
@@ -24,5 +24,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "CreateCoin"
+coinmarketcap = "CreateCoin"
 CurrencyName = "CreateCoin"

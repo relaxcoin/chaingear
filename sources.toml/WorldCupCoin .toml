@@ -5,9 +5,9 @@ source = "cyberFund"
 [metrics]
 announce = "07/06/2014"
 status = "Dead"
-blockTime = 90.0
-reward = "9 week rewards"
-total = 3000000.0
+block_time = 90.0
+block_reward = "9 week rewards"
+total_tokens = 3000000.0
 ann = "https://bitcointalk.org/index.php?topic=643166.new#new"
 algo = "X11"
 
@@ -22,5 +22,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "WorldCupCoin "
+coinmarketcap = "WorldCupCoin "
 CurrencyName = "WorldCupCoin "

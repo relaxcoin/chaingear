@@ -6,10 +6,10 @@ source = "cyberFund"
 announce = "09/02/2014"
 status = "Dead"
 rpc = 9440.0
-blockTime = "180"
-reward = 25.0
-total = 30000000.0
-premine = "300 coins(0.0001%) for test"
+block_time = "180"
+block_reward = 25.0
+total_tokens = 30000000.0
+premine_tokens = "300 coins(0.0001%) for test"
 ann = "https://bitcointalk.org/index.php?topic=457158.0"
 algo = "Scrypt"
 
@@ -25,5 +25,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Snapcoin"
+coinmarketcap = "Snapcoin"
 CurrencyName = "Snapcoin"

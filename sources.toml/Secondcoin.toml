@@ -7,10 +7,10 @@ announce = "23/12/2013"
 status = "Dead"
 p2p = 11971.0
 rpc = 11970.0
-blockTime = 60.0
-reward = 60.0
-difficultyCycle = 60.0
-mintConfirm = 80.0
+block_time = 60.0
+block_reward = 60.0
+difficulty_cycle = 60.0
+mint_confirm = 80.0
 ann = "https://bitcointalk.org/index.php?topic=381587.0"
 algo = "Quark"
 
@@ -26,5 +26,5 @@ algo = "Quark"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Secondcoin"
+coinmarketcap = "Secondcoin"
 CurrencyName = "Secondcoin"

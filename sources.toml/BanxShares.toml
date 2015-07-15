@@ -22,5 +22,5 @@ icon = "reddit.png"
 tags = ["Apps"]
 
 [aliases]
-CoinMarketCap = "BanxShares"
+coinmarketcap = "BanxShares"
 CurrencyName = "BanxShares"

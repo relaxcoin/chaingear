@@ -7,10 +7,10 @@ announce = "16/08/2014"
 status = "Running"
 p2p = "8233 (18233)"
 rpc = "8232 (18232)"
-blockTime = "90"
-reward = "Block reward: - difficulty dependent; maximum 500 XMG for the 1st phase,- 7% annual reduction in the 2nd phase"
-total = "25000000"
-mintConfirm = "100"
+block_time = "90"
+block_reward = "Block reward: - difficulty dependent; maximum 500 XMG for the 1st phase,- 7% annual reduction in the 2nd phase"
+total_tokens = "25000000"
+mint_confirm = "100"
 ann = "https://bitcointalk.org/index.php?topic=735170.0"
 algo = "SHA-256d"
 rating = 0.0
@@ -26,5 +26,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Magi"
+coinmarketcap = "Magi"
 CurrencyName = "Magi"

@@ -8,13 +8,13 @@ announce = "05/02/2014"
 status = "Running"
 p2p = 12789.0
 rpc = 12788.0
-blockTime = 30.0
-halfingCycle = "payout is halved every week during first 5 weeks"
-total = 70000000000.0
-premine = "700000000 coins (1%) for bounties, giveaways and so on"
-difficultyCycle = "every block"
-txsConfirm = 4.0
-mintConfirm = 50.0
+block_time = 30.0
+halfing_cycle = "payout is halved every week during first 5 weeks"
+total_tokens = 70000000000.0
+premine_tokens = "700000000 coins (1%) for bounties, giveaways and so on"
+difficulty_cycle = "every block"
+txs_confirm = 4.0
+mint_confirm = 50.0
 ann = "https://bitcointalk.org/index.php?topic=450381.0"
 algo = "Scrypt"
 type = "DAO"
@@ -22,7 +22,7 @@ rating = 1.0
 consensus = "Proof-of-Stake"
 
 [aliases]
-CoinMarketCap = "Mintcoin"
+coinmarketcap = "Mintcoin"
 CurrencyName = "Mintcoin"
 
 [[links]]

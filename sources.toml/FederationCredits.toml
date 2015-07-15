@@ -7,11 +7,11 @@ announce = "23/08/2013"
 genesis = "21/08/2013"
 status = "Dead"
 p2p = 12345.0
-blockTime = "60"
-reward = 50.0
-halfingCycle = 1051200.0
-total = 100000000.0
-premine = 1000000.0
+block_time = "60"
+block_reward = 50.0
+halfing_cycle = 1051200.0
+total_tokens = 100000000.0
+premine_tokens = 1000000.0
 ann = "https://bitcointalk.org/index.php?topic=280114.0"
 algo = "Scrypt"
 
@@ -27,5 +27,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "FederationCredits"
+coinmarketcap = "FederationCredits"
 CurrencyName = "FederationCredits"

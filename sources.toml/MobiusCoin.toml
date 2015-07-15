@@ -7,10 +7,10 @@ announce = "08/09/2014"
 status = "Running"
 p2p = 11012.0
 rpc = 21012.0
-blockTime = "600"
-reward = "50 coins"
-total = "21000000"
-difficultyCycle = "168 Hours"
+block_time = "600"
+block_reward = "50 coins"
+total_tokens = "21000000"
+difficulty_cycle = "168 Hours"
 ann = "https://bitcointalk.org/index.php?topic=774762.0"
 algo = "SHA-256d"
 
@@ -27,5 +27,5 @@ algo = "SHA-256d"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "MobiusCoin"
+coinmarketcap = "MobiusCoin"
 CurrencyName = "MobiusCoin"

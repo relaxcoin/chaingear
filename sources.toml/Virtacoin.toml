@@ -7,5 +7,5 @@ links = []
 rating = 0.0
 
 [aliases]
-CoinMarketCap = "Virtacoin"
+coinmarketcap = "Virtacoin"
 CurrencyName = "Virtacoin"

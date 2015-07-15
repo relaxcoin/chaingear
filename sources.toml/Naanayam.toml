@@ -5,11 +5,11 @@ source = "cyberFund"
 [metrics]
 announce = "06/11/2013"
 status = "Dead"
-blockTime = "10"
-halfingCycle = 1.0
-total = 100000000000000.0
-difficultyCycle = "every block"
-mintConfirm = 100.0
+block_time = "10"
+halfing_cycle = 1.0
+total_tokens = 100000000000000.0
+difficulty_cycle = "every block"
+mint_confirm = 100.0
 ann = "https://bitcointalk.org/index.php?topic=325902.0"
 algo = "SHA-256d"
 
@@ -25,5 +25,5 @@ algo = "SHA-256d"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Naanayam"
+coinmarketcap = "Naanayam"
 CurrencyName = "Naanayam"

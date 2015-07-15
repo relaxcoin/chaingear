@@ -5,8 +5,8 @@ source = "cyberFund"
 [metrics]
 announce = "05/05/2014"
 status = "Dead"
-blockTime = 120.0
-total = 50000000.0
+block_time = 120.0
+total_tokens = 50000000.0
 ann = "https://bitcointalk.org/index.php?topic=596545"
 algo = "SHA-256d"
 
@@ -22,5 +22,5 @@ algo = "SHA-256d"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "XtraCoin"
+coinmarketcap = "XtraCoin"
 CurrencyName = "XtraCoin"

@@ -5,11 +5,11 @@ source = "cyberFund"
 [metrics]
 announce = "02/08/2013"
 status = "Dead"
-blockTime = "45"
-total = 70000000.0
-premine = 1000000.0
-difficultyCycle = "40"
-txsConfirm = 7.0
+block_time = "45"
+total_tokens = 70000000.0
+premine_tokens = 1000000.0
+difficulty_cycle = "40"
+txs_confirm = 7.0
 ann = "https://bitcointalk.org/index.php?topic=266521.0"
 algo = "Scrypt"
 
@@ -26,5 +26,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "PlayToken"
+coinmarketcap = "PlayToken"
 CurrencyName = "PlayToken"

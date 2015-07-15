@@ -7,11 +7,11 @@ announce = "24/06/2014"
 status = "Dead"
 p2p = 17526.0
 rpc = 17527.0
-blockTime = 30.0
-reward = "280 CSO"
-halfingCycle = "no halving"
-total = 10000000.0
-difficultyCycle = "20 blocks"
+block_time = 30.0
+block_reward = "280 CSO"
+halfing_cycle = "no halving"
+total_tokens = 10000000.0
+difficulty_cycle = "20 blocks"
 ann = "https://bitcointalk.org/index.php?topic=664262"
 algo = "X11"
 
@@ -28,5 +28,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "CSCoin"
+coinmarketcap = "CSCoin"
 CurrencyName = "CSCoin"

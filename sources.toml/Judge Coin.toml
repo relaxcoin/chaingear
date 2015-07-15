@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "26/06/2014"
 status = "Dead"
-blockTime = 60.0
-reward = "500 coins per PoW block"
-total = 15000000.0
-txsConfirm = 110.0
+block_time = 60.0
+block_reward = "500 coins per PoW block"
+total_tokens = 15000000.0
+txs_confirm = 110.0
 ann = "https://bitcointalk.org/index.php?topic=741488"
 algo = "X-n"
 
@@ -25,5 +25,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Judge Coin"
+coinmarketcap = "Judge Coin"
 CurrencyName = "Judge Coin"

@@ -6,10 +6,10 @@ source = "cyberFund"
 announce = "28/05/2013"
 genesis = "28/05/2013"
 status = "Dead"
-blockTime = "45"
-reward = 25.0
-total = 75000000.0
-premine = 8000.0
+block_time = "45"
+block_reward = 25.0
+total_tokens = 75000000.0
+premine_tokens = 8000.0
 ann = "https://bitcointalk.org/index.php?topic=218737.0"
 algo = "Scrypt"
 
@@ -25,5 +25,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Hypercoin"
+coinmarketcap = "Hypercoin"
 CurrencyName = "Hypercoin"

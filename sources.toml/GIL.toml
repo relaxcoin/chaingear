@@ -5,11 +5,11 @@ source = "cyberFund"
 [metrics]
 announce = "14/07/2013"
 status = "Dead"
-blockTime = "45"
-total = 180000000.0
-premine = 300000.0
-difficultyCycle = "150"
-txsConfirm = 3.0
+block_time = "45"
+total_tokens = 180000000.0
+premine_tokens = 300000.0
+difficulty_cycle = "150"
+txs_confirm = 3.0
 ann = "https://bitcointalk.org/index.php?topic=255844.msg2725549#msg2725549"
 algo = "Scrypt"
 
@@ -25,5 +25,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "GIL"
+coinmarketcap = "GIL"
 CurrencyName = "GIL"

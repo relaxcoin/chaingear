@@ -7,13 +7,13 @@ announce = "01/08/2013"
 genesis = "01/08/2013"
 status = "Dead"
 rpc = 16101.0
-blockTime = "300"
-reward = 1.0
-halfingCycle = 140000.0
-total = 1000000.0
-difficultyCycle = "12"
-txsConfirm = 6.0
-mintConfirm = 30.0
+block_time = "300"
+block_reward = 1.0
+halfing_cycle = 140000.0
+total_tokens = 1000000.0
+difficulty_cycle = "12"
+txs_confirm = 6.0
+mint_confirm = 30.0
 ann = "https://bitcointalk.org/index.php?topic=266439.0"
 algo = "Scrypt"
 
@@ -30,5 +30,5 @@ url = "https://github.com/BestCoin/BestCoin/"
 icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Bestcoin"
+coinmarketcap = "Bestcoin"
 CurrencyName = "Bestcoin"

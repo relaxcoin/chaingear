@@ -7,9 +7,9 @@ announce = "14/08/2014"
 status = "Dead"
 p2p = 11061.0
 rpc = 21061.0
-blockTime = "600"
-total = "21000000"
-difficultyCycle = "168 hours"
+block_time = "600"
+total_tokens = "21000000"
+difficulty_cycle = "168 hours"
 ann = "https://bitcointalk.org/index.php?topic=737226.0"
 algo = "Scrypt"
 
@@ -26,5 +26,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Evolvecoin"
+coinmarketcap = "Evolvecoin"
 CurrencyName = "Evolvecoin"

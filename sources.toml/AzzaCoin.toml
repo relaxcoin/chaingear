@@ -7,11 +7,11 @@ announce = "17/08/2014"
 status = "Dead"
 p2p = 23531.0
 rpc = 23532.0
-blockTime = "60"
-reward = "200"
-total = "50000000"
-difficultyCycle = "20 blocks"
-mintConfirm = "50 blocks"
+block_time = "60"
+block_reward = "200"
+total_tokens = "50000000"
+difficulty_cycle = "20 blocks"
+mint_confirm = "50 blocks"
 algo = "X11"
 
 [[links]]
@@ -27,5 +27,5 @@ url = "https://mega.co.nz/#!LVpHSQ4A!6Kqvb6m7YHuCVv5yViWp5xSpIxFl17FfNknI8gc907o
 icon = "github.png"
 
 [aliases]
-CoinMarketCap = "AzzaCoin"
+coinmarketcap = "AzzaCoin"
 CurrencyName = "AzzaCoin"

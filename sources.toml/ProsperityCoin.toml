@@ -14,5 +14,5 @@ rating = 1.0
   icon = "website.png"
 
 [aliases]
-CoinMarketCap = "ProsperityCoin"
+coinmarketcap = "ProsperityCoin"
 CurrencyName = "ProsperityCoin"

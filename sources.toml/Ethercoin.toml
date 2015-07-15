@@ -9,7 +9,7 @@ rating = 2.0
 consensus = "Counterparty"
 
 [aliases]
-CoinMarketCap = "Ethercoin"
+coinmarketcap = "Ethercoin"
 CurrencyName = "Ethercoin"
 
 [[links]]

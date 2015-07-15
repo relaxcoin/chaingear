@@ -10,5 +10,5 @@ dependencies = "independent"
 links = []
 
 [aliases]
-CoinMarketCap = "World Trade Funds"
+coinmarketcap = "World Trade Funds"
 CurrencyName = "World Trade Funds"

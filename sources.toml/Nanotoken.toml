@@ -8,12 +8,12 @@ genesis = "02/07/2013"
 status = "Dead"
 p2p = 17578.0
 rpc = 7578.0
-blockTime = "90"
-total = 80000000.0
-premine = 100000.0
-difficultyCycle = "9"
-txsConfirm = 3.0
-mintConfirm = 20.0
+block_time = "90"
+total_tokens = 80000000.0
+premine_tokens = 100000.0
+difficulty_cycle = "9"
+txs_confirm = 3.0
+mint_confirm = 20.0
 ann = "https://bitcointalk.org/index.php?topic=242491.0"
 algo = "Scrypt"
 rating = 0.0
@@ -30,5 +30,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Nanotoken"
+coinmarketcap = "Nanotoken"
 CurrencyName = "Nanotoken"

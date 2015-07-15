@@ -5,7 +5,7 @@ source = "cyberFund"
 [metrics]
 announce = "06/09/2014"
 status = "Running"
-total = "29200000"
+total_tokens = "29200000"
 ann = "https://bitcointalk.org/index.php?topic=733916"
 
   [[metrics.links]]
@@ -19,5 +19,5 @@ ann = "https://bitcointalk.org/index.php?topic=733916"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "SKULLCOIN"
+coinmarketcap = "SKULLCOIN"
 CurrencyName = "SKULLCOIN"

@@ -14,5 +14,5 @@ status = "Running"
   icon = "website.png"
 
 [aliases]
-CoinMarketCap = "TRMB"
+coinmarketcap = "TRMB"
 CurrencyName = "TRMB"

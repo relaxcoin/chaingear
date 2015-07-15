@@ -4,15 +4,15 @@ dependencies = "independent"
 source = "cyberFund"
 
 [descriptions]
-short_description = "An open source peer-to-peer digital currency, favored by Shiba Inus worldwide"
+headline = "An open source peer-to-peer digital currency, favored by Shiba Inus worldwide"
 
 [metrics]
 announce = "08/12/2013"
 status = "Running"
 rpc = 22555.0
-blockTime = "60"
-total = 100000000000.0
-difficultyCycle = "240"
+block_time = "60"
+total_tokens = 100000000000.0
+difficulty_cycle = "240"
 ann = "https://bitcointalk.org/index.php?topic=361813.0"
 algo = "Scrypt"
 type = "DAO"
@@ -21,7 +21,7 @@ consensus = "Proof-of-Work"
 hashtag = "#dogecoin"
 
 [aliases]
-CoinMarketCap = "Dogecoin"
+coinmarketcap = "Dogecoin"
 CurrencyName = "Dogecoin"
 
 [[links]]

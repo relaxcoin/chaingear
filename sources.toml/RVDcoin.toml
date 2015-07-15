@@ -7,10 +7,10 @@ announce = "04/12/2013"
 status = "Dead"
 p2p = 12131.0
 rpc = 12132.0
-blockTime = "60"
-reward = 7.5
-total = 105000000.0
-difficultyCycle = "10"
+block_time = "60"
+block_reward = 7.5
+total_tokens = 105000000.0
+difficulty_cycle = "10"
 ann = "https://bitcointalk.org/index.php?topic=357196.0"
 algo = "Quark"
 
@@ -26,5 +26,5 @@ algo = "Quark"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "RVDcoin"
+coinmarketcap = "RVDcoin"
 CurrencyName = "RVDcoin"

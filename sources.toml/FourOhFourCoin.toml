@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "14/03/2014"
 status = "Dead"
-blockTime = 60.0
-reward = "404 (or 0, or 808)"
-total = 1000000000.0
-difficultyCycle = ""
+block_time = 60.0
+block_reward = "404 (or 0, or 808)"
+total_tokens = 1000000000.0
+difficulty_cycle = ""
 ann = "https://bitcointalk.org/index.php?topic=515642.0"
 algo = "Scrypt"
 
@@ -25,5 +25,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "FourOhFourCoin"
+coinmarketcap = "FourOhFourCoin"
 CurrencyName = "FourOhFourCoin"

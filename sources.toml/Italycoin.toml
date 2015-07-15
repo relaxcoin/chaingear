@@ -6,10 +6,10 @@ source = "cyberFund"
 announce = "18/09/2013"
 genesis = "15/07/2013"
 status = "Dead"
-blockTime = "60"
-reward = 50.0
-total = 5000000000.0
-difficultyCycle = "2880"
+block_time = "60"
+block_reward = 50.0
+total_tokens = 5000000000.0
+difficulty_cycle = "2880"
 ann = "https://bitcointalk.org/index.php?topic=296775.0"
 algo = "Scrypt"
 
@@ -26,5 +26,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Italycoin"
+coinmarketcap = "Italycoin"
 CurrencyName = "Italycoin"

@@ -7,12 +7,12 @@ announce = "15/08/2014"
 status = "Dead"
 p2p = 11055.0
 rpc = 21055.0
-blockTime = "36"
-reward = "600"
-total = " 10 584 000"
-premine = "105 840 coins (1%)"
-difficultyCycle = ""
-mintConfirm = "15"
+block_time = "36"
+block_reward = "600"
+total_tokens = " 10 584 000"
+premine_tokens = "105 840 coins (1%)"
+difficulty_cycle = ""
+mint_confirm = "15"
 ann = "https://bitcointalk.org/index.php?topic=715904.new#new"
 algo = "SHA-256d"
 
@@ -29,5 +29,5 @@ url = "https://github.com/BIGBullion/bigbullion"
 icon = "github.png"
 
 [aliases]
-CoinMarketCap = "BIGBullion"
+coinmarketcap = "BIGBullion"
 CurrencyName = "BIGBullion"

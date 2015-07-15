@@ -7,11 +7,11 @@ announce = "04/08/2014"
 status = "Dead"
 p2p = 49097.0
 rpc = 49098.0
-blockTime = "60"
-reward = "936.17  FBIT"
-total = "8800000"
-difficultyCycle = " 1 block"
-mintConfirm = "60"
+block_time = "60"
+block_reward = "936.17  FBIT"
+total_tokens = "8800000"
+difficulty_cycle = " 1 block"
+mint_confirm = "60"
 ann = "http://www.forum.filebit.me"
 algo = "X-n"
 
@@ -28,5 +28,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "FileBit"
+coinmarketcap = "FileBit"
 CurrencyName = "FileBit"

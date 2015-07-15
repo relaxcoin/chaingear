@@ -5,11 +5,11 @@ source = "cyberFund"
 [metrics]
 announce = "05/01/2014"
 status = "Running"
-blockTime = 900.0
-total = 2000000000.0
-difficultyCycle = 1.0
-txsConfirm = 6.0
-mintConfirm = 520.0
+block_time = 900.0
+total_tokens = 2000000000.0
+difficulty_cycle = 1.0
+txs_confirm = 6.0
+mint_confirm = 520.0
 ann = "https://bitcointalk.org/index.php?topic=400389.0"
 algo = "Scrypt"
 rating = 0.0
@@ -27,5 +27,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "CACHeCoin"
+coinmarketcap = "CACHeCoin"
 CurrencyName = "CACHeCoin"

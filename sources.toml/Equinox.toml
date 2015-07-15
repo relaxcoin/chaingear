@@ -5,8 +5,8 @@ source = "cyberFund"
 [metrics]
 announce = "27/08/2014"
 status = "Dead"
-blockTime = "30"
-total = "24000000"
+block_time = "30"
+total_tokens = "24000000"
 ann = "https://bitcointalk.org/index.php?topic=746191.0"
 algo = "X11"
 
@@ -23,5 +23,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Equinox"
+coinmarketcap = "Equinox"
 CurrencyName = "Equinox"

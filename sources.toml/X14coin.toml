@@ -6,10 +6,10 @@ source = "cyberFund"
 announce = "29/07/2014"
 status = "Dead"
 rpc = 20731.0
-blockTime = "140"
-reward = "140 coins per block, halves every 140000 blocks (~ 7 months)"
-total = "140000000"
-premine = 140000.0
+block_time = "140"
+block_reward = "140 coins per block, halves every 140000 blocks (~ 7 months)"
+total_tokens = "140000000"
+premine_tokens = 140000.0
 ann = "https://bitcointalk.org/index.php?topic=670119.0"
 algo = "X-n"
 
@@ -26,5 +26,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "X14coin"
+coinmarketcap = "X14coin"
 CurrencyName = "X14coin"

@@ -8,11 +8,11 @@ genesis = "08/12/2013"
 status = "Dead"
 p2p = 40017.0
 rpc = 41700.0
-blockTime = 10.0
-reward = 512.0
-halfingCycle = 8192.0
-total = 73000000.0
-difficultyCycle = "every 20 blocks (maximum 10% up or 50% down)"
+block_time = 10.0
+block_reward = 512.0
+halfing_cycle = 8192.0
+total_tokens = 73000000.0
+difficulty_cycle = "every 20 blocks (maximum 10% up or 50% down)"
 ann = "https://bitcointalk.org/index.php?topic=365399.0"
 algo = "Quark"
 rating = 1.0
@@ -30,5 +30,5 @@ rating = 1.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Unioncoin"
+coinmarketcap = "Unioncoin"
 CurrencyName = "Unioncoin"

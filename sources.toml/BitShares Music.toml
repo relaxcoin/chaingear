@@ -4,7 +4,7 @@ dependencies = "independent"
 source = "cyberFund"
 
 [descriptions]
-short_description = "The Ultimate One Stop Music Platform"
+headline = "The Ultimate One Stop Music Platform"
 summary = "Notes at present are a User Issued Asset (UIA) on the BitShares network. They are a liquid and tradable crypto-token that each represent 1 unit of the upcoming fan engagement and intellectual property management blockchain currently referred to as BitShares Music."
 
 [metrics]
@@ -19,7 +19,7 @@ timestamp = 1431342962.0
   btc = 7963.0
 
 [aliases]
-CoinMarketCap = "NOTE"
+coinmarketcap = "NOTE"
 CurrencyName = "BitShares Music"
 
 [crowdsales]

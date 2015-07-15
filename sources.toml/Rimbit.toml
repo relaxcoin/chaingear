@@ -10,5 +10,5 @@ dependencies = "independent"
 links = []
 
 [aliases]
-CoinMarketCap = "Rimbit"
+coinmarketcap = "Rimbit"
 CurrencyName = "Rimbit"

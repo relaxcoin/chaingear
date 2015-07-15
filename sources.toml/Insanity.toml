@@ -7,11 +7,11 @@ announce = "15/12/2014"
 status = "Dead"
 p2p = 11000.0
 rpc = 21000.0
-blockTime = "12 hours"
-reward = "1 coin"
-total = "239234 coins"
-premine = "11961 coins (5%)"
-mintConfirm = "1 block"
+block_time = "12 hours"
+block_reward = "1 coin"
+total_tokens = "239234 coins"
+premine_tokens = "11961 coins (5%)"
+mint_confirm = "1 block"
 ann = "https://bitcointalk.org/index.php?topic=893232.msg9836507#msg9836507"
 algo = "Scrypt"
 
@@ -27,5 +27,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Insanity"
+coinmarketcap = "Insanity"
 CurrencyName = "Insanity"

@@ -5,9 +5,9 @@ source = "cyberFund"
 [metrics]
 announce = "12/09/2013"
 status = "Dead"
-blockTime = "120 seconds"
-total = "184460000000"
-difficultyCycle = "every block"
+block_time = "120 seconds"
+total_tokens = "184460000000"
+difficulty_cycle = "every block"
 algo = "CryptoNight"
 
   [[metrics.links]]
@@ -22,5 +22,5 @@ algo = "CryptoNight"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Paladincoin"
+coinmarketcap = "Paladincoin"
 CurrencyName = "Paladincoin"

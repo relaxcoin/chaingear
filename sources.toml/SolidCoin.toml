@@ -6,11 +6,11 @@ source = "cyberFund"
 announce = "15/08/2011"
 genesis = "21/08/2011"
 status = "Dead"
-blockTime = "180"
-reward = 32.0
-total = 18900000.0
-premine = 30080.0
-difficultyCycle = "2016"
+block_time = "180"
+block_reward = 32.0
+total_tokens = 18900000.0
+premine_tokens = 30080.0
+difficulty_cycle = "2016"
 ann = "https://bitcointalk.org/index.php?topic=38453.0"
 algo = "SHA-256d"
 
@@ -26,5 +26,5 @@ algo = "SHA-256d"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "SolidCoin"
+coinmarketcap = "SolidCoin"
 CurrencyName = "SolidCoin"

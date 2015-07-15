@@ -10,7 +10,7 @@ consensus = "NuBits"
 hashtag = "#nushares"
 
 [aliases]
-CoinMarketCap = "NuShares"
+coinmarketcap = "NuShares"
 CurrencyName = "NuShares"
 
 [[links]]

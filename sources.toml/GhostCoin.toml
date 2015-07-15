@@ -7,12 +7,12 @@ announce = "04/10/2014"
 status = "Running"
 p2p = 44676.0
 rpc = 44678.0
-blockTime = "60"
-reward = "4000 Ghost"
-total = "27000000"
-premine = "no"
-difficultyCycle = "every minute"
-mintConfirm = "100 blocks"
+block_time = "60"
+block_reward = "4000 Ghost"
+total_tokens = "27000000"
+premine_tokens = "no"
+difficulty_cycle = "every minute"
+mint_confirm = "100 blocks"
 ann = "https://bitcointalk.org/index.php?topic=803667.0"
 algo = "X11"
 
@@ -28,5 +28,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "GhostCoin"
+coinmarketcap = "GhostCoin"
 CurrencyName = "GhostCoin"

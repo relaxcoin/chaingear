@@ -7,13 +7,13 @@ announce = "25/02/2014"
 status = "Dead"
 p2p = 24057.0
 rpc = 24055.0
-blockTime = 60.0
-reward = "1000 coin initialy with further decreasing"
-total = 1200000000.0
-premine = "less than 1% (11500000 COIN)"
-difficultyCycle = "Kimoto Gravity Well diff adjustment"
-txsConfirm = 3.0
-mintConfirm = 30.0
+block_time = 60.0
+block_reward = "1000 coin initialy with further decreasing"
+total_tokens = 1200000000.0
+premine_tokens = "less than 1% (11500000 COIN)"
+difficulty_cycle = "Kimoto Gravity Well diff adjustment"
+txs_confirm = 3.0
+mint_confirm = 30.0
 ann = "https://bitcointalk.org/index.php?topic=485846.0"
 algo = "Scrypt"
 
@@ -29,5 +29,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Coin"
+coinmarketcap = "Coin"
 CurrencyName = "Coin"

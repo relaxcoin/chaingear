@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "15/07/2014"
 status = "Dead"
-blockTime = 600.0
-reward = "Block reward decreases each block according to the formula: BaseReward = (MSupply - A)/2^20,  where MSupply = (2^64 - 1) atomic units and 'A' is amount of already generated coins"
-total = 18400000.0
-difficultyCycle = "each block"
+block_time = 600.0
+block_reward = "Block reward decreases each block according to the formula: BaseReward = (MSupply - A)/2^20,  where MSupply = (2^64 - 1) atomic units and 'A' is amount of already generated coins"
+total_tokens = 18400000.0
+difficulty_cycle = "each block"
 ann = "https://bitcointalk.org/index.php?topic=695608.0"
 algo = "CryptoNight"
 
@@ -24,5 +24,5 @@ algo = "CryptoNight"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "CherryNote"
+coinmarketcap = "CherryNote"
 CurrencyName = "CherryNote"

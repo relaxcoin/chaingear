@@ -8,11 +8,11 @@ genesis = "27/01/2014"
 status = "Running"
 p2p = 7920.0
 rpc = 7921.0
-blockTime = "30"
-reward = 1000.0
-halfingCycle = "20160 blocks (about 1 week)"
-total = "40 million coins will be mined in around 4 months, thereafter around 1 million per year (inflationary)."
-difficultyCycle = "4"
+block_time = "30"
+block_reward = 1000.0
+halfing_cycle = "20160 blocks (about 1 week)"
+total_tokens = "40 million coins will be mined in around 4 months, thereafter around 1 million per year (inflationary)."
+difficulty_cycle = "4"
 ann = "https://bitcointalk.org/index.php?topic=434432.0"
 algo = "SHA-256d"
 
@@ -29,5 +29,5 @@ algo = "SHA-256d"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Teacoin"
+coinmarketcap = "Teacoin"
 CurrencyName = "Teacoin"

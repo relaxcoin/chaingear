@@ -7,11 +7,11 @@ announce = "13/08/2014"
 status = "Dead"
 p2p = 34412.0
 rpc = 34411.0
-blockTime = "90"
-reward = "8888 HZ"
-total = "19 749 136 HZ"
-premine = "0.1% (19749 HZ)"
-mintConfirm = "50 blocks"
+block_time = "90"
+block_reward = "8888 HZ"
+total_tokens = "19 749 136 HZ"
+premine_tokens = "0.1% (19749 HZ)"
+mint_confirm = "50 blocks"
 ann = "https://bitcointalk.org/index.php?topic=736313"
 algo = "X-n"
 type = "DAO"
@@ -32,5 +32,5 @@ dependencies = "independent"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "HertzCoin"
+coinmarketcap = "HertzCoin"
 CurrencyName = "HertzCoin"

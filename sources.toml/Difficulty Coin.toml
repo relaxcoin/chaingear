@@ -6,11 +6,11 @@ source = "cyberFund"
 announce = "18/04/2014"
 genesis = "null"
 status = "Dead"
-blockTime = 60.0
-reward = "Unique Block reward (Calculated from difficulty)"
-total = 77889999.0
-premine = "777777 (0,91%), for bounties, giveaways, future development"
-difficultyCycle = "Difficulty Retargets every minute using Dark Gravity Wave V2"
+block_time = 60.0
+block_reward = "Unique Block reward (Calculated from difficulty)"
+total_tokens = 77889999.0
+premine_tokens = "777777 (0,91%), for bounties, giveaways, future development"
+difficulty_cycle = "Difficulty Retargets every minute using Dark Gravity Wave V2"
 ann = "https://bitcointalk.org/index.php?topic=575631.0"
 algo = "X11"
 
@@ -27,5 +27,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Difficulty Coin"
+coinmarketcap = "Difficulty Coin"
 CurrencyName = "Difficulty Coin"

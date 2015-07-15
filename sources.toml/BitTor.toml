@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "26/07/2014"
 status = "Dead"
-blockTime = 120.0
-total = 1000000.0
-premine = "3000 (0.3%)"
-difficultyCycle = "every block"
+block_time = 120.0
+total_tokens = 1000000.0
+premine_tokens = "3000 (0.3%)"
+difficulty_cycle = "every block"
 ann = "https://bitcointalk.org/index.php?topic=711590"
 algo = "X-n"
 
@@ -23,5 +23,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "BitTor"
+coinmarketcap = "BitTor"
 CurrencyName = "BitTor"

@@ -10,5 +10,5 @@ dependencies = "NXT"
 links = []
 
 [aliases]
-CoinMarketCap = "FreeMarket"
+coinmarketcap = "FreeMarket"
 CurrencyName = "FreeMarket"

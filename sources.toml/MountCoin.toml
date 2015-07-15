@@ -5,11 +5,11 @@ source = "cyberFund"
 [metrics]
 announce = "30/05/2014"
 status = "Dead"
-blockTime = 25.0
-reward = "block reward decreases according to the formula (2^64 - 1 - A)*2^(-21)*10^(-12), where A = supply mined to date"
-total = 18446744.0
-difficultyCycle = "every block"
-txsConfirm = 60.0
+block_time = 25.0
+block_reward = "block reward decreases according to the formula (2^64 - 1 - A)*2^(-21)*10^(-12), where A = supply mined to date"
+total_tokens = 18446744.0
+difficulty_cycle = "every block"
+txs_confirm = 60.0
 ann = "https://bitcointalk.org/index.php?topic=631908.0"
 algo = "CryptoNight"
 
@@ -26,5 +26,5 @@ algo = "CryptoNight"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "MountCoin"
+coinmarketcap = "MountCoin"
 CurrencyName = "MountCoin"

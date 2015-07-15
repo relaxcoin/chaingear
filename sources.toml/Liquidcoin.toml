@@ -5,8 +5,8 @@ source = "cyberFund"
 [metrics]
 announce = "15/01/2012"
 status = "Dead"
-blockTime = "300"
-halfingCycle = 1000.0
+block_time = "300"
+halfing_cycle = 1000.0
 ann = "https://bitcointalk.org/index.php?topic=60026.0"
 algo = "Scrypt"
 
@@ -23,5 +23,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Liquidcoin"
+coinmarketcap = "Liquidcoin"
 CurrencyName = "Liquidcoin"

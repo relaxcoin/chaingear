@@ -7,12 +7,12 @@ announce = "14/09/2013"
 status = "Running"
 p2p = 20000.0
 rpc = 1928.0
-blockTime = "60"
-reward = 5.0
-halfingCycle = "every 6 months"
-premine = "10000 () for bounties"
-difficultyCycle = "20"
-txsConfirm = 30.0
+block_time = "60"
+block_reward = 5.0
+halfing_cycle = "every 6 months"
+premine_tokens = "10000 () for bounties"
+difficulty_cycle = "20"
+txs_confirm = 30.0
 ann = "https://bitcointalk.org/index.php?topic=294383.0"
 algo = "Quark"
 
@@ -29,5 +29,5 @@ algo = "Quark"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Cthulhu Offerings"
+coinmarketcap = "Cthulhu Offerings"
 CurrencyName = "Cthulhu Offerings"

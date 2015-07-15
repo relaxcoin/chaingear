@@ -7,9 +7,9 @@ announce = "13/07/2014"
 status = "Dead"
 p2p = 14528.0
 rpc = 14529.0
-blockTime = 30.0
-reward = "84 initially, halving at block 6720, 13440, the first 150 blocks will be 1 reward"
-total = 1500000.0
+block_time = 30.0
+block_reward = "84 initially, halving at block 6720, 13440, the first 150 blocks will be 1 reward"
+total_tokens = 1500000.0
 ann = "https://bitcointalk.org/index.php?topic=689852"
 algo = "X11"
 
@@ -26,5 +26,5 @@ algo = "X11"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "ESportsCoin"
+coinmarketcap = "ESportsCoin"
 CurrencyName = "ESportsCoin"

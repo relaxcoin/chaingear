@@ -7,7 +7,7 @@ source = "cyberFund"
 announce = "15/08/2012"
 genesis = "16/08/2012"
 status = "Running"
-total = 20500000.0
+total_tokens = 20500000.0
 ann = "https://bitcointalk.org/index.php?topic=99735.0"
 algo = "SHA-256d"
 type = "DAO"
@@ -16,7 +16,7 @@ consensus = "Hybrid POW-POS"
 hashtag = "#peercoin"
 
 [aliases]
-CoinMarketCap = "Peercoin"
+coinmarketcap = "Peercoin"
 CurrencyName = "Peercoin"
 
 [[links]]

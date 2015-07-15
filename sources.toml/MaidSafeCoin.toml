@@ -4,7 +4,7 @@ dependencies = "Bitcoin, Omni"
 source = "cyberFund"
 
 [descriptions]
-short_description = "A fully distributed data management service"
+headline = "A fully distributed data management service"
 summary = "MaidSafe is a fully decentralized platform on which application developers can build decentralized applications. The network is made up by individual users who contribute storage, computing power and bandwidth to form a world-wide autonomous system."
 
 [metrics]
@@ -14,7 +14,7 @@ consensus = "Omni"
 hashtag = "#maidsafe"
 
 [aliases]
-CoinMarketCap = "MaidSafeCoin"
+coinmarketcap = "MaidSafeCoin"
 CurrencyName = "SafeNet"
 
 [crowdsales]

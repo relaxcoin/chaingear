@@ -5,7 +5,7 @@ source = "cyberFund"
 [metrics]
 announce = "17/09/2014"
 status = "Dead"
-total = "1000000"
+total_tokens = "1000000"
 ann = "https://bitcointalk.org/index.php?topic=734477.0"
 algo = "X-n"
 
@@ -20,5 +20,5 @@ algo = "X-n"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Reserve Share"
+coinmarketcap = "Reserve Share"
 CurrencyName = "Reserve Share"

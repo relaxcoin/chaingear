@@ -5,9 +5,9 @@ source = "cyberFund"
 [metrics]
 announce = "26/08/2013"
 status = "Dead"
-reward = 2048.0
-halfingCycle = 64000.0
-difficultyCycle = "20"
+block_reward = 2048.0
+halfing_cycle = 64000.0
+difficulty_cycle = "20"
 ann = "https://bitcointalk.org/index.php?topic=281373.0"
 algo = "SHA-256d"
 
@@ -23,5 +23,5 @@ algo = "SHA-256d"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Obamacoin"
+coinmarketcap = "Obamacoin"
 CurrencyName = "Obamacoin"

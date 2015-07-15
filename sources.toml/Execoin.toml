@@ -5,11 +5,11 @@ source = "cyberFund"
 [metrics]
 announce = "27/02/2014"
 status = "Running"
-blockTime = 45.0
-reward = "initial 50 coins per block"
-halfingCycle = "every 840000 blocks"
-total = 84000000.0
-difficultyCycle = "every 1920 blocks (Kimoto Gravity Well)"
+block_time = 45.0
+block_reward = "initial 50 coins per block"
+halfing_cycle = "every 840000 blocks"
+total_tokens = 84000000.0
+difficulty_cycle = "every 1920 blocks (Kimoto Gravity Well)"
 ann = "https://bitcointalk.org/index.php?topic=491058.0"
 algo = "Scrypt"
 rating = 0.0
@@ -27,5 +27,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Execoin"
+coinmarketcap = "Execoin"
 CurrencyName = "Execoin"

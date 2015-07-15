@@ -7,5 +7,5 @@ rating = 3.0
 links = []
 
 [aliases]
-CoinMarketCap = "BitCNY"
+coinmarketcap = "BitCNY"
 CurrencyName = "BitCNY"

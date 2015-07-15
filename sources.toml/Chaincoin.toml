@@ -7,10 +7,10 @@ announce = "19/01/2014"
 status = "Dead"
 p2p = 11994.0
 rpc = 11995.0
-blockTime = 90.0
-reward = 16.0
-halfingCycle = " 700800 blocks (2 years)"
-total = 23000000.0
+block_time = 90.0
+block_reward = 16.0
+halfing_cycle = " 700800 blocks (2 years)"
+total_tokens = 23000000.0
 ann = "https://bitcointalk.org/index.php?topic=422149.0"
 algo = "Multi-algo"
 
@@ -27,5 +27,5 @@ algo = "Multi-algo"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Chaincoin"
+coinmarketcap = "Chaincoin"
 CurrencyName = "Chaincoin"

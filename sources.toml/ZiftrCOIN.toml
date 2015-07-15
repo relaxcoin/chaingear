@@ -7,5 +7,5 @@ rating = 2.0
 links = []
 
 [aliases]
-CoinMarketCap = "ZiftrCOIN"
+coinmarketcap = "ZiftrCOIN"
 CurrencyName = "ZiftrCOIN"

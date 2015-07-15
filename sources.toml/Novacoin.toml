@@ -7,7 +7,7 @@ source = "cyberFund"
 announce = "02/11/2012"
 genesis = "06/02/2013"
 status = "Running"
-blockTime = "600"
+block_time = "600"
 ann = "https://bitcointalk.org/index.php?topic=143221.0"
 algo = "Scrypt"
 type = "DAO"
@@ -15,7 +15,7 @@ rating = 1.0
 consensus = "Hybrid POW-POS"
 
 [aliases]
-CoinMarketCap = "Novacoin"
+coinmarketcap = "Novacoin"
 CurrencyName = "Novacoin"
 
 [[links]]

@@ -5,11 +5,11 @@ source = "cyberFund"
 [metrics]
 announce = "05/05/2014"
 status = "Dead"
-blockTime = 210.0
-reward = "512 CZC"
-halfingCycle = "every 12342 blocks (month)"
-total = 12242272.0
-premine = "No"
+block_time = 210.0
+block_reward = "512 CZC"
+halfing_cycle = "every 12342 blocks (month)"
+total_tokens = 12242272.0
+premine_tokens = "No"
 ann = "https://bitcointalk.org/index.php?topic=596649.msg6555975#msg6555975"
 algo = "Multi-algo"
 type = "DAO"
@@ -28,5 +28,5 @@ dependencies = "independent"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "CzechCrownCoin"
+coinmarketcap = "CzechCrownCoin"
 CurrencyName = "CzechCrownCoin"

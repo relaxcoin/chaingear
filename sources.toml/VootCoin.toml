@@ -5,10 +5,10 @@ source = "cyberFund"
 [metrics]
 announce = "04/06/2014"
 status = "Running"
-blockTime = 60.0
-total = 100800000.0
-premine = "10 BTC (development fund)"
-difficultyCycle = "each block"
+block_time = 60.0
+total_tokens = 100800000.0
+premine_tokens = "10 BTC (development fund)"
+difficulty_cycle = "each block"
 ann = "https://bitcointalk.org/index.php?topic=639371.0"
 algo = "X11"
 
@@ -25,5 +25,5 @@ icon = "github.png"
 tags = ["Main", "Code"]
 
 [aliases]
-CoinMarketCap = "VootCoin"
+coinmarketcap = "VootCoin"
 CurrencyName = "VootCoin"

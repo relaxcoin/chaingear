@@ -10,5 +10,5 @@ dependencies = "independent"
 links = []
 
 [aliases]
-CoinMarketCap = "Qora"
+coinmarketcap = "Qora"
 CurrencyName = "Qora"

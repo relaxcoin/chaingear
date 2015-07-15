@@ -7,10 +7,10 @@ announce = "19/09/2014"
 status = "Dead"
 p2p = 11095.0
 rpc = 21095.0
-blockTime = "120"
-reward = "Starts At 40 SLK"
-total = "50000000"
-mintConfirm = "40 blocks"
+block_time = "120"
+block_reward = "Starts At 40 SLK"
+total_tokens = "50000000"
+mint_confirm = "40 blocks"
 ann = "https://hashtalk.org/topic/7310/sleakcoin-release-source-first-then-win-wallet-etc"
 algo = "Scrypt"
 
@@ -27,5 +27,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "SleakCoin"
+coinmarketcap = "SleakCoin"
 CurrencyName = "SleakCoin"

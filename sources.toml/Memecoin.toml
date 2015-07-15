@@ -5,9 +5,9 @@ source = "cyberFund"
 [metrics]
 announce = "15/05/2013"
 status = "Dead"
-blockTime = "600"
-total = 200000000.0
-premine = 200.0
+block_time = "600"
+total_tokens = 200000000.0
+premine_tokens = 200.0
 algo = "Scrypt"
 rating = 0.0
 
@@ -24,5 +24,5 @@ rating = 0.0
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Memecoin"
+coinmarketcap = "Memecoin"
 CurrencyName = "Memecoin"

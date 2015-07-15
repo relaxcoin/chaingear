@@ -7,10 +7,10 @@ announce = "23/12/2013"
 status = "Dead"
 p2p = 27000.0
 rpc = 27001.0
-blockTime = 30.0
-reward = 3840.0
-halfingCycle = 86400.0
-total = 1000000000.0
+block_time = 30.0
+block_reward = 3840.0
+halfing_cycle = 86400.0
+total_tokens = 1000000000.0
 ann = "https://bitcointalk.org/index.php?topic=382404.0"
 algo = "Scrypt"
 
@@ -27,5 +27,5 @@ algo = "Scrypt"
   icon = "github.png"
 
 [aliases]
-CoinMarketCap = "Leadcoin"
+coinmarketcap = "Leadcoin"
 CurrencyName = "Leadcoin"
