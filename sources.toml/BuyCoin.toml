@@ -1,10 +1,7 @@
 name = "BuyCoin"
-symbol = "BUY"
 source = "cyberFund"
 
 [metrics]
-announce = "17/08/2014"
-status = "Dead"
 p2p = 43566.0
 rpc = 43565.0
 block_time = "99"
@@ -13,7 +10,6 @@ total_tokens = "99000000"
 premine_tokens = "99% used for bounties, promotion, giveaways, and payments"
 difficulty_cycle = "every block"
 ann = "https://bitcointalk.org/index.php?topic=734708.msg8301330#msg8301330"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "BuyCoin"
 CurrencyName = "BuyCoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "17/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "BUY"

@@ -1,10 +1,7 @@
 name = "Topcoin"
-symbol = "TOP"
 source = "cyberFund"
 
 [metrics]
-announce = "02/02/2014"
-status = "Running"
 p2p = 18381.0
 rpc = 18382.0
 block_time = 30.0
@@ -15,7 +12,6 @@ difficulty_cycle = "each block"
 txs_confirm = 4.0
 mint_confirm = 50.0
 ann = "https://bitcointalk.org/index.php?topic=765196.0"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -33,3 +29,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Topcoin"
 CurrencyName = "Topcoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "02/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "TOP"

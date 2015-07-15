@@ -1,17 +1,12 @@
 name = "Emoticoin"
-symbol = "EMO"
 source = "cyberFund"
 
 [metrics]
-announce = "02/03/2014"
-genesis = "01/03/2014"
-status = "Dead"
 block_time = 60.0
 halfing_cycle = "every 50000 blocks"
 total_tokens = 100000000000.0
 difficulty_cycle = "every day"
 ann = "https://bitcointalk.org/index.php?topic=496129.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +23,19 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Emoticoin"
 CurrencyName = "Emoticoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "02/03/2014"
+genesis = "01/03/2014"
+
+[token]
+token_name = ""
+token_symbol = "EMO"

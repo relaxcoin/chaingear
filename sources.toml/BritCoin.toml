@@ -1,5 +1,4 @@
 name = "BritCoin"
-symbol = "BRIT"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "BritCoin"
 CurrencyName = "BritCoin"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "BRIT"

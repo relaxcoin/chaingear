@@ -1,17 +1,13 @@
 name = "Herocoin"
-symbol = "HRC"
 source = "cyberFund"
 
 [metrics]
-announce = "15/02/2014"
-status = "Dead"
 block_time = 120.0
 block_reward = 60.0
 halfing_cycle = 43200.0
 total_tokens = 10000000.0
 txs_confirm = 120.0
 ann = "https://bitcointalk.org/index.php?topic=466679.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +24,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Herocoin"
 CurrencyName = "Herocoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "15/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "HRC"

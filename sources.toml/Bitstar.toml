@@ -1,5 +1,4 @@
 name = "Bitstar"
-symbol = "BITS"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "Bitstar"
 CurrencyName = "Bitstar"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "BITS"

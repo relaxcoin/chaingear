@@ -1,14 +1,11 @@
 name = "Napalcoin"
-symbol = "NAC"
 source = "cyberFund"
 
 [metrics]
-announce = "24/05/2014"
 block_time = 60.0
 total_tokens = 26700000.0
 premine_tokens = "267000 (1%) paid promotions, 267000 (1%) mall application development"
 ann = "https://bitcointalk.org/index.php?topic=623314.0"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -23,3 +20,17 @@ algo = "X11"
 [aliases]
 coinmarketcap = "Napalcoin"
 CurrencyName = "Napalcoin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[events]
+announcement = "24/05/2014"
+
+[descriptions]
+system_type = ""
+
+[token]
+token_name = ""
+token_symbol = "NAC"

@@ -1,10 +1,7 @@
 name = "Sovereigncoin"
-symbol = "SVC"
 source = "cyberFund"
 
 [metrics]
-announce = "28/02/2014"
-status = "Dead"
 rpc = 5555.0
 block_time = 60.0
 block_reward = "1000 coins per each block"
@@ -12,7 +9,6 @@ total_tokens = 600000000.0
 premine_tokens = "60000000 coins (10%)"
 difficulty_cycle = ""
 ann = "https://bitcointalk.org/index.php?topic=489850.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +24,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Sovereigncoin"
 CurrencyName = "Sovereigncoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "28/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "SVC"

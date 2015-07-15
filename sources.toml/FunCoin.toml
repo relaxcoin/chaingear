@@ -1,15 +1,11 @@
 name = "FunCoin"
-symbol = "FUN"
 source = "cyberFund"
 
 [metrics]
-announce = "11/05/2014"
-status = "Dead"
 total_tokens = 500000000.0
 premine_tokens = "5000000 (1%) for bounties, giveaways and for further development, this includes domain, hosting and any other expenditures that pop-up"
 difficulty_cycle = "every 72 blocks "
 ann = "https://bitcointalk.org/index.php?topic=605315.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -26,3 +22,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "FunCoin"
 CurrencyName = "FunCoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "11/05/2014"
+
+[token]
+token_name = ""
+token_symbol = "FUN"

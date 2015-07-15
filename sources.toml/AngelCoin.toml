@@ -1,10 +1,7 @@
 name = "AngelCoin"
-symbol = "ANG"
 source = "cyberFund"
 
 [metrics]
-announce = "07/07/2014"
-status = "Dead"
 p2p = 7778.0
 rpc = 7777.0
 block_time = 60.0
@@ -12,14 +9,29 @@ block_reward = "Block 1 ~ 10000: 10.1 ANG"
 total_tokens = 150000.0
 premine_tokens = "No"
 ann = "https://bitcointalk.org/index.php?topic=681111.0"
-algo = "X-n"
+
+[aliases]
+coinmarketcap = "AngelCoin"
+CurrencyName = "AngelCoin"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "07/07/2014"
+
+[token]
+token_name = ""
+token_symbol = "ANG"
 
 [[links]]
 tags = ["Main", "Code"]
 name = "github"
 url = "https://github.com/angelcoin/angelcoin"
 icon = "github.png"
-
-[aliases]
-coinmarketcap = "AngelCoin"
-CurrencyName = "AngelCoin"
+type = ""

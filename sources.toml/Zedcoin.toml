@@ -1,10 +1,7 @@
 name = "Zedcoin"
-symbol = "ZED"
 source = "cyberFund"
 
 [metrics]
-announce = "25/01/2014"
-status = "Dead"
 p2p = 17732.0
 rpc = 17733.0
 block_time = 60.0
@@ -14,7 +11,6 @@ total_tokens = 120000000.0
 premine_tokens = "1200000 coins(1%) for bounties, promotion etc."
 difficulty_cycle = 30.0
 ann = "https://bitcointalk.org/index.php?topic=432261.0"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -32,3 +28,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Zedcoin"
 CurrencyName = "Zedcoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "25/01/2014"
+
+[token]
+token_name = ""
+token_symbol = "ZED"

@@ -1,10 +1,7 @@
 name = "FairByte Coin"
-symbol = "FBC"
 source = "cyberFund"
 
 [metrics]
-announce = "19/07/2014"
-status = "Dead"
 p2p = 22741.0
 rpc = 22740.0
 block_time = 120.0
@@ -15,7 +12,6 @@ premine_tokens = "600000"
 difficulty_cycle = "each block for PoW"
 txs_confirm = 6.0
 ann = "https://bitcointalk.org/index.php?topic=700920.0"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -32,3 +28,18 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "FairByte Coin"
 CurrencyName = "FairByte Coin"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "19/07/2014"
+
+[token]
+token_name = ""
+token_symbol = "FBC"

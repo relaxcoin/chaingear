@@ -1,11 +1,7 @@
 name = "Socialcoin"
-symbol = "SOC"
 source = "cyberFund"
 
 [metrics]
-announce = "12/01/2014"
-genesis = "01/13/2013"
-status = "Dead"
 p2p = 8945.0
 rpc = 8946.0
 block_time = 120.0
@@ -16,7 +12,6 @@ premine_tokens = 12000000.0
 txs_confirm = 6.0
 mint_confirm = 120.0
 ann = "https://bitcointalk.org/index.php?topic=412331"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -33,3 +28,19 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Socialcoin"
 CurrencyName = "Socialcoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "12/01/2014"
+genesis = "01/13/2013"
+
+[token]
+token_name = ""
+token_symbol = "SOC"

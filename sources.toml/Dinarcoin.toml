@@ -1,11 +1,7 @@
 name = "Dinarcoin"
-symbol = "IQD"
 source = "cyberFund"
 
 [metrics]
-announce = "01/03/2014"
-genesis = "23/02/2014"
-status = "Dead"
 p2p = 9336.0
 rpc = 9335.0
 block_time = 300.0
@@ -15,7 +11,6 @@ premine_tokens = "20000000 (100%) for humanitarian projects, community managemen
 difficulty_cycle = "every block"
 txs_confirm = 6.0
 ann = "https://bitcointalk.org/index.php?topic=494685.0"
-algo = "SHA-256d"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -32,3 +27,19 @@ algo = "SHA-256d"
 [aliases]
 coinmarketcap = "Dinarcoin"
 CurrencyName = "Dinarcoin"
+
+[consensus]
+hashing = "SHA-256d"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "01/03/2014"
+genesis = "23/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "IQD"

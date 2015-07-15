@@ -1,5 +1,4 @@
 name = "Saturn2Coin"
-symbol = "SAT2"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "Saturn2Coin"
 CurrencyName = "Saturn2Coin"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "SAT2"

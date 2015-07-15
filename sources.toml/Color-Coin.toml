@@ -1,10 +1,7 @@
 name = "Color-Coin"
-symbol = "CC"
 source = "cyberFund"
 
 [metrics]
-announce = "06/05/2014"
-status = "Dead"
 p2p = 15819.0
 rpc = 15818.0
 block_time = 30.0
@@ -13,7 +10,6 @@ total_tokens = 800000000.0
 premine_tokens = "7040000 (0.88%) for future development"
 difficulty_cycle = ""
 ann = "https://bitcointalk.org/index.php?topic=598420"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "Color-Coin"
 CurrencyName = "Color-Coin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "06/05/2014"
+
+[token]
+token_name = ""
+token_symbol = "CC"

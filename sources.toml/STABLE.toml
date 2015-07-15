@@ -1,10 +1,7 @@
 name = "STABLE"
-symbol = "STB"
 source = "cyberFund"
 
 [metrics]
-announce = "09/12/2014"
-status = "Dead"
 block_time = "60 seconds"
 total_tokens = "2200000 STB"
 ann = "https://bitcointalk.org/index.php?topic=886555.0"
@@ -23,3 +20,17 @@ ann = "https://bitcointalk.org/index.php?topic=886555.0"
 [aliases]
 coinmarketcap = "STABLE"
 CurrencyName = "STABLE"
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "09/12/2014"
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "STB"

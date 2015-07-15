@@ -1,10 +1,7 @@
 name = "Philosopherstone"
-symbol = "PHS"
 source = "cyberFund"
 
 [metrics]
-announce = "28/07/2013"
-status = "Running"
 p2p = 16281.0
 rpc = 16282.0
 block_time = "120"
@@ -14,7 +11,6 @@ total_tokens = 200000000.0
 txs_confirm = 4.0
 mint_confirm = 50.0
 ann = "https://bitcointalk.org/index.php?topic=263744.0"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -32,3 +28,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Philosopherstone"
 CurrencyName = "Philosopherstone"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "28/07/2013"
+
+[token]
+token_name = ""
+token_symbol = "PHS"

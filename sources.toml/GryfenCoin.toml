@@ -1,10 +1,7 @@
 name = "GryfenCoin"
-symbol = "GRYF"
 source = "cyberFund"
 
 [metrics]
-announce = "21/08/2014"
-status = "Running"
 p2p = 9819.0
 rpc = 9820.0
 block_time = "60"
@@ -13,7 +10,6 @@ total_tokens = "1000000000000"
 premine_tokens = "Block 1 is pre-mine (0.0025 X 1 Trillion = 2.5 Billion PREMINE for backing Options Market."
 mint_confirm = "120"
 ann = "http://talk.gryfenco.in"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "GryfenCoin"
 CurrencyName = "GryfenCoin"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "21/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "GRYF"

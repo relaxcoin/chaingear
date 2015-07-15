@@ -1,16 +1,14 @@
 name = "Storjcoin X"
 nickname = "Storj"
-symbol = "SJCX"
-dependencies = "Bitcoin, Counterparty"
+dependencies = ["Bitcoin", "Counterparty"]
 
 [descriptions]
 headline = "Decentralized Cloud Storage"
 summary = "Storj is based on blockchain technology and peer-to-peer protocols to provide the most secure, private, and encrypted cloud storage."
+tags = "DApp"
+system_type = ""
 
 [metrics]
-type = "DApp"
-rating = 4.0
-consensus = "Counterparty"
 
 [aliases]
 coinmarketcap = "Storjcoin X"
@@ -24,44 +22,62 @@ funding_tems = "http://storj.io/CrowdsaleTerms.pdf"
 funding_url = "http://storj.io/crowdsale.html"
 tokens_sold = 35039704.0
 
+[ratings]
+rating = 4.0
+
+[consensus]
+consensus_name = "Counterparty"
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "SJCX"
+
 [[links]]
 name = "web site"
 url = "http://storj.io/"
 icon = "website.png"
 tags = ["Main", "Apps"]
+type = ""
 
 [[links]]
 name = "explorer"
 url = "http://blockscan.com/assetInfo.aspx?q=SJCX"
 icon = "explorer.png"
 tags = ["Main", "Apps"]
+type = ""
 
 [[links]]
 name = "github"
 url = "https://github.com/Storj/"
 icon = "github.png"
 tags = ["Main", "Code"]
+type = ""
 
 [[links]]
 name = "twitter"
 url = "https://twitter.com/storjproject"
 icon = "twitter.png"
 tags = ["Main", "Apps"]
+type = ""
 
 [[links]]
 name = "forum"
 url = "http://storjtalk.org/"
 icon = "forum.png"
 tags = ["Apps"]
+type = ""
 
 [[links]]
 name = "blog"
 url = "http://blog.storj.io/"
 icon = "blog.png"
 tags = ["Apps"]
+type = ""
 
 [[links]]
 name = "reddit"
 url = "http://www.reddit.com/r/storj"
 icon = "reddit.png"
 tags = ["Apps"]
+type = ""

@@ -1,10 +1,7 @@
 name = "Skeincoin"
-symbol = "SKC"
 source = "cyberFund"
 
 [metrics]
-announce = "01/11/2013"
-status = "Running"
 p2p = 21230.0
 rpc = 11230.0
 block_time = "120"
@@ -12,7 +9,6 @@ block_reward = 32.0
 halfing_cycle = 262800.0
 total_tokens = 17000000.0
 ann = "https://bitcointalk.org/index.php?topic=322828.0"
-algo = "Multi-algo"
 rating = 0.0
 
   [[metrics.links]]
@@ -29,3 +25,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Skeincoin"
 CurrencyName = "Skeincoin"
+
+[consensus]
+hashing = "Multi-algo"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "01/11/2013"
+
+[token]
+token_name = ""
+token_symbol = "SKC"

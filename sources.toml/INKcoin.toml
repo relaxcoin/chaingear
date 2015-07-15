@@ -1,18 +1,13 @@
 name = "INKcoin"
-symbol = "INK"
 source = "cyberFund"
 
 [metrics]
-announce = "22/02/2014"
-genesis = "22/02/2014"
-status = "Dead"
 p2p = 1216.0
 rpc = 1217.0
 block_reward = 50.0
 halfing_cycle = 110000.0
 total_tokens = 11000000.0
 ann = "https://bitcointalk.org/index.php?topic=481516.0"
-algo = "Others"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +24,19 @@ algo = "Others"
 [aliases]
 coinmarketcap = "INKcoin"
 CurrencyName = "INKcoin"
+
+[consensus]
+hashing = "Others"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "22/02/2014"
+genesis = "22/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "INK"

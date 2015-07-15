@@ -1,10 +1,7 @@
 name = "JebigaCoin"
-symbol = "JBG"
 source = "cyberFund"
 
 [metrics]
-announce = "25/03/2014"
-status = "Dead"
 p2p = 6970.0
 rpc = 6996.0
 block_time = 60.0
@@ -12,7 +9,6 @@ halfing_cycle = "Initially 69 coins per block, halves every 2 years (1,036,800 b
 total_tokens = 188000000.0
 difficulty_cycle = "Difficulty retargets every 240 min or 240 blocks"
 ann = "https://bitcointalk.org/index.php?topic=530408.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +24,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "JebigaCoin"
 CurrencyName = "JebigaCoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "25/03/2014"
+
+[token]
+token_name = ""
+token_symbol = "JBG"

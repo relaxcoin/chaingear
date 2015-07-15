@@ -1,18 +1,13 @@
 name = "SolidCoin"
-symbol = "SC"
 source = "cyberFund"
 
 [metrics]
-announce = "15/08/2011"
-genesis = "21/08/2011"
-status = "Dead"
 block_time = "180"
 block_reward = 32.0
 total_tokens = 18900000.0
 premine_tokens = 30080.0
 difficulty_cycle = "2016"
 ann = "https://bitcointalk.org/index.php?topic=38453.0"
-algo = "SHA-256d"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +23,19 @@ algo = "SHA-256d"
 [aliases]
 coinmarketcap = "SolidCoin"
 CurrencyName = "SolidCoin"
+
+[consensus]
+hashing = "SHA-256d"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "15/08/2011"
+genesis = "21/08/2011"
+
+[token]
+token_name = ""
+token_symbol = "SC"

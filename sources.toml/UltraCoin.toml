@@ -1,14 +1,25 @@
 name = "UltraCoin"
-symbol = "UTC"
 source = "cyberFund"
 
 [metrics]
-type = "DAO"
-rating = 1.0
-consensus = "Hybrid POW-POS"
 dependencies = "independent"
 links = []
 
 [aliases]
 coinmarketcap = "UltraCoin"
 CurrencyName = "UltraCoin"
+
+[ratings]
+rating = 1.0
+
+[consensus]
+consensus_name = "Hybrid POW-POS"
+consensus_type = ""
+
+[descriptions]
+tags = "DAO"
+system_type = ""
+
+[token]
+token_name = ""
+token_symbol = "UTC"

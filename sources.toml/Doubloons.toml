@@ -1,17 +1,12 @@
 name = "Doubloons"
-symbol = "DBL"
 source = "cyberFund"
 
 [metrics]
-announce = "15/05/2013"
-genesis = "15/05/2013"
-status = "Running"
 rpc = 1337.0
 block_reward = 6.77
 total_tokens = 8000000.0
 difficulty_cycle = "720"
 ann = "https://bitcointalk.org/index.php?topic=206361.0"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -28,3 +23,19 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Doubloons"
 CurrencyName = "Doubloons"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "15/05/2013"
+genesis = "15/05/2013"
+
+[token]
+token_name = ""
+token_symbol = "DBL"

@@ -1,10 +1,7 @@
 name = "CapitalCoin"
-symbol = "CPTL"
 source = "cyberFund"
 
 [metrics]
-announce = "09/07/2014"
-status = "Dead"
 p2p = 22033.0
 rpc = 22133.0
 block_time = 30.0
@@ -12,7 +9,6 @@ total_tokens = 100000000.0
 premine_tokens = "No"
 difficulty_cycle = "every block"
 ann = "https://www.altcoincalendar.info/coins/676-CPTL"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +24,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "CapitalCoin"
 CurrencyName = "CapitalCoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "09/07/2014"
+
+[token]
+token_name = ""
+token_symbol = "CPTL"

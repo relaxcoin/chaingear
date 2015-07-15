@@ -1,11 +1,7 @@
 name = "Phoenixcoin"
-symbol = "PXC"
 source = "cyberFund"
 
 [metrics]
-announce = "20/05/2013"
-genesis = "08/05/2013"
-status = "Running"
 p2p = 9555.0
 rpc = 9554.0
 block_time = "90"
@@ -14,7 +10,6 @@ halfing_cycle = 1000000.0
 total_tokens = 98000000.0
 difficulty_cycle = "20"
 ann = "https://bitcointalk.org/index.php?topic=330956.0"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -32,3 +27,19 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Phoenixcoin"
 CurrencyName = "Phoenixcoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "20/05/2013"
+genesis = "08/05/2013"
+
+[token]
+token_name = ""
+token_symbol = "PXC"

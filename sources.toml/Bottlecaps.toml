@@ -1,11 +1,7 @@
 name = "Bottlecaps"
-symbol = "CAP"
 source = "cyberFund"
 
 [metrics]
-announce = "15/06/2013"
-genesis = "22/06/2013"
-status = "Dead"
 p2p = 7685.0
 rpc = 8385.0
 block_time = "60"
@@ -14,7 +10,6 @@ total_tokens = 47433600.0
 difficulty_cycle = "240"
 txs_confirm = 5.0
 ann = "https://cryptocointalk.com/topic/682-bottlecaps-bot-information/"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -32,3 +27,19 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Bottlecaps"
 CurrencyName = "Bottlecaps"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "15/06/2013"
+genesis = "22/06/2013"
+
+[token]
+token_name = ""
+token_symbol = "CAP"

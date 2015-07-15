@@ -1,10 +1,7 @@
 name = "Verncoin"
-symbol = "VNC"
 source = "cyberFund"
 
 [metrics]
-announce = "14/02/2014"
-status = "Dead"
 p2p = 65000.0
 rpc = 64999.0
 block_time = 60.0
@@ -13,7 +10,6 @@ total_tokens = 100000000000.0
 premine_tokens = "500000000 coins(0.5%) for development costs"
 difficulty_cycle = "240 blocks (4 hours)"
 ann = "https://bitcointalk.org/index.php?topic=465274.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Verncoin"
 CurrencyName = "Verncoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "14/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "VNC"

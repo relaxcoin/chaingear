@@ -1,17 +1,13 @@
 name = "BitcoinNEW"
-symbol = "BTN"
 source = "cyberFund"
 
 [metrics]
-announce = "15/05/2014"
-status = "Dead"
 block_reward = "500 BTN, halving every 210000 blocks (4 years)"
 total_tokens = 210000000.0
 difficulty_cycle = "every 2016 blocks (14 days)"
 txs_confirm = 6.0
 mint_confirm = 120.0
 ann = "https://bitcointalk.org/index.php?topic=610673.0"
-algo = "SHA-256d"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +24,18 @@ algo = "SHA-256d"
 [aliases]
 coinmarketcap = "BitcoinNEW"
 CurrencyName = "BitcoinNEW"
+
+[consensus]
+hashing = "SHA-256d"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "15/05/2014"
+
+[token]
+token_name = ""
+token_symbol = "BTN"

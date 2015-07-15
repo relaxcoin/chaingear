@@ -1,12 +1,9 @@
 name = "Sovereign"
-symbol = "SOV"
 source = "cyberFund"
 
 [metrics]
-announce = "03/07/2014"
 total_tokens = 144.0
 ann = "https://bitcointalk.org/index.php?topic=676478.msg7661479#msg7661479"
-algo = "SHA-256d"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -22,3 +19,17 @@ algo = "SHA-256d"
 [aliases]
 coinmarketcap = "Sovereign"
 CurrencyName = "Sovereign"
+
+[consensus]
+hashing = "SHA-256d"
+consensus_type = ""
+
+[events]
+announcement = "03/07/2014"
+
+[descriptions]
+system_type = ""
+
+[token]
+token_name = ""
+token_symbol = "SOV"

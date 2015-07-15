@@ -1,10 +1,7 @@
 name = "Silverback"
-symbol = "SBK"
 source = "cyberFund"
 
 [metrics]
-announce = "16/08/2014"
-status = "Dead"
 p2p = "14141"
 rpc = "14142"
 block_time = "192 seconds"
@@ -26,3 +23,17 @@ ann = "https://bitcointalk.org/index.php?topic=741346.0"
 [aliases]
 coinmarketcap = "Silverback"
 CurrencyName = "Silverback"
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "16/08/2014"
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "SBK"

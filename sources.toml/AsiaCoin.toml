@@ -1,17 +1,29 @@
 name = "AsiaCoin"
-symbol = "AC"
 source = "cyberFund"
 
 [metrics]
 ann = "https://bitcointalk.org/index.php?topic=595999.0"
+
+[aliases]
+coinmarketcap = "AsiaCoin"
+CurrencyName = "AsiaCoin"
+
+[ratings]
 rating = 1.0
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "AC"
 
 [[links]]
 name = "web site"
 url = "http://www.thecoin.asia/"
 icon = "website.png"
 tags = ["Main", "Apps"]
-
-[aliases]
-coinmarketcap = "AsiaCoin"
-CurrencyName = "AsiaCoin"
+type = ""

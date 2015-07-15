@@ -1,10 +1,7 @@
 name = "Xivra"
-symbol = "XIV"
 source = "cyberFund"
 
 [metrics]
-announce = "18/12/2013"
-status = "Running"
 p2p = 43520.0
 rpc = 43519.0
 block_time = 75.0
@@ -15,7 +12,6 @@ premine_tokens = 20000.0
 difficulty_cycle = 192.0
 mint_confirm = 600.0
 ann = "https://bitcointalk.org/index.php?topic=376160.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -32,3 +28,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Xivra"
 CurrencyName = "Xivra"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "18/12/2013"
+
+[token]
+token_name = ""
+token_symbol = "XIV"

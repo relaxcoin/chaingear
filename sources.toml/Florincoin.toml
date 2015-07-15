@@ -1,11 +1,7 @@
 name = "Florincoin"
-symbol = "FLO"
 source = "cyberFund"
 
 [metrics]
-announce = "17/06/2013"
-genesis = "17/06/2013"
-status = "Running"
 p2p = 7312.0
 rpc = 7313.0
 block_time = "40"
@@ -14,8 +10,6 @@ halfing_cycle = 800000.0
 total_tokens = 160000000.0
 difficulty_cycle = "90"
 ann = "https://bitcointalk.org/index.php?topic=236742.0"
-algo = "Scrypt"
-rating = 1.0
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -32,3 +26,22 @@ rating = 1.0
 [aliases]
 coinmarketcap = "Florincoin"
 CurrencyName = "Florincoin"
+
+[ratings]
+rating = 1.0
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "17/06/2013"
+genesis = "17/06/2013"
+
+[token]
+token_name = ""
+token_symbol = "FLO"

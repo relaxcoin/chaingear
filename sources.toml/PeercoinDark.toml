@@ -1,10 +1,7 @@
 name = "PeercoinDark"
-symbol = "PPCD"
 source = "cyberFund"
 
 [metrics]
-announce = "26/10/2014"
-status = "Running"
 p2p = 10989.0
 rpc = 10789.0
 block_time = "60 Seconds"
@@ -13,7 +10,6 @@ premine_tokens = "3537600 coins(1,76%)"
 difficulty_cycle = "5 hours"
 mint_confirm = "2 blocks"
 ann = "https://bitcointalk.org/index.php?topic=832845.0"
-algo = "SHA-256d"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "SHA-256d"
 [aliases]
 coinmarketcap = "PeercoinDark"
 CurrencyName = "PeercoinDark"
+
+[consensus]
+hashing = "SHA-256d"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "26/10/2014"
+
+[token]
+token_name = ""
+token_symbol = "PPCD"

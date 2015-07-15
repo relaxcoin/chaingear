@@ -1,5 +1,4 @@
 name = "GoldPieces"
-symbol = "GP"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "GoldPieces"
 CurrencyName = "GoldPieces"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "GP"

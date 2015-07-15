@@ -1,18 +1,13 @@
 name = "Xencoin"
-symbol = "XNC"
 source = "cyberFund"
 
 [metrics]
-announce = "19/06/2013"
-genesis = "18/06/2013"
-status = "Running"
 block_reward = 200.0
 halfing_cycle = 4665600.0
 total_tokens = 21000000000.0
 premine_tokens = 1050000000.0
 txs_confirm = 6.0
 ann = "https://bitcointalk.org/index.php?topic=237998.0"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -30,3 +25,19 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Xencoin"
 CurrencyName = "Xencoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "19/06/2013"
+genesis = "18/06/2013"
+
+[token]
+token_name = ""
+token_symbol = "XNC"

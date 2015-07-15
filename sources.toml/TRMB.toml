@@ -1,11 +1,7 @@
 name = "TRMB"
-symbol = "TRMB"
 source = "cyberFund"
 
 [metrics]
-type = "DAO"
-rating = 1.0
-status = "Running"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -16,3 +12,18 @@ status = "Running"
 [aliases]
 coinmarketcap = "TRMB"
 CurrencyName = "TRMB"
+
+[ratings]
+rating = 1.0
+
+[descriptions]
+state = "Running"
+tags = "DAO"
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "TRMB"

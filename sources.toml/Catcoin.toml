@@ -1,10 +1,7 @@
 name = "Catcoin"
-symbol = "CAT"
 source = "cyberFund"
 
 [metrics]
-announce = "21/12/2013"
-status = "Running"
 p2p = 9933.0
 rpc = 9332.0
 block_time = 600.0
@@ -13,7 +10,6 @@ halfing_cycle = 210000.0
 total_tokens = 21000000.0
 difficulty_cycle = 2016.0
 ann = "https://bitcointalk.org/index.php?topic=441402.new#new"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -30,3 +26,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Catcoin"
 CurrencyName = "Catcoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "21/12/2013"
+
+[token]
+token_name = ""
+token_symbol = "CAT"

@@ -1,10 +1,7 @@
 name = "Sportcoin"
-symbol = "SPCC"
 source = "cyberFund"
 
 [metrics]
-announce = "20/06/2014"
-status = "Dead"
 p2p = 56896.0
 rpc = 56895.0
 block_time = 60.0
@@ -12,7 +9,6 @@ block_reward = 60.0
 total_tokens = 618000.0
 premine_tokens = "123600 (20%)"
 ann = "https://bitcointalk.org/index.php?topic=659470"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +24,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "Sportcoin"
 CurrencyName = "Sportcoin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "20/06/2014"
+
+[token]
+token_name = ""
+token_symbol = "SPCC"

@@ -1,14 +1,10 @@
 name = "XtraCoin"
-symbol = "CX"
 source = "cyberFund"
 
 [metrics]
-announce = "05/05/2014"
-status = "Dead"
 block_time = 120.0
 total_tokens = 50000000.0
 ann = "https://bitcointalk.org/index.php?topic=596545"
-algo = "SHA-256d"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -24,3 +20,18 @@ algo = "SHA-256d"
 [aliases]
 coinmarketcap = "XtraCoin"
 CurrencyName = "XtraCoin"
+
+[consensus]
+hashing = "SHA-256d"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "05/05/2014"
+
+[token]
+token_name = ""
+token_symbol = "CX"

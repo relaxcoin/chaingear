@@ -1,16 +1,12 @@
 name = "Tenebrix"
-symbol = "TBX"
 source = "cyberFund"
 
 [metrics]
-announce = "26/09/2011"
-status = "Dead"
 block_time = "300"
 block_reward = 25.0
 premine_tokens = 7700000.0
 difficulty_cycle = "2016"
 ann = "https://bitcointalk.org/index.php?topic=45667.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -26,3 +22,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Tenebrix"
 CurrencyName = "Tenebrix"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "26/09/2011"
+
+[token]
+token_name = ""
+token_symbol = "TBX"

@@ -1,11 +1,7 @@
 name = "Royalcoin"
-symbol = "RYC"
 source = "cyberFund"
 
 [metrics]
-announce = "09/05/2013"
-genesis = "08/05/2013"
-status = "Running"
 p2p = 9556.0
 rpc = 9557.0
 block_time = "180"
@@ -14,7 +10,6 @@ halfing_cycle = 600000.0
 total_tokens = 140000000.0
 difficulty_cycle = "480"
 ann = "https://bitcointalk.org/index.php?topic=199839.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -31,3 +26,19 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Royalcoin"
 CurrencyName = "Royalcoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "09/05/2013"
+genesis = "08/05/2013"
+
+[token]
+token_name = ""
+token_symbol = "RYC"

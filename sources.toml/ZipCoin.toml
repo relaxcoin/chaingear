@@ -1,10 +1,7 @@
 name = "ZipCoin"
-symbol = "ZIPC"
 source = "cyberFund"
 
 [metrics]
-announce = "02/08/2014"
-status = "Dead"
 p2p = 26941.0
 rpc = 26942.0
 block_time = "60"
@@ -12,7 +9,6 @@ block_reward = "1000 ZIP"
 total_tokens = "10000000"
 mint_confirm = "50 blocks"
 ann = "https://bitcointalk.org/index.php?topic=721306"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +24,18 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "ZipCoin"
 CurrencyName = "ZipCoin"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "02/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "ZIPC"

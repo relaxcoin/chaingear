@@ -1,16 +1,12 @@
 name = "Tr011Coin"
-symbol = "TCN"
 source = "cyberFund"
 
 [metrics]
-announce = "11/12/2013"
-status = "Dead"
 p2p = 9032.0
 block_time = 15.0
 block_reward = 250.0
 total_tokens = 1000000000.0
 ann = "https://bitcointalk.org/index.php?topic=367303.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -26,3 +22,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Tr011Coin"
 CurrencyName = "Tr011Coin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "11/12/2013"
+
+[token]
+token_name = ""
+token_symbol = "TCN"

@@ -1,14 +1,9 @@
 name = "Hyperstake"
-symbol = "HYP"
 source = "cyberFund"
 
 [metrics]
-announce = "06/07/2014"
-status = "Running"
 block_time = 90.0
 ann = "https://bitcointalk.org/index.php?topic=678849"
-algo = "X11"
-rating = 1.0
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -24,3 +19,21 @@ rating = 1.0
 [aliases]
 coinmarketcap = "Hyperstake"
 CurrencyName = "Hyperstake"
+
+[ratings]
+rating = 1.0
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "06/07/2014"
+
+[token]
+token_name = ""
+token_symbol = "HYP"

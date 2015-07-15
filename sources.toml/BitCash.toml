@@ -1,10 +1,7 @@
 name = "BitCash"
-symbol = "BCSH"
 source = "cyberFund"
 
 [metrics]
-announce = "23/08/2014"
-status = "Dead"
 p2p = 33444.0
 rpc = 33445.0
 block_time = "60"
@@ -12,14 +9,29 @@ block_reward = "1-7 Block Days : 100 BCSH, 7 - 14 Block Days: 50 BCSH , 14 - 21 
 total_tokens = "5000000"
 mint_confirm = "120"
 ann = "https://bitcointalk.org/index.php?topic=737857.0"
-algo = "X-n"
+
+[aliases]
+coinmarketcap = "BitCash"
+CurrencyName = "BitCash"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "23/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "BCSH"
 
 [[links]]
 tags = ["Main", "Code"]
 name = "github"
 url = "https://github.com/cryptoskills/bitcash"
 icon = "github.png"
-
-[aliases]
-coinmarketcap = "BitCash"
-CurrencyName = "BitCash"
+type = ""

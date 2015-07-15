@@ -1,13 +1,9 @@
 name = "Colossuscoin2.0 "
-symbol = "CV2"
 source = "cyberFund"
 
 [metrics]
-announce = "08/02/2015"
-status = "Running"
 block_time = "120 seconds"
 ann = "http://colossuscointalk.org/index.php?topic=1181.0"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -24,3 +20,18 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "Colossuscoin2.0 "
 CurrencyName = "Colossuscoin2.0 "
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "08/02/2015"
+
+[token]
+token_name = ""
+token_symbol = "CV2"

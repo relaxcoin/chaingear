@@ -1,17 +1,13 @@
 name = "Shitcoin"
-symbol = "SHT"
 source = "cyberFund"
 
 [metrics]
-announce = "07/10/2013"
-status = "Dead"
 block_time = "60"
 block_reward = 100000000.0
 halfing_cycle = 2000.0
 total_tokens = 100000000000000.0
 difficulty_cycle = "240"
 ann = "https://bitcointalk.org/index.php?topic=307419.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -27,3 +23,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Shitcoin"
 CurrencyName = "Shitcoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "07/10/2013"
+
+[token]
+token_name = ""
+token_symbol = "SHT"

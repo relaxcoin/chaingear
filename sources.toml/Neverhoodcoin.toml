@@ -1,16 +1,12 @@
 name = "Neverhoodcoin"
-symbol = "NHC"
 source = "cyberFund"
 
 [metrics]
-announce = "20/07/2014"
-status = "Dead"
 block_time = 60.0
 block_reward = "POW phase ENDs"
 total_tokens = 1500000.0
 premine_tokens = "15000 (1%)"
 ann = "https://bitcointalk.org/index.php?topic=702466"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -26,3 +22,18 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "Neverhoodcoin"
 CurrencyName = "Neverhoodcoin"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "20/07/2014"
+
+[token]
+token_name = ""
+token_symbol = "NHC"

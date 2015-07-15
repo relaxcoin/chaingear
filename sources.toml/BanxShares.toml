@@ -1,26 +1,39 @@
 name = "BanxShares"
-symbol = "BANX"
 source = "cyberFund"
-dependencies = "independent"
+dependencies = ["independent"]
 
 [metrics]
-type = "DAO"
 ann = "https://bitcointalk.org/index.php?topic=813191.0"
+
+[aliases]
+coinmarketcap = "BanxShares"
+CurrencyName = "BanxShares"
+
+[ratings]
 rating = 2.0
-consensus = "Proof-of-Work"
+
+[consensus]
+consensus_name = "Proof-of-Work"
+consensus_type = ""
+
+[descriptions]
+tags = "DAO"
+system_type = ""
+
+[token]
+token_name = ""
+token_symbol = "BANX"
 
 [[links]]
 name = "web site"
 url = "http://banxcapital.com/"
 icon = "website.png"
 tags = ["Main", "Apps"]
+type = ""
 
 [[links]]
 name = "reddit"
 url = "http://www.reddit.com/r/Banx/"
 icon = "reddit.png"
 tags = ["Apps"]
-
-[aliases]
-coinmarketcap = "BanxShares"
-CurrencyName = "BanxShares"
+type = ""

@@ -1,5 +1,4 @@
 name = "VirtualCoin"
-symbol = "VCOIN"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "VirtualCoin"
 CurrencyName = "VirtualCoin"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "VCOIN"

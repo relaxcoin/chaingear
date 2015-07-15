@@ -1,17 +1,13 @@
 name = "PlayToken"
-symbol = "PLT"
 source = "cyberFund"
 
 [metrics]
-announce = "02/08/2013"
-status = "Dead"
 block_time = "45"
 total_tokens = 70000000.0
 premine_tokens = 1000000.0
 difficulty_cycle = "40"
 txs_confirm = 7.0
 ann = "https://bitcointalk.org/index.php?topic=266521.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +24,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "PlayToken"
 CurrencyName = "PlayToken"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "02/08/2013"
+
+[token]
+token_name = ""
+token_symbol = "PLT"

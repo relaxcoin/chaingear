@@ -1,5 +1,4 @@
 name = "Qibuck"
-symbol = "QBK"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "Qibuck"
 CurrencyName = "Qibuck"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "QBK"

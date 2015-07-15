@@ -1,12 +1,22 @@
 name = "Bancorcoin"
-symbol = "BNCR"
 source = "cyberFund"
 
 [metrics]
 rating = 0.0
 
-[[links]]
-
 [aliases]
 coinmarketcap = "Bancorcoin"
 CurrencyName = "Bancorcoin"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "BNCR"
+
+[[links]]
+type = ""

@@ -1,10 +1,7 @@
 name = "Macrocoin"
-symbol = "MCR"
 source = "cyberFund"
 
 [metrics]
-announce = "08/02/2014"
-status = "Running"
 rpc = 9597.0
 block_time = 120.0
 block_reward = 0.75
@@ -13,7 +10,6 @@ total_tokens = 200000.0
 premine_tokens = "3000 coins(1.5%) for promotions, giveaways, investment opportunities, developments, development team and bounties"
 difficulty_cycle = " 720(24 hours)"
 ann = "https://bitcointalk.org/index.php?topic=455269.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Macrocoin"
 CurrencyName = "Macrocoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "08/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "MCR"

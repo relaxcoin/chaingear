@@ -1,13 +1,10 @@
 name = "ReikiCoin"
-symbol = "RKC"
 source = "cyberFund"
 
 [metrics]
-announce = "23/11/2013"
 total_tokens = 250000.0
 premine_tokens = 12500.0
 ann = "https://bitcointalk.org/index.php?topic=343615.0"
-algo = "SHA-256d"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -23,3 +20,17 @@ algo = "SHA-256d"
 [aliases]
 coinmarketcap = "ReikiCoin"
 CurrencyName = "ReikiCoin"
+
+[consensus]
+hashing = "SHA-256d"
+consensus_type = ""
+
+[events]
+announcement = "23/11/2013"
+
+[descriptions]
+system_type = ""
+
+[token]
+token_name = ""
+token_symbol = "RKC"

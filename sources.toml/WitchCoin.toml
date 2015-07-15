@@ -1,10 +1,7 @@
 name = "WitchCoin"
-symbol = "WITCH"
 source = "cyberFund"
 
 [metrics]
-announce = "28/07/2014"
-status = "Dead"
 p2p = 21245.0
 rpc = 21346.0
 block_time = 60.0
@@ -13,7 +10,6 @@ total_tokens = 1000000.0
 difficulty_cycle = "every block"
 txs_confirm = 6.0
 ann = "https://bitcointalk.org/index.php?topic=713636.0"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "WitchCoin"
 CurrencyName = "WitchCoin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "28/07/2014"
+
+[token]
+token_name = ""
+token_symbol = "WITCH"

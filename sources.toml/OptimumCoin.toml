@@ -1,10 +1,7 @@
 name = "OptimumCoin"
-symbol = "OPTI"
 source = "cyberFund"
 
 [metrics]
-announce = "13/11/2014"
-status = "Dead"
 p2p = 37357.0
 rpc = 37356.0
 block_time = "90 Seconds"
@@ -13,7 +10,6 @@ total_tokens = "19000000"
 premine_tokens = "2500 OPTI"
 mint_confirm = "90 blocks"
 ann = "https://bitcointalk.org/index.php?topic=856814.0"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "OptimumCoin"
 CurrencyName = "OptimumCoin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "13/11/2014"
+
+[token]
+token_name = ""
+token_symbol = "OPTI"

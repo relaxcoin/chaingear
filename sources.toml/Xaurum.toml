@@ -1,11 +1,22 @@
 name = "Xaurum"
-symbol = "XAU"
 source = "cyberFund"
 
 [metrics]
-rating = 1.0
 links = []
 
 [aliases]
 coinmarketcap = "Xaurum"
 CurrencyName = "Xaurum"
+
+[ratings]
+rating = 1.0
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "XAU"

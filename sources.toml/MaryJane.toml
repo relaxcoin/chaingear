@@ -1,11 +1,22 @@
 name = "MaryJane"
-symbol = "MARYJ"
 source = "cyberFund"
 
 [metrics]
-rating = 1.0
 links = []
 
 [aliases]
 coinmarketcap = "MaryJane"
 CurrencyName = "MaryJane"
+
+[ratings]
+rating = 1.0
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "MARYJ"

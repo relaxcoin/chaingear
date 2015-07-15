@@ -1,10 +1,7 @@
 name = "Woodcoin"
-symbol = "LOG"
 source = "cyberFund"
 
 [metrics]
-announce = "22/10/2014"
-status = "Running"
 p2p = 8338.0
 rpc = 9338.0
 block_time = "120 seconds"
@@ -12,7 +9,6 @@ total_tokens = "27000000"
 premine_tokens = "no"
 difficulty_cycle = "1 hour"
 ann = "https://bitcointalk.org/index.php?topic=831003.0;all"
-algo = "SHA-3"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "SHA-3"
 [aliases]
 coinmarketcap = "Woodcoin"
 CurrencyName = "Woodcoin"
+
+[consensus]
+hashing = "SHA-3"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "22/10/2014"
+
+[token]
+token_name = ""
+token_symbol = "LOG"

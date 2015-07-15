@@ -1,10 +1,7 @@
 name = "Grandcoin"
-symbol = "GDC"
 source = "cyberFund"
 
 [metrics]
-announce = "15/07/2013"
-status = "Running"
 p2p = 12377.0
 rpc = 12378.0
 block_time = "45"
@@ -14,7 +11,6 @@ total_tokens = 1420609614.0
 difficulty_cycle = "30"
 txs_confirm = 6.0
 mint_confirm = 50.0
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -32,3 +28,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Grandcoin"
 CurrencyName = "Grandcoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "15/07/2013"
+
+[token]
+token_name = ""
+token_symbol = "GDC"

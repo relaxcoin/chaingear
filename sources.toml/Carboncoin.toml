@@ -1,10 +1,7 @@
 name = "Carboncoin"
-symbol = "CARBON"
 source = "cyberFund"
 
 [metrics]
-announce = "14/02/2014"
-status = "Dead"
 p2p = 9350.0
 rpc = 9351.0
 block_time = 100.0
@@ -13,7 +10,6 @@ halfing_cycle = "48384 blocks (56 days)"
 total_tokens = 16000000000.0
 premine_tokens = " 9600000000 coins(0.6%) for bounties and giveaways"
 ann = "https://bitcointalk.org/index.php?topic=465364.0"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -31,3 +27,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Carboncoin"
 CurrencyName = "Carboncoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "14/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "CARBON"

@@ -1,10 +1,7 @@
 name = "Diamond"
-symbol = "DMD"
 source = "cyberFund"
 
 [metrics]
-announce = "15/06/2013"
-status = "Running"
 p2p = 17771.0
 rpc = 17772.0
 block_time = "60"
@@ -14,10 +11,6 @@ difficulty_cycle = "everyblock"
 txs_confirm = 3.0
 mint_confirm = 50.0
 ann = "https://bitcointalk.org/index.php?topic=255806.0"
-algo = "Scrypt"
-type = "DAO"
-rating = 1.0
-consensus = "Hybrid POW-POS"
 dependencies = "independent"
 
   [[metrics.links]]
@@ -33,3 +26,23 @@ dependencies = "independent"
 [aliases]
 coinmarketcap = "Diamond"
 CurrencyName = "Diamond"
+
+[ratings]
+rating = 1.0
+
+[consensus]
+consensus_name = "Hybrid POW-POS"
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+tags = "DAO"
+system_type = ""
+
+[events]
+announcement = "15/06/2013"
+
+[token]
+token_name = ""
+token_symbol = "DMD"

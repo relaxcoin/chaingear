@@ -1,10 +1,7 @@
 name = "Aidcoins"
-symbol = "AID"
 source = "cyberFund"
 
 [metrics]
-announce = "03/06/2014"
-status = "Dead"
 block_time = 150.0
 block_reward = "200 coins per block"
 halfing_cycle = "subsidy halves in 840k blocks (~4 years)"
@@ -12,21 +9,37 @@ total_tokens = 84000000.0
 premine_tokens = "9240000 AID (0.011%) premined for Aidcoins project boost"
 difficulty_cycle = "2016 blocks to retarget difficulty"
 ann = "https://bitcointalk.org/index.php?topic=637962.0"
-algo = "Scrypt"
 rating = 0.0
+
+[aliases]
+coinmarketcap = "Aidcoins"
+CurrencyName = "Aidcoins"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "03/06/2014"
+
+[token]
+token_name = ""
+token_symbol = "AID"
 
 [[links]]
 name = "web site"
 url = "http://www.aidcoins.org"
 icon = "website.png"
 tags = ["Main", "Apps"]
+type = ""
 
 [[links]]
 name = "github"
 url = "https://github.com/kreatorpt/aidcoins"
 icon = "github.png"
 tags = ["Main", "Code"]
-
-[aliases]
-coinmarketcap = "Aidcoins"
-CurrencyName = "Aidcoins"
+type = ""

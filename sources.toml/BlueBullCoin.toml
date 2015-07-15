@@ -1,10 +1,7 @@
 name = "BlueBullCoin"
-symbol = "BULL"
 source = "cyberFund"
 
 [metrics]
-announce = "20/06/2014"
-status = "Dead"
 block_time = 180.0
 block_reward = "10000 coins"
 halfing_cycle = "block halving rate 50000 blocks"
@@ -12,7 +9,6 @@ total_tokens = 1000000000.0
 premine_tokens = "No"
 difficulty_cycle = "target timespan, re-targets every 120 blocks"
 ann = "https://bitcointalk.org/index.php?topic=659757.msg7426570#msg7426570"
-algo = "SHA-256d"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -27,3 +23,18 @@ algo = "SHA-256d"
 [aliases]
 coinmarketcap = "BlueBullCoin"
 CurrencyName = "BlueBullCoin"
+
+[consensus]
+hashing = "SHA-256d"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "20/06/2014"
+
+[token]
+token_name = ""
+token_symbol = "BULL"

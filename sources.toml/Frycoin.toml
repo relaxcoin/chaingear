@@ -1,10 +1,7 @@
 name = "Frycoin"
-symbol = "FRY"
 source = "cyberFund"
 
 [metrics]
-announce = "05/02/2014"
-status = "Running"
 p2p = 55901.0
 rpc = 55900.0
 block_time = 30.0
@@ -14,7 +11,6 @@ total_tokens = "500000000 (1666666.666666667 blocks)"
 premine_tokens = "2500000 coins (0.5%) premine_tokens for giveaway purposes and promoting"
 difficulty_cycle = "every block (Kimoto Gravity Well)"
 ann = "https://bitcointalk.org/index.php?topic=449648.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Frycoin"
 CurrencyName = "Frycoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "05/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "FRY"

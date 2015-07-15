@@ -1,11 +1,7 @@
 name = "Colossuscoin"
-symbol = "COL"
 source = "cyberFund"
 
 [metrics]
-announce = "22/08/2013"
-genesis = "21/08/2013"
-status = "Running"
 p2p = 12454.0
 rpc = 12543.0
 block_time = "25"
@@ -17,7 +13,6 @@ difficulty_cycle = "every block"
 txs_confirm = 6.0
 mint_confirm = 70.0
 ann = "https://bitcointalk.org/index.php?topic=280114.0"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -34,3 +29,19 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Colossuscoin"
 CurrencyName = "Colossuscoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "22/08/2013"
+genesis = "21/08/2013"
+
+[token]
+token_name = ""
+token_symbol = "COL"

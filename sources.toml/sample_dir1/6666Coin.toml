@@ -1,20 +1,32 @@
 name = "6666Coin"
-symbol = "66C"
 source = "cyberFund"
 
 [metrics]
-announce = "18/09/2014"
-status = "Dead"
 total_tokens = "6670"
 ann = "https://bitcointalk.org/index.php?topic=743420.0"
-algo = "X-n"
+
+[aliases]
+coinmarketcap = "6666Coin"
+CurrencyName = "6666Coin"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "18/09/2014"
+
+[token]
+token_name = ""
+token_symbol = "66C"
 
 [[links]]
 name = "web site"
 url = "http://www.6666coin.com"
 icon = "website.png"
 tags = ["Main", "Apps"]
-
-[aliases]
-coinmarketcap = "6666Coin"
-CurrencyName = "6666Coin"
+type = ""

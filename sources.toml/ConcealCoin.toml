@@ -1,5 +1,4 @@
 name = "ConcealCoin"
-symbol = "CNL"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "ConcealCoin"
 CurrencyName = "ConcealCoin"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "CNL"

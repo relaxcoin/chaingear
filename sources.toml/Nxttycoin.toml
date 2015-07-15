@@ -1,14 +1,25 @@
 name = "Nxttycoin"
-symbol = "NXTTY"
 source = "cyberFund"
 
 [metrics]
-type = "DApp"
-rating = 1.0
-consensus = "NXT"
 dependencies = "NXT"
 links = []
 
 [aliases]
 coinmarketcap = "Nxttycoin"
 CurrencyName = "Nxttycoin"
+
+[ratings]
+rating = 1.0
+
+[consensus]
+consensus_name = "NXT"
+consensus_type = ""
+
+[descriptions]
+tags = "DApp"
+system_type = ""
+
+[token]
+token_name = ""
+token_symbol = "NXTTY"

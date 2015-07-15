@@ -1,10 +1,7 @@
 name = "Ecocoin"
-symbol = "ECO"
 source = "cyberFund"
 
 [metrics]
-announce = "07/08/2013"
-status = "Dead"
 block_time = "45"
 block_reward = 7.0
 total_tokens = 10200000.0
@@ -13,7 +10,6 @@ difficulty_cycle = "691"
 txs_confirm = 5.0
 mint_confirm = 20.0
 ann = "https://bitcointalk.org/index.php?topic=269312.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Ecocoin"
 CurrencyName = "Ecocoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "07/08/2013"
+
+[token]
+token_name = ""
+token_symbol = "ECO"

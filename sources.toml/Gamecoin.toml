@@ -1,11 +1,7 @@
 name = "Gamecoin"
-symbol = "GME"
 source = "cyberFund"
 
 [metrics]
-announce = "12/05/2013"
-genesis = "16/04/2013"
-status = "Running"
 p2p = 9776.0
 rpc = 9777.0
 block_time = "150"
@@ -14,7 +10,6 @@ halfing_cycle = 840000.0
 total_tokens = 3360000000.0
 difficulty_cycle = "2016"
 ann = "https://bitcointalk.org/index.php?topic=202764.0"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -31,3 +26,19 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Gamecoin"
 CurrencyName = "Gamecoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "12/05/2013"
+genesis = "16/04/2013"
+
+[token]
+token_name = ""
+token_symbol = "GME"

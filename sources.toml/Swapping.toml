@@ -1,17 +1,13 @@
 name = "Swapping"
-symbol = "HTML5"
 source = "cyberFund"
 
 [metrics]
-announce = "25/09/2014"
-status = "Running"
 block_time = "60"
 block_reward = "Block 11 - 10800000:5000 HTML5 After block 1080000"
 total_tokens = "90000000000"
 difficulty_cycle = "Every block"
 mint_confirm = "15"
 ann = "https://bitcointalk.org/index.php?topic=801489.msg9008961#msg9008961"
-algo = "X-n"
 rating = 0.0
 
   [[metrics.links]]
@@ -29,3 +25,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Swapping"
 CurrencyName = "Swapping"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "25/09/2014"
+
+[token]
+token_name = ""
+token_symbol = "HTML5"

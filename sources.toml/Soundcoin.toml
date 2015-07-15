@@ -1,17 +1,13 @@
 name = "Soundcoin"
-symbol = "SND"
 source = "cyberFund"
 
 [metrics]
-announce = "07/05/2014"
-status = "Dead"
 block_time = 180.0
 block_reward = "1000 coins per block"
 halfing_cycle = "subsidy halves in 840k blocks (~4 years)"
 total_tokens = 5000000000.0
 difficulty_cycle = "1440 blocks to retarget difficulty"
 ann = "https://bitcointalk.org/index.php?topic=598874.0"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +24,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "Soundcoin"
 CurrencyName = "Soundcoin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "07/05/2014"
+
+[token]
+token_name = ""
+token_symbol = "SND"

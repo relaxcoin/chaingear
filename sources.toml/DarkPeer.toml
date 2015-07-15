@@ -1,10 +1,7 @@
 name = "DarkPeer"
-symbol = "DPC"
 source = "cyberFund"
 
 [metrics]
-announce = "03/10/2014"
-status = "Dead"
 rpc = 22471.0
 block_time = "60 seconds"
 block_reward = "Block 1:3000000 DPC,Block 2-420000:40 DPC"
@@ -12,7 +9,6 @@ total_tokens = "20000000"
 difficulty_cycle = "Every block"
 mint_confirm = "50 blocks"
 ann = "https://bitcointalk.org/index.php?topic=795749"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +24,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "DarkPeer"
 CurrencyName = "DarkPeer"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "03/10/2014"
+
+[token]
+token_name = ""
+token_symbol = "DPC"

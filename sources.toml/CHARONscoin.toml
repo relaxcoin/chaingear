@@ -1,15 +1,12 @@
 name = "CHARONscoin"
-symbol = "ChC"
 source = "cyberFund"
 
 [metrics]
-announce = "30/06/2014"
 block_time = 90.0
 block_reward = "1000 coins per block; random superblock with 5 times the reward"
 total_tokens = 6.0
 difficulty_cycle = "every block."
 ann = "http://crypto-coins-table.com/coins/CHCO/CHARONscoin.html"
-algo = "Multi-algo"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -25,3 +22,17 @@ algo = "Multi-algo"
 [aliases]
 coinmarketcap = "CHARONscoin"
 CurrencyName = "CHARONscoin"
+
+[consensus]
+hashing = "Multi-algo"
+consensus_type = ""
+
+[events]
+announcement = "30/06/2014"
+
+[descriptions]
+system_type = ""
+
+[token]
+token_name = ""
+token_symbol = "ChC"

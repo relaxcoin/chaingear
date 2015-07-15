@@ -1,16 +1,12 @@
 name = "DvoraKoin"
-symbol = "DVK"
 source = "cyberFund"
 
 [metrics]
-announce = "18/05/2014"
-status = "Dead"
 block_time = 150.0
 total_tokens = 1680000.0
 premine_tokens = "16800 blocks (1%) for the IPO-Hybrid, pools, exchanges and the general upkeep of the community"
 difficulty_cycle = "Difficulty retargeting occurs every block, to the algorithm that finds that block."
 ann = "https://bitcointalk.org/index.php?topic=613854"
-algo = "Multi-algo"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -27,3 +23,18 @@ algo = "Multi-algo"
 [aliases]
 coinmarketcap = "DvoraKoin"
 CurrencyName = "DvoraKoin"
+
+[consensus]
+hashing = "Multi-algo"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "18/05/2014"
+
+[token]
+token_name = ""
+token_symbol = "DVK"

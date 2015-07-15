@@ -1,11 +1,7 @@
 name = "Olimpiccoin"
-symbol = "OLY"
 source = "cyberFund"
 
 [metrics]
-announce = "07/02/2014"
-genesis = "07/02/2014"
-status = "Running"
 p2p = 16567.0
 rpc = 16568.0
 block_time = "180"
@@ -16,7 +12,6 @@ difficulty_cycle = "1"
 txs_confirm = 3.0
 mint_confirm = 50.0
 ann = "https://bitcointalk.org/index.php?topic=453085.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -33,3 +28,19 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Olimpiccoin"
 CurrencyName = "Olimpiccoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "07/02/2014"
+genesis = "07/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "OLY"

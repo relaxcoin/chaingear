@@ -1,17 +1,13 @@
 name = "MachineryCoin"
-symbol = "MHYC"
 source = "cyberFund"
 
 [metrics]
-announce = "29/05/2014"
-status = "Dead"
 p2p = 17289.0
 rpc = 17288.0
 block_time = 60.0
 total_tokens = 44000000.0
 premine_tokens = "440000 (1%); mined first block"
 ann = "https://bitcointalk.org/index.php?topic=630150.0"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +24,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "MachineryCoin"
 CurrencyName = "MachineryCoin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "29/05/2014"
+
+[token]
+token_name = ""
+token_symbol = "MHYC"

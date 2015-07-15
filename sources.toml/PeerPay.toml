@@ -1,16 +1,12 @@
 name = "PeerPay"
-symbol = "PP"
 source = "cyberFund"
 
 [metrics]
-announce = "22/06/2014"
-status = "Dead"
 block_time = 60.0
 block_reward = "250 coins"
 total_tokens = 10000000.0
 premine_tokens = "TBD"
 ann = "https://bitcointalk.org/index.php?topic=661506.0"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -25,3 +21,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "PeerPay"
 CurrencyName = "PeerPay"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "22/06/2014"
+
+[token]
+token_name = ""
+token_symbol = "PP"

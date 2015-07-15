@@ -1,5 +1,4 @@
 name = "CrownCoin"
-symbol = "CRW"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "CrownCoin"
 CurrencyName = "CrownCoin"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "CRW"

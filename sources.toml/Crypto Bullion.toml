@@ -1,11 +1,22 @@
 name = "Crypto Bullion"
-symbol = "CBX"
 source = "cyberFund"
 
 [metrics]
-rating = 1.0
 links = []
 
 [aliases]
 coinmarketcap = "Crypto Bullion"
 CurrencyName = "Crypto Bullion"
+
+[ratings]
+rating = 1.0
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "CBX"

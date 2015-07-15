@@ -1,10 +1,7 @@
 name = "Millionaire Coin"
-symbol = "MIL"
 source = "cyberFund"
 
 [metrics]
-announce = "31/05/2014"
-status = "Dead"
 p2p = 35552.0
 rpc = 35551.0
 block_time = 30.0
@@ -13,7 +10,6 @@ halfing_cycle = "no block halving"
 total_tokens = 84000000.0
 difficulty_cycle = "every 5 blocks"
 ann = "https://bitcointalk.org/index.php?topic=633914.0"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +24,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "Millionaire Coin"
 CurrencyName = "Millionaire Coin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "31/05/2014"
+
+[token]
+token_name = ""
+token_symbol = "MIL"

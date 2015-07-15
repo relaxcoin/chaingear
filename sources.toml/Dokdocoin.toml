@@ -1,11 +1,7 @@
 name = "Dokdocoin"
-symbol = "DDC"
 source = "cyberFund"
 
 [metrics]
-announce = "01/03/2014"
-genesis = "14/02/2014"
-status = "Dead"
 p2p = 9383.0
 rpc = 9382.0
 block_time = 60.0
@@ -15,7 +11,6 @@ total_tokens = 50000000.0
 premine_tokens = "1700000 (3.4%) for promotion"
 difficulty_cycle = "every block (Kimoto Gravity Well)"
 ann = "https://bitcointalk.org/index.php?topic=493712.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -32,3 +27,19 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Dokdocoin"
 CurrencyName = "Dokdocoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "01/03/2014"
+genesis = "14/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "DDC"

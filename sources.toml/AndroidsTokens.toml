@@ -1,10 +1,7 @@
 name = "AndroidsTokens"
-symbol = "ADT"
 source = "cyberFund"
 
 [metrics]
-announce = "18/08/2013"
-status = "Dead"
 p2p = 2454.0
 rpc = 2543.0
 block_time = 30.0
@@ -16,20 +13,36 @@ difficulty_cycle = "every block"
 txs_confirm = 6.0
 mint_confirm = 70.0
 ann = "https://bitcointalk.org/index.php?topic=276884.0"
-algo = "Scrypt"
+
+[aliases]
+coinmarketcap = "AndroidsTokens"
+CurrencyName = "AndroidsTokens"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "18/08/2013"
+
+[token]
+token_name = ""
+token_symbol = "ADT"
 
 [[links]]
 tags = ["Main", "Apps"]
 name = "web site"
 url = "http://adt-crypto.info/"
 icon = "website.png"
+type = ""
 
 [[links]]
 tags = ["Main", "Code"]
 name = "github"
 url = "https://docs.google.com/file/d/0B49exKIsGBn5MnZRY3djUEI4OUU/edit?usp=sharing"
 icon = "github.png"
-
-[aliases]
-coinmarketcap = "AndroidsTokens"
-CurrencyName = "AndroidsTokens"
+type = ""

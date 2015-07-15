@@ -1,5 +1,4 @@
 name = "CarpeDiemCoin"
-symbol = "DIEM"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "CarpeDiemCoin"
 CurrencyName = "CarpeDiemCoin"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "DIEM"

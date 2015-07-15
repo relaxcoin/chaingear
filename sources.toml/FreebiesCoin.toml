@@ -1,16 +1,12 @@
 name = "FreebiesCoin"
-symbol = "FREEB"
 source = "cyberFund"
 
 [metrics]
-announce = "06/05/2014"
-status = "Dead"
 block_time = 60.0
 total_tokens = 500000000.0
 premine_tokens = "500000000 (100%)"
 difficulty_cycle = "every block "
 ann = "https://bitcointalk.org/index.php?topic=597273"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -27,3 +23,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "FreebiesCoin"
 CurrencyName = "FreebiesCoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "06/05/2014"
+
+[token]
+token_name = ""
+token_symbol = "FREEB"

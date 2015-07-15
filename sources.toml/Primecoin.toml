@@ -1,17 +1,9 @@
 name = "Primecoin"
-symbol = "XPM"
 source = "cyberFund"
 
 [metrics]
-announce = "07/07/2013"
-genesis = "07/07/2013"
-status = "Running"
 block_time = "60"
 ann = "https://bitcointalk.org/index.php?topic=251850.0"
-algo = "Others"
-type = "DAO"
-rating = 2.0
-consensus = "Proof-of-Work"
 dependencies = "independent"
 
   [[metrics.links]]
@@ -29,3 +21,24 @@ dependencies = "independent"
 [aliases]
 coinmarketcap = "Primecoin"
 CurrencyName = "Primecoin"
+
+[ratings]
+rating = 2.0
+
+[consensus]
+consensus_name = "Proof-of-Work"
+hashing = "Others"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+tags = "DAO"
+system_type = ""
+
+[events]
+announcement = "07/07/2013"
+genesis = "07/07/2013"
+
+[token]
+token_name = ""
+token_symbol = "XPM"

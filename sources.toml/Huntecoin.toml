@@ -1,14 +1,10 @@
 name = "Huntecoin"
-symbol = "HUC"
 source = "cyberFund"
 
 [metrics]
-announce = "15/09/2013"
-status = "Dead"
 block_time = 60.0
 total_tokens = 84000000.0
 ann = "https://bitcointalk.org/index.php?topic=300538.0"
-algo = "SHA-256d"
 rating = 0.0
 
   [[metrics.links]]
@@ -25,3 +21,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Huntecoin"
 CurrencyName = "Huntecoin"
+
+[consensus]
+hashing = "SHA-256d"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "15/09/2013"
+
+[token]
+token_name = ""
+token_symbol = "HUC"

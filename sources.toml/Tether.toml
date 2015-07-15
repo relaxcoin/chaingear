@@ -1,14 +1,25 @@
 name = "Tether"
-symbol = "USDT"
 source = "cyberFund"
 
 [metrics]
-type = "DApp"
-rating = 3.0
-consensus = "Bitcoin"
 dependencies = "Bitcoin"
 links = []
 
 [aliases]
 coinmarketcap = "Tether"
 CurrencyName = "Tether"
+
+[ratings]
+rating = 3.0
+
+[consensus]
+consensus_name = "Bitcoin"
+consensus_type = ""
+
+[descriptions]
+tags = "DApp"
+system_type = ""
+
+[token]
+token_name = ""
+token_symbol = "USDT"

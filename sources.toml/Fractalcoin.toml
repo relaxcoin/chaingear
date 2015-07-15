@@ -1,17 +1,13 @@
 name = "Fractalcoin"
-symbol = "FRAC"
 source = "cyberFund"
 
 [metrics]
-announce = "12/06/2014"
-status = "Running"
 p2p = 33112.0
 rpc = 33111.0
 block_time = 60.0
 total_tokens = 1000000.0
 premine_tokens = "5000 (0.5%) premine_tokens to aid development."
 ann = "https://bitcointalk.org/index.php?topic=650173.new"
-algo = "X11"
 rating = 0.0
 
   [[metrics.links]]
@@ -29,3 +25,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Fractalcoin"
 CurrencyName = "Fractalcoin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "12/06/2014"
+
+[token]
+token_name = ""
+token_symbol = "FRAC"

@@ -1,16 +1,12 @@
 name = "VeniVidiVici"
-symbol = "VVV"
 source = "cyberFund"
 
 [metrics]
-announce = "23/06/2014"
-status = "Dead"
 block_time = 60.0
 block_reward = "Block 1-32: 0 (to prevent instamining. Blocks 33-5000 with 500 VVV, block 5001-7500 with 100 coins"
 total_tokens = 5000000.0
 premine_tokens = "50000 vvv (1%)"
 ann = "https://bitcointalk.org/index.php?topic=662680"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -27,3 +23,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "VeniVidiVici"
 CurrencyName = "VeniVidiVici"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "23/06/2014"
+
+[token]
+token_name = ""
+token_symbol = "VVV"

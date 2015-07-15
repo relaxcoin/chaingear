@@ -1,10 +1,7 @@
 name = "Phicoin"
-symbol = "PHI"
 source = "cyberFund"
 
 [metrics]
-announce = "04/02/2014"
-status = "Dead"
 rpc = 1741.0
 block_time = 150.0
 block_reward = 1.6
@@ -13,7 +10,6 @@ total_tokens = 569581.0
 premine_tokens = "45567 (~0.8%)"
 difficulty_cycle = "25"
 ann = "https://bitcointalk.org/index.php?topic=449104.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Phicoin"
 CurrencyName = "Phicoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "04/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "PHI"

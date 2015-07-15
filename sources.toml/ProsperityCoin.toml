@@ -1,11 +1,8 @@
 name = "ProsperityCoin"
-symbol = "PRO"
 source = "cyberFund"
-dependencies = "Ripple"
+dependencies = ["Ripple"]
 
 [metrics]
-status = "Running"
-rating = 1.0
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -16,3 +13,17 @@ rating = 1.0
 [aliases]
 coinmarketcap = "ProsperityCoin"
 CurrencyName = "ProsperityCoin"
+
+[ratings]
+rating = 1.0
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "PRO"

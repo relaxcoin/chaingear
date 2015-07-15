@@ -1,17 +1,13 @@
 name = "BurnerCoin"
-symbol = "BURN"
 source = "cyberFund"
 
 [metrics]
-announce = "09/06/2014"
-status = "Dead"
 p2p = 9657.0
 rpc = 9658.0
 block_time = 60.0
 total_tokens = 2200000.0
 premine_tokens = "No"
 ann = "https://bitcointalk.org/index.php?topic=645753"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +24,18 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "BurnerCoin"
 CurrencyName = "BurnerCoin"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "09/06/2014"
+
+[token]
+token_name = ""
+token_symbol = "BURN"

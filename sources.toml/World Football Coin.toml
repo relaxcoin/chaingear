@@ -1,16 +1,12 @@
 name = "World Football Coin"
-symbol = "WFC"
 source = "cyberFund"
 
 [metrics]
-announce = "19/05/2014"
-status = "Dead"
 p2p = 20147.0
 rpc = 20146.0
 block_time = 60.0
 total_tokens = 3200000.0
 ann = "https://bitcointalk.org/index.php?topic=616606"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -27,3 +23,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "World Football Coin"
 CurrencyName = "World Football Coin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "19/05/2014"
+
+[token]
+token_name = ""
+token_symbol = "WFC"

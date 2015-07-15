@@ -1,10 +1,7 @@
 name = "AlphaCoin"
-symbol = "ALF"
 source = "cyberFund"
 
 [metrics]
-announce = "10/06/2013"
-status = "Dead"
 p2p = 9538.0
 rpc = 9539.0
 block_time = "30"
@@ -15,15 +12,30 @@ premine_tokens = 1000000.0
 difficulty_cycle = "60"
 txs_confirm = 4.0
 ann = "https://bitcointalk.org/index.php?topic=230868.0"
-algo = "Scrypt"
 rating = 0.0
+
+[aliases]
+coinmarketcap = "AlphaCoin"
+CurrencyName = "AlphaCoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "10/06/2013"
+
+[token]
+token_name = ""
+token_symbol = "ALF"
 
 [[links]]
 section = ["Main", "Code"]
 name = "github"
 url = "https://github.com/alphacoin/alphacoin"
 icon = "github.png"
-
-[aliases]
-coinmarketcap = "AlphaCoin"
-CurrencyName = "AlphaCoin"
+type = ""

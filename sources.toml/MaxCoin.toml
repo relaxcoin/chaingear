@@ -1,20 +1,13 @@
 name = "MaxCoin"
-symbol = "MAX"
 source = "cyberFund"
 
 [metrics]
-announce = "29/01/2014"
-status = "Running"
 block_time = 30.0
 block_reward = 96.0
 halfing_cycle = "1051200 (once per 12 months)"
 total_tokens = 250000000.0
 difficulty_cycle = "according to Kimoto Gravity Well"
 ann = "https://bitcointalk.org/index.php?topic=438150.0"
-algo = "SHA-3"
-type = "DAO"
-rating = 1.0
-consensus = "Proof-of-Work"
 dependencies = "independent"
 
   [[metrics.links]]
@@ -32,3 +25,23 @@ dependencies = "independent"
 [aliases]
 coinmarketcap = "MaxCoin"
 CurrencyName = "MaxCoin"
+
+[ratings]
+rating = 1.0
+
+[consensus]
+consensus_name = "Proof-of-Work"
+hashing = "SHA-3"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+tags = "DAO"
+system_type = ""
+
+[events]
+announcement = "29/01/2014"
+
+[token]
+token_name = ""
+token_symbol = "MAX"

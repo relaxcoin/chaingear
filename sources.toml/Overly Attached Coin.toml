@@ -1,10 +1,7 @@
 name = "Overly Attached Coin"
-symbol = "OAC"
 source = "cyberFund"
 
 [metrics]
-announce = "31/03/2014"
-status = "Dead"
 block_time = 150.0
 block_reward = "Starting on Block 100, rewards will be 1250 with guaranteed payout if block found"
 total_tokens = 1000000000.0
@@ -12,7 +9,6 @@ premine_tokens = "maybe"
 difficulty_cycle = "2 Blocks"
 txs_confirm = 6.0
 ann = "https://bitcointalk.org/index.php?topic=552057.0"
-algo = "SHA-3"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +24,18 @@ algo = "SHA-3"
 [aliases]
 coinmarketcap = "Overly Attached Coin"
 CurrencyName = "Overly Attached Coin"
+
+[consensus]
+hashing = "SHA-3"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "31/03/2014"
+
+[token]
+token_name = ""
+token_symbol = "OAC"

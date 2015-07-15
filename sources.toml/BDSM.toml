@@ -1,13 +1,23 @@
 name = "BDSM"
-symbol = "BDSM"
 source = "cyberFund"
 
 [metrics]
 ann = "https://bitcointalk.org/index.php?topic=801366.0"
 rating = 0.0
 
-[[links]]
-
 [aliases]
 coinmarketcap = "BDSM"
 CurrencyName = "BDSM"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "BDSM"
+
+[[links]]
+type = ""

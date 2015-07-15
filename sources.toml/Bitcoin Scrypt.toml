@@ -1,5 +1,4 @@
 name = "Bitcoin Scrypt"
-symbol = "BTCS"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "Bitcoin Scrypt"
 CurrencyName = "Bitcoin Scrypt"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "BTCS"

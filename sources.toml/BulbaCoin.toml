@@ -1,10 +1,7 @@
 name = "BulbaCoin"
-symbol = "BULBA"
 source = "cyberFund"
 
 [metrics]
-announce = "29/06/2014"
-status = "Dead"
 p2p = 35994.0
 rpc = 35993.0
 block_time = 40.0
@@ -13,7 +10,6 @@ total_tokens = 10362600.0
 premine_tokens = "103626 (1%)"
 difficulty_cycle = "every day"
 ann = "https://cryptocointalk.com/topic/12900-bulbacoin-bulb-information/?hl=bulb"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "BulbaCoin"
 CurrencyName = "BulbaCoin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "29/06/2014"
+
+[token]
+token_name = ""
+token_symbol = "BULBA"

@@ -1,14 +1,10 @@
 name = "YellowLionCoin"
-symbol = "YLC"
 source = "cyberFund"
 
 [metrics]
-announce = "01/08/2014"
-status = "Dead"
 block_reward = "17.08 YLC"
 total_tokens = "20496000"
 ann = "https://bitcointalk.org/index.php?topic=714088.0"
-algo = "SHA-256d"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -23,3 +19,18 @@ algo = "SHA-256d"
 [aliases]
 coinmarketcap = "YellowLionCoin"
 CurrencyName = "YellowLionCoin"
+
+[consensus]
+hashing = "SHA-256d"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "01/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "YLC"

@@ -1,17 +1,13 @@
 name = "Vaporcoin"
-symbol = "VWC"
 source = "cyberFund"
 
 [metrics]
-announce = "29/12/2013"
-status = "Dead"
 p2p = 28657.0
 rpc = 46368.0
 block_time = 144.0
 txs_confirm = 5.0
 mint_confirm = 55.0
 ann = "https://bitcointalk.org/index.php?topic=390735.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -27,3 +23,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Vaporcoin"
 CurrencyName = "Vaporcoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "29/12/2013"
+
+[token]
+token_name = ""
+token_symbol = "VWC"

@@ -1,16 +1,12 @@
 name = "BitTor"
-symbol = "BT"
 source = "cyberFund"
 
 [metrics]
-announce = "26/07/2014"
-status = "Dead"
 block_time = 120.0
 total_tokens = 1000000.0
 premine_tokens = "3000 (0.3%)"
 difficulty_cycle = "every block"
 ann = "https://bitcointalk.org/index.php?topic=711590"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -25,3 +21,18 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "BitTor"
 CurrencyName = "BitTor"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "26/07/2014"
+
+[token]
+token_name = ""
+token_symbol = "BT"

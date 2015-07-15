@@ -1,5 +1,4 @@
 name = "KoreCoin"
-symbol = "KORE"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "KoreCoin"
 CurrencyName = "KoreCoin"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "KORE"

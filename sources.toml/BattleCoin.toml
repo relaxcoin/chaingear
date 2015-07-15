@@ -1,17 +1,27 @@
 name = "BattleCoin"
-symbol = "BCX"
 source = "cyberFund"
 
 [metrics]
 ann = "https://bitcointalk.org/index.php?topic=354612.0"
 rating = 0.0
 
+[aliases]
+coinmarketcap = "BattleCoin"
+CurrencyName = "BattleCoin"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "BCX"
+
 [[links]]
 name = "web site"
 url = "http://battlecoinxchange.com/"
 icon = "website.png"
 tags = ["Main", "Apps"]
-
-[aliases]
-coinmarketcap = "BattleCoin"
-CurrencyName = "BattleCoin"
+type = ""

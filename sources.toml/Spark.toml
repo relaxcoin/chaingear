@@ -1,10 +1,7 @@
 name = "Spark"
-symbol = "SPARK"
 source = "cyberFund"
 
 [metrics]
-announce = "18/10/2014"
-status = "Dead"
 p2p = 16666.0
 rpc = 16667.0
 block_time = "60 Seconds"
@@ -12,7 +9,6 @@ block_reward = "200 SPARK reducing to 100 SPARK at block 7200"
 total_tokens = "2160000"
 premine_tokens = "21600 coins (1%)"
 ann = "https://bitcointalk.org/index.php?topic=826767"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "Spark"
 CurrencyName = "Spark"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "18/10/2014"
+
+[token]
+token_name = ""
+token_symbol = "SPARK"

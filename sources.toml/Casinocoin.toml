@@ -1,10 +1,7 @@
 name = "Casinocoin"
-symbol = "CSC"
 source = "cyberFund"
 
 [metrics]
-announce = "18/07/2013"
-status = "Dead"
 p2p = 47950.0
 rpc = 47970.0
 block_time = "30"
@@ -13,7 +10,6 @@ halfing_cycle = 3153600.0
 total_tokens = 36000000.0
 difficulty_cycle = "720"
 ann = "https://bitcointalk.org/index.php?topic=258090.0"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -30,3 +26,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Casinocoin"
 CurrencyName = "Casinocoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "18/07/2013"
+
+[token]
+token_name = ""
+token_symbol = "CSC"

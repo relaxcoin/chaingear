@@ -1,15 +1,11 @@
 name = "DimeCoin"
-symbol = "DIME"
 source = "cyberFund"
 
 [metrics]
-announce = "23/12/2013"
-status = "Running"
 block_time = "64 seconds"
 total_tokens = "460 billion coins"
 premine_tokens = "8%"
 ann = "https://bitcointalk.org/index.php?topic=382164.0"
-algo = "Quark"
 rating = 0.0
 
   [[metrics.links]]
@@ -27,3 +23,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "DimeCoin"
 CurrencyName = "DimeCoin"
+
+[consensus]
+hashing = "Quark"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "23/12/2013"
+
+[token]
+token_name = ""
+token_symbol = "DIME"

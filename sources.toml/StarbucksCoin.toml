@@ -1,16 +1,12 @@
 name = "StarbucksCoin"
-symbol = "suc"
 source = "cyberFund"
 
 [metrics]
-announce = "26/05/2014"
-status = "Dead"
 p2p = 9179.0
 rpc = 9178.0
 block_time = 60.0
 total_tokens = 26687912.0
 ann = "https://bitcointalk.org/index.php?topic=625364.0"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -27,3 +23,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "StarbucksCoin"
 CurrencyName = "StarbucksCoin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "26/05/2014"
+
+[token]
+token_name = ""
+token_symbol = "suc"

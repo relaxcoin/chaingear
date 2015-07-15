@@ -1,5 +1,4 @@
 name = "HellasCoin"
-symbol = "HLC"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "HellasCoin"
 CurrencyName = "HellasCoin"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "HLC"

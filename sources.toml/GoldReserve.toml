@@ -1,16 +1,12 @@
 name = "GoldReserve"
-symbol = "GRE"
 source = "cyberFund"
 
 [metrics]
-announce = "05/06/2014"
-status = "Running"
 block_time = 110.0
 total_tokens = 40000000.0
 premine_tokens = "4000000 (10%)"
 difficulty_cycle = "after 10 blocks"
 ann = "https://bitcointalk.org/index.php?topic=641064.new#new"
-algo = "X11"
 rating = 0.0
 
   [[metrics.links]]
@@ -26,3 +22,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "GoldReserve"
 CurrencyName = "GoldReserve"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "05/06/2014"
+
+[token]
+token_name = ""
+token_symbol = "GRE"

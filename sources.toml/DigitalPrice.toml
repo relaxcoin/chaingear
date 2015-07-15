@@ -1,16 +1,12 @@
 name = "DigitalPrice"
-symbol = "DP"
 source = "cyberFund"
 
 [metrics]
-announce = "01/10/2014"
-status = "Dead"
 block_time = "300"
 block_reward = "8-30"
 total_tokens = "20000000"
 premine_tokens = "no"
 ann = "https://bitcointalk.org/index.php?topic=789847.0"
-algo = "X11"
 rating = 0.0
 
   [[metrics.links]]
@@ -28,3 +24,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "DigitalPrice"
 CurrencyName = "DigitalPrice"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "01/10/2014"
+
+[token]
+token_name = ""
+token_symbol = "DP"

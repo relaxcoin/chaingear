@@ -1,16 +1,12 @@
 name = "UCoin"
-symbol = "U"
 source = "cyberFund"
 
 [metrics]
-announce = "14/11/2014"
-status = "Running"
 block_time = "60 seconds"
 block_reward = "10-4499:0 coins;4500+:12 for even blocks, 8 for odd "
 total_tokens = "9750000"
 premine_tokens = "1750000 coins for ICO and Bounties"
 ann = "https://bitcointalk.org/index.php?topic=855541"
-algo = "X-n"
 rating = 0.0
 
   [[metrics.links]]
@@ -27,3 +23,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "UCoin"
 CurrencyName = "UCoin"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "14/11/2014"
+
+[token]
+token_name = ""
+token_symbol = "U"

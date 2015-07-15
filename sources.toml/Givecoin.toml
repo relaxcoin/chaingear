@@ -1,11 +1,7 @@
 name = "Givecoin"
-symbol = "GIVE"
 source = "cyberFund"
 
 [metrics]
-announce = "24/03/2014"
-genesis = "null"
-status = "Running"
 block_time = 60.0
 block_reward = "1000 Coin per Block"
 total_tokens = 500000000.0
@@ -13,7 +9,6 @@ premine_tokens = "25000000 (5%) first 238 blocks for check points, 10000000 (2%)
 difficulty_cycle = ""
 txs_confirm = 4.0
 ann = "https://bitcointalk.org/index.php?topic=529181.0"
-algo = "X11"
 rating = 0.0
 
   [[metrics.links]]
@@ -30,3 +25,19 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Givecoin"
 CurrencyName = "Givecoin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "24/03/2014"
+genesis = "null"
+
+[token]
+token_name = ""
+token_symbol = "GIVE"

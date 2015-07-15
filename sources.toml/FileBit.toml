@@ -1,10 +1,7 @@
 name = "FileBit"
-symbol = "FBIT"
 source = "cyberFund"
 
 [metrics]
-announce = "04/08/2014"
-status = "Dead"
 p2p = 49097.0
 rpc = 49098.0
 block_time = "60"
@@ -13,7 +10,6 @@ total_tokens = "8800000"
 difficulty_cycle = " 1 block"
 mint_confirm = "60"
 ann = "http://www.forum.filebit.me"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "FileBit"
 CurrencyName = "FileBit"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "04/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "FBIT"

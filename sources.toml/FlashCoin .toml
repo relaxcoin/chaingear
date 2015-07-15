@@ -1,16 +1,12 @@
 name = "FlashCoin "
-symbol = "FLASH"
 source = "cyberFund"
 
 [metrics]
-announce = "01/06/2014"
-status = "Dead"
 p2p = 35686.0
 rpc = 35685.0
 block_time = 60.0
 total_tokens = 12000000.0
 ann = "https://bitcointalk.org/index.php?topic=635403"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -26,3 +22,18 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "FlashCoin "
 CurrencyName = "FlashCoin "
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "01/06/2014"
+
+[token]
+token_name = ""
+token_symbol = "FLASH"

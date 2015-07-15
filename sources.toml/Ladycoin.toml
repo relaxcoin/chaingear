@@ -1,11 +1,7 @@
 name = "Ladycoin"
-symbol = "LADY"
 source = "cyberFund"
 
 [metrics]
-announce = "02/02/2014"
-genesis = "26/01/2014"
-status = "Dead"
 p2p = 54555.0
 rpc = 54556.0
 block_time = 20.0
@@ -16,7 +12,6 @@ difficulty_cycle = 60.0
 txs_confirm = 3.0
 mint_confirm = 30.0
 ann = "https://bitcointalk.org/index.php?topic=445680.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -33,3 +28,19 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Ladycoin"
 CurrencyName = "Ladycoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "02/02/2014"
+genesis = "26/01/2014"
+
+[token]
+token_name = ""
+token_symbol = "LADY"

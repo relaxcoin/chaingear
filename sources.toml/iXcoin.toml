@@ -1,11 +1,8 @@
 name = "iXcoin"
-symbol = "IXC"
-dependencies = "independent"
+dependencies = ["independent"]
 source = "cyberFund"
 
 [metrics]
-announce = "10/08/2011"
-status = "Running"
 p2p = 8337.0
 rpc = 8338.0
 block_time = "600"
@@ -16,23 +13,41 @@ difficulty_cycle = "2016"
 txs_confirm = 6.0
 mint_confirm = 120.0
 ann = "https://bitcointalk.org/index.php?topic=36218.0"
-algo = "SHA-256d"
-type = "DAO"
-rating = 1.0
-consensus = "Proof-of-Work"
 
 [aliases]
 coinmarketcap = "iXcoin"
 CurrencyName = "iXcoin"
+
+[ratings]
+rating = 1.0
+
+[consensus]
+consensus_name = "Proof-of-Work"
+hashing = "SHA-256d"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+tags = "DAO"
+system_type = ""
+
+[events]
+announcement = "10/08/2011"
+
+[token]
+token_name = ""
+token_symbol = "IXC"
 
 [[links]]
 name = "web site"
 url = "http://ixcoin.org/"
 icon = "website.png"
 tags = ["Main", "Apps"]
+type = ""
 
 [[links]]
 name = "github"
 url = "https://github.com/ixcoin/ixcoin/tree/Branch_v0.3.24"
 icon = "github.png"
 tags = ["Main", "Code"]
+type = ""

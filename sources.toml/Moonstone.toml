@@ -1,11 +1,7 @@
 name = "Moonstone"
-symbol = "MOONFUND"
 source = "cyberFund"
 
 [metrics]
-type = "DApp"
-rating = 3.0
-consensus = "DPOS"
 dependencies = "independent"
 supply = 53045810.879
 timestamp = 1431342962.0
@@ -18,3 +14,18 @@ links = []
 [aliases]
 coinmarketcap = "Moonstone"
 CurrencyName = "Moonstone"
+
+[ratings]
+rating = 3.0
+
+[consensus]
+consensus_name = "DPOS"
+consensus_type = ""
+
+[descriptions]
+tags = "DApp"
+system_type = ""
+
+[token]
+token_name = ""
+token_symbol = "MOONFUND"

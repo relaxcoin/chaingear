@@ -1,11 +1,7 @@
 name = "Sexcoin"
-symbol = "SXC"
 source = "cyberFund"
 
 [metrics]
-announce = "28/05/2013"
-genesis = "28/05/2013"
-status = "Running"
 rpc = 9560.0
 block_time = "60"
 block_reward = 100.0
@@ -15,7 +11,6 @@ premine_tokens = 200.0
 difficulty_cycle = "480"
 txs_confirm = 6.0
 ann = "https://bitcointalk.org/index.php?topic=218158.0"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -32,3 +27,19 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Sexcoin"
 CurrencyName = "Sexcoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "28/05/2013"
+genesis = "28/05/2013"
+
+[token]
+token_name = ""
+token_symbol = "SXC"

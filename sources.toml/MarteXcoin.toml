@@ -1,10 +1,7 @@
 name = "MarteXcoin"
-symbol = "MXT"
 source = "cyberFund"
 
 [metrics]
-announce = "07/05/2014"
-status = "Dead"
 p2p = 51325.0
 rpc = 51324.0
 block_time = 120.0
@@ -13,7 +10,6 @@ premine_tokens = "0 (0%)"
 txs_confirm = 5.0
 mint_confirm = 120.0
 ann = "https://bitcointalk.org/index.php?topic=598162.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "MarteXcoin"
 CurrencyName = "MarteXcoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "07/05/2014"
+
+[token]
+token_name = ""
+token_symbol = "MXT"

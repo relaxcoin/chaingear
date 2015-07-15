@@ -1,11 +1,7 @@
 name = "GeoCoin"
-symbol = "GEO"
 source = "cyberFund"
 
 [metrics]
-announce = "18/08/2013"
-genesis = "12/08/2013"
-status = "Dead"
 p2p = 3990.0
 rpc = 3991.0
 block_reward = 33.0
@@ -14,7 +10,6 @@ premine_tokens = 25000000.0
 difficulty_cycle = "20"
 mint_confirm = 25.0
 ann = "https://bitcointalk.org/index.php?topic=277091.0"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -31,3 +26,19 @@ rating = 0.0
 [aliases]
 coinmarketcap = "GeoCoin"
 CurrencyName = "GeoCoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "18/08/2013"
+genesis = "12/08/2013"
+
+[token]
+token_name = ""
+token_symbol = "GEO"

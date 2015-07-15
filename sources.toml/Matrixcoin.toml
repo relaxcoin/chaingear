@@ -1,10 +1,7 @@
 name = "Matrixcoin"
-symbol = "MTX"
 source = "cyberFund"
 
 [metrics]
-announce = "02/04/2014"
-status = "Dead"
 p2p = 11072.0
 rpc = 21072.0
 block_time = 60.0
@@ -12,7 +9,6 @@ halfing_cycle = "every 100,000 blocks "
 total_tokens = 800000000.0
 difficulty_cycle = "null"
 ann = "https://bitcointalk.org/index.php?topic=553703.0"
-algo = "SHA-256d"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "SHA-256d"
 [aliases]
 coinmarketcap = "Matrixcoin"
 CurrencyName = "Matrixcoin"
+
+[consensus]
+hashing = "SHA-256d"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "02/04/2014"
+
+[token]
+token_name = ""
+token_symbol = "MTX"

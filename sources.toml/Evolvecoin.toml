@@ -1,17 +1,13 @@
 name = "Evolvecoin"
-symbol = "EVC"
 source = "cyberFund"
 
 [metrics]
-announce = "14/08/2014"
-status = "Dead"
 p2p = 11061.0
 rpc = 21061.0
 block_time = "600"
 total_tokens = "21000000"
 difficulty_cycle = "168 hours"
 ann = "https://bitcointalk.org/index.php?topic=737226.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +24,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Evolvecoin"
 CurrencyName = "Evolvecoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "14/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "EVC"

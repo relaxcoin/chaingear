@@ -1,10 +1,7 @@
 name = "Cthulhu Offerings"
-symbol = "OFF"
 source = "cyberFund"
 
 [metrics]
-announce = "14/09/2013"
-status = "Running"
 p2p = 20000.0
 rpc = 1928.0
 block_time = "60"
@@ -14,7 +11,6 @@ premine_tokens = "10000 () for bounties"
 difficulty_cycle = "20"
 txs_confirm = 30.0
 ann = "https://bitcointalk.org/index.php?topic=294383.0"
-algo = "Quark"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -31,3 +27,18 @@ algo = "Quark"
 [aliases]
 coinmarketcap = "Cthulhu Offerings"
 CurrencyName = "Cthulhu Offerings"
+
+[consensus]
+hashing = "Quark"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "14/09/2013"
+
+[token]
+token_name = ""
+token_symbol = "OFF"

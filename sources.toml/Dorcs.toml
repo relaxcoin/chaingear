@@ -1,5 +1,4 @@
 name = "Dorcs"
-symbol = "DORCS"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "Dorcs"
 CurrencyName = "Dorcs"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "DORCS"

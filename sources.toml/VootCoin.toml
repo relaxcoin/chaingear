@@ -1,29 +1,42 @@
 name = "VootCoin"
-symbol = "VOOT"
 source = "cyberFund"
 
 [metrics]
-announce = "04/06/2014"
-status = "Running"
 block_time = 60.0
 total_tokens = 100800000.0
 premine_tokens = "10 BTC (development fund)"
 difficulty_cycle = "each block"
 ann = "https://bitcointalk.org/index.php?topic=639371.0"
-algo = "X11"
+
+[aliases]
+coinmarketcap = "VootCoin"
+CurrencyName = "VootCoin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "04/06/2014"
+
+[token]
+token_name = ""
+token_symbol = "VOOT"
 
 [[links]]
 name = "web site"
 url = "http://www.vootcoin.net/"
 icon = "website.png"
 tags = ["Main", "Apps"]
+type = ""
 
 [[links]]
 name = "github"
 url = "https://github.com/MsCollec/vootcoin"
 icon = "github.png"
 tags = ["Main", "Code"]
-
-[aliases]
-coinmarketcap = "VootCoin"
-CurrencyName = "VootCoin"
+type = ""

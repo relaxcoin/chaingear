@@ -1,17 +1,13 @@
 name = "GammaCoin"
-symbol = "GAM"
 source = "cyberFund"
 
 [metrics]
-announce = "27/03/2014"
-status = "Dead"
 block_time = 150.0
 block_reward = "100 Coins"
 total_tokens = 1700000.0
 premine_tokens = "425000 (0.25%) premine_tokens, used to pay for a couple of VPSs, one for testing and one as a node to start with"
 difficulty_cycle = "every block"
 ann = "https://bitcointalk.org/index.php?topic=538311.new#new"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -27,3 +23,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "GammaCoin"
 CurrencyName = "GammaCoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "27/03/2014"
+
+[token]
+token_name = ""
+token_symbol = "GAM"

@@ -1,16 +1,11 @@
 name = "Yacoin"
-symbol = "YAC"
 source = "cyberFund"
 
 [metrics]
-announce = "15/05/2013"
-genesis = "08/05/2013"
-status = "Running"
 block_time = "60"
 block_reward = 25.0
 total_tokens = 2000000000.0
 ann = "https://bitcointalk.org/index.php?topic=206577.0"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -28,3 +23,19 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Yacoin"
 CurrencyName = "Yacoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "15/05/2013"
+genesis = "08/05/2013"
+
+[token]
+token_name = ""
+token_symbol = "YAC"

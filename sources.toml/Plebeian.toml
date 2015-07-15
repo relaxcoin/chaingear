@@ -1,10 +1,7 @@
 name = "Plebeian"
-symbol = "PLEB"
 source = "cyberFund"
 
 [metrics]
-announce = "09/08/2014"
-status = "Dead"
 p2p = 14200.0
 rpc = 28177.0
 block_time = "67"
@@ -13,7 +10,6 @@ total_tokens = "Total Mined PoW Money Supply (not including premine_tokens*): ~1
 premine_tokens = "2.7027% = 462,586 PLEB (1% for dev team fund, 1% for community bounties)"
 difficulty_cycle = ""
 ann = "https://bitcointalk.org/index.php?topic=730854.0"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "Plebeian"
 CurrencyName = "Plebeian"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "09/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "PLEB"

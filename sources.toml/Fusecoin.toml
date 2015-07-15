@@ -1,10 +1,7 @@
 name = "Fusecoin"
-symbol = "FUSE"
 source = "cyberFund"
 
 [metrics]
-announce = "24/07/2014"
-status = "Dead"
 p2p = 22012.0
 rpc = 22011.0
 block_time = 60.0
@@ -12,7 +9,6 @@ block_reward = "PoW reward 68.75; 100000 coins for PoW"
 total_tokens = 100000.0
 premine_tokens = "1000 (1%)"
 ann = "https://bitcointalk.org/index.php?topic=708717.0"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +24,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "Fusecoin"
 CurrencyName = "Fusecoin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "24/07/2014"
+
+[token]
+token_name = ""
+token_symbol = "FUSE"

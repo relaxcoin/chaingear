@@ -1,10 +1,7 @@
 name = "Dougcoin"
-symbol = "DOUG"
 source = "cyberFund"
 
 [metrics]
-announce = "13/02/2014"
-status = "Dead"
 p2p = 6969.0
 rpc = 6968.0
 block_time = 30.0
@@ -13,7 +10,6 @@ halfing_cycle = "every 86400 blocks ~ 30 days"
 total_tokens = 1800000000.0
 premine_tokens = 20480.0
 ann = "https://bitcointalk.org/index.php?topic=464041.0"
-algo = "Quark"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "Quark"
 [aliases]
 coinmarketcap = "Dougcoin"
 CurrencyName = "Dougcoin"
+
+[consensus]
+hashing = "Quark"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "13/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "DOUG"

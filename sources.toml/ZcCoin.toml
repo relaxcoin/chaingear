@@ -1,11 +1,7 @@
 name = "ZcCoin"
-symbol = "ZCC"
 source = "cyberFund"
 
 [metrics]
-announce = "05/08/2013"
-genesis = "08/08/2013"
-status = "Running"
 p2p = 10583.0
 rpc = 12210.0
 block_time = "60"
@@ -13,10 +9,6 @@ block_reward = 50.0
 total_tokens = 1000000000.0
 mint_confirm = 520.0
 ann = "https://bitcointalk.org/index.php?topic=268575.0"
-algo = "Scrypt"
-type = "DAO"
-rating = 1.0
-consensus = "Proof-of-Stake"
 dependencies = "independent"
 
   [[metrics.links]]
@@ -32,3 +24,24 @@ dependencies = "independent"
 [aliases]
 coinmarketcap = "ZcCoin"
 CurrencyName = "ZcCoin"
+
+[ratings]
+rating = 1.0
+
+[consensus]
+consensus_name = "Proof-of-Stake"
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+tags = "DAO"
+system_type = ""
+
+[events]
+announcement = "05/08/2013"
+genesis = "08/08/2013"
+
+[token]
+token_name = ""
+token_symbol = "ZCC"

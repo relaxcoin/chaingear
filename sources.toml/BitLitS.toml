@@ -1,10 +1,7 @@
 name = "BitLitS"
-symbol = "BTLS"
 source = "cyberFund"
 
 [metrics]
-announce = "16/09/2014"
-status = "Running"
 p2p = 11046.0
 rpc = 21046.0
 block_time = "180"
@@ -13,7 +10,6 @@ total_tokens = "21000000"
 premine_tokens = "361200 coins(1,72 %) For bounties & Marketing,pool"
 mint_confirm = "6 blocks"
 ann = "https://bitcointalk.org/index.php?topic=777275.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "BitLitS"
 CurrencyName = "BitLitS"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "16/09/2014"
+
+[token]
+token_name = ""
+token_symbol = "BTLS"

@@ -1,17 +1,13 @@
 name = "Bitore"
-symbol = "BTO"
 source = "cyberFund"
 
 [metrics]
-announce = "03/09/2014"
-status = "Dead"
 block_time = "60"
 block_reward = "4 BTO"
 total_tokens = "100000000"
 premine_tokens = "95000000 coins (95%)"
 difficulty_cycle = "2 blocks"
 ann = "https://bitcointalk.org/index.php?topic=714852.0"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -26,3 +22,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "Bitore"
 CurrencyName = "Bitore"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "03/09/2014"
+
+[token]
+token_name = ""
+token_symbol = "BTO"

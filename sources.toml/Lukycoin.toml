@@ -1,11 +1,7 @@
 name = "Lukycoin"
-symbol = "LKY"
 source = "cyberFund"
 
 [metrics]
-announce = "24/05/2013"
-genesis = "22/05/2013"
-status = "Running"
 p2p = 9917.0
 rpc = 9918.0
 block_time = "60"
@@ -15,7 +11,6 @@ total_tokens = 200000000.0
 difficulty_cycle = "240"
 txs_confirm = 3.0
 ann = "https://bitcointalk.org/index.php?topic=214614.0"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -33,3 +28,19 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Lukycoin"
 CurrencyName = "Lukycoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "24/05/2013"
+genesis = "22/05/2013"
+
+[token]
+token_name = ""
+token_symbol = "LKY"

@@ -1,5 +1,4 @@
 name = "Electron"
-symbol = "ELT"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "Electron"
 CurrencyName = "Electron"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "ELT"

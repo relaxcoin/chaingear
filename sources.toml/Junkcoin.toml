@@ -1,11 +1,7 @@
 name = "Junkcoin"
-symbol = "JKC"
 source = "cyberFund"
 
 [metrics]
-announce = "15/05/2013"
-genesis = "03/05/2013"
-status = "Running"
 p2p = 9771.0
 rpc = 9772.0
 block_time = "60"
@@ -13,7 +9,6 @@ block_reward = 50.0
 halfing_cycle = 10368000.0
 total_tokens = 107000000.0
 difficulty_cycle = "1440"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -31,3 +26,19 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Junkcoin"
 CurrencyName = "Junkcoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "15/05/2013"
+genesis = "03/05/2013"
+
+[token]
+token_name = ""
+token_symbol = "JKC"

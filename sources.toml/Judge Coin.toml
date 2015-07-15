@@ -1,16 +1,12 @@
 name = "Judge Coin"
-symbol = "Judge"
 source = "cyberFund"
 
 [metrics]
-announce = "26/06/2014"
-status = "Dead"
 block_time = 60.0
 block_reward = "500 coins per PoW block"
 total_tokens = 15000000.0
 txs_confirm = 110.0
 ann = "https://bitcointalk.org/index.php?topic=741488"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -27,3 +23,18 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "Judge Coin"
 CurrencyName = "Judge Coin"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "26/06/2014"
+
+[token]
+token_name = ""
+token_symbol = "Judge"

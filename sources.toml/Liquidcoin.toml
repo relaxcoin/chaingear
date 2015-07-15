@@ -1,14 +1,10 @@
 name = "Liquidcoin"
-symbol = "LQC"
 source = "cyberFund"
 
 [metrics]
-announce = "15/01/2012"
-status = "Dead"
 block_time = "300"
 halfing_cycle = 1000.0
 ann = "https://bitcointalk.org/index.php?topic=60026.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -25,3 +21,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Liquidcoin"
 CurrencyName = "Liquidcoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "15/01/2012"
+
+[token]
+token_name = ""
+token_symbol = "LQC"

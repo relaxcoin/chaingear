@@ -1,10 +1,7 @@
 name = "SocialxBot"
-symbol = "XBOT"
 source = "cyberFund"
 
 [metrics]
-announce = "07/09/2014"
-status = "Dead"
 p2p = 43622.0
 rpc = 43621.0
 block_time = "60"
@@ -14,7 +11,6 @@ premine_tokens = "1000000 for ICO"
 difficulty_cycle = "20 blocks"
 mint_confirm = "50 blocks"
 ann = "https://bitcointalk.org/index.php?topic=760803"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -32,3 +28,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "SocialxBot"
 CurrencyName = "SocialxBot"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "07/09/2014"
+
+[token]
+token_name = ""
+token_symbol = "XBOT"

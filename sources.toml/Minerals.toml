@@ -1,16 +1,12 @@
 name = "Minerals"
-symbol = "MIN"
 source = "cyberFund"
 
 [metrics]
-announce = "05/06/2014"
-status = "Running"
 block_time = 30.0
 total_tokens = 30000000.0
 difficulty_cycle = "every block"
 txs_confirm = 4.0
 ann = "https://bitcointalk.org/index.php?topic=641057.0"
-algo = "X11"
 rating = 0.0
 
   [[metrics.links]]
@@ -28,3 +24,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Minerals"
 CurrencyName = "Minerals"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "05/06/2014"
+
+[token]
+token_name = ""
+token_symbol = "MIN"

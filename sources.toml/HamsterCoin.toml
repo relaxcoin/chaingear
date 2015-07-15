@@ -1,14 +1,10 @@
 name = "HamsterCoin"
-symbol = "HAM"
 source = "cyberFund"
 
 [metrics]
-announce = "28/12/2013"
-status = "Dead"
 block_time = 60.0
 block_reward = 1000.0
 ann = "https://bitcointalk.org/index.php?topic=388650.0"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -25,3 +21,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "HamsterCoin"
 CurrencyName = "HamsterCoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "28/12/2013"
+
+[token]
+token_name = ""
+token_symbol = "HAM"

@@ -1,15 +1,11 @@
 name = "Mousecoin"
-symbol = "MOSC"
 source = "cyberFund"
 
 [metrics]
-announce = "08/01/2014"
-status = "Dead"
 block_time = 60.0
 total_tokens = 5000000000.0
 premine_tokens = 50000000.0
 ann = "https://bitcointalk.org/index.php?topic=405820.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -26,3 +22,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Mousecoin"
 CurrencyName = "Mousecoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "08/01/2014"
+
+[token]
+token_name = ""
+token_symbol = "MOSC"

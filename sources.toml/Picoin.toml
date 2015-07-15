@@ -1,17 +1,13 @@
 name = "Picoin"
-symbol = "PCN"
 source = "cyberFund"
 
 [metrics]
-announce = "27/08/2013"
-status = "Dead"
 block_time = "188.4"
 block_reward = 3.141592654
 total_tokens = 314159265.0
 difficulty_cycle = "every 24 hours"
 txs_confirm = 120.0
 ann = "https://bitcointalk.org/index.php?topic=281889.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -27,3 +23,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Picoin"
 CurrencyName = "Picoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "27/08/2013"
+
+[token]
+token_name = ""
+token_symbol = "PCN"

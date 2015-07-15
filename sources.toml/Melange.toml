@@ -1,10 +1,7 @@
 name = "Melange"
-symbol = "SPICE"
 source = "cyberFund"
 
 [metrics]
-announce = "24/01/2014"
-status = "Running"
 p2p = 1986.0
 rpc = 1987.0
 block_time = 240.0
@@ -14,7 +11,6 @@ total_tokens = 1000000.0
 premine_tokens = "18000 coins(1.8%)"
 difficulty_cycle = 8.0
 ann = "https://bitcointalk.org/index.php?topic=430816.0"
-algo = "Multi-algo"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "Multi-algo"
 [aliases]
 coinmarketcap = "Melange"
 CurrencyName = "Melange"
+
+[consensus]
+hashing = "Multi-algo"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "24/01/2014"
+
+[token]
+token_name = ""
+token_symbol = "SPICE"

@@ -2,8 +2,6 @@ name = "Thorcoin"
 source = "cyberFund"
 
 [metrics]
-announce = "24/02/2014"
-status = "Dead"
 p2p = 29950.0
 rpc = 29951.0
 block_reward = 200000.0
@@ -14,7 +12,6 @@ difficulty_cycle = "every 30 minutes"
 txs_confirm = 5.0
 mint_confirm = 40.0
 ann = "https://bitcointalk.org/index.php?topic=484815.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +27,17 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Thorcoin"
 CurrencyName = "Thorcoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "24/02/2014"
+
+[token]
+token_name = ""

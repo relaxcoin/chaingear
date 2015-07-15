@@ -1,10 +1,7 @@
 name = "KingCoin"
-symbol = "KING"
 source = "cyberFund"
 
 [metrics]
-announce = "21/08/2013"
-status = "Dead"
 p2p = 33332.0
 rpc = 33333.0
 block_time = "60"
@@ -13,7 +10,6 @@ total_tokens = 10000000.0
 txs_confirm = 4.0
 mint_confirm = 128.0
 ann = "https://bitcointalk.org/index.php?topic=278834.0"
-algo = "Multi-algo"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "Multi-algo"
 [aliases]
 coinmarketcap = "KingCoin"
 CurrencyName = "KingCoin"
+
+[consensus]
+hashing = "Multi-algo"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "21/08/2013"
+
+[token]
+token_name = ""
+token_symbol = "KING"

@@ -1,14 +1,9 @@
 name = "Datacoin"
-symbol = "DTC"
 source = "cyberFund"
 
 [metrics]
-announce = "05/11/2013"
-genesis = "17/11/2013"
-status = "Running"
 mint_confirm = 3000.0
 ann = "https://bitcointalk.org/index.php?topic=325735.0;all"
-algo = "Others"
 rating = 0.0
 
   [[metrics.links]]
@@ -26,3 +21,19 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Datacoin"
 CurrencyName = "Datacoin"
+
+[consensus]
+hashing = "Others"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "05/11/2013"
+genesis = "17/11/2013"
+
+[token]
+token_name = ""
+token_symbol = "DTC"

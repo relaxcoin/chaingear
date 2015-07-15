@@ -1,10 +1,7 @@
 name = "CateDoge"
-symbol = "CTD"
 source = "cyberFund"
 
 [metrics]
-announce = "24/03/2014"
-status = "Running"
 block_time = 30.0
 block_reward = "12,500, never dropping below this"
 halfing_cycle = "at 36000 blocks"
@@ -12,7 +9,6 @@ total_tokens = 20000000000.0
 premine_tokens = 50000000.0
 difficulty_cycle = "at 36000 blocks"
 ann = "https://bitcointalk.org/index.php?topic=528453.0"
-algo = "SHA-3"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "SHA-3"
 [aliases]
 coinmarketcap = "CateDoge"
 CurrencyName = "CateDoge"
+
+[consensus]
+hashing = "SHA-3"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "24/03/2014"
+
+[token]
+token_name = ""
+token_symbol = "CTD"

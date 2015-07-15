@@ -1,11 +1,7 @@
 name = "Megacoin"
-symbol = "MEC"
 source = "cyberFund"
 
 [metrics]
-announce = "29/05/2013"
-genesis = "01/06/2013"
-status = "Running"
 p2p = 7951.0
 rpc = 7950.0
 block_time = "150"
@@ -13,10 +9,6 @@ block_reward = 25.0
 halfing_cycle = 420000.0
 total_tokens = 32500000.0
 ann = "https://bitcointalk.org/index.php?topic=218851.0"
-algo = "Scrypt"
-type = "DAO"
-rating = 1.0
-consensus = "Proof-of-Work"
 dependencies = "independent"
 
   [[metrics.links]]
@@ -34,3 +26,24 @@ dependencies = "independent"
 [aliases]
 coinmarketcap = "Megacoin"
 CurrencyName = "Megacoin"
+
+[ratings]
+rating = 1.0
+
+[consensus]
+consensus_name = "Proof-of-Work"
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+tags = "DAO"
+system_type = ""
+
+[events]
+announcement = "29/05/2013"
+genesis = "01/06/2013"
+
+[token]
+token_name = ""
+token_symbol = "MEC"

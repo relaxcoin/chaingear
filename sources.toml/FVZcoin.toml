@@ -1,10 +1,7 @@
 name = "FVZcoin"
-symbol = "FVZ"
 source = "cyberFund"
 
 [metrics]
-announce = "11/07/2014"
-status = "Dead"
 p2p = 40643.0
 rpc = 40642.0
 block_time = 60.0
@@ -12,7 +9,6 @@ block_reward = "Block reward is controlled by: 5678/(((Difficulty+2600)/11)^2) f
 total_tokens = 343000.0
 premine_tokens = "400 FVZ: 300 FVZ for (75%) bounty and 100 FVZ (25%) development"
 ann = "https://bitcointalk.org/index.php?topic=686225.msg7786804#msg7786804"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "FVZcoin"
 CurrencyName = "FVZcoin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "11/07/2014"
+
+[token]
+token_name = ""
+token_symbol = "FVZ"

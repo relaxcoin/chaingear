@@ -1,10 +1,7 @@
 name = "Auroracoin"
-symbol = "AUR"
 source = "cyberFund"
 
 [metrics]
-announce = "02/02/2014"
-status = "Running"
 p2p = 12340.0
 rpc = 12341.0
 block_reward = 25.0
@@ -13,21 +10,39 @@ premine_tokens = "10500000(50%). The premined coins will be distributed to the e
 difficulty_cycle = "8 blocks"
 mint_confirm = 100.0
 ann = "https://bitcointalk.org/index.php?topic=446062.0"
-algo = "Scrypt"
+
+[aliases]
+coinmarketcap = "Auroracoin"
+CurrencyName = "Auroracoin"
+
+[ratings]
 rating = 1.0
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "02/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "AUR"
 
 [[links]]
 name = "web site"
 url = "http://www.auroracoin.org/"
 icon = "website.png"
 tags = ["Main", "Apps"]
+type = ""
 
 [[links]]
 name = "github"
 url = "https://github.com/baldurodinsson/auroracoin-project/"
 icon = "github.png"
 tags = ["Main", "Code"]
-
-[aliases]
-coinmarketcap = "Auroracoin"
-CurrencyName = "Auroracoin"
+type = ""

@@ -1,10 +1,7 @@
 name = "Yolocoin"
-symbol = "YOLO"
 source = "cyberFund"
 
 [metrics]
-announce = "09/05/2014"
-status = "Dead"
 p2p = 14316.0
 rpc = 14315.0
 block_time = 120.0
@@ -12,7 +9,6 @@ block_reward = "Blocks 1-7500 - 1000 YOLO; Blocks 7500 - 10000 - 100 YOLO; Block
 total_tokens = "unlimited"
 difficulty_cycle = "every 5 blocks"
 ann = "https://bitcointalk.org/index.php?topic=602042"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Yolocoin"
 CurrencyName = "Yolocoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "09/05/2014"
+
+[token]
+token_name = ""
+token_symbol = "YOLO"

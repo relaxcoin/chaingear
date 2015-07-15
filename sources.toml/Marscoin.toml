@@ -1,10 +1,7 @@
 name = "Marscoin"
-symbol = "MRS"
 source = "cyberFund"
 
 [metrics]
-announce = "15/01/2014"
-status = "Dead"
 block_time = "1 block per 2 Mars minutes"
 block_reward = 50.0
 halfing_cycle = "Subsidy halves every Mars Year"
@@ -12,7 +9,6 @@ total_tokens = 33000000.0
 premine_tokens = "300000 (~0.91%)"
 difficulty_cycle = "every 24 hours 39 Minutes (Mars day)"
 ann = "https://bitcointalk.org/index.php?topic=416486.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Marscoin"
 CurrencyName = "Marscoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "15/01/2014"
+
+[token]
+token_name = ""
+token_symbol = "MRS"

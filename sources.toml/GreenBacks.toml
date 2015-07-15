@@ -1,17 +1,13 @@
 name = "GreenBacks"
-symbol = "GB"
 source = "cyberFund"
 
 [metrics]
-announce = "16/08/2014"
-status = "Running"
 p2p = 12733.0
 rpc = 12732.0
 block_time = "30"
 total_tokens = "20000000"
 premine_tokens = "100%"
 ann = "https://bitcointalk.org/index.php?topic=740744"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -29,3 +25,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "GreenBacks"
 CurrencyName = "GreenBacks"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "16/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "GB"

@@ -1,10 +1,7 @@
 name = "Zeuscoin"
-symbol = "ZEU"
 source = "cyberFund"
 
 [metrics]
-announce = "10/10/2013"
-status = "Dead"
 p2p = 13930.0
 rpc = 13931.0
 block_time = "30"
@@ -14,7 +11,6 @@ difficulty_cycle = "every block"
 txs_confirm = 4.0
 mint_confirm = 50.0
 ann = "https://bitcointalk.org/index.php?topic=308741.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Zeuscoin"
 CurrencyName = "Zeuscoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "10/10/2013"
+
+[token]
+token_name = ""
+token_symbol = "ZEU"

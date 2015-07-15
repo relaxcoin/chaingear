@@ -1,17 +1,15 @@
 name = "MaidSafeCoin"
-symbol = "MAID"
-dependencies = "Bitcoin, Omni"
+dependencies = ["Bitcoin", "Omni"]
 source = "cyberFund"
 
 [descriptions]
 headline = "A fully distributed data management service"
 summary = "MaidSafe is a fully decentralized platform on which application developers can build decentralized applications. The network is made up by individual users who contribute storage, computing power and bandwidth to form a world-wide autonomous system."
+tags = "DApp"
+hashtag = "#maidsafe"
+system_type = ""
 
 [metrics]
-type = "DApp"
-rating = 5.0
-consensus = "Omni"
-hashtag = "#maidsafe"
 
 [aliases]
 coinmarketcap = "MaidSafeCoin"
@@ -25,44 +23,62 @@ funding_tems = "https://github.com/maidsafe/Whitepapers/blob/master/Project-Safe
 funding_url = "http://maidsafe.net/"
 tokens_sold = 452552412.0
 
+[ratings]
+rating = 5.0
+
+[consensus]
+consensus_name = "Omni"
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "MAID"
+
 [[links]]
 name = "Documentation"
 url = "https://github.com/maidsafe/Whitepapers/blob/master/Project-Safe.md"
 icon = "whitepaper.png"
 tags = ["Main", "Science"]
+type = ""
 
 [[links]]
 name = "web site"
 url = "http://maidsafe.net/"
 icon = "website.png"
 tags = ["Main", "Apps"]
+type = ""
 
 [[links]]
 name = "github"
 url = "https://github.com/maidsafe"
 icon = "github.png"
 tags = ["Main", "Code"]
+type = ""
 
 [[links]]
 name = "twitter"
 url = "https://twitter.com/maidsafe"
 icon = "twitter.png"
 tags = ["Main", "Apps"]
+type = ""
 
 [[links]]
 name = "forum"
 url = "https://www.maidsafe.org/"
 icon = "forum.png"
 tags = ["Apps"]
+type = ""
 
 [[links]]
 name = "blog"
 url = "http://blog.maidsafe.net/"
 icon = "blog.png"
 tags = ["Apps"]
+type = ""
 
 [[links]]
 name = "reddit"
 url = "http://www.reddit.com/r/maidsafe"
 icon = "reddit.png"
 tags = ["Apps"]
+type = ""

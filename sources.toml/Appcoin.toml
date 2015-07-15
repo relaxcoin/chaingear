@@ -1,11 +1,7 @@
 name = "Appcoin"
-symbol = "APP"
 source = "cyberFund"
 
 [metrics]
-announce = "09/02/2014"
-genesis = "23/02/2014"
-status = "Dead"
 p2p = 16557.0
 rpc = 16556.0
 block_time = 720.0
@@ -15,21 +11,38 @@ total_tokens = 14400000000.0
 premine_tokens = " 129600000 coins(0.9%) premine_tokens for development expenses, bounties & giveaways"
 difficulty_cycle = 120.0
 ann = "https://bitcointalk.org/index.php?topic=475160.0"
-algo = "Scrypt"
 rating = 0.0
+
+[aliases]
+coinmarketcap = "Appcoin"
+CurrencyName = "Appcoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "09/02/2014"
+genesis = "23/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "APP"
 
 [[links]]
 tags = ["Main", "Apps"]
 name = "web site"
 url = "http://www.appcoin.info/"
 icon = "website.png"
+type = ""
 
 [[links]]
 tags = ["Main", "Code"]
 name = "github"
 url = "https://github.com/appcoin-project/appcoin"
 icon = "github.png"
-
-[aliases]
-coinmarketcap = "Appcoin"
-CurrencyName = "Appcoin"
+type = ""

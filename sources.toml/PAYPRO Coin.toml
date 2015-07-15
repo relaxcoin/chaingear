@@ -1,10 +1,7 @@
 name = "PAYPRO Coin"
-symbol = "PRO"
 source = "cyberFund"
 
 [metrics]
-announce = "07/06/2014"
-status = "Dead"
 p2p = 28765.0
 rpc = 28764.0
 block_time = 300.0
@@ -13,7 +10,6 @@ total_tokens = 8000000000.0
 premine_tokens = "80000000 (1%) will be entirely used for ICO"
 difficulty_cycle = "Daily"
 ann = "https://bitcointalk.org/index.php?topic=643028.0"
-algo = "SHA-256d"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "SHA-256d"
 [aliases]
 coinmarketcap = "PAYPRO Coin"
 CurrencyName = "PAYPRO Coin"
+
+[consensus]
+hashing = "SHA-256d"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "07/06/2014"
+
+[token]
+token_name = ""
+token_symbol = "PRO"

@@ -1,10 +1,7 @@
 name = "Vampirecoin"
-symbol = "VMP"
 source = "cyberFund"
 
 [metrics]
-announce = "08/02/2014"
-status = "Dead"
 p2p = 58851.0
 rpc = 58852.0
 block_time = 150.0
@@ -14,7 +11,6 @@ difficulty_cycle = "48 blocks(2 hours)"
 txs_confirm = 6.0
 mint_confirm = 30.0
 ann = "https://bitcointalk.org/index.php?topic=455690.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -31,3 +27,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Vampirecoin"
 CurrencyName = "Vampirecoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "08/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "VMP"

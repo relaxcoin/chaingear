@@ -1,10 +1,7 @@
 name = "Championcoin"
-symbol = "CHAM"
 source = "cyberFund"
 
 [metrics]
-announce = "24/01/2014"
-status = "Dead"
 p2p = 21260.0
 rpc = 11261.0
 block_time = 20.0
@@ -15,7 +12,6 @@ difficulty_cycle = 60.0
 txs_confirm = 3.0
 mint_confirm = 30.0
 ann = "https://bitcointalk.org/index.php?topic=429836.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -32,3 +28,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Championcoin"
 CurrencyName = "Championcoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "24/01/2014"
+
+[token]
+token_name = ""
+token_symbol = "CHAM"

@@ -1,5 +1,4 @@
 name = "BitCentavo"
-symbol = "NBE"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "BitCentavo"
 CurrencyName = "BitCentavo"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "NBE"

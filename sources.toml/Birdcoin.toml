@@ -1,11 +1,7 @@
 name = "Birdcoin"
-symbol = "BRD"
 source = "cyberFund"
 
 [metrics]
-announce = "02/03/2014"
-genesis = "02/03/2014"
-status = "Running"
 p2p = 16050.0
 rpc = 16051.0
 block_time = 60.0
@@ -14,14 +10,30 @@ total_tokens = 7000000000.0
 premine_tokens = "140000000 (2%) for bounties, giveaways and development"
 difficulty_cycle = "every block (Kimoto Gravity Well)"
 ann = "https://bitcointalk.org/index.php?topic=496363.0"
-algo = "Scrypt"
+
+[aliases]
+coinmarketcap = "Birdcoin"
+CurrencyName = "Birdcoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "02/03/2014"
+genesis = "02/03/2014"
+
+[token]
+token_name = ""
+token_symbol = "BRD"
 
 [[links]]
 name = "github"
 url = "https://github.com/KungFuCoin/Birdcoin"
 icon = "github.png"
 tags = ["Main", "Code"]
-
-[aliases]
-coinmarketcap = "Birdcoin"
-CurrencyName = "Birdcoin"
+type = ""

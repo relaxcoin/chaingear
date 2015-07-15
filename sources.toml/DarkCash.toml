@@ -1,5 +1,4 @@
 name = "DarkCash"
-symbol = "DRKC"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "DarkCash"
 CurrencyName = "DarkCash"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "DRKC"

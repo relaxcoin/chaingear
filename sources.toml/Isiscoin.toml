@@ -1,10 +1,7 @@
 name = "Isiscoin"
-symbol = "ISIS"
 source = "cyberFund"
 
 [metrics]
-announce = "03/07/2014"
-status = "Dead"
 p2p = 9695.0
 rpc = 9696.0
 block_time = 60.0
@@ -12,7 +9,6 @@ block_reward = "block reward algorithm: (5x300 blocks) + (150x1700 blocks) + (31
 total_tokens = 1816500.0
 premine_tokens = "less than 18165 (1%) premine_tokens for bounties & future development"
 ann = "https://bitcointalk.org/index.php?topic=675509.0"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "Isiscoin"
 CurrencyName = "Isiscoin"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "03/07/2014"
+
+[token]
+token_name = ""
+token_symbol = "ISIS"

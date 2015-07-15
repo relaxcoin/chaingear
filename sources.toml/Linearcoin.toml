@@ -1,10 +1,7 @@
 name = "Linearcoin"
-symbol = "LIN"
 source = "cyberFund"
 
 [metrics]
-announce = "31/05/2014"
-status = "Dead"
 p2p = 9553.0
 rpc = 9552.0
 block_time = 300.0
@@ -15,7 +12,6 @@ premine_tokens = "No"
 difficulty_cycle = "every block (KimotoGravityWell)"
 txs_confirm = 6.0
 ann = "https://bitcointalk.org/index.php?topic=634063"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "Linearcoin"
 CurrencyName = "Linearcoin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "31/05/2014"
+
+[token]
+token_name = ""
+token_symbol = "LIN"

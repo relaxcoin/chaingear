@@ -1,10 +1,7 @@
 name = "Numbercoin"
-symbol = "numc"
 source = "cyberFund"
 
 [metrics]
-announce = "30/05/2014"
-status = "Dead"
 p2p = 9441.0
 rpc = 9442.0
 block_time = 20.0
@@ -13,7 +10,6 @@ premine_tokens = "500000 NUMC (0.5%)"
 difficulty_cycle = "every block"
 txs_confirm = 3.0
 ann = "https://bitcointalk.org/index.php?topic=631948.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Numbercoin"
 CurrencyName = "Numbercoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "30/05/2014"
+
+[token]
+token_name = ""
+token_symbol = "numc"

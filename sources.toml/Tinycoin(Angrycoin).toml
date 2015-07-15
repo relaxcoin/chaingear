@@ -1,17 +1,13 @@
 name = "Tinycoin(Angrycoin)"
-symbol = "TYC"
 source = "cyberFund"
 
 [metrics]
-announce = "08/06/2013"
-status = "Dead"
 block_time = "600"
 block_reward = 50.0
 halfing_cycle = 210000.0
 total_tokens = 21000000.0
 difficulty_cycle = "2016"
 ann = "https://bitcointalk.org/index.php?topic=228809.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -27,3 +23,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Tinycoin(Angrycoin)"
 CurrencyName = "Tinycoin(Angrycoin)"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "08/06/2013"
+
+[token]
+token_name = ""
+token_symbol = "TYC"

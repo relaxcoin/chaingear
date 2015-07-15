@@ -1,16 +1,12 @@
 name = "Fatecoin"
-symbol = "FATE"
 source = "cyberFund"
 
 [metrics]
-announce = "16/02/2014"
-status = "Dead"
 rpc = 9890.0
 block_time = 30.0
 halfing_cycle = "86400 (30 days)"
 total_tokens = 66666666.0
 ann = "https://bitcointalk.org/index.php?topic=468889.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -27,3 +23,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Fatecoin"
 CurrencyName = "Fatecoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "16/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "FATE"

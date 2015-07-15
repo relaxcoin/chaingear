@@ -1,16 +1,12 @@
 name = "Rebirthcoin"
-symbol = "REB"
 source = "cyberFund"
 
 [metrics]
-announce = "15/08/2014"
-status = "Dead"
 block_time = "60"
 total_tokens = " 3540000"
 difficulty_cycle = "KGW"
 mint_confirm = "50 blocks"
 ann = "https://bitcointalk.org/index.php?topic=722445.new#new"
-algo = "SHA-256d"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -25,3 +21,18 @@ algo = "SHA-256d"
 [aliases]
 coinmarketcap = "Rebirthcoin"
 CurrencyName = "Rebirthcoin"
+
+[consensus]
+hashing = "SHA-256d"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "15/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "REB"

@@ -1,10 +1,7 @@
 name = "NetPay"
-symbol = "XNP"
 source = "cyberFund"
 
 [metrics]
-announce = "26/09/2013"
-status = "Dead"
 ann = "https://bitcointalk.org/index.php?topic=303011.0"
 
   [[metrics.links]]
@@ -21,3 +18,17 @@ ann = "https://bitcointalk.org/index.php?topic=303011.0"
 [aliases]
 coinmarketcap = "NetPay"
 CurrencyName = "NetPay"
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "26/09/2013"
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "XNP"

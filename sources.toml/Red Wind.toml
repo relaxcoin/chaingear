@@ -1,10 +1,7 @@
 name = "Red Wind"
-symbol = "RD"
 source = "cyberFund"
 
 [metrics]
-announce = "25/12/2014"
-status = "Running"
 block_time = "120 sec"
 difficulty_cycle = "every block"
 ann = "https://bitcointalk.org/index.php?topic=904485.0"
@@ -24,3 +21,17 @@ ann = "https://bitcointalk.org/index.php?topic=904485.0"
 [aliases]
 coinmarketcap = "Red Wind"
 CurrencyName = "Red Wind"
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "25/12/2014"
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "RD"

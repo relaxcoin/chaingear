@@ -1,10 +1,7 @@
 name = "Sochicoin"
-symbol = "SOCHI"
 source = "cyberFund"
 
 [metrics]
-announce = "08/02/2014"
-status = "Dead"
 p2p = 22015.0
 rpc = 22014.0
 block_time = 88.0
@@ -15,7 +12,6 @@ difficulty_cycle = "each block (Kimoto Gravity Well)"
 txs_confirm = 5.0
 mint_confirm = 50.0
 ann = "https://bitcointalk.org/index.php?topic=454536.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -32,3 +28,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Sochicoin"
 CurrencyName = "Sochicoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "08/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "SOCHI"

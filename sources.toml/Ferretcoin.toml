@@ -1,10 +1,7 @@
 name = "Ferretcoin"
-symbol = "FEC"
 source = "cyberFund"
 
 [metrics]
-announce = "15/07/2013"
-status = "Dead"
 p2p = 33033.0
 rpc = 33032.0
 block_time = "150"
@@ -13,7 +10,6 @@ halfing_cycle = 1752000.0
 total_tokens = 123456789.0
 difficulty_cycle = "960"
 ann = "https://bitcointalk.org/index.php?topic=247208.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Ferretcoin"
 CurrencyName = "Ferretcoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "15/07/2013"
+
+[token]
+token_name = ""
+token_symbol = "FEC"

@@ -1,18 +1,13 @@
 name = "JennyCoin"
-symbol = "JNY"
 source = "cyberFund"
 
 [metrics]
-announce = "23/03/2014"
-genesis = "null"
-status = "Dead"
 block_time = 60.0
 block_reward = "867.5309"
 total_tokens = 867530900.0
 premine_tokens = "867530900 (1%)"
 txs_confirm = 5.0
 ann = "https://bitcointalk.org/index.php?topic=527919.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +24,19 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "JennyCoin"
 CurrencyName = "JennyCoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "23/03/2014"
+genesis = "null"
+
+[token]
+token_name = ""
+token_symbol = "JNY"

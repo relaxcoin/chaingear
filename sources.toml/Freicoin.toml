@@ -1,17 +1,12 @@
 name = "Freicoin"
-symbol = "FRC"
 source = "cyberFund"
 
 [metrics]
-announce = "25/06/2012"
-genesis = "21/12/2012"
-status = "Running"
 block_time = "600"
 block_reward = 500.0
 total_tokens = 100000000.0
 difficulty_cycle = "2016"
 ann = "https://bitcointalk.org/index.php?topic=89843.0"
-algo = "SHA-256d"
 rating = 0.0
 
   [[metrics.links]]
@@ -29,3 +24,19 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Freicoin"
 CurrencyName = "Freicoin"
+
+[consensus]
+hashing = "SHA-256d"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "25/06/2012"
+genesis = "21/12/2012"
+
+[token]
+token_name = ""
+token_symbol = "FRC"

@@ -1,10 +1,7 @@
 name = "Swansoncoin"
-symbol = "RON"
 source = "cyberFund"
 
 [metrics]
-announce = "21/02/2014"
-status = "Running"
 p2p = 22641.0
 rpc = 22640.0
 block_time = 60.0
@@ -14,7 +11,6 @@ total_tokens = 741776.0
 premine_tokens = "(2%) for bounties and future development"
 difficulty_cycle = "every block (Kimoto Gravity well)"
 ann = "https://bitcointalk.org/index.php?topic=478244.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -31,3 +27,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Swansoncoin"
 CurrencyName = "Swansoncoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "21/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "RON"

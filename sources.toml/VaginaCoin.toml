@@ -1,17 +1,13 @@
 name = "VaginaCoin"
-symbol = "VAG"
 source = "cyberFund"
 
 [metrics]
-announce = "31/05/2013"
-status = "Dead"
 block_time = "4140"
 block_reward = 420.0
 total_tokens = 69000000.0
 premine_tokens = 120000.0
 difficulty_cycle = "690"
 ann = "https://bitcointalk.org/index.php?topic=221190.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -27,3 +23,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "VaginaCoin"
 CurrencyName = "VaginaCoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "31/05/2013"
+
+[token]
+token_name = ""
+token_symbol = "VAG"

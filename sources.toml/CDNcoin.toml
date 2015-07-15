@@ -1,16 +1,12 @@
 name = "CDNcoin"
-symbol = "CDN"
 source = "cyberFund"
 
 [metrics]
-announce = "31/12/2013"
-status = "Dead"
 p2p = 47717.0
 rpc = 117717.0
 block_time = 60.0
 block_reward = 204.0
 ann = "https://bitcointalk.org/index.php?topic=393190.0"
-algo = "Others"
 rating = 0.0
 
   [[metrics.links]]
@@ -28,3 +24,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "CDNcoin"
 CurrencyName = "CDNcoin"
+
+[consensus]
+hashing = "Others"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "31/12/2013"
+
+[token]
+token_name = ""
+token_symbol = "CDN"

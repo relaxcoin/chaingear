@@ -1,10 +1,7 @@
 name = "Mobcoin"
-symbol = "MOB"
 source = "cyberFund"
 
 [metrics]
-announce = "26/11/2014"
-status = "Dead"
 p2p = 12151.0
 rpc = 12153.0
 block_time = "60 Seconds"
@@ -14,7 +11,6 @@ premine_tokens = "75000 MOB(0.5%)"
 difficulty_cycle = "every block"
 mint_confirm = "60 blocks"
 ann = "https://bitcointalk.org/index.php?topic=873867.0"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -31,3 +27,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "Mobcoin"
 CurrencyName = "Mobcoin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "26/11/2014"
+
+[token]
+token_name = ""
+token_symbol = "MOB"

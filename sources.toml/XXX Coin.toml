@@ -1,10 +1,7 @@
 name = "XXX Coin"
-symbol = "XXX"
 source = "cyberFund"
 
 [metrics]
-announce = "25/06/2014"
-status = "Dead"
 p2p = 20133.0
 rpc = 20132.0
 block_time = 30.0
@@ -14,7 +11,6 @@ total_tokens = "50000000"
 premine_tokens = "1800000 (4.95%)"
 txs_confirm = 3.0
 ann = "https://bitcointalk.org/index.php?topic=665809"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -32,3 +28,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "XXX Coin"
 CurrencyName = "XXX Coin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "25/06/2014"
+
+[token]
+token_name = ""
+token_symbol = "XXX"

@@ -1,10 +1,7 @@
 name = "Aurumcoin"
-symbol = "AU"
 source = "cyberFund"
 
 [metrics]
-announce = "25/09/2014"
-status = "Running"
 p2p = 11080.0
 rpc = 21080.0
 block_time = "60"
@@ -13,15 +10,30 @@ total_tokens = "300000"
 premine_tokens = "2700(0.9 % For Exchange,pool,advertisement)"
 mint_confirm = "2 blocks"
 ann = "https://bitcointalk.org/index.php?topic=793502.0"
-algo = "SHA-256d"
 rating = 0.0
+
+[aliases]
+coinmarketcap = "Aurumcoin"
+CurrencyName = "Aurumcoin"
+
+[consensus]
+hashing = "SHA-256d"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "25/09/2014"
+
+[token]
+token_name = ""
+token_symbol = "AU"
 
 [[links]]
 name = "web site"
 url = "http://aurumcoin.eu/"
 icon = "website.png"
 tags = ["Main", "Apps"]
-
-[aliases]
-coinmarketcap = "Aurumcoin"
-CurrencyName = "Aurumcoin"
+type = ""

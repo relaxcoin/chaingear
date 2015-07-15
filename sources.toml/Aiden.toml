@@ -1,13 +1,23 @@
 name = "Aiden"
-symbol = "ADN"
 source = "cyberFund"
 
 [metrics]
-status = "Dead"
 rating = 0.0
-
-[[links]]
 
 [aliases]
 coinmarketcap = "Aiden"
 CurrencyName = "Aiden"
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "ADN"
+
+[[links]]
+type = ""

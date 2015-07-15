@@ -1,11 +1,22 @@
 name = "Jumbucks"
-symbol = "JBS"
 source = "cyberFund"
 
 [metrics]
-rating = 1.0
 links = []
 
 [aliases]
 coinmarketcap = "Jumbucks"
 CurrencyName = "Jumbucks"
+
+[ratings]
+rating = 1.0
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "JBS"

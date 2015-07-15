@@ -1,9 +1,7 @@
 name = "Shade"
-symbol = "SHADE"
 source = "cyberFund"
 
 [metrics]
-announce = "05/09/2014"
 p2p = 31114.0
 rpc = 31115.0
 block_time = "60"
@@ -13,7 +11,6 @@ premine_tokens = "20000 SHADE Development, Bounties, Marketing (1% )"
 difficulty_cycle = "Every Block"
 mint_confirm = "110 blocks"
 ann = "https://bitcointalk.org/index.php?topic=768941"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -31,3 +28,17 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Shade"
 CurrencyName = "Shade"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[events]
+announcement = "05/09/2014"
+
+[descriptions]
+system_type = ""
+
+[token]
+token_name = ""
+token_symbol = "SHADE"

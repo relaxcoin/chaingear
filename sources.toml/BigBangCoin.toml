@@ -1,10 +1,7 @@
 name = "BigBangCoin"
-symbol = "BBC"
 source = "cyberFund"
 
 [metrics]
-announce = "12/08/2014"
-status = "Dead"
 p2p = 18796.0
 rpc = 18786.0
 block_time = "60"
@@ -13,20 +10,36 @@ total_tokens = "7 000 000"
 premine_tokens = "69 000 BBC"
 mint_confirm = " 150 blocks"
 ann = "https://bitcointalk.org/index.php?topic=716901.msg8098799#msg8098799"
-algo = "X-n"
+
+[aliases]
+coinmarketcap = "BigBangCoin"
+CurrencyName = "BigBangCoin"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "12/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "BBC"
 
 [[links]]
 tags = ["Main", "Apps"]
 name = "web site"
 url = "http://www.bigbangcoin.info/"
 icon = "website.png"
+type = ""
 
 [[links]]
 tags = ["Main", "Code"]
 name = "github"
 url = "https://github.com/lefter1s/BigBang"
 icon = "github.png"
-
-[aliases]
-coinmarketcap = "BigBangCoin"
-CurrencyName = "BigBangCoin"
+type = ""

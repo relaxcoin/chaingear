@@ -1,18 +1,11 @@
 name = "Devcoin"
-symbol = "DVC"
 source = "cyberFund"
 
 [metrics]
-announce = "15/02/2012"
-status = "Running"
 block_time = "86400"
 block_reward = 50000.0
 total_tokens = 21000000.0
 difficulty_cycle = "every block"
-algo = "SHA-256d"
-type = "DAO"
-rating = 1.0
-consensus = "Proof-of-Work"
 dependencies = "independent"
 
   [[metrics.links]]
@@ -30,3 +23,23 @@ dependencies = "independent"
 [aliases]
 coinmarketcap = "Devcoin"
 CurrencyName = "Devcoin"
+
+[ratings]
+rating = 1.0
+
+[consensus]
+consensus_name = "Proof-of-Work"
+hashing = "SHA-256d"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+tags = "DAO"
+system_type = ""
+
+[events]
+announcement = "15/02/2012"
+
+[token]
+token_name = ""
+token_symbol = "DVC"

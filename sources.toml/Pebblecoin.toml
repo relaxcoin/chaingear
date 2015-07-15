@@ -1,14 +1,10 @@
 name = "Pebblecoin"
-symbol = "XPB"
 source = "cyberFund"
 
 [metrics]
-announce = "01/01/2015"
-status = "Running"
 block_time = "120 seconds"
 total_tokens = "469058239,919948161 "
 ann = "https://bitcointalk.org/index.php?topic=909624.0"
-algo = "Boulderhash"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -24,3 +20,18 @@ algo = "Boulderhash"
 [aliases]
 coinmarketcap = "Pebblecoin"
 CurrencyName = "Pebblecoin"
+
+[consensus]
+hashing = "Boulderhash"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "01/01/2015"
+
+[token]
+token_name = ""
+token_symbol = "XPB"

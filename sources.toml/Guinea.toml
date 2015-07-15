@@ -1,12 +1,8 @@
 name = "Guinea"
-symbol = "GUINEA"
 source = "cyberFund"
 
 [metrics]
-announce = "03/07/2014"
-status = "Dead"
 ann = "https://bitcointalk.org/index.php?topic=676478.0"
-algo = "SHA-256d"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -22,3 +18,18 @@ algo = "SHA-256d"
 [aliases]
 coinmarketcap = "Guinea"
 CurrencyName = "Guinea"
+
+[consensus]
+hashing = "SHA-256d"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "03/07/2014"
+
+[token]
+token_name = ""
+token_symbol = "GUINEA"

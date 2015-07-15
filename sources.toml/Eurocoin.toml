@@ -1,11 +1,7 @@
 name = "Eurocoin"
-symbol = "EUC"
 source = "cyberFund"
 
 [metrics]
-announce = "02/03/2014"
-genesis = "15/03/2014"
-status = "Dead"
 p2p = 10161.0
 rpc = 10160.0
 block_time = 240.0
@@ -15,7 +11,6 @@ total_tokens = 740000000.0
 premine_tokens = "7770000 (1.05%) for marketing, giveaways and network testing"
 difficulty_cycle = "every 75 hours"
 ann = "https://cryptocointalk.com/topic/6991-eurocoin-euc-information/"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -32,3 +27,19 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Eurocoin"
 CurrencyName = "Eurocoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "02/03/2014"
+genesis = "15/03/2014"
+
+[token]
+token_name = ""
+token_symbol = "EUC"

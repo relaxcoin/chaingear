@@ -1,10 +1,7 @@
 name = "Digigems"
-symbol = "DGMS"
 source = "cyberFund"
 
 [metrics]
-announce = "04/01/2015"
-status = "Running"
 p2p = "5333"
 rpc = "5332"
 block_time = "30 seconds"
@@ -13,7 +10,6 @@ total_tokens = "50000000 coins"
 premine_tokens = "no"
 difficulty_cycle = "every 10 blocks"
 ann = "https://bitcointalk.org/index.php?topic=913237.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Digigems"
 CurrencyName = "Digigems"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "04/01/2015"
+
+[token]
+token_name = ""
+token_symbol = "DGMS"

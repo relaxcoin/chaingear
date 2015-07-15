@@ -1,15 +1,11 @@
 name = "ConfessionCoin"
-symbol = "CFN"
 source = "cyberFund"
 
 [metrics]
-announce = "13/05/2014"
-status = "Running"
 block_time = 45.0
 total_tokens = 70000000.0
 premine_tokens = "700000 (1%) - for development and community bounties; 350000 (0.5%) - for giveaways"
 ann = "https://bitcointalk.org/index.php?topic=606996.0"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -27,3 +23,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "ConfessionCoin"
 CurrencyName = "ConfessionCoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "13/05/2014"
+
+[token]
+token_name = ""
+token_symbol = "CFN"

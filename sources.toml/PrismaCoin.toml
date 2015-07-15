@@ -1,10 +1,7 @@
 name = "PrismaCoin"
-symbol = "PRISMA"
 source = "cyberFund"
 
 [metrics]
-announce = "21/07/2014"
-status = "Dead"
 p2p = 25942.0
 rpc = 14789.0
 block_time = 60.0
@@ -12,7 +9,6 @@ block_reward = "1000 PRISMAcoin"
 total_tokens = 6000000.0
 premine_tokens = "90000 (1.5%) for development, giveaway, bounty"
 ann = "https://bitcointalk.org/index.php?topic=703730.0"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +24,18 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "PrismaCoin"
 CurrencyName = "PrismaCoin"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "21/07/2014"
+
+[token]
+token_name = ""
+token_symbol = "PRISMA"

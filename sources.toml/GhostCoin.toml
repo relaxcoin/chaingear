@@ -1,10 +1,7 @@
 name = "GhostCoin"
-symbol = "GHOST"
 source = "cyberFund"
 
 [metrics]
-announce = "04/10/2014"
-status = "Running"
 p2p = 44676.0
 rpc = 44678.0
 block_time = "60"
@@ -14,7 +11,6 @@ premine_tokens = "no"
 difficulty_cycle = "every minute"
 mint_confirm = "100 blocks"
 ann = "https://bitcointalk.org/index.php?topic=803667.0"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "GhostCoin"
 CurrencyName = "GhostCoin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "04/10/2014"
+
+[token]
+token_name = ""
+token_symbol = "GHOST"

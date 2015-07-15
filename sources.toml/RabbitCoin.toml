@@ -1,5 +1,4 @@
 name = "RabbitCoin"
-symbol = "RBBT"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "RabbitCoin"
 CurrencyName = "RabbitCoin"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "RBBT"

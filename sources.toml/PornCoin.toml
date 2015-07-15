@@ -1,12 +1,8 @@
 name = "PornCoin"
-symbol = "PNC"
 source = "cyberFund"
 
 [metrics]
-announce = "15/05/2013"
-status = "Dead"
 ann = "https://bitcointalk.org/index.php?topic=219452.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -23,3 +19,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "PornCoin"
 CurrencyName = "PornCoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "15/05/2013"
+
+[token]
+token_name = ""
+token_symbol = "PNC"

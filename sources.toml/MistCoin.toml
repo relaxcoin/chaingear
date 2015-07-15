@@ -1,10 +1,7 @@
 name = "MistCoin"
-symbol = "MIC"
 source = "cyberFund"
 
 [metrics]
-announce = "28/10/2014"
-status = "Dead"
 p2p = 23473.0
 rpc = 23474.0
 block_time = "60 Seconds"
@@ -12,7 +9,6 @@ block_reward = "1-100:10,101-2999: 2000, 3000-5999:1000,6000-7240:500"
 total_tokens = "12000000"
 premine_tokens = "no"
 ann = "https://bitcointalk.org/index.php?topic=826604.0"
-algo = "Others"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +24,18 @@ algo = "Others"
 [aliases]
 coinmarketcap = "MistCoin"
 CurrencyName = "MistCoin"
+
+[consensus]
+hashing = "Others"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "28/10/2014"
+
+[token]
+token_name = ""
+token_symbol = "MIC"

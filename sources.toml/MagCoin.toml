@@ -1,16 +1,12 @@
 name = "MagCoin"
-symbol = "MAG"
 source = "cyberFund"
 
 [metrics]
-announce = "08/08/2014"
-status = "Dead"
 block_time = "180"
 block_reward = "formula:[(10 * difficulty) / (number of blocks + 129600)] * 129600 ?????? "
 total_tokens = "2500000000"
 difficulty_cycle = "KGW"
 ann = "https://bitcointalk.org/index.php?topic=727297"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -26,3 +22,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "MagCoin"
 CurrencyName = "MagCoin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "08/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "MAG"

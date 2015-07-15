@@ -1,30 +1,45 @@
 name = "Stellar"
-symbol = "STR"
 source = "cyberFund"
-dependencies = "independent"
+dependencies = ["independent"]
 
-[descriptions] 
+[descriptions]
 headline = "A public infrastructure for money"
+state = "Running"
+tags = "DAO"
+hashtag = "#stellar"
+system_type = ""
 
 [metrics]
-announce = "01/08/2014"
-status = "Running"
-total_tokens = 100000000000
+total_tokens = 100000000000.0
 ann = "https://bitcointalk.org/index.php?topic=720096.0"
-genesis = "01/08/2014"
-p2p = 18216
-rpc = 18217
-block_time = 30
-block_reward = 100
-halfing_cycle = 1051200
+p2p = 18216.0
+rpc = 18217.0
+block_time = 30.0
+block_reward = 100.0
+halfing_cycle = 1051200.0
 difficulty_cycle = "every block"
-txs_confirm = 4
-mint_confirm = 70
-algo = "Scrypt"
-type = "DAO"
-rating = 3
-consensus = "Federated Consensus"
-hashtag = "#stellar"
+txs_confirm = 4.0
+mint_confirm = 70.0
+
+[aliases]
+coinmarketcap = "Stellar"
+CurrencyName = "Stellar"
+
+[ratings]
+rating = 3.0
+
+[consensus]
+consensus_name = "Federated Consensus"
+hashing = "Scrypt"
+consensus_type = ""
+
+[events]
+announcement = "01/08/2014"
+genesis = "01/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "STR"
 
 [[Links]]
 name = "web site"
@@ -33,7 +48,6 @@ icon = "website.png"
 tags = ["Main", "Apps"]
 
 [[Links]]
-
 name = "github"
 url = "https://github.com/starcoinproject/starcoin"
 icon = "github.png"
@@ -74,7 +88,3 @@ name = "reddit"
 url = "https://www.reddit.com/r/stellar"
 icon = "reddit.png"
 tags = ["Apps"]
-
-[aliases]
-coinmarketcap = "Stellar"
-CurrencyName = "Stellar"

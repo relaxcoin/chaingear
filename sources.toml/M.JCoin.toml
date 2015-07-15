@@ -1,10 +1,7 @@
 name = "M.JCoin"
-symbol = "M.J"
 source = "cyberFund"
 
 [metrics]
-announce = "25/06/2014"
-status = "Dead"
 p2p = 56883.0
 rpc = 56882.0
 block_time = 60.0
@@ -12,7 +9,6 @@ total_tokens = 75000000.0
 premine_tokens = "1312500 (1.75%) Pre-mine for development, promotional and immediate bounties and giveaways"
 difficulty_cycle = "every block"
 ann = "https://bitcointalk.org/index.php?topic=665964."
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +24,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "M.JCoin"
 CurrencyName = "M.JCoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "25/06/2014"
+
+[token]
+token_name = ""
+token_symbol = "M.J"

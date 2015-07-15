@@ -1,14 +1,24 @@
 name = "BearMining"
-symbol = "BEAR"
-dependencies = "NXT"
+dependencies = ["NXT"]
 source = "cyberFund"
 
 [metrics]
 ann = "https://nxtforum.org/kongzi-news-service/(ann)-bearmining/"
 rating = 0.0
 
-[[links]]
-
 [aliases]
 coinmarketcap = "BearMining"
 CurrencyName = "BearMining"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "BEAR"
+
+[[links]]
+type = ""

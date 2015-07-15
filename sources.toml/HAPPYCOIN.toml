@@ -1,10 +1,7 @@
 name = "HAPPYCOIN"
-symbol = "HPC"
 source = "cyberFund"
 
 [metrics]
-announce = "19/05/2014"
-status = "Dead"
 p2p = 21922.0
 rpc = 29211.0
 block_time = 30.0
@@ -13,7 +10,6 @@ total_tokens = 46400000.0
 premine_tokens = "4640000 (10%) by mistake;4176000 (9%) put in cool storage and 464000 (1%) for Bounties, Supports, development and maintenance)"
 difficulty_cycle = "each block"
 ann = "https://bitcointalk.org/index.php?topic=616114.0"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "HAPPYCOIN"
 CurrencyName = "HAPPYCOIN"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "19/05/2014"
+
+[token]
+token_name = ""
+token_symbol = "HPC"

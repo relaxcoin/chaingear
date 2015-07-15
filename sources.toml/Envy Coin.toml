@@ -1,15 +1,12 @@
 name = "Envy Coin"
-symbol = "Envy"
 source = "cyberFund"
 
 [metrics]
-announce = "28/09/2014"
 block_time = "60"
 block_reward = "10"
 total_tokens = "100000000"
 premine_tokens = "no"
 ann = "https://bitcointalk.org/index.php?topic=797839.new#new"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -26,3 +23,17 @@ algo = "X11"
 [aliases]
 coinmarketcap = "Envy Coin"
 CurrencyName = "Envy Coin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[events]
+announcement = "28/09/2014"
+
+[descriptions]
+system_type = ""
+
+[token]
+token_name = ""
+token_symbol = "Envy"

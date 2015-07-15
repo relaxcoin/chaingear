@@ -1,14 +1,9 @@
 name = "JunnonCoin"
-symbol = "JUN"
 source = "cyberFund"
 
 [metrics]
-announce = "13/01/2014"
-genesis = "13/01/2014"
-status = "Dead"
 total_tokens = 800000000.0
 ann = "https://bitcointalk.org/index.php?topic=413029.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -25,3 +20,19 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "JunnonCoin"
 CurrencyName = "JunnonCoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "13/01/2014"
+genesis = "13/01/2014"
+
+[token]
+token_name = ""
+token_symbol = "JUN"

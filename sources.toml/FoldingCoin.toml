@@ -1,11 +1,22 @@
 name = "FoldingCoin"
-symbol = "FLDC"
 source = "cyberFund"
 
 [metrics]
-rating = 2.0
 links = []
 
 [aliases]
 coinmarketcap = "FoldingCoin"
 CurrencyName = "FoldingCoin"
+
+[ratings]
+rating = 2.0
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "FLDC"

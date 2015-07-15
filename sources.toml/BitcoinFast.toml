@@ -1,5 +1,4 @@
 name = "BitcoinFast"
-symbol = "BCF"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "BitcoinFast"
 CurrencyName = "BitcoinFast"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "BCF"

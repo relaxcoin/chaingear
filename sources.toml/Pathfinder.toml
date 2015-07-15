@@ -1,9 +1,7 @@
 name = "Pathfinder"
-symbol = "XPH"
 source = "cyberFund"
 
 [metrics]
-announce = "28/09/2014"
 p2p = 9567.0
 rpc = 9568.0
 block_time = "30"
@@ -27,3 +25,16 @@ ann = "https://bitcointalk.org/index.php?topic=778707"
 [aliases]
 coinmarketcap = "Pathfinder"
 CurrencyName = "Pathfinder"
+
+[events]
+announcement = "28/09/2014"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "XPH"

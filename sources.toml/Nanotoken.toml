@@ -1,11 +1,7 @@
 name = "Nanotoken"
-symbol = "NAN"
 source = "cyberFund"
 
 [metrics]
-announce = "25/06/2013"
-genesis = "02/07/2013"
-status = "Dead"
 p2p = 17578.0
 rpc = 7578.0
 block_time = "90"
@@ -15,7 +11,6 @@ difficulty_cycle = "9"
 txs_confirm = 3.0
 mint_confirm = 20.0
 ann = "https://bitcointalk.org/index.php?topic=242491.0"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -32,3 +27,19 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Nanotoken"
 CurrencyName = "Nanotoken"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "25/06/2013"
+genesis = "02/07/2013"
+
+[token]
+token_name = ""
+token_symbol = "NAN"

@@ -1,5 +1,4 @@
 name = "Ocupy"
-symbol = "OCUPY"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "Ocupy"
 CurrencyName = "Ocupy"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "OCUPY"

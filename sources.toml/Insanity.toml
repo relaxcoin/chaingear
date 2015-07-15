@@ -1,10 +1,7 @@
 name = "Insanity"
-symbol = "INS"
 source = "cyberFund"
 
 [metrics]
-announce = "15/12/2014"
-status = "Dead"
 p2p = 11000.0
 rpc = 21000.0
 block_time = "12 hours"
@@ -13,7 +10,6 @@ total_tokens = "239234 coins"
 premine_tokens = "11961 coins (5%)"
 mint_confirm = "1 block"
 ann = "https://bitcointalk.org/index.php?topic=893232.msg9836507#msg9836507"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Insanity"
 CurrencyName = "Insanity"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "15/12/2014"
+
+[token]
+token_name = ""
+token_symbol = "INS"

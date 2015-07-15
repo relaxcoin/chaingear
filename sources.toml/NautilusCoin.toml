@@ -1,5 +1,4 @@
 name = "NautilusCoin"
-symbol = "NAUT"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "NautilusCoin"
 CurrencyName = "NautilusCoin"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "NAUT"

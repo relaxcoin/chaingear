@@ -1,11 +1,7 @@
 name = "Powercoin"
-symbol = "PWC"
 source = "cyberFund"
 
 [metrics]
-announce = "13/05/2013"
-genesis = "10/05/2013"
-status = "Dead"
 block_time = "30"
 block_reward = 40.0
 halfing_cycle = 2073600.0
@@ -13,7 +9,6 @@ total_tokens = 166000000.0
 premine_tokens = 80000.0
 difficulty_cycle = "1440"
 ann = "https://bitcointalk.org/index.php?topic=203505.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +25,19 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Powercoin"
 CurrencyName = "Powercoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "13/05/2013"
+genesis = "10/05/2013"
+
+[token]
+token_name = ""
+token_symbol = "PWC"

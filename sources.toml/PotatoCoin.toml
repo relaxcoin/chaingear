@@ -1,5 +1,4 @@
 name = "PotatoCoin"
-symbol = "SPUDS"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "PotatoCoin"
 CurrencyName = "PotatoCoin"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "SPUDS"

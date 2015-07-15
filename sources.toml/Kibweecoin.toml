@@ -1,14 +1,10 @@
 name = "Kibweecoin"
-symbol = "KiB"
 source = "cyberFund"
 
 [metrics]
-announce = "07/06/2014"
-status = "Dead"
 block_time = 60.0
 total_tokens = 3740000.0
 ann = "https://bitcointalk.org/index.php?topic=642933.msg7177694"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -24,3 +20,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "Kibweecoin"
 CurrencyName = "Kibweecoin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "07/06/2014"
+
+[token]
+token_name = ""
+token_symbol = "KiB"

@@ -1,5 +1,4 @@
 name = "Energycoin"
-symbol = "ENRG"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "Energycoin"
 CurrencyName = "Energycoin"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "ENRG"

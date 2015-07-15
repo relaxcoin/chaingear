@@ -1,27 +1,40 @@
 name = "Aerocoin"
-symbol = "AERO"
 source = "cyberFund"
 
 [metrics]
-announce = "22/06/2014"
-status = "Running"
 block_time = 90.0
 total_tokens = 7080000.0
 ann = "https://bitcointalk.org/index.php?topic=955204.0;all"
-algo = "X-n"
+
+[aliases]
+coinmarketcap = "Aerocoin"
+CurrencyName = "Aerocoin"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "22/06/2014"
+
+[token]
+token_name = ""
+token_symbol = "AERO"
 
 [[links]]
 name = "web site"
 url = "http://www.aerocoin.org"
 icon = "website.png"
 tags = ["Main", "Apps"]
+type = ""
 
 [[links]]
 name = "github"
 url = "https://github.com/aegisproject/aegis"
 icon = "github.png"
 tags = ["Main", "Code"]
-
-[aliases]
-coinmarketcap = "Aerocoin"
-CurrencyName = "Aerocoin"
+type = ""

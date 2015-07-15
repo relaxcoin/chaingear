@@ -1,10 +1,7 @@
 name = "Zebracoin"
-symbol = "ZEB"
 source = "cyberFund"
 
 [metrics]
-announce = "22/07/2014"
-status = "Dead"
 p2p = 27061.0
 rpc = 27063.0
 block_time = 60.0
@@ -14,7 +11,6 @@ premine_tokens = "50000 (1%)"
 difficulty_cycle = "Every block"
 txs_confirm = 10.0
 ann = "https://bitcointalk.org/index.php?topic=705384.0"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "Zebracoin"
 CurrencyName = "Zebracoin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "22/07/2014"
+
+[token]
+token_name = ""
+token_symbol = "ZEB"

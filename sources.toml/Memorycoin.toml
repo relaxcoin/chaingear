@@ -1,16 +1,12 @@
 name = "Memorycoin"
-symbol = "MEG"
 source = "cyberFund"
 
 [metrics]
-announce = "03/08/2013"
-status = "Running"
 block_time = "3600"
 block_reward = 24.0
 total_tokens = 1020000.0
 premine_tokens = 960.0
 ann = "https://bitcointalk.org/index.php?topic=267522.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -27,3 +23,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Memorycoin"
 CurrencyName = "Memorycoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "03/08/2013"
+
+[token]
+token_name = ""
+token_symbol = "MEG"

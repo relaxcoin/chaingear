@@ -1,10 +1,7 @@
 name = "Spartacus"
-symbol = "SPATA"
 source = "cyberFund"
 
 [metrics]
-announce = "13/07/2014"
-status = "Dead"
 p2p = 9100.0
 rpc = 8305.0
 block_time = 60.0
@@ -13,7 +10,6 @@ total_tokens = 1500000.0
 premine_tokens = "First 15 block for testing (about 4500 -  0.3%)"
 txs_confirm = 10.0
 ann = "https://bitcointalk.org/index.php?topic=691134.new#new"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +24,18 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "Spartacus"
 CurrencyName = "Spartacus"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "13/07/2014"
+
+[token]
+token_name = ""
+token_symbol = "SPATA"

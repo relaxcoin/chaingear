@@ -1,17 +1,13 @@
 name = "Vaultcoin"
-symbol = "VAULT"
 source = "cyberFund"
 
 [metrics]
-announce = "06/08/2014"
-status = "Dead"
 p2p = 6995.0
 rpc = 6996.0
 block_time = "90"
 block_reward = "0-30: 0 , 30-10000: 1000,10001-20000: 500, 20001-50000: 250, 50001+:100 Reward Halving Yearly"
 total_tokens = "66000000"
 ann = "https://bitcointalk.org/index.php?topic=726624.0"
-algo = "Others"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +24,18 @@ algo = "Others"
 [aliases]
 coinmarketcap = "Vaultcoin"
 CurrencyName = "Vaultcoin"
+
+[consensus]
+hashing = "Others"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "06/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "VAULT"

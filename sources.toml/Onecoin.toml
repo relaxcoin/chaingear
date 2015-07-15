@@ -1,11 +1,7 @@
 name = "Onecoin"
-symbol = "ONC"
 source = "cyberFund"
 
 [metrics]
-announce = "09/05/2013"
-genesis = "13/06/2013"
-status = "Running"
 p2p = 8555.0
 rpc = 8554.0
 block_time = "120"
@@ -14,7 +10,6 @@ halfing_cycle = 1000000.0
 total_tokens = 1.0
 difficulty_cycle = "everyblock"
 ann = "https://bitcointalk.org/index.php?topic=200177.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Code"]
@@ -25,3 +20,19 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Onecoin"
 CurrencyName = "Onecoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "09/05/2013"
+genesis = "13/06/2013"
+
+[token]
+token_name = ""
+token_symbol = "ONC"

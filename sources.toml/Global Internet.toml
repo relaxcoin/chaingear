@@ -1,16 +1,12 @@
 name = "Global Internet"
-symbol = "GIC"
 source = "cyberFund"
 
 [metrics]
-announce = "11/09/2014"
-status = "Dead"
 block_time = "100"
 block_reward = "500 GIC"
 total_tokens = "2500000"
 mint_confirm = "30 blocks"
 ann = "https://bitcointalk.org/index.php?topic=752213.0"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -25,3 +21,18 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "Global Internet"
 CurrencyName = "Global Internet"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "11/09/2014"
+
+[token]
+token_name = ""
+token_symbol = "GIC"

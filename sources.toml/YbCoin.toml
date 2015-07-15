@@ -1,19 +1,31 @@
 name = "YbCoin"
-symbol = "YBC"
-dependencies = "independent"
+dependencies = ["independent"]
 source = "cyberFund"
 
 [metrics]
-type = "DAO"
-rating = 1.0
-consensus = "Proof-of-Stake"
 
 [aliases]
 coinmarketcap = "YbCoin"
 CurrencyName = "YbCoin"
+
+[ratings]
+rating = 1.0
+
+[consensus]
+consensus_name = "Proof-of-Stake"
+consensus_type = ""
+
+[descriptions]
+tags = "DAO"
+system_type = ""
+
+[token]
+token_name = ""
+token_symbol = "YBC"
 
 [[links]]
 name = "web site"
 url = "http://www.ybcoin.com/"
 icon = "website.png"
 tags = ["Main", "Apps"]
+type = ""

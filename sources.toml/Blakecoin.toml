@@ -1,10 +1,7 @@
 name = "Blakecoin"
-symbol = "BLC"
 source = "cyberFund"
 
 [metrics]
-announce = "07/10/2013"
-status = "Running"
 rpc = 8772.0
 block_time = 180.0
 block_reward = "25 coin + inflation (square root of (difficulty * block height))"
@@ -13,7 +10,6 @@ total_tokens = 7000000000.0
 difficulty_cycle = "20"
 mint_confirm = " 120 +20 buffer = 140 total)"
 ann = "https://bitcointalk.org/index.php?topic=306894.0"
-algo = "SHA-3"
 rating = 0.0
 
   [[metrics.links]]
@@ -31,3 +27,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Blakecoin"
 CurrencyName = "Blakecoin"
+
+[consensus]
+hashing = "SHA-3"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "07/10/2013"
+
+[token]
+token_name = ""
+token_symbol = "BLC"

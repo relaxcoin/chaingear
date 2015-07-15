@@ -1,17 +1,27 @@
 name = "BitBTC"
-symbol = "BITBTC"
-dependencies = "BitShares"
+dependencies = ["BitShares"]
 source = "cyberFund"
 
 [metrics]
 rating = 0.0
+
+[aliases]
+coinmarketcap = "BitBTC"
+CurrencyName = "BitBTC"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "BITBTC"
 
 [[links]]
 name = "explorer"
 url = "http://www.bitsharesblocks.com/asset/orderbook?asset=BTC"
 icon = "explorer.png"
 tags = ["Main", "Apps"]
-
-[aliases]
-coinmarketcap = "BitBTC"
-CurrencyName = "BitBTC"
+type = ""

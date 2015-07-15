@@ -1,18 +1,13 @@
 name = "Difficulty Coin"
-symbol = "DIFF"
 source = "cyberFund"
 
 [metrics]
-announce = "18/04/2014"
-genesis = "null"
-status = "Dead"
 block_time = 60.0
 block_reward = "Unique Block reward (Calculated from difficulty)"
 total_tokens = 77889999.0
 premine_tokens = "777777 (0,91%), for bounties, giveaways, future development"
 difficulty_cycle = "Difficulty Retargets every minute using Dark Gravity Wave V2"
 ann = "https://bitcointalk.org/index.php?topic=575631.0"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +24,19 @@ algo = "X11"
 [aliases]
 coinmarketcap = "Difficulty Coin"
 CurrencyName = "Difficulty Coin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "18/04/2014"
+genesis = "null"
+
+[token]
+token_name = ""
+token_symbol = "DIFF"

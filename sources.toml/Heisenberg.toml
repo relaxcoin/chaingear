@@ -1,5 +1,4 @@
 name = "Heisenberg"
-symbol = "HEX"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "Heisenberg"
 CurrencyName = "Heisenberg"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "HEX"

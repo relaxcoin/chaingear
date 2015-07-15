@@ -1,10 +1,7 @@
 name = "Pioneercoin"
-symbol = "PER"
 source = "cyberFund"
 
 [metrics]
-announce = "11/06/2014"
-status = "Dead"
 p2p = 20147.0
 rpc = 20146.0
 block_time = 60.0
@@ -13,7 +10,6 @@ total_tokens = 50000000.0
 premine_tokens = "500000 (1%) for development, promotional and immediate bounties."
 difficulty_cycle = "Difficulty retargets using the new algorithm, Which prevent MultiPools effectively"
 ann = "https://bitcointalk.org/index.php?topic=648489.0"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "Pioneercoin"
 CurrencyName = "Pioneercoin"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "11/06/2014"
+
+[token]
+token_name = ""
+token_symbol = "PER"

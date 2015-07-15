@@ -1,17 +1,13 @@
 name = "SativaCoin"
-symbol = "STV"
 source = "cyberFund"
 
 [metrics]
-announce = "21/09/2014"
-status = "Running"
 block_time = "60"
 block_reward = "972"
 total_tokens = "10000000"
 premine_tokens = "12500 coins(0.125%)"
 mint_confirm = "40 blocks"
 ann = "https://bitcointalk.org/index.php?topic=874071.0;all"
-algo = "X-n"
 rating = 0.0
 
   [[metrics.links]]
@@ -28,3 +24,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "SativaCoin"
 CurrencyName = "SativaCoin"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "21/09/2014"
+
+[token]
+token_name = ""
+token_symbol = "STV"

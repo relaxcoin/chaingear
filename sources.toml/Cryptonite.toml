@@ -1,5 +1,4 @@
 name = "Cryptonite"
-symbol = "XCN"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "Cryptonite"
 CurrencyName = "Cryptonite"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "XCN"

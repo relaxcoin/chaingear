@@ -1,10 +1,7 @@
 name = "Lovecoin"
-symbol = "LOVE"
 source = "cyberFund"
 
 [metrics]
-announce = "12/12/2013"
-status = "Dead"
 p2p = 8863.0
 rpc = 8862.0
 block_time = "150"
@@ -13,7 +10,6 @@ halfing_cycle = 840000.0
 total_tokens = 84000000.0
 difficulty_cycle = "2016"
 ann = "https://bitcointalk.org/index.php?topic=367898.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Lovecoin"
 CurrencyName = "Lovecoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "12/12/2013"
+
+[token]
+token_name = ""
+token_symbol = "LOVE"

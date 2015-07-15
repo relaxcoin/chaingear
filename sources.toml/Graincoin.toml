@@ -1,10 +1,7 @@
 name = "Graincoin"
-symbol = "GRA"
 source = "cyberFund"
 
 [metrics]
-announce = "07/12/2013"
-status = "Running"
 p2p = 11054.0
 rpc = 11055.0
 block_time = "30"
@@ -15,7 +12,6 @@ difficulty_cycle = "everyblock"
 txs_confirm = 6.0
 mint_confirm = 50.0
 ann = "https://bitcointalk.org/index.php?topic=361503.40"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -31,3 +27,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Graincoin"
 CurrencyName = "Graincoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "07/12/2013"
+
+[token]
+token_name = ""
+token_symbol = "GRA"

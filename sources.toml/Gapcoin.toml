@@ -1,10 +1,7 @@
 name = "Gapcoin"
-symbol = "GAP"
 source = "cyberFund"
 
 [metrics]
-announce = "21/10/2014"
-status = "Running"
 p2p = 31469.0
 rpc = 31397.0
 block_time = "150 seconds"
@@ -12,7 +9,6 @@ block_reward = "proportional to the current difficulty"
 total_tokens = "30000000"
 difficulty_cycle = "Adjusts every block and increases logarithmic"
 ann = "https://bitcointalk.org/index.php?topic=822498"
-algo = "Others"
 rating = 0.0
 
   [[metrics.links]]
@@ -30,3 +26,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Gapcoin"
 CurrencyName = "Gapcoin"
+
+[consensus]
+hashing = "Others"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "21/10/2014"
+
+[token]
+token_name = ""
+token_symbol = "GAP"

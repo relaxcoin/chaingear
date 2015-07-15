@@ -1,15 +1,11 @@
 name = "Radioshares"
-symbol = "RDSH"
 source = "cyberFund"
 
 [metrics]
-announce = "08/01/2014"
-status = "Dead"
 block_time = 1800.0
 block_reward = 740.0
 total_tokens = 35000000.0
 ann = "https://bitcointalk.org/index.php?topic=404533.0"
-algo = "Others"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -25,3 +21,18 @@ algo = "Others"
 [aliases]
 coinmarketcap = "Radioshares"
 CurrencyName = "Radioshares"
+
+[consensus]
+hashing = "Others"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "08/01/2014"
+
+[token]
+token_name = ""
+token_symbol = "RDSH"

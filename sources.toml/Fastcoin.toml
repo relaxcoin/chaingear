@@ -1,11 +1,7 @@
 name = "Fastcoin"
-symbol = "FST"
 source = "cyberFund"
 
 [metrics]
-announce = "29/05/2013"
-genesis = "28/05/2013"
-status = "Running"
 p2p = 9526.0
 rpc = 9527.0
 block_time = "12"
@@ -15,7 +11,6 @@ total_tokens = 165888000.0
 difficulty_cycle = "300"
 txs_confirm = 4.0
 ann = "https://bitcointalk.org/index.php?topic=218852.0"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -32,3 +27,19 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Fastcoin"
 CurrencyName = "Fastcoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "29/05/2013"
+genesis = "28/05/2013"
+
+[token]
+token_name = ""
+token_symbol = "FST"

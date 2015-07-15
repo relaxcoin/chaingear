@@ -1,5 +1,4 @@
 name = "BlueCoin"
-symbol = "BLU"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "BlueCoin"
 CurrencyName = "BlueCoin"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "BLU"

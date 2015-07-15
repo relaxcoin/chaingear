@@ -1,14 +1,25 @@
 name = "Tradebots"
-symbol = "NXTcoinsco"
 source = "cyberFund"
 
 [metrics]
-type = "DApp"
-rating = 1.0
-consensus = "NXT"
 dependencies = "NXT"
 links = []
 
 [aliases]
 coinmarketcap = "Tradebots"
 CurrencyName = "Tradebots"
+
+[ratings]
+rating = 1.0
+
+[consensus]
+consensus_name = "NXT"
+consensus_type = ""
+
+[descriptions]
+tags = "DApp"
+system_type = ""
+
+[token]
+token_name = ""
+token_symbol = "NXTcoinsco"

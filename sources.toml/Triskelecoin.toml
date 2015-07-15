@@ -1,14 +1,10 @@
 name = "Triskelecoin"
-symbol = "TRS"
 source = "cyberFund"
 
 [metrics]
-announce = "05/06/2014"
-status = "Dead"
 block_time = 150.0
 total_tokens = 1000000.0
 ann = "https://bitcointalk.org/index.php?topic=640056.0"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -23,3 +19,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "Triskelecoin"
 CurrencyName = "Triskelecoin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "05/06/2014"
+
+[token]
+token_name = ""
+token_symbol = "TRS"

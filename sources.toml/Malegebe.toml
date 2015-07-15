@@ -1,13 +1,9 @@
 name = "Malegebe"
-symbol = "MLGB"
 source = "cyberFund"
 
 [metrics]
-announce = "16/05/2014"
-status = "Dead"
 total_tokens = 10000000.0
 ann = "https://bitcointalk.org/index.php?topic=611614.0"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -22,3 +18,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "Malegebe"
 CurrencyName = "Malegebe"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "16/05/2014"
+
+[token]
+token_name = ""
+token_symbol = "MLGB"

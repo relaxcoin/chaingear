@@ -1,17 +1,27 @@
 name = "BeaverCoin"
-symbol = "BVC"
 source = "cyberFund"
 
 [metrics]
 ann = "https://bitcointalk.org/index.php?topic=761269.0"
 rating = 0.0
 
+[aliases]
+coinmarketcap = "BeaverCoin"
+CurrencyName = "BeaverCoin"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "BVC"
+
 [[links]]
 name = "web site"
 url = "http://beavercoin.org/en/"
 icon = "website.png"
 tags = ["Main", "Apps"]
-
-[aliases]
-coinmarketcap = "BeaverCoin"
-CurrencyName = "BeaverCoin"
+type = ""

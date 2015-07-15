@@ -1,17 +1,13 @@
 name = "Russiacoin"
-symbol = "RC"
 source = "cyberFund"
 
 [metrics]
-announce = "29/05/2014"
-status = "Dead"
 rpc = 19991.0
 block_time = 60.0
 block_reward = "1000 RC"
 total_tokens = 144000000.0
 premine_tokens = "1296000 (0.9%)"
 ann = "https://bitcointalk.org/index.php?topic=630009"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -27,3 +23,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Russiacoin"
 CurrencyName = "Russiacoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "29/05/2014"
+
+[token]
+token_name = ""
+token_symbol = "RC"

@@ -1,10 +1,7 @@
 name = "SKULLCOIN"
-symbol = "SKULL"
 source = "cyberFund"
 
 [metrics]
-announce = "06/09/2014"
-status = "Running"
 total_tokens = "29200000"
 ann = "https://bitcointalk.org/index.php?topic=733916"
 
@@ -21,3 +18,17 @@ ann = "https://bitcointalk.org/index.php?topic=733916"
 [aliases]
 coinmarketcap = "SKULLCOIN"
 CurrencyName = "SKULLCOIN"
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "06/09/2014"
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "SKULL"

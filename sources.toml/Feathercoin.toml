@@ -1,11 +1,7 @@
 name = "Feathercoin"
-symbol = "FTC"
 source = "cyberFund"
 
 [metrics]
-announce = "15/04/2013"
-genesis = "16/04/2013"
-status = "Running"
 p2p = 9336.0
 rpc = 9337.0
 block_time = "150"
@@ -13,10 +9,6 @@ block_reward = 200.0
 halfing_cycle = 840000.0
 total_tokens = 336000000.0
 difficulty_cycle = "126"
-algo = "Scrypt"
-type = "DAO"
-rating = 1.0
-consensus = "Proof-of-Work"
 dependencies = "independent"
 
   [[metrics.links]]
@@ -34,3 +26,24 @@ dependencies = "independent"
 [aliases]
 coinmarketcap = "Feathercoin"
 CurrencyName = "Feathercoin"
+
+[ratings]
+rating = 1.0
+
+[consensus]
+consensus_name = "Proof-of-Work"
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+tags = "DAO"
+system_type = ""
+
+[events]
+announcement = "15/04/2013"
+genesis = "16/04/2013"
+
+[token]
+token_name = ""
+token_symbol = "FTC"

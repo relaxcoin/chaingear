@@ -1,16 +1,14 @@
 name = "BitShares Music"
-symbol = "NOTE"
-dependencies = "independent"
+dependencies = ["independent"]
 source = "cyberFund"
 
 [descriptions]
 headline = "The Ultimate One Stop Music Platform"
 summary = "Notes at present are a User Issued Asset (UIA) on the BitShares network. They are a liquid and tradable crypto-token that each represent 1 unit of the upcoming fan engagement and intellectual property management blockchain currently referred to as BitShares Music."
+tags = "DAO"
+system_type = ""
 
 [metrics]
-type = "DAO"
-rating = 3.0
-consensus = "DPOS"
 supply = 1274224570.0
 timestamp = 1431342962.0
 
@@ -31,14 +29,27 @@ funding_operator = "ags"
 funding_url = "http://www1.agsexplorer.com/"
 tokens_sold = 300000000.0
 
+[ratings]
+rating = 3.0
+
+[consensus]
+consensus_name = "DPOS"
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "NOTE"
+
 [[links]]
 name = "web site"
 url = "http://whatarenotes.info/"
 icon = "website.png"
 tags = ["Main", "Apps"]
+type = ""
 
 [[links]]
 name = "forum"
 url = "https://bitsharestalk.org/index.php/board,54.0.html"
 icon = "forum.png"
 tags = ["Apps"]
+type = ""

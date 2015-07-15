@@ -1,17 +1,13 @@
 name = "Nanolite"
-symbol = "NL"
 source = "cyberFund"
 
 [metrics]
-announce = "27/05/2014"
-status = "Dead"
 p2p = 24747.0
 rpc = 14747.0
 block_time = 111.0
 total_tokens = 11000000.0
 premine_tokens = "50000 (0.46 %) for the bounties and giveaways"
 ann = "https://bitcointalk.org/index.php?topic=626717.0"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -27,3 +23,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "Nanolite"
 CurrencyName = "Nanolite"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "27/05/2014"
+
+[token]
+token_name = ""
+token_symbol = "NL"

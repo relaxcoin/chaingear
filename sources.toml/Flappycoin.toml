@@ -1,18 +1,13 @@
 name = "Flappycoin"
-symbol = "FLAP"
 source = "cyberFund"
 
 [metrics]
-announce = "14/02/2014"
-status = "Running"
 rpc = 11555.0
 block_time = "60"
 block_reward = "Random reward till block 600000. After it - fixed 10000 coin per block"
 total_tokens = "100000000000 FLAP in circulation after 1.5 years"
 difficulty_cycle = "240 blocks(4 hours)"
 ann = "https://bitcointalk.org/index.php?topic=464743"
-algo = "Scrypt"
-rating = 1.0
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +24,21 @@ rating = 1.0
 [aliases]
 coinmarketcap = "Flappycoin"
 CurrencyName = "Flappycoin"
+
+[ratings]
+rating = 1.0
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "14/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "FLAP"

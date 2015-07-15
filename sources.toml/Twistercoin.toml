@@ -1,5 +1,4 @@
 name = "Twistercoin"
-symbol = "TWIST"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "Twistercoin"
 CurrencyName = "Twistercoin"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "TWIST"

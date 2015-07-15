@@ -1,11 +1,7 @@
 name = "MemoryCoin2.0"
-symbol = "MMC"
 source = "cyberFund"
 
 [metrics]
-announce = "14/12/2013"
-genesis = "15/12/2013"
-status = "Running"
 rpc = 1968.0
 block_time = "360"
 block_reward = 280.0
@@ -14,7 +10,6 @@ total_tokens = 10000000.0
 premine_tokens = 146200.0
 difficulty_cycle = "everyblock"
 ann = "https://bitcointalk.org/index.php?topic=370806.0"
-algo = "Multi-algo"
 rating = 0.0
 
   [[metrics.links]]
@@ -31,3 +26,19 @@ rating = 0.0
 [aliases]
 coinmarketcap = "MemoryCoin2.0"
 CurrencyName = "MemoryCoin2.0"
+
+[consensus]
+hashing = "Multi-algo"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "14/12/2013"
+genesis = "15/12/2013"
+
+[token]
+token_name = ""
+token_symbol = "MMC"

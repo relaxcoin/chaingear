@@ -1,17 +1,13 @@
 name = "Lebowskis"
-symbol = "LBW"
 source = "cyberFund"
 
 [metrics]
-announce = "22/07/2013"
-status = "Dead"
 rpc = 8245.0
 block_time = "60"
 block_reward = 19.98
 total_tokens = 17439163.0
 difficulty_cycle = "every block"
 ann = "https://bitcointalk.org/index.php?topic=260311.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +24,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Lebowskis"
 CurrencyName = "Lebowskis"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "22/07/2013"
+
+[token]
+token_name = ""
+token_symbol = "LBW"

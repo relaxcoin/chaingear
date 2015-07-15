@@ -1,10 +1,7 @@
 name = "DollarCoin"
-symbol = "DOLLAR"
 source = "cyberFund"
 
 [metrics]
-announce = "24/10/2014"
-status = "Running"
 p2p = 11889.0
 rpc = 11888.0
 block_time = "120 seconds"
@@ -12,7 +9,6 @@ block_reward = "Block 1-200,000 : 2 DOLLAR Reward, Block 200,001 - 400,000 : 2-2
 total_tokens = "10000000000"
 premine_tokens = "9800000000 coins (98% for early adopters to cover the world with ATM machines supporting Bitcoin and local e-currencies.)"
 difficulty_cycle = "2 hours"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "DollarCoin"
 CurrencyName = "DollarCoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "24/10/2014"
+
+[token]
+token_name = ""
+token_symbol = "DOLLAR"

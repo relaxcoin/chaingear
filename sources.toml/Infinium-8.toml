@@ -1,16 +1,12 @@
 name = "Infinium-8"
-symbol = "INF8"
 source = "cyberFund"
 
 [metrics]
-announce = "17/07/2014"
-status = "Dead"
 block_time = 90.0
 block_reward = "Block_reward = log2(difficulty) * 2^40"
 total_tokens = "infinite"
 difficulty_cycle = "retargets at every block"
 ann = "https://bitcointalk.org/index.php?topic=698727"
-algo = "CryptoNight"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -26,3 +22,18 @@ algo = "CryptoNight"
 [aliases]
 coinmarketcap = "Infinium-8"
 CurrencyName = "Infinium-8"
+
+[consensus]
+hashing = "CryptoNight"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "17/07/2014"
+
+[token]
+token_name = ""
+token_symbol = "INF8"

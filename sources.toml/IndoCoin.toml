@@ -1,10 +1,7 @@
 name = "IndoCoin"
-symbol = "IDC"
 source = "cyberFund"
 
 [metrics]
-announce = "17/05/2014"
-status = "Dead"
 p2p = 19457.0
 rpc = 19451.0
 block_reward = "Rewards are soft capped at 19450000000. After that every block generate 500 IDC."
@@ -12,7 +9,6 @@ total_tokens = 19450000000.0
 premine_tokens = "60 Blocks"
 difficulty_cycle = "every block (digiShield)"
 ann = "https://bitcointalk.org/index.php?topic=612311.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "IndoCoin"
 CurrencyName = "IndoCoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "17/05/2014"
+
+[token]
+token_name = ""
+token_symbol = "IDC"

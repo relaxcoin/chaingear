@@ -1,14 +1,10 @@
 name = "Memecoin"
-symbol = "MEM"
 source = "cyberFund"
 
 [metrics]
-announce = "15/05/2013"
-status = "Dead"
 block_time = "600"
 total_tokens = 200000000.0
 premine_tokens = 200.0
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -26,3 +22,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Memecoin"
 CurrencyName = "Memecoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "15/05/2013"
+
+[token]
+token_name = ""
+token_symbol = "MEM"

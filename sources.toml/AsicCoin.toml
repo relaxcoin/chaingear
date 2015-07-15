@@ -1,11 +1,7 @@
 name = "AsicCoin"
-symbol = "ASC"
 source = "cyberFund"
 
 [metrics]
-announce = "11/09/2013"
-genesis = "11/09/2013"
-status = "Running"
 p2p = 13434.0
 rpc = 13435.0
 block_time = "30"
@@ -16,21 +12,38 @@ difficulty_cycle = "60"
 txs_confirm = 4.0
 mint_confirm = 70.0
 ann = "https://bitcointalk.org/index.php?topic=292501.0"
-algo = "SHA-256d"
 rating = 0.0
+
+[aliases]
+coinmarketcap = "AsicCoin"
+CurrencyName = "AsicCoin"
+
+[consensus]
+hashing = "SHA-256d"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "11/09/2013"
+genesis = "11/09/2013"
+
+[token]
+token_name = ""
+token_symbol = "ASC"
 
 [[links]]
 tags = ["Main", "Apps"]
 name = "web site"
 url = "http://asiccoin.biz/"
 icon = "website.png"
+type = ""
 
 [[links]]
 tags = ["Main", "Code"]
 name = "github"
 url = "https://github.com/asiccoin/asiccoin"
 icon = "github.png"
-
-[aliases]
-coinmarketcap = "AsicCoin"
-CurrencyName = "AsicCoin"
+type = ""

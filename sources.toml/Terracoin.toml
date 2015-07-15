@@ -1,16 +1,10 @@
 name = "Terracoin"
-symbol = "TRC"
 source = "cyberFund"
 
 [metrics]
-announce = "12/10/2012"
-genesis = "26/10/2012"
-status = "Running"
 block_time = "120"
 total_tokens = 42000000.0
 difficulty_cycle = "540"
-algo = "SHA-256d"
-rating = 1.0
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -27,3 +21,22 @@ rating = 1.0
 [aliases]
 coinmarketcap = "Terracoin"
 CurrencyName = "Terracoin"
+
+[ratings]
+rating = 1.0
+
+[consensus]
+hashing = "SHA-256d"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "12/10/2012"
+genesis = "26/10/2012"
+
+[token]
+token_name = ""
+token_symbol = "TRC"

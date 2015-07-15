@@ -1,5 +1,4 @@
 name = "Moneta"
-symbol = "MNTA"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "Moneta"
 CurrencyName = "Moneta"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "MNTA"

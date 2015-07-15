@@ -1,10 +1,7 @@
 name = "Pandacoin-PAND"
-symbol = "PAND"
 source = "cyberFund"
 
 [metrics]
-announce = "04/01/2014"
-status = "Dead"
 p2p = 34103.0
 rpc = 34102.0
 block_time = 150.0
@@ -14,16 +11,32 @@ total_tokens = 21000000.0
 premine_tokens = "420000 coins(2%) for bounties, promotion etc."
 difficulty_cycle = "according to Kimoto Gravity Well"
 ann = "https://bitcointalk.org/index.php?topic=399127.0"
-algo = "Scrypt"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "04/01/2014"
+
+[token]
+token_name = ""
+token_symbol = "PAND"
 
 [[links]]
 tags = ["Main", "Apps"]
 name = "web site"
 url = "http://www.digitalpandacoins.com/"
 icon = "website.png"
+type = ""
 
 [[links]]
 tags = ["Main", "Code"]
 name = "github"
 url = "https://github.com/pandacoindev/panda_release"
 icon = "github.png"
+type = ""

@@ -1,17 +1,13 @@
 name = "NeWOcoin"
-symbol = "NeWO"
 source = "cyberFund"
 
 [metrics]
-announce = "13/06/2014"
-status = "Dead"
 p2p = 11666.0
 rpc = 11777.0
 block_time = 90.0
 block_reward = "212 coins per block"
 total_tokens = 666000000.0
 ann = "https://bitcointalk.org/index.php?topic=650295.0"
-algo = "Multi-algo"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -27,3 +23,18 @@ algo = "Multi-algo"
 [aliases]
 coinmarketcap = "NeWOcoin"
 CurrencyName = "NeWOcoin"
+
+[consensus]
+hashing = "Multi-algo"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "13/06/2014"
+
+[token]
+token_name = ""
+token_symbol = "NeWO"

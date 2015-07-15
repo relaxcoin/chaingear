@@ -1,20 +1,13 @@
 name = "Opal"
-symbol = "OPAL"
 source = "cyberFund"
 
 [metrics]
-announce = "08/09/2014"
-status = "Running"
 p2p = 50990.0
 rpc = 51990.0
 block_time = "90"
 block_reward = "Block 0-50:15,Block 50-15,000:1000"
 total_tokens = "15000000"
 ann = "https://bitcointalk.org/index.php?topic=778720.00"
-algo = "X-n"
-type = "DAO"
-rating = 1.0
-consensus = "Proof-of-Stake"
 dependencies = "independent"
 
   [[metrics.links]]
@@ -32,3 +25,23 @@ dependencies = "independent"
 [aliases]
 coinmarketcap = "Opal"
 CurrencyName = "Opal"
+
+[ratings]
+rating = 1.0
+
+[consensus]
+consensus_name = "Proof-of-Stake"
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+tags = "DAO"
+system_type = ""
+
+[events]
+announcement = "08/09/2014"
+
+[token]
+token_name = ""
+token_symbol = "OPAL"

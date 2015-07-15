@@ -1,10 +1,7 @@
 name = "WickedCoin"
-symbol = "WKD"
 source = "cyberFund"
 
 [metrics]
-announce = "29/06/2014"
-status = "Dead"
 p2p = 12501.0
 rpc = 12500.0
 block_time = 60.0
@@ -13,7 +10,6 @@ total_tokens = 1500000.0
 premine_tokens = "15000 (1%)"
 difficulty_cycle = "Every block"
 ann = "https://bitcointalk.org/index.php?topic=670678.0"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "WickedCoin"
 CurrencyName = "WickedCoin"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "29/06/2014"
+
+[token]
+token_name = ""
+token_symbol = "WKD"

@@ -1,17 +1,9 @@
 name = "Goldcoin"
-symbol = "GLD"
 source = "cyberFund"
 
 [metrics]
-announce = "27/07/2013"
-genesis = "14/05/2013"
-status = "Dead"
 block_time = "150 up till block 44999 and 120 after"
 ann = "https://bitcointalk.org/index.php?topic=263459.0"
-algo = "Scrypt"
-type = "DAO"
-rating = 1.0
-consensus = "Proof-of-Work"
 dependencies = "independent"
 
   [[metrics.links]]
@@ -29,3 +21,24 @@ dependencies = "independent"
 [aliases]
 coinmarketcap = "Goldcoin"
 CurrencyName = "Goldcoin"
+
+[ratings]
+rating = 1.0
+
+[consensus]
+consensus_name = "Proof-of-Work"
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+tags = "DAO"
+system_type = ""
+
+[events]
+announcement = "27/07/2013"
+genesis = "14/05/2013"
+
+[token]
+token_name = ""
+token_symbol = "GLD"

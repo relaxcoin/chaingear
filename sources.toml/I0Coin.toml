@@ -1,11 +1,7 @@
 name = "I0Coin"
-symbol = "I0C"
 source = "cyberFund"
 
 [metrics]
-announce = "11/08/2011"
-genesis = "16/08/2011"
-status = "Dead"
 block_time = "600"
 block_reward = 96.0
 total_tokens = 21000000.0
@@ -13,10 +9,6 @@ difficulty_cycle = "2016"
 txs_confirm = 6.0
 mint_confirm = 120.0
 ann = "https://bitcointalk.org/index.php?topic=36425.msg448463#msg448463"
-algo = "SHA-256d"
-type = "DAO"
-rating = 1.0
-consensus = "Proof-of-Work"
 dependencies = "independent"
 
   [[metrics.links]]
@@ -34,3 +26,24 @@ dependencies = "independent"
 [aliases]
 coinmarketcap = "I0Coin"
 CurrencyName = "I0Coin"
+
+[ratings]
+rating = 1.0
+
+[consensus]
+consensus_name = "Proof-of-Work"
+hashing = "SHA-256d"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+tags = "DAO"
+system_type = ""
+
+[events]
+announcement = "11/08/2011"
+genesis = "16/08/2011"
+
+[token]
+token_name = ""
+token_symbol = "I0C"

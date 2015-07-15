@@ -1,10 +1,7 @@
 name = "EliteCoin"
-symbol = "ELTC"
 source = "cyberFund"
 
 [metrics]
-announce = "20/07/2014"
-status = "Dead"
 p2p = 14801.0
 rpc = 14800.0
 block_time = 60.0
@@ -13,7 +10,6 @@ total_tokens = 50000.0
 premine_tokens = "No"
 difficulty_cycle = "every block"
 ann = "https://bitcointalk.org/index.php?topic=702757"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "EliteCoin"
 CurrencyName = "EliteCoin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "20/07/2014"
+
+[token]
+token_name = ""
+token_symbol = "ELTC"

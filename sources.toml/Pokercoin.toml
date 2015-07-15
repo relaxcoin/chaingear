@@ -1,10 +1,7 @@
 name = "Pokercoin"
-symbol = "POK"
 source = "cyberFund"
 
 [metrics]
-announce = "05/07/2013"
-status = "Dead"
 block_time = "60"
 block_reward = 20.0
 halfing_cycle = 259200.0
@@ -14,7 +11,6 @@ difficulty_cycle = "60"
 txs_confirm = 6.0
 mint_confirm = 20.0
 ann = "https://bitcointalk.org/index.php?topic=250711.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Pokercoin"
 CurrencyName = "Pokercoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "05/07/2013"
+
+[token]
+token_name = ""
+token_symbol = "POK"

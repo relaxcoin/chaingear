@@ -1,10 +1,7 @@
 name = "SummerCoin 2.0"
-symbol = "SUM2"
 source = "cyberFund"
 
 [metrics]
-announce = "26/05/2014"
-status = "Running"
 p2p = 33330.0
 rpc = 33333.0
 block_time = 30.0
@@ -14,7 +11,6 @@ premine_tokens = "amount of coins on the SUMv1 Chain (swapped at 1:1 ratio)"
 difficulty_cycle = "difficulty will adjust dach 25 blocks, and at block 250, adjust dach block"
 txs_confirm = 3.0
 ann = "https://bitcointalk.org/index.php?topic=679791.0"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "SummerCoin 2.0"
 CurrencyName = "SummerCoin 2.0"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "26/05/2014"
+
+[token]
+token_name = ""
+token_symbol = "SUM2"

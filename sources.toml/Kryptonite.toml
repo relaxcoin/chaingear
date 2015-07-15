@@ -1,16 +1,12 @@
 name = "Kryptonite"
-symbol = "KRYP"
 source = "cyberFund"
 
 [metrics]
-announce = "12/05/2014"
-status = "Running"
 block_time = 31.0
 block_reward = "1 KRYP 1st week; 5 KRYP 1 month; 10 KRYP 4 months; 15 KRYP 9 months; 10 KRYP 1 year; 5 KRYP until end of supply - about 4 years 10 months"
 total_tokens = 50000000.0
 premine_tokens = "500000 (0.5%) premine_tokens"
 ann = "https://bitcointalk.org/index.php?topic=606682.0"
-algo = "X11"
 rating = 0.0
 
   [[metrics.links]]
@@ -27,3 +23,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Kryptonite"
 CurrencyName = "Kryptonite"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "12/05/2014"
+
+[token]
+token_name = ""
+token_symbol = "KRYP"

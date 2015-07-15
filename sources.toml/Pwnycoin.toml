@@ -1,9 +1,7 @@
 name = "Pwnycoin"
-symbol = "PWNY"
 source = "cyberFund"
 
 [metrics]
-announce = "14/02/2014"
 p2p = 26668.0
 rpc = 26667.0
 block_time = 30.0
@@ -12,7 +10,6 @@ halfing_cycle = "172800 (~ 2 months)"
 total_tokens = 1000000000.0
 difficulty_cycle = "60 blocks (~30 min).After first week Kimoto Gravity Well implementation "
 ann = "https://bitcointalk.org/index.php?topic=464274.0"
-algo = "SHA-256d"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +26,17 @@ algo = "SHA-256d"
 [aliases]
 coinmarketcap = "Pwnycoin"
 CurrencyName = "Pwnycoin"
+
+[consensus]
+hashing = "SHA-256d"
+consensus_type = ""
+
+[events]
+announcement = "14/02/2014"
+
+[descriptions]
+system_type = ""
+
+[token]
+token_name = ""
+token_symbol = "PWNY"

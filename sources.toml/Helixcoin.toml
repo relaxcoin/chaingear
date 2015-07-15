@@ -1,10 +1,7 @@
 name = "Helixcoin"
-symbol = "HXC"
 source = "cyberFund"
 
 [metrics]
-announce = "26/02/2014"
-status = "Dead"
 p2p = 9505.0
 rpc = 9504.0
 block_time = 40.0
@@ -14,7 +11,6 @@ total_tokens = 120000000.0
 premine_tokens = "192000 (0.16%)"
 difficulty_cycle = "every block (Kimoto Gravity Well)"
 ann = "https://bitcointalk.org/index.php?topic=489172.0"
-algo = "SHA-3"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -31,3 +27,18 @@ algo = "SHA-3"
 [aliases]
 coinmarketcap = "Helixcoin"
 CurrencyName = "Helixcoin"
+
+[consensus]
+hashing = "SHA-3"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "26/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "HXC"

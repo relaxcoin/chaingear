@@ -1,10 +1,7 @@
 name = "YACCoin"
-symbol = "YACC"
 source = "cyberFund"
 
 [metrics]
-announce = "12/02/2014"
-status = "Dead"
 p2p = 6333.0
 rpc = 6332.0
 block_time = 90.0
@@ -14,7 +11,6 @@ difficulty_cycle = "Kimoto Gravity Well based difficulty adjustments"
 txs_confirm = 6.0
 mint_confirm = 100.0
 ann = "https://cryptocointalk.com/topic/4989-feb-12th-2014-yaccoin-launched/"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -31,3 +27,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "YACCoin"
 CurrencyName = "YACCoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "12/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "YACC"

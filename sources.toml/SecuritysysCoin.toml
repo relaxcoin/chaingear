@@ -1,10 +1,7 @@
 name = "SecuritysysCoin"
-symbol = "SCSY"
 source = "cyberFund"
 
 [metrics]
-announce = "22/10/2014"
-status = "Running"
 p2p = 23118.0
 rpc = 23119.0
 block_time = "60 Seconds"
@@ -13,7 +10,6 @@ total_tokens = "160000000"
 premine_tokens = "no"
 difficulty_cycle = "every 5 blocks"
 ann = "https://bitcointalk.org/index.php?topic=802430.0"
-algo = "Others"
 rating = 0.0
 
   [[metrics.links]]
@@ -31,3 +27,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "SecuritysysCoin"
 CurrencyName = "SecuritysysCoin"
+
+[consensus]
+hashing = "Others"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "22/10/2014"
+
+[token]
+token_name = ""
+token_symbol = "SCSY"

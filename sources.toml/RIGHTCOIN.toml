@@ -1,17 +1,13 @@
 name = "RIGHTCOIN"
-symbol = "RTC"
 source = "cyberFund"
 
 [metrics]
-announce = "13/05/2014"
-status = "Dead"
 block_time = 30.0
 block_reward = "1000 coins per block"
 total_tokens = 30000000.0
 premine_tokens = "450000 (3%)"
 difficulty_cycle = "every blocks"
 ann = "https://bitcointalk.org/index.php?topic=607076.0"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -27,3 +23,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "RIGHTCOIN"
 CurrencyName = "RIGHTCOIN"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "13/05/2014"
+
+[token]
+token_name = ""
+token_symbol = "RTC"

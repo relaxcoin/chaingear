@@ -1,5 +1,4 @@
 name = "DarkGold"
-symbol = "DGD"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "DarkGold"
 CurrencyName = "DarkGold"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "DGD"

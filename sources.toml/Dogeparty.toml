@@ -1,14 +1,25 @@
 name = "Dogeparty"
-symbol = "XDP"
 source = "cyberFund"
 
 [metrics]
-type = "DApp"
-rating = 2.0
-consensus = "Dogecoin"
 dependencies = "Dogecoin"
 links = []
 
 [aliases]
 coinmarketcap = "Dogeparty"
 CurrencyName = "Dogeparty"
+
+[ratings]
+rating = 2.0
+
+[consensus]
+consensus_name = "Dogecoin"
+consensus_type = ""
+
+[descriptions]
+tags = "DApp"
+system_type = ""
+
+[token]
+token_name = ""
+token_symbol = "XDP"

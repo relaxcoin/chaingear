@@ -1,17 +1,13 @@
 name = "GeistGeld"
-symbol = "GG"
 source = "cyberFund"
 
 [metrics]
-announce = "09/09/2011"
-status = "Dead"
 rpc = 8777.0
 block_time = "15"
 block_reward = 25.0
 premine_tokens = 7700000.0
 difficulty_cycle = "2016"
 ann = "https://bitcointalk.org/index.php?topic=42417.0"
-algo = "SHA-256d"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -27,3 +23,18 @@ algo = "SHA-256d"
 [aliases]
 coinmarketcap = "GeistGeld"
 CurrencyName = "GeistGeld"
+
+[consensus]
+hashing = "SHA-256d"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "09/09/2011"
+
+[token]
+token_name = ""
+token_symbol = "GG"

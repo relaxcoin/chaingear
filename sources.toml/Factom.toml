@@ -1,16 +1,14 @@
 name = "Factom"
-symbol = "FID"
-dependencies = "Bitcoin"
+dependencies = ["Bitcoin"]
 source = "cyberFund"
 
 [descriptions]
 headline = "A Data Layer For The Blockchain"
 summary = "Factom is a simple extension of the Bitcoin blockchain that lets you build faster, cost effective applications. Factom takes lots of hashes and turns them into a single periodic hash on the blockchain – this fixes the bloat problem."
+tags = "DAO"
+system_type = ""
 
 [metrics]
-type = "DAO"
-rating = 4.0
-consensus = "Bitcoin"
 supply = 4287288.0
 timestamp = 1431342962.0
 
@@ -31,26 +29,41 @@ funding_operator = "koinify"
 funding_url = "https://koinify.com/#/project/FACTOM"
 tokens_sold = 4379973.0
 
+[ratings]
+rating = 4.0
+
+[consensus]
+consensus_name = "Bitcoin"
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "FID"
+
 [[links]]
 name = "web site"
 url = "http://factom.org/"
 icon = "website.png"
 tags = ["Main", "Apps"]
+type = ""
 
 [[links]]
 name = "Documentation"
 url = "https://github.com/FactomProject/FactomDocs/blob/master/Factom_Whitepaper.pdf"
 icon = "whitepaper.png"
 tags = ["Main", "Apps"]
+type = ""
 
 [[links]]
 name = "twitter"
 url = "https://twitter.com/factomproject"
 icon = "twitter.png"
 tags = ["Main", "Apps"]
+type = ""
 
 [[links]]
 name = "blog"
 url = "http://blog.factom.org/"
 icon = "blog.png"
 tags = ["Apps"]
+type = ""

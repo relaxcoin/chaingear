@@ -1,16 +1,12 @@
 name = "LINKCOIN"
-symbol = "LNKC"
 source = "cyberFund"
 
 [metrics]
-announce = "05/08/2014"
-status = "Dead"
 block_time = "240"
 block_reward = "80 coins"
 total_tokens = "84000000"
 difficulty_cycle = "1 block"
 ann = "https://bitcointalk.org/index.php?topic=724057"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -26,3 +22,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "LINKCOIN"
 CurrencyName = "LINKCOIN"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "05/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "LNKC"

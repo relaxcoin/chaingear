@@ -1,10 +1,7 @@
 name = "PimpCash"
-symbol = "PIMP"
 source = "cyberFund"
 
 [metrics]
-announce = "24/11/2014"
-status = "Running"
 p2p = 6970.0
 rpc = 6969.0
 block_time = "69 seconds"
@@ -13,7 +10,6 @@ total_tokens = "69000000"
 premine_tokens = "2691000 PIMP(3.9% for Dev Fund)"
 mint_confirm = "69 confirmations"
 ann = "https://bitcointalk.org/index.php?topic=871506.0"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -30,3 +26,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "PimpCash"
 CurrencyName = "PimpCash"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "24/11/2014"
+
+[token]
+token_name = ""
+token_symbol = "PIMP"

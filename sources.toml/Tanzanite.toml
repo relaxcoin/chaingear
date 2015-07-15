@@ -1,10 +1,7 @@
 name = "Tanzanite"
-symbol = "TNZ"
 source = "cyberFund"
 
 [metrics]
-announce = "28/08/2014"
-status = "Dead"
 p2p = 11080.0
 rpc = 10080.0
 block_time = "60"
@@ -14,7 +11,6 @@ premine_tokens = "Premined coins will be fairly distributed to all contributors 
 difficulty_cycle = "each block"
 mint_confirm = "30 blocks"
 ann = "https://bitcointalk.org/index.php?topic=778617"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -31,3 +27,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "Tanzanite"
 CurrencyName = "Tanzanite"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "28/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "TNZ"

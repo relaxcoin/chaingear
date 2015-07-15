@@ -1,20 +1,30 @@
 name = "AppleByte"
-symbol = "ABY"
 source = "cyberFund"
 
 [metrics]
 ann = "https://bitcointalk.org/index.php?topic=503131.0"
-algo = "Scrypt"
-consensus = "POW"
-type = "DAO"
 rating = 0.0
+
+[aliases]
+coinmarketcap = "AppleByte"
+CurrencyName = "AppleByte"
+
+[consensus]
+consensus_name = "POW"
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+tags = "DAO"
+system_type = ""
+
+[token]
+token_name = ""
+token_symbol = "ABY"
 
 [[links]]
 name = "web site"
 url = "http://www.applebyte.me/"
 icon = "website.png"
 tags = ["Main", "Apps"]
-
-[aliases]
-coinmarketcap = "AppleByte"
-CurrencyName = "AppleByte"
+type = ""

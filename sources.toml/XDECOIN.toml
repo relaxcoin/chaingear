@@ -1,15 +1,11 @@
 name = "XDECOIN"
-symbol = "XDE"
 source = "cyberFund"
 
 [metrics]
-announce = "12/12/2014"
-status = "Running"
 p2p = 25080.0
 rpc = 26080.0
 total_tokens = "100 coins"
 ann = "https://cryptocointalk.com/topic/22022-annxde-100-rare-xdecoin-pure-pos-ico-ended/"
-algo = "X-n"
 rating = 0.0
 
   [[metrics.links]]
@@ -27,3 +23,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "XDECOIN"
 CurrencyName = "XDECOIN"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "12/12/2014"
+
+[token]
+token_name = ""
+token_symbol = "XDE"

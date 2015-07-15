@@ -1,10 +1,7 @@
 name = "pNUT"
-symbol = "FTW"
 source = "cyberFund"
 
 [metrics]
-announce = "27/01/2014"
-status = "Dead"
 p2p = 25884.0
 rpc = 25884.0
 block_time = "30"
@@ -14,7 +11,6 @@ difficulty_cycle = "every block"
 txs_confirm = "24 blocks (about 12 minutes)"
 mint_confirm = "500 (about 4 hours)"
 ann = "https://bitcointalk.org/index.php?topic=435232.0"
-algo = "Others"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "Others"
 [aliases]
 coinmarketcap = "pNUT"
 CurrencyName = "pNUT"
+
+[consensus]
+hashing = "Others"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "27/01/2014"
+
+[token]
+token_name = ""
+token_symbol = "FTW"

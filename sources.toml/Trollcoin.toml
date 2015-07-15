@@ -1,5 +1,4 @@
 name = "Trollcoin"
-symbol = "TRL"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "Trollcoin"
 CurrencyName = "Trollcoin"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "TRL"

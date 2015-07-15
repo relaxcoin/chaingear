@@ -1,15 +1,11 @@
 name = "XCloudcoin"
-symbol = "CLD"
 source = "cyberFund"
 
 [metrics]
-announce = "21/07/2014"
-status = "Dead"
 block_time = 60.0
 block_reward = "proof of stake reward 1%"
 total_tokens = 5000000.0
 ann = "https://bitcointalk.org/index.php?topic=702981.msg7947020#msg7947020"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -25,3 +21,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "XCloudcoin"
 CurrencyName = "XCloudcoin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "21/07/2014"
+
+[token]
+token_name = ""
+token_symbol = "CLD"

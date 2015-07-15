@@ -1,24 +1,36 @@
 name = "Guerillacoin"
-symbol = "GUE"
 source = "cyberFund"
 
 [metrics]
-announce = "17/06/2014"
-status = "Running"
 block_time = 60.0
 block_reward = "750 gue"
 total_tokens = 15000000.0
 premine_tokens = "No"
 ann = "https://bitcointalk.org/index.php?topic=656167.msg7711495#msg7711495"
-algo = "X11"
 rating = 0.0
+
+[aliases]
+coinmarketcap = "Guerillacoin"
+CurrencyName = "Guerillacoin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "17/06/2014"
+
+[token]
+token_name = ""
+token_symbol = "GUE"
 
 [[links]]
 name = "web site"
 url = "http://guerillacoin.com/"
 icon = "website.png"
 tags = ["Main", "Apps"]
-
-[aliases]
-coinmarketcap = "Guerillacoin"
-CurrencyName = "Guerillacoin"
+type = ""

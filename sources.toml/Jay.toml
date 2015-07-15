@@ -1,12 +1,23 @@
 name = "Jay"
-symbol = "JAY"
-dependencies = "NXT"
+dependencies = ["NXT"]
 source = "cyberFund"
 
 [metrics]
-rating = 1.0
 links = []
 
 [aliases]
 coinmarketcap = "Jay"
 CurrencyName = "Jay"
+
+[ratings]
+rating = 1.0
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "JAY"

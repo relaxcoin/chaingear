@@ -1,5 +1,4 @@
 name = "SaffronCoin"
-symbol = "SFR"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "SaffronCoin"
 CurrencyName = "SaffronCoin"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "SFR"

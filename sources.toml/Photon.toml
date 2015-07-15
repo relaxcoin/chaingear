@@ -1,10 +1,7 @@
 name = "Photon"
-symbol = "PHO"
 source = "cyberFund"
 
 [metrics]
-announce = "21/02/2014"
-status = "Running"
 rpc = 8494.0
 block_time = 180.0
 block_reward = "32768  + inflation (square root of (difficulty * block height))"
@@ -13,7 +10,6 @@ total_tokens = 90000000000.0
 difficulty_cycle = "20"
 mint_confirm = 120.0
 ann = "https://bitcointalk.org/index.php?topic=478136.0"
-algo = "SHA-3"
 rating = 0.0
 
   [[metrics.links]]
@@ -31,3 +27,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Photon"
 CurrencyName = "Photon"
+
+[consensus]
+hashing = "SHA-3"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "21/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "PHO"

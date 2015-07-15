@@ -1,10 +1,7 @@
 name = "Radix"
-symbol = "Radix"
 source = "cyberFund"
 
 [metrics]
-announce = "04/03/2014"
-status = "Dead"
 ann = "https://bitcointalk.org/index.php?topic=500209.0"
 
   [[metrics.links]]
@@ -20,3 +17,17 @@ ann = "https://bitcointalk.org/index.php?topic=500209.0"
 [aliases]
 coinmarketcap = "Radix"
 CurrencyName = "Radix"
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "04/03/2014"
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "Radix"

@@ -1,10 +1,7 @@
 name = "Nigeriacoin"
-symbol = "NIG"
 source = "cyberFund"
 
 [metrics]
-announce = "09/09/2013"
-status = "Dead"
 p2p = 7662.0
 rpc = 17662.0
 block_time = "120"
@@ -13,7 +10,6 @@ total_tokens = 166200000.0
 txs_confirm = 4.0
 mint_confirm = 100.0
 ann = "https://bitcointalk.org/index.php?topic=291233.0"
-algo = "SHA-256d"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "SHA-256d"
 [aliases]
 coinmarketcap = "Nigeriacoin"
 CurrencyName = "Nigeriacoin"
+
+[consensus]
+hashing = "SHA-256d"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "09/09/2013"
+
+[token]
+token_name = ""
+token_symbol = "NIG"

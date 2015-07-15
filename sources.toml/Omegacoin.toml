@@ -1,10 +1,7 @@
 name = "Omegacoin"
-symbol = "OMA"
 source = "cyberFund"
 
 [metrics]
-announce = "27/01/2015"
-status = "Running"
 p2p = "54544"
 rpc = "54545"
 block_time = "60 seconds"
@@ -13,7 +10,6 @@ total_tokens = "2000000 coins"
 premine_tokens = "no"
 mint_confirm = "110 confirmations"
 ann = "https://bitcointalk.org/index.php?topic=936629.0"
-algo = "X-n"
 rating = 0.0
 
   [[metrics.links]]
@@ -30,3 +26,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Omegacoin"
 CurrencyName = "Omegacoin"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "27/01/2015"
+
+[token]
+token_name = ""
+token_symbol = "OMA"

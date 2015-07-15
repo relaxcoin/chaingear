@@ -1,10 +1,7 @@
 name = "Dosh-Kapital"
-symbol = "DOSH"
 source = "cyberFund"
 
 [metrics]
-announce = "11/08/2014"
-status = "Dead"
 p2p = "14149"
 rpc = "14147"
 block_time = "192 seconds"
@@ -26,3 +23,17 @@ ann = "https://bitcointalk.org/index.php?topic=734295.0"
 [aliases]
 coinmarketcap = "Dosh-Kapital"
 CurrencyName = "Dosh-Kapital"
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "11/08/2014"
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "DOSH"

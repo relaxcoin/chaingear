@@ -1,17 +1,13 @@
 name = "MonetaryUnit"
-symbol = "MUE"
 source = "cyberFund"
 
 [metrics]
-announce = "11/09/2014"
-status = "Running"
 p2p = 29948.0
 rpc = 29947.0
 block_time = "40 seconds"
 premine_tokens = "40000000 MUE"
 difficulty_cycle = "10 blocks"
 ann = "https://bitcointalk.org/index.php?topic=778322.0"
-algo = "Quark"
 rating = 0.0
 
   [[metrics.links]]
@@ -29,3 +25,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "MonetaryUnit"
 CurrencyName = "MonetaryUnit"
+
+[consensus]
+hashing = "Quark"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "11/09/2014"
+
+[token]
+token_name = ""
+token_symbol = "MUE"

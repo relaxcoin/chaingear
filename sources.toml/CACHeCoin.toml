@@ -1,17 +1,13 @@
 name = "CACHeCoin"
-symbol = "CACH"
 source = "cyberFund"
 
 [metrics]
-announce = "05/01/2014"
-status = "Running"
 block_time = 900.0
 total_tokens = 2000000000.0
 difficulty_cycle = 1.0
 txs_confirm = 6.0
 mint_confirm = 520.0
 ann = "https://bitcointalk.org/index.php?topic=400389.0"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -29,3 +25,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "CACHeCoin"
 CurrencyName = "CACHeCoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "05/01/2014"
+
+[token]
+token_name = ""
+token_symbol = "CACH"

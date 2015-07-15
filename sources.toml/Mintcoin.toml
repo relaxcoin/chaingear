@@ -1,11 +1,8 @@
 name = "Mintcoin"
-symbol = "MINT"
-dependencies = "independent"
+dependencies = ["independent"]
 source = "cyberFund"
 
 [metrics]
-announce = "05/02/2014"
-status = "Running"
 p2p = 12789.0
 rpc = 12788.0
 block_time = 30.0
@@ -16,23 +13,41 @@ difficulty_cycle = "every block"
 txs_confirm = 4.0
 mint_confirm = 50.0
 ann = "https://bitcointalk.org/index.php?topic=450381.0"
-algo = "Scrypt"
-type = "DAO"
-rating = 1.0
-consensus = "Proof-of-Stake"
 
 [aliases]
 coinmarketcap = "Mintcoin"
 CurrencyName = "Mintcoin"
+
+[ratings]
+rating = 1.0
+
+[consensus]
+consensus_name = "Proof-of-Stake"
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+tags = "DAO"
+system_type = ""
+
+[events]
+announcement = "05/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "MINT"
 
 [[links]]
 name = "web site"
 url = "http://mintcoin.biz/"
 icon = "website.png"
 tags = ["Main", "Apps"]
+type = ""
 
 [[links]]
 name = "github"
 url = "https://github.com/mintcoinproject/mintcoin"
 icon = "github.png"
 tags = ["Main", "Code"]
+type = ""

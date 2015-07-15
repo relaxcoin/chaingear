@@ -1,13 +1,9 @@
 name = "Sembro Token"
-symbol = "SMBR"
 source = "cyberFund"
 
 [metrics]
-announce = "16/10/2014"
-status = "Dead"
 total_tokens = "2750000"
 ann = "https://bitcointalk.org/index.php?topic=819427"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -25,3 +21,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Sembro Token"
 CurrencyName = "Sembro Token"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "16/10/2014"
+
+[token]
+token_name = ""
+token_symbol = "SMBR"

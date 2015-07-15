@@ -1,16 +1,12 @@
 name = "DevasCoin"
-symbol = "DEC"
 source = "cyberFund"
 
 [metrics]
-announce = "27/08/2014"
-status = "Dead"
 p2p = 14973.0
 rpc = 24973.0
 block_time = "60"
 total_tokens = "4000000"
 ann = "https://bitcointalk.org/index.php?topic=735099.msg8306324#msg8306324"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -26,3 +22,18 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "DevasCoin"
 CurrencyName = "DevasCoin"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "27/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "DEC"

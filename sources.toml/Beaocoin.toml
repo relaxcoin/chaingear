@@ -1,11 +1,7 @@
 name = "Beaocoin"
-symbol = "BEC"
 source = "cyberFund"
 
 [metrics]
-announce = "22/09/2013"
-genesis = "09/22/2013"
-status = "Dead"
 p2p = 40000.0
 rpc = 30001.0
 block_time = 60.0
@@ -13,20 +9,37 @@ total_tokens = 28000000.0
 difficulty_cycle = 10.0
 mint_confirm = 30.0
 ann = "https://bitcointalk.org/index.php?topic=327516.0"
-algo = "Scrypt"
+
+[aliases]
+coinmarketcap = "Beaocoin"
+CurrencyName = "Beaocoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "22/09/2013"
+genesis = "09/22/2013"
+
+[token]
+token_name = ""
+token_symbol = "BEC"
 
 [[links]]
 tags = ["Main", "Apps"]
 name = "web site"
 url = "http://www.beaocoin.com/"
 icon = "website.png"
+type = ""
 
 [[links]]
 tags = ["Main", "Code"]
 name = "github"
 url = "http://pan.baidu.com/share/link?shareid=738555483&uk=3676261802"
 icon = "github.png"
-
-[aliases]
-coinmarketcap = "Beaocoin"
-CurrencyName = "Beaocoin"
+type = ""

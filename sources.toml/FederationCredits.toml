@@ -1,11 +1,7 @@
 name = "FederationCredits"
-symbol = "UFC"
 source = "cyberFund"
 
 [metrics]
-announce = "23/08/2013"
-genesis = "21/08/2013"
-status = "Dead"
 p2p = 12345.0
 block_time = "60"
 block_reward = 50.0
@@ -13,7 +9,6 @@ halfing_cycle = 1051200.0
 total_tokens = 100000000.0
 premine_tokens = 1000000.0
 ann = "https://bitcointalk.org/index.php?topic=280114.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +24,19 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "FederationCredits"
 CurrencyName = "FederationCredits"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "23/08/2013"
+genesis = "21/08/2013"
+
+[token]
+token_name = ""
+token_symbol = "UFC"

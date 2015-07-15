@@ -1,10 +1,7 @@
 name = "Syscoin"
-symbol = "SYS"
 source = "cyberFund"
 
 [metrics]
-announce = "17/08/2014"
-status = "Running"
 p2p = 8369.0
 rpc = 8368.0
 block_time = "60"
@@ -13,10 +10,6 @@ total_tokens = "2 000 000 000"
 premine_tokens = "18% [ up to 15% Based on Presale (SOLD OUT), 2% Devs (wallets will be publicized for transparency), 1% Bounties and Rewards]"
 difficulty_cycle = "KGW"
 ann = "https://bitcointalk.org/index.php?topic=587080.0"
-algo = "Scrypt"
-type = "DAO"
-rating = 1.0
-consensus = "Proof-of-Work"
 dependencies = "independent"
 
   [[metrics.links]]
@@ -34,3 +27,23 @@ dependencies = "independent"
 [aliases]
 coinmarketcap = "Syscoin"
 CurrencyName = "Syscoin"
+
+[ratings]
+rating = 1.0
+
+[consensus]
+consensus_name = "Proof-of-Work"
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+tags = "DAO"
+system_type = ""
+
+[events]
+announcement = "17/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "SYS"

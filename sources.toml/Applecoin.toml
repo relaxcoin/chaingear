@@ -1,26 +1,40 @@
 name = "Applecoin"
-symbol = "APC"
 source = "cyberFund"
 
 [metrics]
-announce = "18/11/2013"
-status = "Running"
 block_time = "120"
 total_tokens = 50000000.0
 mint_confirm = 100.0
 ann = "https://bitcointalk.org/index.php?topic=337782.0"
-algo = "Scrypt"
-type = "DAO"
-rating = 1.0
-consensus = "Hybrid POW-POS"
 dependencies = "independent"
+
+[aliases]
+coinmarketcap = "Applecoin"
+CurrencyName = "Applecoin"
+
+[ratings]
+rating = 1.0
+
+[consensus]
+consensus_name = "Hybrid POW-POS"
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+tags = "DAO"
+system_type = ""
+
+[events]
+announcement = "18/11/2013"
+
+[token]
+token_name = ""
+token_symbol = "APC"
 
 [[links]]
 name = "github"
 url = "https://github.com/Applecoin/Applecoin"
 icon = "github.png"
 tags = ["Main", "Code"]
-
-[aliases]
-coinmarketcap = "Applecoin"
-CurrencyName = "Applecoin"
+type = ""

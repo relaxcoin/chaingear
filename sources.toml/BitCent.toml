@@ -1,12 +1,22 @@
 name = "BitCent"
-symbol = "BCENT"
 source = "cyberFund"
 
 [metrics]
 rating = 0.0
 
-[[links]]
-
 [aliases]
 coinmarketcap = "BitCent"
 CurrencyName = "BitCent"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "BCENT"
+
+[[links]]
+type = ""

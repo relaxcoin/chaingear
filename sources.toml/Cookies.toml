@@ -1,10 +1,7 @@
 name = "Cookies"
-symbol = "CKE"
 source = "cyberFund"
 
 [metrics]
-announce = "12/02/2014"
-status = "Dead"
 rpc = 8669.0
 block_time = 60.0
 block_reward = "6 cookies"
@@ -12,7 +9,6 @@ total_tokens = "~60000000"
 premine_tokens = " 27000 cookies (0.05%)"
 difficulty_cycle = "300 blocks(5 hours)"
 ann = "https://bitcointalk.org/index.php?topic=462272.0"
-algo = "SHA-256d"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "SHA-256d"
 [aliases]
 coinmarketcap = "Cookies"
 CurrencyName = "Cookies"
+
+[consensus]
+hashing = "SHA-256d"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "12/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "CKE"

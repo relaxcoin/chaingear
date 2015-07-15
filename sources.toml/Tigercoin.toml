@@ -1,10 +1,7 @@
 name = "Tigercoin"
-symbol = "TGC"
 source = "cyberFund"
 
 [metrics]
-announce = "06/09/2013"
-status = "Running"
 block_time = "45"
 block_reward = 128.0
 halfing_cycle = 172800.0
@@ -12,7 +9,6 @@ total_tokens = 47011968.0
 difficulty_cycle = "20"
 mint_confirm = 50.0
 ann = "https://bitcointalk.org/index.php?topic=289312.0"
-algo = "SHA-256d"
 rating = 0.0
 
   [[metrics.links]]
@@ -29,3 +25,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Tigercoin"
 CurrencyName = "Tigercoin"
+
+[consensus]
+hashing = "SHA-256d"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "06/09/2013"
+
+[token]
+token_name = ""
+token_symbol = "TGC"

@@ -1,17 +1,13 @@
 name = "Lizarde"
-symbol = "LIZE"
 source = "cyberFund"
 
 [metrics]
-announce = "09/07/2014"
-status = "Running"
 p2p = 501111.0
 rpc = 51111.0
 block_time = 60.0
 block_reward = "50000 coins"
 total_tokens = 1527069500.0
 ann = "https://bitcointalk.org/index.php?topic=683741.0"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -27,3 +23,18 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "Lizarde"
 CurrencyName = "Lizarde"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "09/07/2014"
+
+[token]
+token_name = ""
+token_symbol = "LIZE"

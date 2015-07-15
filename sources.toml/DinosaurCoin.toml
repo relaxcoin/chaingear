@@ -1,10 +1,7 @@
 name = "DinosaurCoin"
-symbol = "Dino"
 source = "cyberFund"
 
 [metrics]
-announce = "05/07/2014"
-status = "Dead"
 p2p = 9355.0
 rpc = 9356.0
 block_time = 60.0
@@ -14,7 +11,6 @@ premine_tokens = "86400 (1%) for development, bounties, etc"
 difficulty_cycle = "every block"
 txs_confirm = 6.0
 ann = "https://bitcointalk.org/index.php?topic=678073.0"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "DinosaurCoin"
 CurrencyName = "DinosaurCoin"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "05/07/2014"
+
+[token]
+token_name = ""
+token_symbol = "Dino"

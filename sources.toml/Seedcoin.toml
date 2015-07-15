@@ -1,10 +1,7 @@
 name = "Seedcoin"
-symbol = "SEED"
 source = "cyberFund"
 
 [metrics]
-announce = "04/10/2014"
-status = "Running"
 p2p = 8723.0
 rpc = 8722.0
 block_time = "150"
@@ -12,7 +9,6 @@ block_reward = "0,1 seeds"
 total_tokens = "2000000"
 difficulty_cycle = "Every Block"
 ann = "https://bitcointalk.org/index.php?topic=795954"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -30,3 +26,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Seedcoin"
 CurrencyName = "Seedcoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "04/10/2014"
+
+[token]
+token_name = ""
+token_symbol = "SEED"

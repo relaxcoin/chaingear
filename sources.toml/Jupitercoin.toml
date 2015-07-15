@@ -1,10 +1,7 @@
 name = "Jupitercoin"
-symbol = "JPC"
 source = "cyberFund"
 
 [metrics]
-announce = "21/07/2013"
-status = "Dead"
 p2p = 8568.0
 rpc = 1234.0
 block_time = "510"
@@ -13,7 +10,6 @@ total_tokens = 37000000.0
 premine_tokens = 99900.0
 difficulty_cycle = "every block"
 ann = "https://bitcointalk.org/index.php?topic=259918.0"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -30,3 +26,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Jupitercoin"
 CurrencyName = "Jupitercoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "21/07/2013"
+
+[token]
+token_name = ""
+token_symbol = "JPC"

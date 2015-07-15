@@ -1,14 +1,10 @@
 name = "SMAC Coin"
-symbol = "SMAC"
 source = "cyberFund"
 
 [metrics]
-announce = "11/02/2015"
-status = "Running"
 block_reward = "Block 1: 543122.743, Block 2-2881: 0 block reward, Block 2882-7202: 1 SMAC"
 mint_confirm = "50 blocks"
 ann = "https://bitcointalk.org/index.php?topic=952083.0"
-algo = "X11"
 rating = 0.0
 
   [[metrics.links]]
@@ -24,3 +20,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "SMAC Coin"
 CurrencyName = "SMAC Coin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "11/02/2015"
+
+[token]
+token_name = ""
+token_symbol = "SMAC"

@@ -1,10 +1,7 @@
 name = "Bladecoin"
-symbol = "BLA"
 source = "cyberFund"
 
 [metrics]
-announce = "07/02/2014"
-status = "Running"
 p2p = 45555.0
 rpc = 45557.0
 block_time = 300.0
@@ -15,7 +12,6 @@ difficulty_cycle = "each block"
 txs_confirm = 6.0
 mint_confirm = 120.0
 ann = "https://bitcointalk.org/index.php?topic=452956.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -32,3 +28,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Bladecoin"
 CurrencyName = "Bladecoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "07/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "BLA"

@@ -1,16 +1,13 @@
 name = "Exclusive Coin"
-symbol = "EXCL"
 source = "cyberFund"
 
 [metrics]
-announce = "29/09/2014"
 rpc = 22621.0
 block_time = "40"
 block_reward = "8"
 total_tokens = "60000000"
 difficulty_cycle = "every block"
 ann = "https://bitcointalk.org/index.php?topic=771755"
-algo = "X11"
 rating = 0.0
 
   [[metrics.links]]
@@ -28,3 +25,17 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Exclusive Coin"
 CurrencyName = "Exclusive Coin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[events]
+announcement = "29/09/2014"
+
+[descriptions]
+system_type = ""
+
+[token]
+token_name = ""
+token_symbol = "EXCL"

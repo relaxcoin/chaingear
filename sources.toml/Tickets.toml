@@ -1,11 +1,22 @@
 name = "Tickets"
-symbol = "TIX"
 source = "cyberFund"
 
 [metrics]
-rating = 1.0
 links = []
 
 [aliases]
 coinmarketcap = "Tickets"
 CurrencyName = "Tickets"
+
+[ratings]
+rating = 1.0
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "TIX"

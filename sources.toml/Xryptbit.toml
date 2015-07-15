@@ -1,10 +1,7 @@
 name = "Xryptbit"
-symbol = "XBIT"
 source = "cyberFund"
 
 [metrics]
-announce = "06/08/2014"
-status = "Dead"
 p2p = 29310.0
 rpc = 22872.0
 block_time = "60"
@@ -13,7 +10,6 @@ total_tokens = "5000000"
 premine_tokens = "100000 coins (2%)"
 difficulty_cycle = "KGW"
 ann = "https://bitcointalk.org/index.php?topic=722102.0"
-algo = "Others"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "Others"
 [aliases]
 coinmarketcap = "Xryptbit"
 CurrencyName = "Xryptbit"
+
+[consensus]
+hashing = "Others"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "06/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "XBIT"

@@ -1,10 +1,7 @@
 name = "Entropycoin"
-symbol = "ENC"
 source = "cyberFund"
 
 [metrics]
-announce = "22/02/2014"
-status = "Dead"
 p2p = 7553.0
 rpc = 7552.0
 block_time = 60.0
@@ -15,7 +12,6 @@ premine_tokens = "150000 coins(1% for marketing, giveaways, and network testing)
 difficulty_cycle = 30.0
 mint_confirm = 35.0
 ann = "https://bitcointalk.org/index.php?topic=482284.0;all"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -32,3 +28,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Entropycoin"
 CurrencyName = "Entropycoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "22/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "ENC"

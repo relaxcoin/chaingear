@@ -1,18 +1,13 @@
 name = "CancerCureCoin"
-symbol = "CCC"
 source = "cyberFund"
 
 [metrics]
-announce = "04/02/2014"
-genesis = "06/02/2014"
-status = "Dead"
 rpc = 9333.0
 block_time = 150.0
 block_reward = 500.0
 total_tokens = 100000000.0
 difficulty_cycle = "1 (Kimoto Grabity Well is used)"
 ann = "https://bitcointalk.org/index.php?topic=448269.0"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -30,3 +25,19 @@ rating = 0.0
 [aliases]
 coinmarketcap = "CancerCureCoin"
 CurrencyName = "CancerCureCoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "04/02/2014"
+genesis = "06/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "CCC"

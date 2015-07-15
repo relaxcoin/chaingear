@@ -1,5 +1,4 @@
 name = "WankCoin"
-symbol = "WKC"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "WankCoin"
 CurrencyName = "WankCoin"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "WKC"

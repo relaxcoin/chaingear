@@ -1,11 +1,22 @@
 name = "ZiftrCOIN"
-symbol = "ZRC"
 source = "cyberFund"
 
 [metrics]
-rating = 2.0
 links = []
 
 [aliases]
 coinmarketcap = "ZiftrCOIN"
 CurrencyName = "ZiftrCOIN"
+
+[ratings]
+rating = 2.0
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "ZRC"

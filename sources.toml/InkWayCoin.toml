@@ -1,13 +1,9 @@
 name = "InkWayCoin"
-symbol = "LKNX"
 source = "cyberFund"
 
 [metrics]
-announce = "27/09/2014"
-status = "Running"
 total_tokens = "10100000"
 ann = "https://bitcointalk.org/index.php?topic=797398.0"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -24,3 +20,18 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "InkWayCoin"
 CurrencyName = "InkWayCoin"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "27/09/2014"
+
+[token]
+token_name = ""
+token_symbol = "LKNX"

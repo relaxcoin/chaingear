@@ -1,17 +1,13 @@
 name = "Trinity"
-symbol = "TTY"
 source = "cyberFund"
 
 [metrics]
-announce = "15/07/2014"
-status = "Running"
 rpc = 6420.0
 block_time = 60.0
 block_reward = "61.5% chance of the reward being 1 TTY; 20% chance of the reward being 2 TTY; 10% chance of the reward being 5 TTY; 5% chance of the reward being 10 TTY; 2.5% chance of the reward being 20 TTY; 1% chance of the reward being 50 TTY "
 premine_tokens = "25222 TTY"
 difficulty_cycle = "2 blocks"
 ann = "https://bitcointalk.org/index.php?topic=695149.0"
-algo = "Multi-algo"
 rating = 0.0
 
   [[metrics.links]]
@@ -28,3 +24,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Trinity"
 CurrencyName = "Trinity"
+
+[consensus]
+hashing = "Multi-algo"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "15/07/2014"
+
+[token]
+token_name = ""
+token_symbol = "TTY"

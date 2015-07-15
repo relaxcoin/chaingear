@@ -1,11 +1,7 @@
 name = "Freecoin"
-symbol = "FRE"
 source = "cyberFund"
 
 [metrics]
-announce = "07/08/2013"
-genesis = "07/08/2013"
-status = "Dead"
 p2p = 38887.0
 rpc = 38888.0
 block_time = "45"
@@ -14,7 +10,6 @@ total_tokens = 1000000000.0
 txs_confirm = 3.0
 mint_confirm = 88.0
 ann = "https://bitcointalk.org/index.php?topic=269669.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -31,3 +26,19 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Freecoin"
 CurrencyName = "Freecoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "07/08/2013"
+genesis = "07/08/2013"
+
+[token]
+token_name = ""
+token_symbol = "FRE"

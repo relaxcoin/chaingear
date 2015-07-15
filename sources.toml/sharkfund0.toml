@@ -1,14 +1,25 @@
 name = "sharkfund0"
-symbol = "SF0"
 source = "cyberFund"
 
 [metrics]
-type = "DApp"
-rating = 1.0
-consensus = "NXT"
 dependencies = "NXT"
 links = []
 
 [aliases]
 coinmarketcap = "sharkfund0"
 CurrencyName = "sharkfund0"
+
+[ratings]
+rating = 1.0
+
+[consensus]
+consensus_name = "NXT"
+consensus_type = ""
+
+[descriptions]
+tags = "DApp"
+system_type = ""
+
+[token]
+token_name = ""
+token_symbol = "SF0"

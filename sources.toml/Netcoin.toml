@@ -1,11 +1,7 @@
 name = "Netcoin"
-symbol = "NET"
 source = "cyberFund"
 
 [metrics]
-announce = "16/09/2013"
-genesis = "02/09/2013"
-status = "Running"
 block_time = "60"
 block_reward = 1024.0
 halfing_cycle = 129600.0
@@ -14,10 +10,6 @@ difficulty_cycle = "60"
 txs_confirm = 6.0
 mint_confirm = 50.0
 ann = "https://bitcointalk.org/index.php?topic=201402.0"
-algo = "Scrypt"
-type = "DAO"
-rating = 1.0
-consensus = "Proof-of-Stake"
 dependencies = "independent"
 
   [[metrics.links]]
@@ -35,3 +27,24 @@ dependencies = "independent"
 [aliases]
 coinmarketcap = "Netcoin"
 CurrencyName = "Netcoin"
+
+[ratings]
+rating = 1.0
+
+[consensus]
+consensus_name = "Proof-of-Stake"
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+tags = "DAO"
+system_type = ""
+
+[events]
+announcement = "16/09/2013"
+genesis = "02/09/2013"
+
+[token]
+token_name = ""
+token_symbol = "NET"

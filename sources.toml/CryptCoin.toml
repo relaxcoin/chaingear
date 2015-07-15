@@ -1,5 +1,4 @@
 name = "CryptCoin"
-symbol = "CRYPT"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "CryptCoin"
 CurrencyName = "CryptCoin"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "CRYPT"

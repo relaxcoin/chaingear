@@ -1,10 +1,7 @@
 name = "DoctorByte"
-symbol = "DB"
 source = "cyberFund"
 
 [metrics]
-announce = "14/12/2014"
-status = "Dead"
 p2p = "7878"
 rpc = "7879"
 block_time = "40 seconds"
@@ -27,3 +24,17 @@ ann = "https://bitcointalk.org/index.php?topic=893230.0;all"
 [aliases]
 coinmarketcap = "DoctorByte"
 CurrencyName = "DoctorByte"
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "14/12/2014"
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "DB"

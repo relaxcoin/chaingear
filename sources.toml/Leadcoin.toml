@@ -1,10 +1,7 @@
 name = "Leadcoin"
-symbol = "LDC"
 source = "cyberFund"
 
 [metrics]
-announce = "23/12/2013"
-status = "Dead"
 p2p = 27000.0
 rpc = 27001.0
 block_time = 30.0
@@ -12,7 +9,6 @@ block_reward = 3840.0
 halfing_cycle = 86400.0
 total_tokens = 1000000000.0
 ann = "https://bitcointalk.org/index.php?topic=382404.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Leadcoin"
 CurrencyName = "Leadcoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "23/12/2013"
+
+[token]
+token_name = ""
+token_symbol = "LDC"

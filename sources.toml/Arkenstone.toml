@@ -1,10 +1,7 @@
 name = "Arkenstone"
-symbol = "ARS"
 source = "cyberFund"
 
 [metrics]
-announce = "14/05/2014"
-status = "Dead"
 p2p = 7701.0
 rpc = 7700.0
 block_reward = "1 coin per block"
@@ -13,14 +10,29 @@ premine_tokens = "4000 (2%) - will be used for promotion, developing tools, game
 txs_confirm = 4.0
 mint_confirm = 200.0
 ann = "https://bitcointalk.org/index.php?topic=608482.0"
-algo = "SHA-256d"
+
+[aliases]
+coinmarketcap = "Arkenstone"
+CurrencyName = "Arkenstone"
+
+[consensus]
+hashing = "SHA-256d"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "14/05/2014"
+
+[token]
+token_name = ""
+token_symbol = "ARS"
 
 [[links]]
 name = "github"
 url = "https://github.com/ARSCoin/arkenstone.git"
 icon = "github.png"
 tags = ["Main", "Code"]
-
-[aliases]
-coinmarketcap = "Arkenstone"
-CurrencyName = "Arkenstone"
+type = ""

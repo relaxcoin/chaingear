@@ -1,17 +1,13 @@
 name = "Solecoin"
-symbol = "SOLE"
 source = "cyberFund"
 
 [metrics]
-announce = "10/08/2014"
-status = "Dead"
 rpc = 20731.0
 block_time = "60"
 block_reward = " Block 1~100:100 SOLE,Block 101~3100:800 SOLE."
 total_tokens = "2400000"
 mint_confirm = "120 blocks"
 ann = "https://bitcointalk.org/index.php?topic=730077.0"
-algo = "X-n"
 rating = 0.0
 
   [[metrics.links]]
@@ -29,3 +25,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Solecoin"
 CurrencyName = "Solecoin"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "10/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "SOLE"

@@ -1,5 +1,4 @@
 name = "Electronic Gulden"
-symbol = "EFL"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "Electronic Gulden"
 CurrencyName = "Electronic Gulden"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "EFL"

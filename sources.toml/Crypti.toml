@@ -1,16 +1,9 @@
 name = "Crypti"
-symbol = "XCR"
 source = "cyberFund"
 
 [metrics]
-announce = "10/08/2014"
-status = "Running"
 total_tokens = "52000000"
 ann = "https://bitcointalk.org/index.php?topic=654463.0"
-algo = "X11"
-type = "DAO"
-rating = 2.0
-consensus = "Delegated Proof-of-Stake"
 dependencies = "independent"
 
   [[metrics.links]]
@@ -26,3 +19,23 @@ dependencies = "independent"
 [aliases]
 coinmarketcap = "Crypti"
 CurrencyName = "Crypti"
+
+[ratings]
+rating = 2.0
+
+[consensus]
+consensus_name = "Delegated Proof-of-Stake"
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+tags = "DAO"
+system_type = ""
+
+[events]
+announcement = "10/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "XCR"

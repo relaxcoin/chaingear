@@ -1,5 +1,4 @@
 name = "CryptoEscudo"
-symbol = "CESC"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "CryptoEscudo"
 CurrencyName = "CryptoEscudo"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "CESC"

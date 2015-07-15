@@ -1,15 +1,11 @@
 name = "eCoin"
-symbol = "ECN"
 source = "cyberFund"
 
 [metrics]
-announce = "05/01/2014"
-status = "Dead"
 block_time = 60.0
 block_reward = 700.0
 total_tokens = 7000000000.0
 ann = "https://bitcointalk.org/index.php?topic=400323.0"
-algo = "SHA-3"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -24,3 +20,18 @@ algo = "SHA-3"
 [aliases]
 coinmarketcap = "eCoin"
 CurrencyName = "eCoin"
+
+[consensus]
+hashing = "SHA-3"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "05/01/2014"
+
+[token]
+token_name = ""
+token_symbol = "ECN"

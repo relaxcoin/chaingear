@@ -1,17 +1,13 @@
 name = "Metacoin"
-symbol = "MET"
 source = "cyberFund"
 
 [metrics]
-announce = "08/02/2014"
-status = "Dead"
 p2p = 8485.0
 rpc = 8484.0
 block_reward = "Block reward decreses  every 144000 blocks from 100 at the begining to 80,64,51,40,32,25 and 20 afte 100800 blocks respectively"
 total_tokens = 140000000.0
 premine_tokens = "300 coins (~0.00021%) for testing"
 ann = "https://bitcointalk.org/index.php?topic=454848.0"
-algo = "Quark"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +24,18 @@ algo = "Quark"
 [aliases]
 coinmarketcap = "Metacoin"
 CurrencyName = "Metacoin"
+
+[consensus]
+hashing = "Quark"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "08/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "MET"

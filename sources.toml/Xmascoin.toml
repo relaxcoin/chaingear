@@ -1,10 +1,7 @@
 name = "Xmascoin"
-symbol = "XMAS"
 source = "cyberFund"
 
 [metrics]
-announce = "29/12/2013"
-status = "Dead"
 p2p = 9366.0
 rpc = 9365.0
 block_time = 600.0
@@ -12,7 +9,6 @@ block_reward = 365.0
 total_tokens = 95922000.0
 difficulty_cycle = 1.0
 ann = "https://bitcointalk.org/index.php?topic=390020.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +24,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Xmascoin"
 CurrencyName = "Xmascoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "29/12/2013"
+
+[token]
+token_name = ""
+token_symbol = "XMAS"

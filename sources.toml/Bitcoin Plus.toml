@@ -1,5 +1,4 @@
 name = "Bitcoin Plus"
-symbol = "XBC"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "Bitcoin Plus"
 CurrencyName = "Bitcoin Plus"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "XBC"

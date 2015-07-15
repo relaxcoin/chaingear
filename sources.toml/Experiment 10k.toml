@@ -1,5 +1,4 @@
 name = "Experiment 10k"
-symbol = "10K"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "Experiment 10k"
 CurrencyName = "Experiment 10k"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "10K"

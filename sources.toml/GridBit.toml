@@ -1,10 +1,7 @@
 name = "GridBit"
-symbol = "GRID"
 source = "cyberFund"
 
 [metrics]
-announce = "16/08/2014"
-status = "Dead"
 p2p = 12034.0
 rpc = 12033.0
 block_time = "100"
@@ -13,7 +10,6 @@ total_tokens = "2 500 000 GRID"
 premine_tokens = "5000 GRID (0.2 %)"
 difficulty_cycle = ""
 mint_confirm = "30 blocks"
-algo = "X-n"
 rating = 0.0
 
   [[metrics.links]]
@@ -30,3 +26,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "GridBit"
 CurrencyName = "GridBit"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "16/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "GRID"

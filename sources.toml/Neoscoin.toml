@@ -1,10 +1,7 @@
 name = "Neoscoin"
-symbol = "Neos"
 source = "cyberFund"
 
 [metrics]
-announce = "26/08/2014"
-status = "Running"
 p2p = 8333.0
 rpc = 8332.0
 block_time = "300"
@@ -13,7 +10,6 @@ total_tokens = "21000000"
 premine_tokens = 1050000.0
 difficulty_cycle = "per block (25% up, or down)"
 ann = "https://bitcointalk.org/index.php?topic=744291.msg8413771#msg8413771"
-algo = "Multi-algo"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "Multi-algo"
 [aliases]
 coinmarketcap = "Neoscoin"
 CurrencyName = "Neoscoin"
+
+[consensus]
+hashing = "Multi-algo"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "26/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "Neos"

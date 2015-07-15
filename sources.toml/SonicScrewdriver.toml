@@ -1,16 +1,12 @@
 name = "SonicScrewdriver"
-symbol = "SSD"
 source = "cyberFund"
 
 [metrics]
-announce = "09/08/2014"
-status = "Dead"
 p2p = 46513.0
 rpc = 46512.0
 block_time = "60"
 block_reward = "8,000 SSD halving every 1,440 blocks"
 total_tokens = "23000000"
-algo = "SHA-256d"
 rating = 0.0
 
   [[metrics.links]]
@@ -28,3 +24,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "SonicScrewdriver"
 CurrencyName = "SonicScrewdriver"
+
+[consensus]
+hashing = "SHA-256d"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "09/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "SSD"

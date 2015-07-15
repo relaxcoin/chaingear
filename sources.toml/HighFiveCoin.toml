@@ -1,12 +1,8 @@
 name = "HighFiveCoin"
-symbol = "H5C"
 source = "cyberFund"
 
 [metrics]
-announce = "05/04/2014"
-status = "Dead"
 total_tokens = 55600000.0
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -21,3 +17,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "HighFiveCoin"
 CurrencyName = "HighFiveCoin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "05/04/2014"
+
+[token]
+token_name = ""
+token_symbol = "H5C"

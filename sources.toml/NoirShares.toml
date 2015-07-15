@@ -1,5 +1,4 @@
 name = "NoirShares"
-symbol = "NRS"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "NoirShares"
 CurrencyName = "NoirShares"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "NRS"

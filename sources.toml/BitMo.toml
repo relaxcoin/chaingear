@@ -1,15 +1,11 @@
 name = "BitMo"
-symbol = "XBM"
 source = "cyberFund"
 
 [metrics]
-announce = "26/08/2014"
-status = "Dead"
 block_time = "60"
 total_tokens = "5500000"
 premine_tokens = "5500000 coins ( 100%)"
 ann = "https://bitcointalk.org/index.php?topic=745367.0"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -26,3 +22,18 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "BitMo"
 CurrencyName = "BitMo"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "26/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "XBM"

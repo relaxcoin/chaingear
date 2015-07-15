@@ -1,17 +1,13 @@
 name = "CryptoXTC"
-symbol = "CryptoXTC"
 source = "cyberFund"
 
 [metrics]
-announce = "19/08/2014"
-status = "Dead"
 block_time = "79"
 block_reward = "Exponential Reward strategy"
 total_tokens = "50000000"
 premine_tokens = "500000 XTC to support support bounties, development efforts and coin stability"
 difficulty_cycle = "every block"
 ann = "https://bitcointalk.org/index.php?topic=728168.0"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -27,3 +23,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "CryptoXTC"
 CurrencyName = "CryptoXTC"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "19/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "CryptoXTC"

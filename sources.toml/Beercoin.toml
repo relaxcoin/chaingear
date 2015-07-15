@@ -1,10 +1,7 @@
 name = "Beercoin"
-symbol = "BEER"
 source = "cyberFund"
 
 [metrics]
-announce = "02/02/2014"
-status = "Dead"
 p2p = 49555.0
 rpc = 49556.0
 block_time = "20"
@@ -15,20 +12,36 @@ difficulty_cycle = "60"
 txs_confirm = 3.0
 mint_confirm = 30.0
 ann = "https://bitcointalk.org/index.php?topic=445553.0"
-algo = "Scrypt"
+
+[aliases]
+coinmarketcap = "Beercoin"
+CurrencyName = "Beercoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "02/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "BEER"
 
 [[links]]
 name = "web site"
 url = "http://www.beercoin.info/"
 icon = "website.png"
 tags = ["Main", "Apps"]
+type = ""
 
 [[links]]
 name = "github"
 url = "https://github.com/CCPorg/BEER-BeerCoin-Ver-631-Original"
 icon = "github.png"
 tags = ["Main", "Code"]
-
-[aliases]
-coinmarketcap = "Beercoin"
-CurrencyName = "Beercoin"
+type = ""

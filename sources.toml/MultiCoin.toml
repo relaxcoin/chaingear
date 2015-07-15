@@ -1,16 +1,12 @@
 name = "MultiCoin"
-symbol = "MC"
 source = "cyberFund"
 
 [metrics]
-announce = "21/07/2014"
-status = "Dead"
 block_time = 120.0
 block_reward = "400 MC"
 total_tokens = 2000000.0
 txs_confirm = 6.0
 ann = "https://bitcointalk.org/index.php?topic=703723"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -26,3 +22,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "MultiCoin"
 CurrencyName = "MultiCoin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "21/07/2014"
+
+[token]
+token_name = ""
+token_symbol = "MC"

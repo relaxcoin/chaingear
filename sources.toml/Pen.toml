@@ -1,5 +1,4 @@
 name = "Pen"
-symbol = "PEN"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "Pen"
 CurrencyName = "Pen"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "PEN"

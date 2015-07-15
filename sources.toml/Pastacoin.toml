@@ -1,10 +1,7 @@
 name = "Pastacoin"
-symbol = "PAS"
 source = "cyberFund"
 
 [metrics]
-announce = "02/02/2014"
-status = "Dead"
 p2p = 57555.0
 rpc = 57556.0
 block_time = "20"
@@ -15,7 +12,6 @@ difficulty_cycle = "60"
 txs_confirm = 3.0
 mint_confirm = 30.0
 ann = "https://bitcointalk.org/index.php?topic=445560.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -32,3 +28,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Pastacoin"
 CurrencyName = "Pastacoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "02/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "PAS"

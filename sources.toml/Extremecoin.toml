@@ -1,17 +1,12 @@
 name = "Extremecoin"
-symbol = "EXC"
 source = "cyberFund"
 
 [metrics]
-announce = "17/08/2013"
-genesis = "17/08/2013"
-status = "Running"
 block_time = "120"
 total_tokens = 5000000.0
 premine_tokens = 30000.0
 difficulty_cycle = "4"
 ann = "https://bitcointalk.org/index.php?topic=276609.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +23,19 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Extremecoin"
 CurrencyName = "Extremecoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "17/08/2013"
+genesis = "17/08/2013"
+
+[token]
+token_name = ""
+token_symbol = "EXC"

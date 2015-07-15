@@ -1,9 +1,7 @@
 name = "MinersCoin"
-symbol = "MInC"
 source = "cyberFund"
 
 [metrics]
-announce = "02/09/2014"
 p2p = 4644.0
 rpc = 6744.0
 block_time = "180"
@@ -11,7 +9,6 @@ block_reward = "50 reducing by 10% every 4 years"
 total_tokens = "400000000"
 difficulty_cycle = "100 blocks"
 ann = "https://bitcointalk.org/index.php?topic=766157"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -28,3 +25,17 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "MinersCoin"
 CurrencyName = "MinersCoin"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[events]
+announcement = "02/09/2014"
+
+[descriptions]
+system_type = ""
+
+[token]
+token_name = ""
+token_symbol = "MInC"

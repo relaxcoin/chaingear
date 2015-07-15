@@ -1,10 +1,7 @@
 name = "Splash"
-symbol = "Splash"
 source = "cyberFund"
 
 [metrics]
-announce = "15/12/2013"
-status = "Dead"
 ann = "https://bitcointalk.org/index.php?topic=372486.0"
 
   [[metrics.links]]
@@ -20,3 +17,17 @@ ann = "https://bitcointalk.org/index.php?topic=372486.0"
 [aliases]
 coinmarketcap = "Splash"
 CurrencyName = "Splash"
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "15/12/2013"
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "Splash"

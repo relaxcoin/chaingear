@@ -1,16 +1,12 @@
 name = "PalestineCoin"
-symbol = "Pal"
 source = "cyberFund"
 
 [metrics]
-announce = "04/08/2014"
-status = "Dead"
 block_time = "60"
 block_reward = "lock 2-60:1 pal,block 61-11520:150 pal"
 total_tokens = "3000000"
 premine_tokens = "block 1"
 ann = "https://bitcointalk.org/index.php?topic=712124"
-algo = "X11"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -26,3 +22,18 @@ algo = "X11"
 [aliases]
 coinmarketcap = "PalestineCoin"
 CurrencyName = "PalestineCoin"
+
+[consensus]
+hashing = "X11"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "04/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "Pal"

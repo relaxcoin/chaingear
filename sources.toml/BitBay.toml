@@ -1,20 +1,32 @@
 name = "BitBay"
-symbol = "BAY"
-dependencies = "independent"
+dependencies = ["independent"]
 source = "cyberFund"
 
 [metrics]
-type = "DAO"
 ann = "https://bitcointalk.org/index.php?topic=890531"
+
+[aliases]
+coinmarketcap = "BitBay"
+CurrencyName = "BitBay"
+
+[ratings]
 rating = 1.0
-consensus = "Proof-of-Stake"
+
+[consensus]
+consensus_name = "Proof-of-Stake"
+consensus_type = ""
+
+[descriptions]
+tags = "DAO"
+system_type = ""
+
+[token]
+token_name = ""
+token_symbol = "BAY"
 
 [[links]]
 name = "web site"
 url = "http://bitbaymarket.net/"
 icon = "website.png"
 tags = ["Main", "Apps"]
-
-[aliases]
-coinmarketcap = "BitBay"
-CurrencyName = "BitBay"
+type = ""

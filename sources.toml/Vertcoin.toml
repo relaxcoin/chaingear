@@ -1,10 +1,7 @@
 name = "Vertcoin"
-symbol = "VTC"
 source = "cyberFund"
 
 [metrics]
-announce = "08/01/2014"
-status = "Running"
 block_time = 150.0
 block_reward = 50.0
 halfing_cycle = "840000 blocks (~4 years)"
@@ -12,10 +9,6 @@ total_tokens = 84000000.0
 premine_tokens = "3 blocks"
 difficulty_cycle = "2016(3.5 days)"
 ann = "https://bitcointalk.org/index.php?topic=404364.0"
-algo = "Scrypt"
-type = "DAO"
-rating = 1.0
-consensus = "Proof-of-Work"
 dependencies = "independent"
 
   [[metrics.links]]
@@ -32,3 +25,23 @@ dependencies = "independent"
 [aliases]
 coinmarketcap = "Vertcoin"
 CurrencyName = "Vertcoin"
+
+[ratings]
+rating = 1.0
+
+[consensus]
+consensus_name = "Proof-of-Work"
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+tags = "DAO"
+system_type = ""
+
+[events]
+announcement = "08/01/2014"
+
+[token]
+token_name = ""
+token_symbol = "VTC"

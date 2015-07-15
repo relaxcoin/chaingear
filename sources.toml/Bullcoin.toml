@@ -1,10 +1,7 @@
 name = "Bullcoin"
-symbol = "TBC"
 source = "cyberFund"
 
 [metrics]
-announce = "11/01/2014"
-status = "Dead"
 p2p = 38801.0
 rpc = 38800.0
 block_time = 30.0
@@ -15,7 +12,6 @@ premine_tokens = "5000000(1%) for devs, support, bounty, and giveaway etc"
 difficulty_cycle = "1000"
 mint_confirm = 70.0
 ann = "https://bitcointalk.org/index.php?topic=409903.0"
-algo = "Quark"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -31,3 +27,18 @@ algo = "Quark"
 [aliases]
 coinmarketcap = "Bullcoin"
 CurrencyName = "Bullcoin"
+
+[consensus]
+hashing = "Quark"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "11/01/2014"
+
+[token]
+token_name = ""
+token_symbol = "TBC"

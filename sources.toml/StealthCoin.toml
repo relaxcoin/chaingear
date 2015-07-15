@@ -1,10 +1,7 @@
 name = "StealthCoin"
-symbol = "XST"
 source = "cyberFund"
 
 [metrics]
-announce = "08/07/2014"
-status = "Running"
 rpc = 46502.0
 block_time = 60.0
 block_reward = "Blocks 1-10 - premine; Blocks 11-260 award: 16 XST each (4 hr low reward for fair launch); Block 261+ award: 8000 XST"
@@ -12,10 +9,6 @@ halfing_cycle = "every 1440 blocks (~1 day)"
 total_tokens = 20700000.0
 premine_tokens = "232740 XST"
 ann = "https://bitcointalk.org/index.php?topic=681725.0"
-algo = "X-n"
-type = "DAO"
-rating = 1.0
-consensus = "Proof-of-Stake"
 dependencies = "independent"
 
   [[metrics.links]]
@@ -33,3 +26,23 @@ dependencies = "independent"
 [aliases]
 coinmarketcap = "StealthCoin"
 CurrencyName = "StealthCoin"
+
+[ratings]
+rating = 1.0
+
+[consensus]
+consensus_name = "Proof-of-Stake"
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+tags = "DAO"
+system_type = ""
+
+[events]
+announcement = "08/07/2014"
+
+[token]
+token_name = ""
+token_symbol = "XST"

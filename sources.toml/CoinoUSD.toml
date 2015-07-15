@@ -1,19 +1,31 @@
 name = "CoinoUSD"
-symbol = "COINO"
-dependencies = "NXT"
+dependencies = ["NXT"]
 source = "cyberFund"
 
 [metrics]
-type = "DApp"
-rating = 2.0
-consensus = "NXT"
 
 [aliases]
 coinmarketcap = "CoinoUSD"
 CurrencyName = "CoinoUSD"
+
+[ratings]
+rating = 2.0
+
+[consensus]
+consensus_name = "NXT"
+consensus_type = ""
+
+[descriptions]
+tags = "DApp"
+system_type = ""
+
+[token]
+token_name = ""
+token_symbol = "COINO"
 
 [[links]]
 name = "web site"
 url = "https://coinomat.com"
 icon = "website.png"
 tags = ["Main", "Apps"]
+type = ""

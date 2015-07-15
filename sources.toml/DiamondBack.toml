@@ -1,10 +1,7 @@
 name = "DiamondBack"
-symbol = "DBK"
 source = "cyberFund"
 
 [metrics]
-announce = "16/08/2014"
-status = "Dead"
 p2p = "14149 "
 rpc = "14147"
 block_time = "384 seconds"
@@ -26,3 +23,17 @@ ann = "https://bitcointalk.org/index.php?topic=741340.0"
 [aliases]
 coinmarketcap = "DiamondBack"
 CurrencyName = "DiamondBack"
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "16/08/2014"
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "DBK"

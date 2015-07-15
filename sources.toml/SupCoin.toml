@@ -1,13 +1,9 @@
 name = "SupCoin"
-symbol = "SUP"
 source = "cyberFund"
 
 [metrics]
-announce = "09/02/2015"
-status = "Running"
 block_time = "300 seconds"
 ann = "https://bitcointalk.org/index.php?topic=950084.0"
-algo = "SHA-256d"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -23,3 +19,18 @@ algo = "SHA-256d"
 [aliases]
 coinmarketcap = "SupCoin"
 CurrencyName = "SupCoin"
+
+[consensus]
+hashing = "SHA-256d"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "09/02/2015"
+
+[token]
+token_name = ""
+token_symbol = "SUP"

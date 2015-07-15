@@ -1,10 +1,7 @@
 name = "Lucky7Coin"
-symbol = "LK7"
 source = "cyberFund"
 
 [metrics]
-announce = "16/09/2013"
-status = "Dead"
 p2p = 17777.0
 rpc = 17778.0
 block_time = "60"
@@ -15,7 +12,6 @@ difficulty_cycle = "every block"
 txs_confirm = 7.0
 mint_confirm = 77.0
 ann = "https://bitcointalk.org/index.php?topic=295157.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -31,3 +27,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Lucky7Coin"
 CurrencyName = "Lucky7Coin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "16/09/2013"
+
+[token]
+token_name = ""
+token_symbol = "LK7"

@@ -1,10 +1,7 @@
 name = "ElephantCoin"
-symbol = "ELP"
 source = "cyberFund"
 
 [metrics]
-announce = "15/07/2013"
-status = "Dead"
 block_time = "20"
 block_reward = 50.0
 halfing_cycle = 3153600.0
@@ -14,7 +11,6 @@ difficulty_cycle = "There was accelerated difficulty retargeting at the beginnin
 txs_confirm = 3.0
 mint_confirm = 30.0
 ann = "https://bitcointalk.org/index.php?topic=256501.0"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -32,3 +28,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "ElephantCoin"
 CurrencyName = "ElephantCoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "15/07/2013"
+
+[token]
+token_name = ""
+token_symbol = "ELP"

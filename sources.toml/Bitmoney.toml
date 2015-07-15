@@ -1,10 +1,7 @@
 name = "Bitmoney"
-symbol = "BMY"
 source = "cyberFund"
 
 [metrics]
-announce = "13/07/2014"
-status = "Dead"
 p2p = 51323.0
 rpc = 51322.0
 block_time = 300.0
@@ -13,7 +10,6 @@ total_tokens = 14000000.0
 premine_tokens = "No"
 txs_confirm = 5.0
 ann = "https://bitcointalk.org/index.php?topic=689881.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Bitmoney"
 CurrencyName = "Bitmoney"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "13/07/2014"
+
+[token]
+token_name = ""
+token_symbol = "BMY"

@@ -1,11 +1,7 @@
 name = "Weedcoin"
-symbol = "WEC"
 source = "cyberFund"
 
 [metrics]
-announce = "30/05/2013"
-genesis = "30/05/2013"
-status = "Dead"
 p2p = 42000.0
 rpc = 42001.0
 block_time = "252"
@@ -14,7 +10,6 @@ total_tokens = 420000000.0
 premine_tokens = 420000.0
 difficulty_cycle = "420"
 ann = "https://bitcointalk.org/index.php?topic=219748.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +25,19 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Weedcoin"
 CurrencyName = "Weedcoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "30/05/2013"
+genesis = "30/05/2013"
+
+[token]
+token_name = ""
+token_symbol = "WEC"

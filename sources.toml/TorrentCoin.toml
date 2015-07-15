@@ -1,13 +1,9 @@
 name = "TorrentCoin"
-symbol = "TC"
 source = "cyberFund"
 
 [metrics]
-announce = "31/05/2014"
-status = "Dead"
 total_tokens = 84000000.0
 ann = "https://bitcointalk.org/index.php?topic=633546.0"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -22,3 +18,18 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "TorrentCoin"
 CurrencyName = "TorrentCoin"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "31/05/2014"
+
+[token]
+token_name = ""
+token_symbol = "TC"

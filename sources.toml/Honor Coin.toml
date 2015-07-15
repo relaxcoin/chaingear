@@ -1,10 +1,7 @@
 name = "Honor Coin"
-symbol = "XHC"
 source = "cyberFund"
 
 [metrics]
-announce = "09/06/2014"
-status = "Running"
 rpc = 54433.0
 block_time = 120.0
 block_reward = "40 XHC"
@@ -12,7 +9,6 @@ total_tokens = 42000000.0
 premine_tokens = "No"
 difficulty_cycle = "every block"
 ann = "https://bitcointalk.org/index.php?topic=645946.0"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "Honor Coin"
 CurrencyName = "Honor Coin"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "09/06/2014"
+
+[token]
+token_name = ""
+token_symbol = "XHC"

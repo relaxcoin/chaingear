@@ -1,14 +1,25 @@
 name = "SkyNET"
-symbol = "SKYNET"
-dependencies = "NXT"
+dependencies = ["NXT"]
 source = "cyberFund"
 links = []
 
 [metrics]
-type = "DApp"
-rating = 1.0
-consensus = "NXT"
 
 [aliases]
 coinmarketcap = "SkyNET"
 CurrencyName = "SkyNET"
+
+[ratings]
+rating = 1.0
+
+[consensus]
+consensus_name = "NXT"
+consensus_type = ""
+
+[descriptions]
+tags = "DApp"
+system_type = ""
+
+[token]
+token_name = ""
+token_symbol = "SKYNET"

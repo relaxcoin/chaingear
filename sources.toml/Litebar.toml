@@ -1,10 +1,7 @@
 name = "Litebar"
-symbol = "LTB"
 source = "cyberFund"
 
 [metrics]
-announce = "12/02/2014"
-status = "Running"
 p2p = 9065.0
 rpc = 9055.0
 block_time = 180.0
@@ -13,7 +10,6 @@ total_tokens = 13500000.0
 difficulty_cycle = "every block (Kimoto Gravity Well)"
 txs_confirm = 4.0
 ann = "https://bitcointalk.org/index.php?topic=461108.0"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -31,3 +27,18 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Litebar"
 CurrencyName = "Litebar"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "12/02/2014"
+
+[token]
+token_name = ""
+token_symbol = "LTB"

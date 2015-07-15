@@ -1,10 +1,7 @@
 name = "PosCoin"
-symbol = "POS"
 source = "cyberFund"
 
 [metrics]
-announce = "07/07/2014"
-status = "Dead"
 p2p = 9055.0
 rpc = 9056.0
 block_time = 60.0
@@ -14,7 +11,6 @@ premine_tokens = "No"
 difficulty_cycle = "each block"
 txs_confirm = 60.0
 ann = "https://bitcointalk.org/index.php?topic=680769.0"
-algo = "X-n"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "X-n"
 [aliases]
 coinmarketcap = "PosCoin"
 CurrencyName = "PosCoin"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "07/07/2014"
+
+[token]
+token_name = ""
+token_symbol = "POS"

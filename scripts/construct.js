@@ -135,7 +135,7 @@ function act() {
   var filenames_toml = walk( path.join(__dirname, "..", "sources.toml") );
 
   for (var idx = 0; idx < filenames_toml.length; idx++) {
-    loadTomlCustom(filenames_toml[idx], result);
+    loadToml(filenames_toml[idx], result);
   }
 
   fs.writeFileSync(path.join(__dirname, "..", "chaingear.json"), JSON.stringify(result, null, 4));

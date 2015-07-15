@@ -1,10 +1,7 @@
 name = "Koolio Coin"
-symbol = "Kool"
 source = "cyberFund"
 
 [metrics]
-announce = "11/07/2014"
-status = "Dead"
 p2p = 22212.0
 rpc = 22213.0
 block_time = 60.0
@@ -13,7 +10,6 @@ total_tokens = 23200000.0
 difficulty_cycle = "2 minute difficulty retarget"
 txs_confirm = 6.0
 ann = "https://bitcointalk.org/index.php?topic=686727"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Koolio Coin"
 CurrencyName = "Koolio Coin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "11/07/2014"
+
+[token]
+token_name = ""
+token_symbol = "Kool"

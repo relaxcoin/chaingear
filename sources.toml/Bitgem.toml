@@ -1,14 +1,9 @@
 name = "Bitgem"
-symbol = "BTG"
 source = "cyberFund"
 
 [metrics]
-announce = "16/05/2013"
-genesis = "16/05/2013"
-status = "Dead"
 block_reward = 3.0
 ann = "https://bitcointalk.org/index.php?topic=207008.0"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -25,3 +20,19 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Bitgem"
 CurrencyName = "Bitgem"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "16/05/2013"
+genesis = "16/05/2013"
+
+[token]
+token_name = ""
+token_symbol = "BTG"

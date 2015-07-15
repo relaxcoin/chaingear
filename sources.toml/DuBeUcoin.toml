@@ -1,15 +1,11 @@
 name = "DuBeUcoin"
-symbol = "DBU"
 source = "cyberFund"
 
 [metrics]
-announce = "11/12/2014"
-status = "Dead"
 p2p = 1463.0
 rpc = 1462.0
 total_tokens = "2000000000 coins"
 ann = "https://bitcointalk.org/index.php?topic=882763.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -25,3 +21,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "DuBeUcoin"
 CurrencyName = "DuBeUcoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "11/12/2014"
+
+[token]
+token_name = ""
+token_symbol = "DBU"

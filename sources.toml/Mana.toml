@@ -1,10 +1,7 @@
 name = "Mana"
-symbol = "MANA"
 source = "cyberFund"
 
 [metrics]
-announce = "27/08/2014"
-status = "Running"
 p2p = 11032.0
 rpc = 21032.0
 block_time = "60 minutes"
@@ -13,7 +10,6 @@ total_tokens = " 500000"
 difficulty_cycle = "5 blocks"
 mint_confirm = "10 blocks"
 ann = "https://bitcointalk.org/index.php?topic=760289.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -29,3 +25,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Mana"
 CurrencyName = "Mana"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "27/08/2014"
+
+[token]
+token_name = ""
+token_symbol = "MANA"

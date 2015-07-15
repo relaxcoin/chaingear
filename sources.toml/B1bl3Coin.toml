@@ -1,10 +1,7 @@
 name = "B1bl3Coin"
-symbol = "B1bl3"
 source = "cyberFund"
 
 [metrics]
-announce = "31/10/2014"
-status = "Running"
 p2p = 15243.0
 rpc = 15743.0
 block_time = "64 seconds"
@@ -14,20 +11,36 @@ premine_tokens = "500000000 coins (2%  premine_tokens at the beginning for inves
 difficulty_cycle = "every block"
 mint_confirm = "20 blocks"
 ann = "https://bitcointalk.org/index.php?topic=827734.0"
-algo = "X-n"
+
+[aliases]
+coinmarketcap = "B1bl3Coin"
+CurrencyName = "B1bl3Coin"
+
+[consensus]
+hashing = "X-n"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "31/10/2014"
+
+[token]
+token_name = ""
+token_symbol = "B1bl3"
 
 [[links]]
 name = "web site"
 url = "http://b1bl3.com/b1bl3coin/"
 icon = "website.png"
 tags = ["Main", "Apps"]
+type = ""
 
 [[links]]
 name = "github"
 url = "https://github.com/B1bl3Coin/b1bl3coinsource"
 icon = "github.png"
 tags = ["Main", "Code"]
-
-[aliases]
-coinmarketcap = "B1bl3Coin"
-CurrencyName = "B1bl3Coin"
+type = ""

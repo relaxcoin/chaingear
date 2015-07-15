@@ -1,10 +1,7 @@
 name = "Valuecoin"
-symbol = "VLC"
 source = "cyberFund"
 
 [metrics]
-announce = "21/06/2013"
-status = "Dead"
 p2p = 11108.0
 rpc = 11109.0
 block_time = "30"
@@ -13,7 +10,6 @@ total_tokens = 133000000.0
 premine_tokens = 1000000.0
 txs_confirm = 3.0
 ann = "https://bitcointalk.org/index.php?topic=239666.0"
-algo = "Scrypt"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -30,3 +26,18 @@ algo = "Scrypt"
 [aliases]
 coinmarketcap = "Valuecoin"
 CurrencyName = "Valuecoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "21/06/2013"
+
+[token]
+token_name = ""
+token_symbol = "VLC"

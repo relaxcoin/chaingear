@@ -1,5 +1,4 @@
 name = "CleverHash"
-symbol = "CHASH"
 source = "cyberFund"
 
 [metrics]
@@ -9,3 +8,13 @@ links = []
 [aliases]
 coinmarketcap = "CleverHash"
 CurrencyName = "CleverHash"
+
+[descriptions]
+system_type = ""
+
+[consensus]
+consensus_type = ""
+
+[token]
+token_name = ""
+token_symbol = "CHASH"

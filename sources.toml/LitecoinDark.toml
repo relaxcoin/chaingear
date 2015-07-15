@@ -1,9 +1,7 @@
 name = "LitecoinDark"
-symbol = "LTCD"
 source = "cyberFund"
 
 [metrics]
-announce = "03/09/2014"
 p2p = 11040.0
 rpc = 21040.0
 block_time = "180"
@@ -12,7 +10,6 @@ total_tokens = "82003200"
 premine_tokens = "2467200 coins(3%)"
 mint_confirm = "5 blocks"
 ann = "https://bitcointalk.org/index.php?topic=760143"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -30,3 +27,17 @@ rating = 0.0
 [aliases]
 coinmarketcap = "LitecoinDark"
 CurrencyName = "LitecoinDark"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[events]
+announcement = "03/09/2014"
+
+[descriptions]
+system_type = ""
+
+[token]
+token_name = ""
+token_symbol = "LTCD"

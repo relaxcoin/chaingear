@@ -1,10 +1,7 @@
 name = "Batcoin"
-symbol = "BAT"
 source = "cyberFund"
 
 [metrics]
-announce = "06/01/2014"
-status = "Running"
 block_time = 90.0
 block_reward = 60000.0
 total_tokens = 91000000000.0
@@ -13,21 +10,37 @@ difficulty_cycle = 40.0
 txs_confirm = 6.0
 mint_confirm = 70.0
 ann = "https://bitcointalk.org/index.php?topic=400753.0"
-algo = "Scrypt"
 rating = 0.0
+
+[aliases]
+coinmarketcap = "Batcoin"
+CurrencyName = "Batcoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "06/01/2014"
+
+[token]
+token_name = ""
+token_symbol = "BAT"
 
 [[links]]
 name = "web site"
 url = "http://batcoin.info/"
 icon = "website.png"
 tags = ["Main", "Apps"]
+type = ""
 
 [[links]]
 name = "github"
 url = "https://github.com/OriginalBatCoin/BatCoin"
 icon = "github.png"
 tags = ["Main", "Code"]
-
-[aliases]
-coinmarketcap = "Batcoin"
-CurrencyName = "Batcoin"
+type = ""

@@ -1,11 +1,7 @@
 name = "Redcoin"
-symbol = "RED"
 source = "cyberFund"
 
 [metrics]
-announce = "30/06/2013"
-genesis = "29/06/2013"
-status = "Dead"
 p2p = 11361.0
 rpc = 11362.0
 block_time = "60"
@@ -16,7 +12,6 @@ difficulty_cycle = "20"
 txs_confirm = 6.0
 mint_confirm = 50.0
 ann = "https://bitcointalk.org/index.php?topic=246693.0"
-algo = "Scrypt"
 rating = 0.0
 
   [[metrics.links]]
@@ -34,3 +29,19 @@ rating = 0.0
 [aliases]
 coinmarketcap = "Redcoin"
 CurrencyName = "Redcoin"
+
+[consensus]
+hashing = "Scrypt"
+consensus_type = ""
+
+[descriptions]
+state = "Dead"
+system_type = ""
+
+[events]
+announcement = "30/06/2013"
+genesis = "29/06/2013"
+
+[token]
+token_name = ""
+token_symbol = "RED"

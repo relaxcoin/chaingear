@@ -1,15 +1,10 @@
 name = "Sifcoin"
-symbol = "SIC"
 source = "cyberFund"
 
 [metrics]
-announce = "22/06/2013"
-genesis = "23/06/2013"
-status = "Running"
 block_time = "300"
 difficulty_cycle = "every block"
 ann = "https://bitcointalk.org/index.php?topic=240894.0"
-algo = "Quark"
 
   [[metrics.links]]
   section = ["Main", "Apps"]
@@ -25,3 +20,19 @@ algo = "Quark"
 [aliases]
 coinmarketcap = "Sifcoin"
 CurrencyName = "Sifcoin"
+
+[consensus]
+hashing = "Quark"
+consensus_type = ""
+
+[descriptions]
+state = "Running"
+system_type = ""
+
+[events]
+announcement = "22/06/2013"
+genesis = "23/06/2013"
+
+[token]
+token_name = ""
+token_symbol = "SIC"
