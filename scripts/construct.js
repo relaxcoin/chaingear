@@ -23,7 +23,8 @@ function loadTomlCustom(filename, result) {
     var p = toml.parse(data);
 
     p.system = p.name;
-    delete p.system;
+    delete p.name;
+
     if (p.metrics) {
       if (p.metrics.rating) {
         p.ratings = p.ratings || {};
