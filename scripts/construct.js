@@ -81,7 +81,7 @@ function loadTomlCustom(filename, result) {
       }
     }
 
-    if (p.dependencies) {
+    if (p.dependencies && p.dependencies.split) {
       p.dependencies = p.dependencies.split(", ");
     }
 
@@ -98,6 +98,11 @@ function loadTomlCustom(filename, result) {
       p.token = p.token || {};
       p.token.token_symbol = p.symbol;
       delete p.symbol;
+    }
+
+    if (p.metrics){
+      p.specs = p.metrics;
+      delete p.metrics;
     }
 
     result.push(p);
@@ -135,7 +140,7 @@ function act() {
   var filenames_toml = walk( path.join(__dirname, "..", "sources.toml") );
 
   for (var idx = 0; idx < filenames_toml.length; idx++) {
-    loadToml(filenames_toml[idx], result);
+    loadTomlCustom(filenames_toml[idx], result);
   }
 
   fs.writeFileSync(path.join(__dirname, "..", "chaingear.json"), JSON.stringify(result, null, 4));
