@@ -1,5 +1,5 @@
 source = "cyberFund"
-system = "Guldencoin"
+system = "Gulden"
 
 [aliases]
 coinmarketcap = "Gulden"
@@ -37,14 +37,14 @@ dependencies = "independent"
 type = "website"
 tags = ["Main"]
 name = "web site"
-url = "https://guldencoin.com"
+url = "https://gulden.com"
 icon = "website.png"
 
 [[links]]
 type = "github"
 tags = ["Main", "Code"]
 name = "github"
-url = "https://github.com/nlgcoin/guldencoin"
+url = "https://github.com/gulden/gulden-official"
 icon = "github.png"
 
 [[links]]
